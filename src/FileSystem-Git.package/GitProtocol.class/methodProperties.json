@@ -11,9 +11,9 @@
 		"pushReferences:of:deleting:" : "jr 1/2/2017 19:31",
 		"reader" : "DamienCassou 1/31/2013 16:36",
 		"stream" : "DamienCassou 1/31/2013 16:23",
-		"want:" : "CamilloBruni 12/25/2011 14:00",
-		"want:capabilities:" : "DamienCassou 1/31/2013 12:46",
-		"wantAll:" : "DamienCassou 1/31/2013 12:44",
-		"wantAll:capabilities:" : "jr 12/3/2016 01:15",
+		"want:" : "mad 2/22/2024 17:43",
+		"want:capabilities:" : "mad 2/22/2024 17:45",
+		"wantAll:haveAll:" : "mad 2/22/2024 17:42",
+		"wantAll:haveAll:capabilities:" : "mad 2/22/2024 17:46",
 		"withOpenConnection:" : "jr 12/1/2016 23:52",
 		"writer" : "DamienCassou 1/31/2013 16:36" } }

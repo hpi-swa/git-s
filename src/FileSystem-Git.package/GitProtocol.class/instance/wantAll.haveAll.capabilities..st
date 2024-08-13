@@ -1,10 +1,11 @@
 commands
-wantAll: gitSignatures capabilities: capabilities
+wantAll: wantGitSignatures haveAll: haveGitSignatures capabilities: capabilities
 "TODO:
 #readPackfileResponse writes pack to file. need to unpack that file into a repository and read from there. Then answer the objects."
 	writer 
-		writeWantAll: gitSignatures 
-		capabilities: capabilities 
+		writeWantAll: wantGitSignatures
+		haveAll: haveGitSignatures
+		capabilities: capabilities
 		shallowLines: nil 
 		depth: nil.
 	
@@ -13,4 +14,3 @@ wantAll: gitSignatures capabilities: capabilities
 	writer flushPacket; done.
 	self flush.
 	^ reader readPackfileResponse
-	
