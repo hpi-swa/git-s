@@ -1,3 +1,3 @@
-refs
+head
 headFSCommit
 	^ self fsCommitFrom: (self headCommit ifNil: [^ nil])

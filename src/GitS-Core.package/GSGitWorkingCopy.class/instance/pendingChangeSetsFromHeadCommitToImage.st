@@ -1,0 +1,3 @@
+pending-changes
+pendingChangeSetsFromHeadCommitToImage
+	^ self pendingChangeSets: self changeSetsFromHeadCommitToImage

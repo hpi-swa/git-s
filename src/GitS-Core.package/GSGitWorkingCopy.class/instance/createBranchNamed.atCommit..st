@@ -1,5 +1,5 @@
-refs
-createBranchNamed: aString at: aCommit
+branches
+createBranchNamed: aString atCommit: aCommit
 	| refName target |
 	refName := self branchName: aString.
 	(self checkRefExists: refName displayName: aString) ifTrue: [^ nil].

@@ -1,4 +1,4 @@
-refs
+head
 headRef
 	^ self basicHeadRef ifNil: [
 		self unitOfWork

@@ -1,3 +1,3 @@
-refs
+head
 headRefBasename
 	^ 'HEAD'

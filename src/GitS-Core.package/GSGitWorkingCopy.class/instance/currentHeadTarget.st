@@ -1,3 +1,3 @@
-refs
+head
 currentHeadTarget
 	^ self headRef target

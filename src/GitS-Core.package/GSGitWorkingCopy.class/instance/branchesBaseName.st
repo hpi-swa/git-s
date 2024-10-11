@@ -1,3 +1,3 @@
-refs
+branches
 branchesBaseName
 	^ self refsBaseName, 'heads/'

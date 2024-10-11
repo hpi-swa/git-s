@@ -4,5 +4,5 @@ actionMaterializeCherryPick: aCommit
 		onConflictOpenDialogToMaterializeChangeSets:
 			(self activeWorkingCopy
 				changeSetsToMergeCommitIntoHead: aCommit
-				withBase: (self parentForPick: aCommit))
+				withBase: aCommit firstParent)
 		windowTitle: ('Resolve conflicts to edit {1}' format: {aCommit showOneLine})
