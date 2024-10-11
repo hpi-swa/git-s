@@ -1,0 +1,17 @@
+{
+	"category" : "GitS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"changeSets",
+		"windowTitle",
+		"dialog",
+		"promise" ],
+	"name" : "GSChangesToShow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionLabel" : "mad 10/8/2024 20:50",
+		"actionLabelInIngForm" : "mad 10/8/2024 21:21",
+		"alwaysOpenDialog" : "mad 10/8/2024 20:23",
+		"basicMaterialize" : "mad 10/8/2024 20:23",
+		"basicRunNow" : "mad 10/8/2024 21:11",
+		"beforeDialogOpen" : "mad 10/8/2024 20:57",
+		"checkHasConflicts" : "mad 10/8/2024 21:30",
+		"closeButtonName" : "mad 10/8/2024 20:49",
+		"dialogAction" : "mad 10/8/2024 21:23",
+		"hasConflicts" : "mad 10/8/2024 20:24",
+		"initialize" : "mad 10/8/2024 20:24",
+		"materialize" : "mad 10/8/2024 21:04",
+		"nothingToDoMessage" : "mad 10/8/2024 21:00",
+		"runIfNotEmpty" : "mad 10/8/2024 21:10",
+		"runNow" : "mad 10/9/2024 14:52",
+		"shouldAlwaysOpenDialog" : "mad 10/8/2024 20:26",
+		"shouldAlwaysOpenDialog:" : "mad 10/8/2024 20:26",
+		"shouldOpenDialog" : "mad 10/8/2024 20:26",
+		"windowTitle" : "mad 10/9/2024 14:51",
+		"workingCopy" : "mad 10/8/2024 20:27",
+		"workingCopy:" : "mad 10/8/2024 21:17" } }
