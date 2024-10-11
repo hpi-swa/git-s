@@ -58,5 +58,5 @@ GSMetadata {
 			]
 		}
 	],
-	#name : 'GitS'
+	#name : 'git-s'
 }
