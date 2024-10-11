@@ -33,6 +33,7 @@
 		"canBeRemovedAfterMaterializeIn:" : "mad 9/29/2024 17:00",
 		"canBeRemovedAfterSerializeInto:" : "mad 9/29/2024 17:00",
 		"canBeRemovedForAssetFile:" : "mad 9/29/2024 16:59",
+		"canMigrateMaterialized:" : "mad 10/11/2024 14:27",
 		"canReadAssetFrom:" : "mad 9/29/2024 17:38",
 		"changeSetClass" : "mad 10/9/2024 16:01",
 		"changeSetFromAssetFile:toAssetFile:" : "mad 10/9/2024 16:01",

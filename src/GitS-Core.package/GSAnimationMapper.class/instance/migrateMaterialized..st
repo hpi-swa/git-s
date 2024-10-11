@@ -1,4 +1,4 @@
 migrations
 migrateMaterialized: anObject
-	(anObject class name = 'AnObsoleteSquotAnimation') ifTrue: [^ self obsoleteSquotAnimationAsAssetFile: anObject].
+	(self isObsoleteSquotAnimation: anObject) ifTrue: [^ self obsoleteSquotAnimationAsAssetFile: anObject].
 	^ super migrateMaterialized: anObject

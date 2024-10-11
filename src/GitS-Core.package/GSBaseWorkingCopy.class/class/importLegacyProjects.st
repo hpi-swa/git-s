@@ -2,4 +2,5 @@ migrations
 importLegacyProjects
 	self
 		importLegacySqueakWorkingCopyInstances;
-		importLegacySquotWorkingCopyInstances.
+		importLegacySquotWorkingCopyInstances;
+		importLegacyGitStandaloneAssetLoaderInstances.

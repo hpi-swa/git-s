@@ -10,9 +10,11 @@
 	"instance" : {
 		"assetAsMorph:" : "mad 9/29/2024 17:33",
 		"assetTypeName" : "mad 9/29/2024 17:35",
+		"canMigrateMaterialized:" : "mad 10/11/2024 14:28",
 		"canReadAssetFrom:" : "mad 9/30/2024 14:00",
+		"isObsoleteSquotAnimation:" : "mad 10/11/2024 14:25",
 		"isValidAsset:" : "mad 9/29/2024 17:39",
-		"migrateMaterialized:" : "mad 9/29/2024 16:28",
+		"migrateMaterialized:" : "mad 10/11/2024 14:25",
 		"obsoleteSquotAnimationAsAssetFile:" : "mad 9/29/2024 16:28",
 		"readAssetFrom:" : "mad 9/30/2024 14:29",
 		"readerClass" : "mad 9/30/2024 14:30",
