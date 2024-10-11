@@ -1,3 +1,3 @@
 accessing
 assetFileToWrite
-	^ self assetAsAssetFile: self change versionToWrite
+	^ self change versionToWrite
