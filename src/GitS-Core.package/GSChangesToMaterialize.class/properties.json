@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"shouldAlwaysOpenDialog" ],
+	"name" : "GSChangesToMaterialize",
+	"pools" : [
+		 ],
+	"super" : "GSChangesToShow",
+	"type" : "normal" }
