@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultTimeout" : "mad 10/14/2024 00:00",
+		"expectedUnsentGitAssetLoaderMethods" : "mad 10/13/2024 23:47",
+		"expectedUnsentMethods" : "mad 11/17/2024 23:38",
+		"expectedUnsentMethodsForFutureUse" : "mad 10/14/2024 00:05",
+		"expectedUnsentPreferenceSetterMethods" : "mad 11/17/2024 23:39",
+		"findAbstractMethodsInConcreteClasses" : "mad 10/14/2024 00:05",
+		"findUnimplementedAndUnsentMethods" : "mad 10/14/2024 00:03",
+		"ignoredAbstractMethods" : "mad 10/14/2024 00:05",
+		"ignoredSends" : "mad 10/14/2024 00:07",
+		"ignoredSendsForCommitType" : "mad 10/14/2024 00:06",
+		"ignoredSendsForLegacyMetadataLoading" : "mad 10/14/2024 00:06",
+		"ignoredSendsForLegacyProjectImporting" : "mad 10/14/2024 00:06",
+		"ignoredSendsForTextDiffing" : "mad 10/14/2024 00:07",
+		"ignoredSendsForUnmappedPathDialogOptions" : "mad 10/14/2024 00:07",
+		"isAbstractMethod:" : "mad 10/13/2024 20:42",
+		"isSend:in:enumerator:" : "mad 10/14/2024 00:06",
+		"packageInfo" : "mad 10/13/2024 19:52",
+		"selectorsWhoseArgumentsToIgnore" : "mad 10/14/2024 00:08",
+		"sendsOf:do:" : "mad 10/13/2024 19:50",
+		"testNoAbstractMethodsInConcreteClasses" : "mad 10/13/2024 21:13",
+		"testNoUnimplementedAndNoUnsentMethods" : "mad 11/17/2024 23:36" } }

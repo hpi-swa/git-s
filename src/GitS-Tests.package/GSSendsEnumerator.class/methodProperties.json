@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doBlock" : "mad 10/13/2024 15:42",
+		"doBlock:" : "mad 10/13/2024 15:42",
+		"enumerate:" : "mad 10/13/2024 15:55",
+		"selectBlock" : "mad 10/13/2024 15:55",
+		"selectBlock:" : "mad 10/13/2024 15:55",
+		"visitLiteralNode:" : "mad 10/13/2024 15:44",
+		"visitLiteralVariableNode:" : "mad 10/13/2024 16:09",
+		"visitSelectorNode:" : "mad 10/13/2024 15:43" } }
