@@ -1,7 +1,7 @@
 changes-operations
 writerOn: aReference
 	| repository fileUtils fileTreeWriter |
-	repository := GSMockMCRepository new
+	repository := MCDirectoryRepository new
 					directory: aReference;
 					yourself.
 	fileUtils := self fileUtilsOn: aReference.
