@@ -1,3 +1,4 @@
 version-io
 readAssetFrom: aStream
-	^ (aStream binary; contents) asByteArray
+	aStream binary.
+	^ aStream contents asByteArray

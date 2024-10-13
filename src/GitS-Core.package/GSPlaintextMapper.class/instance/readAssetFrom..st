@@ -1,3 +1,4 @@
 version-io
 readAssetFrom: aStream
-	^ self toPlaintext: (aStream binary; contents) utf8Decoded
+	aStream binary.
+	^ self toPlaintext: aStream contents utf8Decoded

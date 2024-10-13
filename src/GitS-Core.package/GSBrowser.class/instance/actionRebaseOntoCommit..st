@@ -2,9 +2,9 @@ actions
 actionRebaseOntoCommit: aCommit
 	| workingCopy commits rebase |
 	workingCopy := self activeWorkingCopyIfNilInformAnd: [^ self].
-	commits := GitHistoryWalker new
+	commits := (GitHistoryWalker new
 					excludeAncestorsOf: aCommit;
-					startingFrom: workingCopy headCommit.
+					yourself) startingFrom: workingCopy headCommit.
 	rebase := GSRebase newWithBrowser: self commits: commits reversed.
 	rebase start then: [:x |
 		workingCopy
