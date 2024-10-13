@@ -1,4 +1,4 @@
-accessing
+updating
 update: aSymbol
 	super update: aSymbol.
 	(aSymbol caseOf: {

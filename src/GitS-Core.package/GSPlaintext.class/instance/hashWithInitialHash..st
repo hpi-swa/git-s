@@ -1,4 +1,4 @@
-comparing
+private
 hashWithInitialHash: speciesHash
 	| hash stream character |
 	hash := speciesHash bitAnd: 16r0FFFFFFF.

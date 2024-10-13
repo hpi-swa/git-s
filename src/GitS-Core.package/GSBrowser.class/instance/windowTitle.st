@@ -1,3 +1,3 @@
-ui
+toolbuilder
 windowTitle
 	^ 'Git Browser'

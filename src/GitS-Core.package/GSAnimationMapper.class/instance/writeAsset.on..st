@@ -1,4 +1,4 @@
-migrations
+version-io
 writeAsset: aGIFReadWriter on: aStream
 	aGIFReadWriter setStream: aStream.
 	[aGIFReadWriter frames do: [:each | aGIFReadWriter nextPutFrame: each]]

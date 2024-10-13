@@ -1,4 +1,4 @@
-ui
+accessing
 textAt: aNumber
 	self isInEditMode ifTrue: [^ (self toSources at: aNumber) asText].
 	^ GSTextUtilities

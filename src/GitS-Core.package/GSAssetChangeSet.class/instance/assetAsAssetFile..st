@@ -1,3 +1,3 @@
-as yet unclassified
+asset-creation
 assetAsAssetFile: anAsset
 	^ self mapper assetAsAssetFile: anAsset

@@ -1,4 +1,4 @@
-version-io
+testing
 canReadAssetFrom: aStream
 	^ self encoding caseOf: {
 		[self class wavEncoding] -> [SampledSound canReadWAVStream: aStream].
