@@ -2,7 +2,7 @@ instance creation
 tryMCRepositoryNamed: aString
 	| directory workingCopy fileSystem |
 	directory := self scanForMCRepositoryDirectory: aString ifAbsent: [^ nil].
-	workingCopy := GSBaseWorkingCopy newWithName: aString.
+	workingCopy := GSBaseWorkingCopy newWithNameAndRegister: aString.
 	fileSystem := GSSubFileSystem onReference: directory.
 	workingCopy mappers:
 		(workingCopy metadataMapper loadMappersFromFileSystem: fileSystem).
