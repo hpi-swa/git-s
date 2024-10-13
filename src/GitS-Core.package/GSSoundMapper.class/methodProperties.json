@@ -9,10 +9,10 @@
 	"instance" : {
 		"assetAsMorph:" : "mad 10/9/2024 16:01",
 		"assetTypeName" : "mad 9/29/2024 17:36",
-		"canReadAssetFrom:" : "mad 9/29/2024 17:38",
+		"canReadAssetFrom:" : "mad 10/13/2024 16:21",
 		"doPostUpdateMigrationsIn:" : "mad 9/27/2024 23:06",
 		"fixNilEncoding" : "mad 1/12/2024 12:37",
 		"isValidAsset:" : "mad 9/29/2024 17:40",
-		"readAssetFrom:" : "mad 9/29/2024 17:44",
+		"readAssetFrom:" : "mad 10/13/2024 16:19",
 		"transformAsset:ifFail:" : "mad 9/29/2024 19:59",
-		"writeAsset:on:" : "mad 9/29/2024 17:48" } }
+		"writeAsset:on:" : "mad 10/13/2024 16:20" } }

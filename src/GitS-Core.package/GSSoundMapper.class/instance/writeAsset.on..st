@@ -1,5 +1,6 @@
 version-io
 writeAsset: aSound on: aStream
-	aSound
-		perform: ('store{1}SamplesOn:' format: {self encoding}) asSymbol
-		with: aStream.
+	self encoding caseOf: {
+		[self class wavEncoding] -> [aSound storeWAVSamplesOn: aStream].
+		[self class aiffEncoding] -> [aSound storeAIFFSamplesOn: aStream].
+	}.

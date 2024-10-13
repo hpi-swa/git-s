@@ -1,5 +1,6 @@
 version-io
 readAssetFrom: aStream
-	^ SampledSound
-		perform: ('from{1}Stream:' format: {self encoding}) asSymbol
-		with: aStream
+	^ self encoding caseOf: {
+		[self class wavEncoding] -> [SampledSound fromWAVStream: aStream].
+		[self class aiffEncoding] -> [SampledSound fromAIFFStream: aStream].
+	}
