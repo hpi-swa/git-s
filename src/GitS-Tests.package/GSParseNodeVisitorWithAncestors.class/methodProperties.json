@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ancestor:" : "mad 10/13/2024 16:02",
+		"ancestors" : "mad 10/13/2024 15:27",
+		"ancestors:" : "mad 10/13/2024 15:27",
+		"current" : "mad 10/13/2024 16:02",
+		"initialize" : "mad 10/13/2024 15:28",
+		"parent" : "mad 10/13/2024 16:02",
+		"pushAncestor:during:" : "mad 10/13/2024 15:28",
+		"root" : "mad 10/13/2024 16:08",
+		"visit:" : "mad 10/13/2024 15:28",
+		"visitAll:" : "mad 10/13/2024 15:19",
+		"visitAssignmentNode:" : "mad 10/13/2024 15:16",
+		"visitBlockNode:" : "mad 10/13/2024 15:17",
+		"visitBraceNode:" : "mad 10/13/2024 15:19",
+		"visitCascadeNode:" : "mad 10/13/2024 15:40",
+		"visitFutureNode:" : "mad 10/13/2024 15:40",
+		"visitMessageNode:" : "mad 10/13/2024 15:23",
+		"visitMessageNodeInCascade:" : "mad 10/13/2024 15:23",
+		"visitMethodNode:" : "mad 10/13/2024 15:23",
+		"visitReturnNode:" : "mad 10/13/2024 15:23" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"doBlock",
+		"selectBlock" ],
+	"name" : "GSSendsEnumerator",
+	"pools" : [
+		 ],
+	"super" : "GSParseNodeVisitorWithAncestors",
+	"type" : "normal" }
