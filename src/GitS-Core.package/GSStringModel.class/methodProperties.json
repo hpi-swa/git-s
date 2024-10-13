@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "mad 10/13/2024 20:57" },
 	"instance" : {
 		"aboutToStyle:with:requestor:at:" : "mad 10/1/2024 14:33",
 		"asString:" : "mad 10/1/2024 14:34",

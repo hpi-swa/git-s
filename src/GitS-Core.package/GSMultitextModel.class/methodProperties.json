@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"isAbstract" : "mad 10/13/2024 20:57",
 		"withMapper:" : "mad 8/13/2024 17:43" },
 	"instance" : {
 		"aboutToStyle:with:requestor:at:" : "mad 8/13/2024 17:23",

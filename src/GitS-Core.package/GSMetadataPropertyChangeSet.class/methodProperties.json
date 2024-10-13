@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"isAbstract" : "mad 10/13/2024 20:55",
 		"property" : "mad 8/18/2024 18:49" },
 	"instance" : {
 		"canMapperBeRemovedAfterMaterializeIn:" : "mad 10/13/2024 21:01",

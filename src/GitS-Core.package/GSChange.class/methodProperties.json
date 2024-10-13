@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"isAbstract" : "mad 10/13/2024 20:52",
 		"withChangeSet:" : "mad 9/6/2023 12:37" },
 	"instance" : {
 		"addMenuItemsTo:" : "mad 9/26/2023 17:13",
