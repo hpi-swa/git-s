@@ -1,10 +1,9 @@
 icon
 commitIcon
-	| color rect |
+	| rect |
 	^ self cachedIcon: [:canvas |
 		rect := canvas clipRect.
 		rect := rect insetBy: rect extent / 4.
-		color := Color black.
 		canvas
 			drawImage: self lineIcon at: 0 @ 0;
 			fillOval: rect color: Color white;
