@@ -1,8 +1,5 @@
 ui
 chooseNewEncodingClass
-	| classes |
-	classes := GSCodeMapper allSubclasses.
-	^ UIManager default
-		chooseFrom: (classes collect: #encodingName)
-		values: classes
+	^ self
+		chooseNewEncodingClassFrom: GSCodeMapper allSubclasses
 		title: ('New encoding (current: {1}):' format: {self encodingName})

@@ -1,6 +1,6 @@
 actions
 actionAddPackage
-	| packageInfo conflictingPackages |
+	| packageInfo conflictingPackages mapperClass |
 	packageInfo := PackageInfo new packageName: self selectedPackageName; yourself.
 	conflictingPackages := self mappedPackageList select: [:each |
 								packageInfo includesSystemCategory: each].
@@ -12,9 +12,10 @@ actionAddPackage
 				self selectedPackageName.
 				conflictingPackages joinSeparatedBy: ', '.
 			})) ifFalse: [^ self]].
-
+	
+	mapperClass := self mapperClassForNewPackage ifNil: [^ self].
 	conflictingPackages do: [:each | self removePackage: each].
 	self workingCopy addMapper:
-		(GSTonelMapper
+		(mapperClass
 			package: (MCPackage named: self selectedPackageName)
 			path: self commonPackagePathPrefix).
