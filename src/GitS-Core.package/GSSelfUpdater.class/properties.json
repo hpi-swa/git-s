@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"InstalledVersion" ],
+		"InstalledVersion",
+		"LastVersionCheck" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

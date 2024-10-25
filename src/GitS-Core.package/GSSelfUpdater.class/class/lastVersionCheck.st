@@ -1,0 +1,3 @@
+check
+lastVersionCheck
+	^ LastVersionCheck

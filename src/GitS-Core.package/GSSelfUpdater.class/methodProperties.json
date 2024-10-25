@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"basicCheckForNewVersion" : "mad 10/25/2024 11:34",
 		"branchName" : "mad 10/9/2024 16:34",
+		"checkForNewVersion" : "mad 10/25/2024 11:32",
 		"fullRepositoryName" : "mad 10/9/2024 16:33",
 		"getShaOfVersion:" : "mad 10/9/2024 18:39",
 		"githubApiUrlForVersion:" : "mad 10/9/2024 18:38",
@@ -8,11 +10,17 @@
 		"installScriptForVersion:" : "mad 10/9/2024 16:50",
 		"installedVersion" : "mad 10/9/2024 16:40",
 		"installedVersion:" : "mad 10/9/2024 16:40",
+		"isNewVersionAvailable" : "mad 10/25/2024 11:22",
+		"lastVersionCheck" : "mad 10/25/2024 11:33",
+		"lastVersionCheck:" : "mad 10/25/2024 11:34",
+		"lastVersionCheckWasRecent" : "mad 10/25/2024 11:35",
 		"metacelloRepositorySpecForVersion:" : "mad 10/9/2024 16:49",
 		"organizationName" : "mad 10/9/2024 16:34",
 		"postInstallVersion:" : "mad 10/9/2024 18:40",
 		"projectName" : "mad 10/9/2024 16:33",
+		"promptForNewVersion" : "mad 10/25/2024 11:49",
 		"repositoryName" : "mad 10/9/2024 16:34",
-		"selfUpdate" : "mad 10/9/2024 19:28" },
+		"selfUpdate" : "mad 10/9/2024 19:28",
+		"versionCheckInterval" : "mad 10/25/2024 11:34" },
 	"instance" : {
 		 } }
