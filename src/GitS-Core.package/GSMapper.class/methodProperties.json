@@ -2,7 +2,8 @@
 	"class" : {
 		"currentVersion" : "mad 9/27/2024 13:55",
 		"isAbstract" : "mad 10/13/2024 20:53",
-		"legacyVersion" : "mad 9/27/2024 13:55" },
+		"legacyVersion" : "mad 9/27/2024 13:55",
+		"stonAllInstVarNames" : "mad 10/28/2024 20:56" },
 	"instance" : {
 		"=" : "mad 9/30/2024 15:03",
 		"addToSar:" : "mad 1/8/2024 20:54",
@@ -30,6 +31,5 @@
 		"printOn:" : "mad 10/2/2024 20:07",
 		"setCurrentVersion" : "mad 9/27/2024 13:55",
 		"setLegacyVersion" : "mad 9/27/2024 13:54",
-		"stonAllInstVarNames" : "mad 9/30/2024 15:18",
 		"version" : "mad 9/27/2024 13:54",
 		"version:" : "mad 10/9/2024 16:01" } }

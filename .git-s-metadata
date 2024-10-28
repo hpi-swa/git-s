@@ -3,7 +3,6 @@ GSMetadata {
 	#mappers : [
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'VersionControl'
 			},
@@ -13,7 +12,6 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'GitS-Compatibility'
 			},
@@ -23,7 +21,6 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'FileSystem-Git'
 			},
@@ -33,7 +30,6 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'GitS-Core'
 			},
@@ -41,7 +37,6 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'BaselineOfGitS'
 			},
@@ -49,7 +44,6 @@ GSMetadata {
 		},
 		GSCypressMapper {
 			#version : 1,
-			#isTracked : true,
 			#package : MCPackage {
 				#name : 'GitS-Tests'
 			},
