@@ -13,7 +13,16 @@ knownTerminalCommands
 		'konsole -e {}'.
 		'lxterminal -e {}'.
 		'mate-terminal -x {}'.
-		'osascript -e ''tell app "Terminal" to do script "{":\",'':''"''"''}"'''.
+		{
+			'osascript -e ''tell app "Terminal"'.
+			'activate'.
+			'set w to do script "{":\",'':''"''"''}"'.
+			'repeat'.
+			'delay 0.1'.
+			'if not busy of w then exit repeat'.
+			'end repeat'.
+			'end tell'''.
+		} joinSeparatedBy: String crlf.
 		'st -e {}'.
 		'terminator -x {}'.
 		'terminology -e {quote}'.
