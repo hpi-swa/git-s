@@ -1,0 +1,3 @@
+accessing
+customTerminalCommandForExternalCommands: aString
+	CustomTerminalCommandForExternalCommands := aString

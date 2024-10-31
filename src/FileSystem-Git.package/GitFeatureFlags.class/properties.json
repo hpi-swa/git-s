@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"CustomTerminalCommandForExternalCommands",
 		"EvictFromObjectCache",
 		"ExternalFetchAndPush",
 		"PruneWhenFetching",
-		"TerminalCommandForExternalCommands",
 		"UseUnitOfWorkInterface",
 		"WarnAboutUseOfDeprecatedMethods" ],
 	"commentStamp" : "",
