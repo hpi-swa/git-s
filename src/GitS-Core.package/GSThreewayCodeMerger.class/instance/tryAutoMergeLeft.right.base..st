@@ -10,9 +10,10 @@ tryAutoMergeLeft: leftDefinition right: rightDefinition base: baseDefinition
 			stringMergeLeft: (allSources first at: index)
 			right: (allSources second at: index)
 			base: (allSources third at: index)
-			ifConflict: [(leftDefinition gitSSourcesIsTimeStamp at: index)
-							ifTrue: [stamp]
-							ifFalse: [^ false]]].
+			ifConflict: [:conflict |
+				(leftDefinition gitSSourcesIsTimeStamp at: index)
+					ifTrue: [stamp]
+					ifFalse: [^ false]]].
 	mergedDefinition := leftDefinition
 		gitSCopyWithSources: mergedSources
 		notifying: nil
