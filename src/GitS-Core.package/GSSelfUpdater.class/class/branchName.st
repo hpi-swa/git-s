@@ -1,3 +1,3 @@
 accessing
 branchName
-	^ 'latest-release'
+	^ BranchName ifNil: ['latest-release']

@@ -1,3 +1,3 @@
 accessing
 metacelloRepositorySpecForVersion: aString
-	^ 'github://{1}:{2}/src' format: {self fullRepositoryName. aString}
+	^ 'github://{1}:{2}/src' format: {self fullRepositoryName. aString copyReplaceAll: '/' with: '\/'}
