@@ -8,7 +8,8 @@ externalCommand: aString
 		osProcess waitForCommand:
 			(osProcess isWindows
 				ifTrue: [self windowsTerminalCommand: aString]
-				ifFalse: [self terminalCommand: aString]).
+				ifFalse: [self terminalCommand: aString])
+				squeakToUtf8.
 		[exitCodeReference exists] whileFalse: [0.1 seconds wait]].
 	exitCode := exitCodeReference contents asString withBlanksTrimmed asNumber.
 	exitCode = 0 ifTrue: [^ self].
