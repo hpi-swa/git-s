@@ -3,6 +3,11 @@ pushToRemote: remoteName update: aCollectionOfBranchNamesAndAssociations deleteR
 	| remote url protocol updateRefs deleteRefs pushBlock report |
 	remote := self unitOfWork remoteNamed: remoteName.
 	url := remote url.
+	(self shouldHandleUrlExternally: url) ifTrue: [
+		^ self
+			externalPush: aCollectionOfBranchNamesAndAssociations
+			toRemote: remoteName
+			force: forceBoolean].
 	updateRefs := aCollectionOfBranchNamesAndAssociations collect: [:each |
 		each value == each
 			ifTrue: [(self unitOfWork expandRef: each) -> (self unitOfWork objectReferenced: each)]
