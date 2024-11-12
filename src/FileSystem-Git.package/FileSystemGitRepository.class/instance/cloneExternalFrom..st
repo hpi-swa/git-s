@@ -6,4 +6,7 @@ cloneExternalFrom: aStringOrUrl
 	(children isEmpty or: [children size = 1 and: [children first basename = '.git']])
 		ifFalse: [^ self error: 'Target directory is not empty'].
 	directory deleteAll.
-	self externalCommand: ('git clone "{1}" "{2}"' format: {aStringOrUrl. directory pathName}).
+	self externalCommand: ('{1} clone "{2}" "{3}"' format: {
+		self gitExecutable.
+		aStringOrUrl.
+		directory pathName}).

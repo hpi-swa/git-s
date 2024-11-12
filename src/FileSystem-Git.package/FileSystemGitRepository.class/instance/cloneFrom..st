@@ -1,11 +1,11 @@
 git porcelain
 cloneFrom: aStringOrUrl
-	GitFeatureFlags externalFetchAndPush
+	(self shouldHandleUrlExternally: aStringOrUrl)
 		ifTrue: [self cloneExternalFrom: aStringOrUrl]
 		ifFalse: [[self cloneInternalFrom: aStringOrUrl]
 					on: ConnectionClosed
 					do: [:exception |
 						self
 							handleConnectionClosed: exception
-							whileTryingTo: 'clone'
+							while: 'cloning'
 							ifRetry: [self cloneFrom: aStringOrUrl]]].

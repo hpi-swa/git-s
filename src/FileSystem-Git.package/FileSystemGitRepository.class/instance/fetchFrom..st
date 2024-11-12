@@ -7,5 +7,5 @@ fetchFrom: aRemoteName
 					do: [:exception |
 						self
 							handleConnectionClosed: exception
-							whileTryingTo: 'fetch'
+							while: 'fetching'
 							ifRetry: [self fetchFrom: aRemoteName]]].

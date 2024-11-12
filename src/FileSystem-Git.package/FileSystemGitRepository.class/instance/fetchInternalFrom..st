@@ -3,6 +3,7 @@ fetchInternalFrom: aRemoteName
 	| remote url fetchSpec packFile protocol remoteRefs wantRefs wantSignatures packFileData |
 	remote := self unitOfWork remoteNamed: aRemoteName.
 	url := remote url ifNil: [(GitRemoteUndefined remote: remote) signal: 'No URL configured.'].
+	(self shouldHandleUrlExternally: url) ifTrue: [^ self fetchAllExternalFrom: aRemoteName].
 	fetchSpec := remote fetchSpecs
 		ifEmpty: [GitFetchSpec
 					fromString: '+refs/heads/*:refs/remotes/', aRemoteName, '/*'

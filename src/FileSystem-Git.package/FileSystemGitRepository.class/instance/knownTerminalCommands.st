@@ -16,11 +16,7 @@ knownTerminalCommands
 		{
 			'osascript -e ''tell app "Terminal"'.
 			'activate'.
-			'set w to do script "{":\",'':''"''"''}"'.
-			'repeat'.
-			'delay 0.1'.
-			'if not busy of w then exit repeat'.
-			'end repeat'.
+			'do script "{":\",'':''"''"''}"'.
 			'end tell'''.
 		} joinSeparatedBy: String crlf.
 		'st -e {}'.

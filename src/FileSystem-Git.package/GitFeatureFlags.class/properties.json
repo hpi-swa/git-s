@@ -6,6 +6,7 @@
 		"CustomTerminalCommandForExternalCommands",
 		"EvictFromObjectCache",
 		"ExternalFetchAndPush",
+		"ExternalGitExecutable",
 		"PruneWhenFetching",
 		"UseUnitOfWorkInterface",
 		"WarnAboutUseOfDeprecatedMethods" ],
