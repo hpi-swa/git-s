@@ -4,5 +4,6 @@ loadAssetFileFrom: aFileSystem
 	reference := self referenceIn: aFileSystem.
 	reference isFile ifFalse: [^ nil].
 	^ reference readStreamDo: [:stream |
-		(self canReadAssetFrom: stream) ifFalse: [^ nil].
+		self readAssetFrom: stream. "check for errors (will be thrown)"
+		stream reset.
 		GSAssetFile withMapper: self fromStream: stream]
