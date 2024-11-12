@@ -1,5 +1,5 @@
 initialize-release
 initializeOn: anFSReference
-	reference := anFSReference.
-	self initializeCache.
-	self gitInitialize
+	self
+		basicInitializeOn: anFSReference;
+		gitInitialize.
