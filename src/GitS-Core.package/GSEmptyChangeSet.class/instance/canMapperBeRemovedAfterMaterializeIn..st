@@ -1,3 +1,0 @@
-testing
-canMapperBeRemovedAfterMaterializeIn: aWorkingCopy
-	^ self mapper canBeRemovedAfterMaterializeIn: aWorkingCopy

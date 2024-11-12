@@ -1,3 +1,0 @@
-accessing
-newValueAfterSerializeInto: aFileSystem
-	^ self newMappersAfterSerializeInto: aFileSystem

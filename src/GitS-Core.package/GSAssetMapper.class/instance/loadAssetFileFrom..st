@@ -1,7 +1,7 @@
 asset-creation
 loadAssetFileFrom: aFileSystem
 	| reference |
-	reference := aFileSystem referenceTo: self path.
+	reference := self referenceIn: aFileSystem.
 	reference isFile ifFalse: [^ nil].
 	^ reference readStreamDo: [:stream |
 		(self canReadAssetFrom: stream) ifFalse: [^ nil].

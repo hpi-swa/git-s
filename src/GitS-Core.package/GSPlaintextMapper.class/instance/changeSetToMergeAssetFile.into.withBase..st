@@ -4,6 +4,6 @@ changeSetToMergeAssetFile: right into: left withBase: base
 		stringOrNilMergeLeft: (left ifNotNil: #asset)
 		right: (right ifNotNil: #asset)
 		base: (base ifNotNil: #asset)
-		ifUnchanged: [GSEmptyChangeSet withMapper: self]
+		ifUnchanged: [GSEmptyChangeSet withMapper: self isRemoval: (self isMissing: left)]
 		ifMerged: [:merged | GSPlaintextChangeSet withMapper: self from: left to: (self assetAsAssetFile: (self transformAsset: merged))]
 		ifConflict: [:conflict | GSPlaintextChangeSet withMapper: self conflict: (conflict collect: [:each | self assetAsAssetFile: each])]

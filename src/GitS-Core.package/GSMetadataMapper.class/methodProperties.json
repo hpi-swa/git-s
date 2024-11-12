@@ -4,8 +4,6 @@
 	"instance" : {
 		"addToSar:" : "mad 1/8/2024 20:54",
 		"allHexHashesAt:equalInFSCommits:" : "mad 10/2/2024 17:13",
-		"canBeRemovedAfterMaterializeIn:" : "mad 8/15/2024 18:36",
-		"canBeRemovedAfterSerializeInto:" : "mad 8/15/2024 18:36",
 		"canBeRemovedAtAll" : "mad 8/15/2024 18:33",
 		"changeSetFromFSCommit:toFSCommit:" : "mad 2/20/2024 15:08",
 		"changeSetFromFSCommit:toImage:" : "mad 2/20/2024 15:09",
@@ -24,6 +22,7 @@
 		"changeSetsToMergeFSCommit:into:withBase:in:" : "mad 10/7/2024 17:31",
 		"fixedLegacyReferencesIn:" : "mad 10/9/2024 18:02",
 		"hasAnyFile:" : "mad 10/9/2024 23:12",
+		"hexHashPath" : "mad 11/12/2024 14:52",
 		"legacyReferencesIn:" : "mad 10/9/2024 18:02",
 		"legacySquotClassMapping:" : "mad 10/9/2024 17:51",
 		"legacySquotClassMappings" : "mad 10/9/2024 17:50",

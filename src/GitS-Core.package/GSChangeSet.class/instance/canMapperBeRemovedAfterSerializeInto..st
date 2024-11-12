@@ -1,3 +1,0 @@
-testing
-canMapperBeRemovedAfterSerializeInto: aFileSystem
-	self subclassResponsibility.

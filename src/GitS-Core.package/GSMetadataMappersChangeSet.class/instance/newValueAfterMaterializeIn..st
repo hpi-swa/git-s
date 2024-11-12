@@ -1,3 +1,0 @@
-accessing
-newValueAfterMaterializeIn: aWorkingCopy
-	^ self newMappersAfterMaterializeIn: aWorkingCopy
