@@ -6,9 +6,8 @@ gitExecutable
 	exec := UIManager default
 		request:
 			('Git could not be found at the path below.
-			Please install it or provide a path to the git executable. {1}'
-				withoutLineEndings withBlanksCondensed
-				format: {self suggestWSLGitInstallation})
+			Please install it or provide a path to the git executable.'
+				withoutLineEndings withBlanksCondensed)
 		initialAnswer: exec.
 	exec isEmptyOrNil ifTrue: [^ self error: 'Missing external git installation'].
 	GitFeatureFlags externalGitExecutable: exec.
