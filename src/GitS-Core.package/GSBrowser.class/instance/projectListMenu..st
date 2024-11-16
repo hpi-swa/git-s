@@ -1,20 +1,26 @@
 menu
 projectListMenu: aMenu
-	self activeWorkingCopy ifNotNil: [
+	aMenu target: self.
+	self activeWorkingCopy ifNotNil: [:workingCopy |
 		aMenu
-			target: self;
-			add: 'Rename this project' action: #actionRenameActiveProject;
-			add: 'Choose new repository location' action: #actionChooseNewRepositoryLocationForActiveProject;
-			add: 'Remove this project' action: #actionRemoveActiveProject;
-			add: 'Manage remotes'
-			target: GSRemotesBrowser
-			selector: #openOnWorkingCopy:
-			argument: self activeWorkingCopy;
-			add: 'Export this project to a .sar' action: #actionExportActiveProjectToSar].
-	self addMappersProjectListMenu: aMenu.
-	aMenu items ifNotEmpty: [aMenu addLine].
+			title: ('Project {1}' format: {workingCopy name printString});
+			add: 'Organize it'
+			subMenu: (MenuMorph new in: [:subMenu |
+				subMenu
+					target: self;
+					add: 'Rename it' action: #actionRenameActiveProject;
+					add: 'Remove it' action: #actionRemoveActiveProject;
+					add: 'Choose new repository location' action: #actionChooseNewRepositoryLocationForActiveProject;
+					yourself]).
+		self addMappersProjectListMenu: aMenu.
+		aMenu add: 'Export it to a .sar' action: #actionExportActiveProjectToSar].
 	aMenu
-		target: self;
-		add: 'New project' action: #actionNewProject;
-		add: 'Clone project' action: #actionCloneProject.
+		addLine;
+		add: 'New project'
+		subMenu: (MenuMorph new in: [:subMenu |
+			subMenu
+				target: self;
+				add: 'Clone' action: #actionCloneProject;
+				add: 'From disk' action: #actionNewProject;
+				yourself]).
 	^ aMenu
