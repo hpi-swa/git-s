@@ -1,5 +1,6 @@
 snapshot-creation
 loadSnapshotFrom: aFilesystem
-	^ [(self readerOn: (self packageDirectoryIn: aFilesystem)) version snapshot]
-		on: self expectedReadErrorsOnMissingSnapshot
-		do: [^ MCSnapshot empty]
+	| directory |
+	directory := self packageDirectoryIn: aFilesystem.
+	directory isDirectory ifFalse: [^ MCSnapshot empty].
+	^ (self readerOn: directory) version snapshot

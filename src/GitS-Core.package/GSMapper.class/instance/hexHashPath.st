@@ -1,0 +1,3 @@
+accessing
+hexHashPath
+	self subclassResponsibility.

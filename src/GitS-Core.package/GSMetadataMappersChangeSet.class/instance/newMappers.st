@@ -1,3 +1,7 @@
 accessing
 newMappers
-	^ self newMappersWithRemovalCheck: [:changeSet | true]
+	| removedMappers |
+	removedMappers := self potentiallyRemovedMappers select: [:each |
+							(self mapperChangeSets at: each) isIncludedRemoval].
+	^ (self allMappers copyWithoutAll: removedMappers)
+		collect: [:each | self bumpMapperVersionIfNecessary: each]
