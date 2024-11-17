@@ -11,6 +11,8 @@ otherMenu: aMenuSpec
 		selector: #actionSetSelfUpdateBranch
 		argumentList: {};
 		
+		addLine;
+		
 		add: 'Force push'
 		target: self
 		selector: #actionForcePush
