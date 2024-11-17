@@ -2,7 +2,8 @@ git porcelain - external
 externalCommand: aString
 	| osProcess exitCodeReference exitCode errorMessage |
 	osProcess := self osProcess.
-	exitCodeReference := FileSystem disk referenceTo: self externalCommandExitCodePath.
+	exitCodeReference := self externalCommandExitCodeReference.
+	exitCodeReference parent ensureDirectory.
 	exitCodeReference ensureDeleted.
 	UIManager default informUser: 'Running a git command in a terminal...' during: [
 		osProcess waitForCommand:
