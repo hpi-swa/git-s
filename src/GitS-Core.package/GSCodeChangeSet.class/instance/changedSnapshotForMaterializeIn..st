@@ -1,3 +1,0 @@
-operations
-changedSnapshotForMaterializeIn: aWorkingCopy
-	^ self changedSnapshotForCurrentSnapshot: self mapper workingCopySnapshot
