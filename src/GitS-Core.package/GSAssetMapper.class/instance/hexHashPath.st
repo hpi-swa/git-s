@@ -1,3 +1,3 @@
-changes-creation
+accessing
 hexHashPath
 	^ self path
