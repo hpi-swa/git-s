@@ -6,7 +6,7 @@ externalCommand: aString
 	exitCodeReference parent ensureDirectory.
 	exitCodeReference ensureDeleted.
 	UIManager default informUser: 'Running a git command in a terminal...' during: [
-		osProcess waitForCommand:
+		osProcess command:
 			(osProcess isWindows
 				ifTrue: [self windowsTerminalCommand: aString]
 				ifFalse: [self terminalCommand: aString])
