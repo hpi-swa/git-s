@@ -9,11 +9,13 @@ otherMenu: aMenuSpec
 		add: 'Set self-update branch'
 		target: self
 		selector: #actionSetSelfUpdateBranch
-		argumentList: {};
-		
-		addLine;
-		
-		add: 'Force push'
-		target: self
-		selector: #actionForcePush
 		argumentList: {}.
+		
+	self activeWorkingCopy ifNotNil: [:workingCopy |
+		aMenuSpec
+			addLine;
+			
+			add: 'Force push'
+			target: workingCopy
+			selector: #actionForcePush
+			argumentList: {}].

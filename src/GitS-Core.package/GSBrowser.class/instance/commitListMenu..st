@@ -1,3 +1,4 @@
 menu
 commitListMenu: aMenu
-	^ self menu: aMenu forCommit: self activeCommit
+	^ (self activeWorkingCopy ifNil: [^ aMenu])
+		menu: aMenu forCommit: self activeCommit

@@ -1,3 +1,0 @@
-actions
-actionSetUpstreamOfBranch: aString
-	self activeWorkingCopy setUpstreamRemoteNameAndRefFor: aString.

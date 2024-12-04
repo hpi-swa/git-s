@@ -25,6 +25,10 @@
 		"uninstallSquot" : "mad 10/9/2024 21:51",
 		"unregister:" : "mad 10/6/2024 21:07" },
 	"instance" : {
+		"actionExportToSar" : "mad 12/21/2024 18:46",
+		"actionExportToSarNamed:" : "mad 12/1/2024 18:00",
+		"actionRemove" : "mad 12/2/2024 00:12",
+		"actionRename" : "mad 12/22/2024 01:05",
 		"addMapper:" : "mad 10/6/2024 21:13",
 		"allMappers" : "mad 10/6/2024 21:13",
 		"basicName:" : "mad 10/6/2024 21:13",
@@ -55,12 +59,9 @@
 		"nameIfTakenDeriveAndInform:" : "mad 10/6/2024 21:18",
 		"register" : "mad 10/6/2024 21:18",
 		"removeMapper:" : "mad 10/6/2024 21:18",
-		"rename" : "mad 10/6/2024 21:18",
 		"replaceMapper:with:" : "mad 10/6/2024 21:18",
 		"requestOptionForUnmappedPath:mapper:additionalOptions:" : "mad 10/9/2024 16:01",
 		"requestSarFileName" : "mad 10/6/2024 21:19",
 		"requestUnmappedPathWithTitle:initialAnswer:" : "mad 10/6/2024 21:19",
 		"requestUnmappedPathWithTitle:initialAnswer:additionalOptions:" : "mad 10/9/2024 16:01",
-		"unregister" : "mad 10/6/2024 21:19",
-		"writeSarToFileNamed:" : "mad 10/6/2024 21:20",
-		"writeSarToRequestedFileName" : "mad 12/10/2024 11:57" } }
+		"unregister" : "mad 10/6/2024 21:19" } }

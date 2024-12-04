@@ -1,4 +1,4 @@
-refs
+remotes
 splitRemoteRef: aString
 	| parts index remoteName remoteRef |
 	self assert: (self isRemoteRef: aString) description: aString, ' is not a remote ref'.

@@ -1,3 +1,3 @@
-actions
+actions-network
 actionFetchAll
-	(self activeWorkingCopyIfNilInformAnd: [^ self]) fetchAll.
+	self activeWorkingCopyAction: #actionFetchAll.

@@ -1,3 +1,4 @@
 menu
 refListMenu: aMenu
-	^ self menu: aMenu forRef: self activeRef
+	^ (self activeWorkingCopy ifNil: [^ aMenu])
+		menu: aMenu forRef: self activeRef

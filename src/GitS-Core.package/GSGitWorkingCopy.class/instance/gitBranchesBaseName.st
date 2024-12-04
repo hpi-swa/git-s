@@ -1,3 +1,3 @@
-refs
+git-branches
 gitBranchesBaseName
 	^ 'refs/heads/'

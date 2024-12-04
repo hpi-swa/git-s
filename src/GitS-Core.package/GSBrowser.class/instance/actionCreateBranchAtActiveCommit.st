@@ -1,3 +1,3 @@
-actions
+actions-branches
 actionCreateBranchAtActiveCommit
-	^ self actionCreateBranchAtCommit: (self activeCommitIfNilInformAnd: [^ self])
+	self activeCommitAction: #actionCreateBranchAtCommit:.

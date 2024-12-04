@@ -1,3 +1,3 @@
-refs
+head
 headRefName
 	^ self refName: self headRefBasename

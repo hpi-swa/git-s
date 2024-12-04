@@ -1,4 +1,4 @@
 running
 run
-	^ (self browser actionRevert: self commit)
+	^ (self workingCopy pendingChangesForRevert: self commit) commit
 		then: [:x | self nextOperation]

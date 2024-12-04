@@ -1,4 +1,4 @@
-refs
+head
 isSomeHead: aString
 	| refBasename |
 	refBasename := aString allButFirst: (aString lastIndexOf: $/).
