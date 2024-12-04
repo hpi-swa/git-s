@@ -1,3 +1,4 @@
-actions
+actions-branches
 actionCreateBranchAtCommitAndSwitchToIt: aCommit
-	self actionSwitchToBranch: ((self actionCreateBranchAtCommit: aCommit) ifNil: [^ self]).
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionCreateBranchAtCommitAndSwitchToIt: aCommit].

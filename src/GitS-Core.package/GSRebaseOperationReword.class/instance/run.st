@@ -1,4 +1,8 @@
 running
 run
-	^ (self browser actionReword: self commit)
+	^ ((self workingCopy
+		pendingChangesForCherryPick: self commit
+		windowTitlePrefix: 'Reword ')
+			alwaysOpenDialog;
+			yourself) commit
 		then: [:x | self nextOperation]

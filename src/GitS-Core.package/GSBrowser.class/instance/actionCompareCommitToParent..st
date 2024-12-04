@@ -1,6 +1,4 @@
-actions
+actions-comparing
 actionCompareCommitToParent: aCommit
-	| parent |
-	self activeWorkingCopyIfNilInformAnd: [^ self].
-	parent := aCommit parents ifNotEmpty: #first ifEmpty: [nil].
-	self openDialogToShowChangeSetsFromCommit: parent to: aCommit.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionCompareCommitToParent: aCommit]

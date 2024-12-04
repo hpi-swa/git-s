@@ -7,7 +7,7 @@ cloneFrom: aStringOrUrl
 	target := self unitOfWork objectReferenced: self headRefBasename.
 	(gitHead isSymbolic and: [self isGitBranchRef: gitHead targetRef]) ifTrue: [ | branchName branch |
 		branchName := gitHead targetRef allButFirst: self gitBranchesBaseName size.
-		branch := self createBranchNamed: branchName at: target.
+		branch := self createBranchNamed: branchName atCommit: target.
 		self setUpstreamRemoteName: self unitOfWork remoteNames first andRef: branchName for: branch.
 		target := branch].
 	self updateSymbolicHeadTo: target.

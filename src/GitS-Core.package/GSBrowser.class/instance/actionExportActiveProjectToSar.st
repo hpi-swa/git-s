@@ -1,5 +1,3 @@
-actions
+actions-working-copy
 actionExportActiveProjectToSar
-	| workingCopy |
-	workingCopy := self activeWorkingCopyIfNilInformAnd: [^ self].
-	workingCopy writeSarToRequestedFileName.
+	self activeWorkingCopyAction: #actionExportToSar.

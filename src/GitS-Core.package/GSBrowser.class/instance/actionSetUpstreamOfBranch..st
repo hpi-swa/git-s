@@ -1,3 +1,4 @@
-actions
+actions-network
 actionSetUpstreamOfBranch: aString
-	self activeWorkingCopy setUpstreamRemoteNameAndRefFor: aString.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionSetUpstreamOfBranch: aString].

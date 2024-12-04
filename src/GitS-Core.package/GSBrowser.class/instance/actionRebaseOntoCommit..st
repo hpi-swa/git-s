@@ -1,13 +1,4 @@
-actions
+actions-rebasing
 actionRebaseOntoCommit: aCommit
-	| workingCopy commits rebase |
-	workingCopy := self activeWorkingCopyIfNilInformAnd: [^ self].
-	commits := (GitHistoryWalker new
-					excludeAncestorsOf: aCommit;
-					yourself) startingFrom: workingCopy headCommit.
-	rebase := GSRebase newWithBrowser: self commits: commits reversed.
-	rebase start then: [:x |
-		workingCopy
-			updateHeadToAndMaterialize: aCommit
-			message: 'rebase (start): checkout ', aCommit hexHash.
-		rebase open].
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionRebaseOntoCommit: aCommit].

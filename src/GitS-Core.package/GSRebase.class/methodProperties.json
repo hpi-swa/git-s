@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"newWithBrowser:commits:" : "mad 10/9/2024 16:01",
-		"newWithBrowser:operations:" : "mad 4/4/2024 21:40",
+		"newWithWorkingCopy:commits:" : "mad 12/1/2024 21:50",
+		"newWithWorkingCopy:operations:" : "mad 12/1/2024 21:50",
 		"nextOperation" : "mad 4/4/2024 22:12",
 		"retry" : "mad 4/4/2024 22:28" },
 	"instance" : {
@@ -13,8 +13,6 @@
 		"activeOperation:" : "mad 4/4/2024 17:17",
 		"add:" : "mad 4/4/2024 19:23",
 		"addAll:" : "mad 4/4/2024 18:07",
-		"browser" : "mad 4/4/2024 19:34",
-		"browser:" : "mad 4/4/2024 21:48",
 		"buildAbortButton:" : "mad 4/10/2024 16:21",
 		"buildAddOperationButton:" : "mad 4/4/2024 20:21",
 		"buildButtons:" : "mad 10/9/2024 16:01",
@@ -59,7 +57,7 @@
 		"run" : "mad 4/4/2024 22:09",
 		"runLabel" : "mad 4/4/2024 23:33",
 		"runNextOperation" : "mad 4/7/2024 15:48",
-		"start" : "mad 4/7/2024 15:41",
+		"start" : "mad 12/1/2024 21:53",
 		"unitOfWork" : "mad 4/10/2024 17:53",
 		"updateRefs" : "mad 4/10/2024 17:42",
 		"wantsDropItem:" : "mad 10/9/2024 16:01",

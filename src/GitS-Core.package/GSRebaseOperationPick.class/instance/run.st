@@ -1,4 +1,4 @@
 running
 run
-	^ (self browser actionCherryPick: self commit)
+	^ (self workingCopy pendingChangesForCherryPick: self commit) commit
 		then: [:x | self nextOperation]

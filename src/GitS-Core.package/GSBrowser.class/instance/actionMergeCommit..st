@@ -1,3 +1,4 @@
-actions
+actions-merging
 actionMergeCommit: aCommit
-	self mergeCommitIntoHead: aCommit.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionMergeCommit: aCommit].

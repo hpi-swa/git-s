@@ -1,4 +1,3 @@
-actions
+actions-committing
 actionCommit
-	self activeWorkingCopyIfNilInformAnd: [^ self].
-	self openDialogToCommitImageWithInitialMessage: ''.
+	self activeWorkingCopyAction: #actionCommit.

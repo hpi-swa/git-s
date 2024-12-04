@@ -1,4 +1,6 @@
 running
 run
-	^ (self browser actionMaterializeCherryPick: self commit)
-		then: [:x | self edit]
+	^ (self workingCopy
+		pendingChangesForCherryPick: self commit
+		windowTitlePrefix: 'Edit') materialize
+			then: [:x | self edit]

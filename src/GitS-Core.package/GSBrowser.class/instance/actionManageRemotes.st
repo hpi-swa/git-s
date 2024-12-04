@@ -1,3 +1,4 @@
-actions
+actions-network
 actionManageRemotes
-	GSRemotesBrowser openOnWorkingCopy: self activeWorkingCopy.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionManageRemotes].

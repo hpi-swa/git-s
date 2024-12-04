@@ -1,3 +1,3 @@
-actions
+actions-refs
 actionRefreshRefList
 	self changed: #refList.

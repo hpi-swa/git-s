@@ -1,3 +1,4 @@
-actions
+actions-branches
 actionCreateBranchAtRefAndSwitchToIt: aString
-	self actionSwitchToBranch: ((self actionCreateBranchAtRef: aString) ifNil: [^ self]).
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionCreateBranchAtRefAndSwitchToIt: aString].

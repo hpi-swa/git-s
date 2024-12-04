@@ -1,7 +1,11 @@
 running
 run
-	^ (self browser
-			actionFixup: self commit
-			keepCurrentMessage: self keepCurrentMessage
-			editMessage: self editMessage)
-		then: [:x | self nextOperation]
+	^ (self workingCopy pendingChanges
+		changeSetsForPick: self commit;
+		doAmend;
+		initialMessage: self message;
+		windowTitle: 'Apply fixup ', self commit showOneLine;
+		shouldAlwaysOpenDialog: self editMessage;
+		alwaysMaterialize;
+		yourself) commit
+			then: [:x | self nextOperation]

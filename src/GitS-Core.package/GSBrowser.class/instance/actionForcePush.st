@@ -1,4 +1,3 @@
-actions
+actions-network
 actionForcePush
-	self activeWorkingCopyIfNilInformAnd: [^ self].
-	self actionForcePush: (self currentBranchIfNilInformAnd: [^ self]).
+	self activeWorkingCopyAction: #actionForcePush.

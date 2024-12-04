@@ -1,3 +1,3 @@
-actions
+actions-working-copy
 actionCloneProject
 	self newProject: GSGitWorkingCopy cloneFromUserAndRegister.

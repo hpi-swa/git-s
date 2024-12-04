@@ -1,0 +1,28 @@
+{
+	"category" : "GitS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"changeSets",
+		"parents",
+		"originalHeadCommit",
+		"windowTitle",
+		"initialMessage",
+		"shouldAlwaysOpenDialog",
+		"shouldAlwaysMaterialize",
+		"dialog",
+		"promise",
+		"dialogClass",
+		"verb",
+		"checkBlock",
+		"actionBlock",
+		"closeLabel" ],
+	"name" : "GSPendingChanges",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

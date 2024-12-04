@@ -1,4 +1,4 @@
-actions
+actions-comparing
 actionCompareCommitToImage: aCommit
-	self activeWorkingCopyIfNilInformAnd: [^ self].
-	self openDialogToShowChangeSetsFromImageTo: aCommit.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionCompareCommitToImage: aCommit].

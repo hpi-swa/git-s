@@ -1,4 +1,4 @@
-actions
+actions-branches
 actionResetToCommitAndRestoreIt: aCommit
-	(self actionResetToCommit: aCommit) ifFalse: [^ self].
-	self actionMaterializeCommit: self activeWorkingCopy headCommit "might not be aCommit, because of import".
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionResetToCommitAndRestoreIt: aCommit].

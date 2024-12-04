@@ -1,3 +1,4 @@
 actions
 actionUnsetUpstreamOfBranch: aString
-	self unitOfWork unsetUpstreamOfBranchNamed: aString.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionUnsetUpstreamOfBranch: aString].

@@ -1,3 +1,4 @@
-actions
+actions-refs
 actionMergeRef: aString
-	self mergeRefIntoHead: aString.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionMergeRef: aString].

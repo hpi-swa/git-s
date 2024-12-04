@@ -1,6 +1,6 @@
 actions
 actionRenameActiveProject
-	| workingCopy |
-	workingCopy := self activeWorkingCopyIfNilInformAnd: [^ self].
-	workingCopy rename.
-	self activeWorkingCopy: workingCopy. "gets reset to nil during rename"
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionRename.
+		"gets reset to nil during rename"
+		self activeWorkingCopy: workingCopy].

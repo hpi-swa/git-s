@@ -1,4 +1,6 @@
 running
 run
-	^ (self browser actionSquash: self commit editMessage: self editMessage)
-		then: [:x | self nextOperation]
+	^ ((self workingCopy pendingChangesForSquash: self commit)
+		shouldAlwaysOpenDialog: self editMessage;
+		yourself) commit
+			then: [:x | self nextOperation]

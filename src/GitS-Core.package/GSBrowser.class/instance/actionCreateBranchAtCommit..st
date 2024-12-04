@@ -1,3 +1,4 @@
-actions
+actions-branches
 actionCreateBranchAtCommit: aCommit
-	^ self actionCreateBranchAtCommit: aCommit fromRef: nil
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionCreateBranchAtCommit: aCommit].

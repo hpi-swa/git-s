@@ -1,3 +1,4 @@
-actions
+actions-materializing
 actionMaterializeCommit: aCommit
-	self openDialogToMaterializeCommit: aCommit.
+	self activeWorkingCopyAction: [:workingCopy |
+		workingCopy actionMaterializeCommit: aCommit].

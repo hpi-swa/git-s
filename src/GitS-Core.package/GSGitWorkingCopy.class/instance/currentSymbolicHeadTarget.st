@@ -1,4 +1,4 @@
-refs
+head
 currentSymbolicHeadTarget
 	^ self headRef isSymbolic
 		ifTrue: [self currentHeadTarget]

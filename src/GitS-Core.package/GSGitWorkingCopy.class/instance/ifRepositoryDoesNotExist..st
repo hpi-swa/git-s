@@ -7,7 +7,7 @@ ifRepositoryDoesNotExist: aBlock
 		'If you cancel, the repository will be removed from the Git Browser.'
 			format: {self name. self repository baseDir}))
 		ifTrue: [
-			self requestAndMoveToNewRepositoryLocation.
+			self actionChooseNewRepositoryLocation.
 			^ self ifRepositoryDoesNotExist: aBlock].
 	self unregister.
 	^ aBlock value

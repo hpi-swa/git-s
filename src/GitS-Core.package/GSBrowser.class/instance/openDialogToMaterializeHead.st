@@ -1,3 +1,0 @@
-dialog
-openDialogToMaterializeHead
-	^ self openDialogToMaterializeCommit: self activeWorkingCopy headCommit
