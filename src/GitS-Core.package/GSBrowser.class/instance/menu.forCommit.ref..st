@@ -69,18 +69,8 @@ menu: aMenu forCommit: aCommit ref: refString
 	
 	isRefMenu ifTrue: [
 		aMenu
-			add: 'Remotes'
-			subMenu: (MenuMorph new in: [:subMenu |
-				subMenu
-					target: self;
-					
-					add: 'Manage'
-					action: #actionManageRemotes;
-					
-					add: 'Fetch all'
-					action: #actionFetchAll;
-					
-					yourself])].
+			add: 'Manage remotes'
+			action: #actionManageRemotes].
 	
 	aMenu
 		add: 'Advanced'
@@ -130,9 +120,6 @@ menu: aMenu forCommit: aCommit ref: refString
 			isRefMenu ifTrue: [
 				subMenu
 					addLine;
-					
-					add: 'Refresh refs'
-					action: #actionRefreshRefList;
 					
 					add: (self showGitRefs ifTrue: ['<yes>'] ifFalse: ['<no>']), 'Show git refs'
 					action: #toggleShowGitRefs].
