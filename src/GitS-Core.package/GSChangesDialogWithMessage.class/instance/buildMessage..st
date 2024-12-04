@@ -5,7 +5,7 @@ buildMessage: builder
 		getText: #message;
 		setText: #message:;
 		editText: #message:;
-		help: #messageName;
+		help: 'message';
 		plainTextOnly: true;
 		indicateUnacceptedChanges: false;
 		yourself
