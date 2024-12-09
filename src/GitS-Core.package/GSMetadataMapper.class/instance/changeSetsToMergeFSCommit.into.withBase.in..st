@@ -29,8 +29,8 @@ changeSetsToMergeFSCommit: rightFSCommit into: leftFSCommit withBase: baseFSComm
 		removing: potentiallyRemovedMappers
 		changeSets: mapperChangeSets.
 	metadataChangeSet := self
-		changeSetToMergeMetadata: metadataForCommits second
-		into: metadataForCommits first
+		changeSetToMergeMetadata: metadataForCommits first
+		into: metadataForCommits second
 		withBase: metadataForCommits third
 		mappersChangeSet: mappersChangeSet.
 	^ mapperChangeSets values copyWith: metadataChangeSet
