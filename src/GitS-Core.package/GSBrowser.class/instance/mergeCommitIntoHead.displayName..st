@@ -4,7 +4,6 @@ mergeCommitIntoHead: aCommit displayName: aString
 	self activeWorkingCopyIfNilInformAnd: [^ self].
 	aCommit ifNil: [^ self inform:
 						('Cannot merge {1}, it does not refer to a commit.' format: {aString})].
-	self warnIfImageNotClean: [^ self].
 	head := self activeWorkingCopy headCommitIfNilInformAnd: [^ self].
 	mergeBases := GSGUIUtilities
 		displayStatus: 'Looking for a merge base'
@@ -13,7 +12,12 @@ mergeCommitIntoHead: aCommit displayName: aString
 		[0] -> [^ self inform: 'Cannot merge unrelated histories.'].
 		[1] -> [mergeBases anyOne].
 	} otherwise: [^ self inform: 'Found multiple merge bases. Recursive merging is currently unsupported.'].
-	mergeBase = aCommit ifTrue: [^ self inform: 'Already up to date.'].
+	mergeBase = aCommit ifTrue: [ | message |
+		message := 'Already up to date.'.
+		self activeWorkingCopy isImageClean ifFalse: [
+			message := message, ' You have uncommitted changes.'].
+		^ self inform: message].
+	self warnIfImageNotClean: [^ self].
 	mergeBase = head ifTrue: [
 		^ (self
 			openDialogToMaterializeCommit: aCommit
