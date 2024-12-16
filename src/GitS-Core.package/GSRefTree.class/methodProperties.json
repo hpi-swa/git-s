@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addRef:" : "mad 12/16/2024 22:18",
+		"addTree:" : "mad 10/10/2024 00:05",
+		"catchAllOr:" : "mad 12/16/2024 23:53",
+		"children" : "mad 10/9/2024 23:30",
+		"children:" : "mad 12/17/2024 00:27",
+		"compress" : "mad 12/17/2024 00:10",
+		"compressChildren" : "mad 12/16/2024 21:22",
+		"compressChildrenUnsorted" : "mad 12/16/2024 21:22",
+		"compressible" : "mad 12/16/2024 23:51",
+		"compressible:" : "mad 12/17/2024 00:28",
+		"createRef:" : "mad 12/16/2024 23:20",
+		"createTree:" : "mad 12/17/2024 00:01",
+		"ensure:" : "mad 12/16/2024 23:53",
+		"ensureDirectory:label:" : "mad 12/16/2024 23:54",
+		"ensureRef:" : "mad 12/16/2024 22:34",
+		"ensureTree:" : "mad 12/16/2024 23:42",
+		"findTree:ifFound:ifNone:" : "mad 12/16/2024 23:07",
+		"initialize" : "mad 12/16/2024 23:51",
+		"isTree" : "mad 10/9/2024 23:33",
+		"relative:" : "mad 12/16/2024 22:37" } }

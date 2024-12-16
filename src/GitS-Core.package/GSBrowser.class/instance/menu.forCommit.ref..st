@@ -117,13 +117,6 @@ menu: aMenu forCommit: aCommit ref: refString
 					selector: #actionUnsetUpstreamOfBranch:
 					argument: refString].
 			
-			isRefMenu ifTrue: [
-				subMenu
-					addLine;
-					
-					add: (self showGitRefs ifTrue: ['<yes>'] ifFalse: ['<no>']), 'Show git refs'
-					action: #toggleShowGitRefs].
-			
 			subMenu]).
 	
 	^ aMenu

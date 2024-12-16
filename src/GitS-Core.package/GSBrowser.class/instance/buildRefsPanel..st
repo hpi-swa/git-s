@@ -1,6 +1,6 @@
 toolbuilder
 buildRefsPanel: builder
 	^ GSGUIUtilities buildVerticalLayout: {
-		self buildRefList: builder.
+		self buildRefTree: builder.
 		self buildRefsButtons: builder.
 	} with: builder

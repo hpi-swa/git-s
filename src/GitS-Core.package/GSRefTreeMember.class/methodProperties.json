@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"isAbstract" : "mad 10/13/2024 23:32" },
+	"instance" : {
+		"balloonText" : "mad 10/9/2024 23:42",
+		"children" : "mad 10/9/2024 23:30",
+		"children:" : "mad 12/16/2024 21:41",
+		"compress" : "mad 10/10/2024 00:08",
+		"isRef" : "mad 10/9/2024 23:33",
+		"isTree" : "mad 10/9/2024 23:33",
+		"keepOnly:" : "mad 12/16/2024 23:15",
+		"label" : "mad 10/9/2024 23:31",
+		"label:" : "mad 10/9/2024 23:32",
+		"parent" : "mad 12/16/2024 20:50",
+		"parent:" : "mad 12/16/2024 20:50",
+		"prefixLabel:" : "mad 10/10/2024 00:12",
+		"ref" : "mad 10/10/2024 01:04",
+		"ref:" : "mad 10/10/2024 01:04",
+		"text" : "mad 10/10/2024 01:29",
+		"withAllChildren" : "mad 12/16/2024 22:14",
+		"withAllParents" : "mad 12/16/2024 23:09",
+		"workingCopy" : "mad 10/9/2024 23:31",
+		"workingCopy:" : "mad 10/9/2024 23:32" } }
