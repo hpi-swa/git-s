@@ -1,3 +1,3 @@
 accessing
 isActive
-	^ self workingCopy currentHeadTarget = self ref
+	^ self ref = self workingCopy currentBranchOrHead
