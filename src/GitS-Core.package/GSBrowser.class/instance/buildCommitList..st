@@ -1,7 +1,7 @@
 toolbuilder
 buildCommitList: builder
 	^ builder pluggableTreeSpec new
-		model: self;
+		model: self operationLifecycle;
 		roots: #commitList;
 		nodeClass: GSCommitWrapper;
 		getSelected: #activeCommit;

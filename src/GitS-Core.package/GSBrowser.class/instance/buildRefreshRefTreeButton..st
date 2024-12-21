@@ -1,7 +1,7 @@
 toolbuilder
 buildRefreshRefTreeButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionRefreshRefTree;
 		label: 'Refresh';
 		yourself

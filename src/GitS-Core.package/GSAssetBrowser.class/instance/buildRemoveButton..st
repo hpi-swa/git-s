@@ -1,7 +1,7 @@
 toolbuilder
 buildRemoveButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionRemove;
 		label: 'Remove asset';
 		yourself

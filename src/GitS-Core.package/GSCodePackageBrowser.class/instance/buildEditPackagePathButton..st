@@ -1,7 +1,7 @@
 toolbuilder
 buildEditPackagePathButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionEditPackagePath;
 		enabled: #isSelectedPackageMapped;
 		label: 'Edit package path';

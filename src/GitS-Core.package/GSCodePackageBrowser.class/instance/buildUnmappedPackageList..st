@@ -1,7 +1,7 @@
 toolbuilder
 buildUnmappedPackageList: builder
 	^ builder pluggableListSpec new
-		model: self;
+		model: self operationLifecycle;
 		list: #unmappedPackageList;
 		getSelected: #selectedPackageName;
 		setSelected: #selectedPackageName:;

@@ -16,6 +16,6 @@ otherMenu: aMenuSpec
 			addLine;
 			
 			add: 'Force push'
-			target: workingCopy
+			target: workingCopy operationLifecycle
 			selector: #actionForcePush
 			argumentList: {}].

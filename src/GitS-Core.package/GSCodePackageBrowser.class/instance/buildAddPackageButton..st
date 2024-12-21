@@ -1,7 +1,7 @@
 toolbuilder
 buildAddPackageButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionAddPackage;
 		enabled: #isSelectedPackageUnmapped;
 		label: 'Add package';

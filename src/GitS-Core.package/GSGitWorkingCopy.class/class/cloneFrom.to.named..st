@@ -1,5 +1,6 @@
 instance creation
 cloneFrom: aStringOrUrl to: anFSReference named: aString
-	^ (self onFSReference: anFSReference named: aString)
-		cloneFrom: aStringOrUrl;
-		yourself
+	| workingCopy |
+	workingCopy := self onFSReference: anFSReference named: aString.
+	workingCopy withUnitOfWork: [workingCopy cloneFrom: aStringOrUrl].
+	^ workingCopy

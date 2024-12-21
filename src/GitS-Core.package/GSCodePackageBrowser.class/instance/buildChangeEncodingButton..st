@@ -1,7 +1,7 @@
 toolbuilder
 buildChangeEncodingButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionChangeEncoding;
 		enabled: #isSelectedPackageMapped;
 		label: 'Change package encoding';

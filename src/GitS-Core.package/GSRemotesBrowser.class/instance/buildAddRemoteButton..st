@@ -1,7 +1,7 @@
 toolbuilder
 buildAddRemoteButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionAddRemote;
 		label: 'Add remote';
 		yourself

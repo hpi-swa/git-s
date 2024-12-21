@@ -1,7 +1,7 @@
 toolbuilder
 buildAssetList: builder
 	^ builder pluggableListSpec new
-		model: self;
+		model: self operationLifecycle;
 		list: #assetList;
 		getSelected: #selectedAsset;
 		setSelected: #selectedAsset:;

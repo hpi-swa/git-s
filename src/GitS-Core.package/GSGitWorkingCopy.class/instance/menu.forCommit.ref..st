@@ -1,6 +1,6 @@
 menu
 menu: aMenu forCommit: aCommit ref: refString
-	| isRef isRefMenu isBranch refOrCommit refTypeName refShortName currentBranch currentBranchShortName |
+	| isRef isRefMenu isBranch refOrCommit refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
 	isRef := refString notNil.
 	isRefMenu := isRef or: [aCommit isNil].
 	isBranch := isRef and: [self isSqueakBranchRef: refString].
@@ -9,8 +9,9 @@ menu: aMenu forCommit: aCommit ref: refString
 	refShortName := isRef ifTrue: [(GitReference shortName: refString) printString] ifFalse: [nil].
 	currentBranch := self currentSymbolicHeadTarget.
 	currentBranchShortName := currentBranch ifNotNil: [(GitReference shortName: currentBranch) printString].
+	target := self operationLifecycle.
 	
-	aMenu target: self.
+	aMenu target: target.
 	
 	refOrCommit ifNotNil: [
 		aMenu	addTitle: ('{1} {2}' format: {
@@ -55,7 +56,7 @@ menu: aMenu forCommit: aCommit ref: refString
 			add: 'Compare it to'
 			subMenu: (MenuMorph new in: [:subMenu |
 				subMenu
-					target: self;
+					target: target;
 					
 					add: 'its parent commit'
 					selector: #actionCompareCommitToParent:
@@ -72,51 +73,51 @@ menu: aMenu forCommit: aCommit ref: refString
 			add: 'Manage remotes'
 			action: #actionManageRemotes].
 	
-	aMenu
-		add: 'Advanced'
-		subMenu: (MenuMorph new in: [:subMenu |
-			subMenu target: self.
-			aCommit ifNotNil: [
-				subMenu
-					add: 'Create an external branch at it'
-					selector: (isRef ifTrue: [#actionCreateGitBranchAtRef:] ifFalse: [#actionCreateGitBranchAtCommit:])
-					argument: refOrCommit;
-					balloonTextForLastItem: 'The created branch will be visible from external git tools, like the git command line';
-					
-					add: ('Switch to {1} (detach HEAD)' format: {isRef ifTrue: ['its latest commit'] ifFalse: ['it']})
-					selector: #actionSwitchToCommit:
-					argument: aCommit.
+	advancedMenu := MenuMorph new.
+	advancedMenu target: target.
+	
+	aCommit ifNotNil: [
+		advancedMenu
+			add: 'Create an external branch at it'
+			selector: (isRef ifTrue: [#actionCreateGitBranchAtRef:] ifFalse: [#actionCreateGitBranchAtCommit:])
+			argument: refOrCommit;
+			balloonTextForLastItem: 'The created branch will be visible from external git tools, like the git command line';
+			
+			add: ('Switch to {1} (detach HEAD)' format: {isRef ifTrue: ['its latest commit'] ifFalse: ['it']})
+			selector: #actionSwitchToCommit:
+			argument: aCommit.
+		
+		currentBranch ifNotNil: [
+			| resetLabel |
+			resetLabel := 'Reset branch {1} to it' format: {currentBranchShortName}.
+			advancedMenu
+				addLine;
 				
-				currentBranch ifNotNil: [
-					| resetLabel |
-					resetLabel := 'Reset branch {1} to it' format: {currentBranchShortName}.
-					subMenu
-						addLine;
-						
-						add: resetLabel
-						selector: #actionResetToCommit:
-						argument: aCommit;
-						
-						add: resetLabel, ' and load'
-						selector: #actionResetToCommitAndRestoreIt:
-						argument: aCommit;
-						
-						add: ('Rebase branch {1} onto it' format: {currentBranchShortName})
-						selector: #actionRebaseOntoCommit:
-						argument: aCommit]].
+				add: resetLabel
+				selector: #actionResetToCommit:
+				argument: aCommit;
+				
+				add: resetLabel, ' and load'
+				selector: #actionResetToCommitAndRestoreIt:
+				argument: aCommit;
+				
+				add: ('Rebase branch {1} onto it' format: {currentBranchShortName})
+				selector: #actionRebaseOntoCommit:
+				argument: aCommit]].
+	
+	isBranch ifTrue: [
+		advancedMenu
+			addLine;
 			
-			isBranch ifTrue: [
-				subMenu
-					addLine;
-					
-					add: 'Set its remote branch'
-					selector: #actionSetUpstreamOfBranch:
-					argument: refString;
-					
-					add: 'Unset its remote branch'
-					selector: #actionUnsetUpstreamOfBranch:
-					argument: refString].
+			add: 'Set its remote branch'
+			selector: #actionSetUpstreamOfBranch:
+			argument: refString;
 			
-			subMenu]).
+			add: 'Unset its remote branch'
+			selector: #actionUnsetUpstreamOfBranch:
+			argument: refString].
+	
+	advancedMenu hasItems ifTrue: [
+		aMenu add: 'Advanced' subMenu: advancedMenu].
 	
 	^ aMenu

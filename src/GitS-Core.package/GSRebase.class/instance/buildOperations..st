@@ -1,7 +1,7 @@
 toolbuilder
 buildOperations: builder
 	^ builder pluggableTreeSpec new
-		model: self;
+		model: self operationLifecycle;
 		roots: #operationsWithHeader;
 		nodeClass: GSRebaseOperationWrapper;
 		getSelected: #activeOperation;

@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"driver",
+		"workingCopySelector" ],
+	"name" : "GSOperationLifecycle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

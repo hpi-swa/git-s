@@ -7,4 +7,5 @@ handleMovedImageFrom: oldHash to: newHash
 						'The image is not where it used to be. Did you move or copy it?', String cr,
 						'If in doubt, choose copy.')
 					= 2.
-	self allInstancesDo: [:each | each handleMovedImageFrom: oldHash to: newHash doMove: doMove].
+	self allInstancesDo: [:each | each withUnitOfWork: [
+		each handleMovedImageFrom: oldHash to: newHash doMove: doMove]].

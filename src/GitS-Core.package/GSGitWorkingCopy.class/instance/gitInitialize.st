@@ -1,3 +1,3 @@
 git-operations
 gitInitialize
-	self initializeHead.
+	self withUnitOfWork: [self initializeHead].

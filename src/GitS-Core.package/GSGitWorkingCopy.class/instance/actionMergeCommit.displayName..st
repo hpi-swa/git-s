@@ -6,7 +6,7 @@ actionMergeCommit: aCommit displayName: aString
 	head := self headCommitIfNilInformAnd: [^ self].
 	mergeBases := GSGUIUtilities
 		displayStatus: 'Looking for a merge base'
-		during: [self withUnitOfWork: [head allMergeBasesWithAnyOf: {aCommit}]].
+		during: [head allMergeBasesWithAnyOf: {aCommit}].
 	mergeBase := mergeBases size caseOf: {
 		[0] -> [^ self inform: 'Cannot merge unrelated histories.'].
 		[1] -> [mergeBases anyOne].

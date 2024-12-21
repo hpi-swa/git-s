@@ -1,7 +1,7 @@
 toolbuilder
 buildMappedPackageList: builder
 	^ builder pluggableListSpec new
-		model: self;
+		model: self operationLifecycle;
 		list: #mappedPackageList;
 		getSelected: #selectedPackageName;
 		setSelected: #selectedPackageName:;

@@ -1,7 +1,7 @@
 toolbuilder
 buildOtherButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self;
+		model: self operationLifecycle;
 		action: #actionOther;
 		label: '...';
 		help: 'Open a menu to perform other tasks.';

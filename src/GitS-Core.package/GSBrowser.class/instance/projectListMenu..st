@@ -1,13 +1,14 @@
 menu
 projectListMenu: aMenu
-	self activeWorkingCopy ifNotNil: [:workingCopy |
+	self activeWorkingCopy ifNotNil: [:workingCopy | | target |
+		target := workingCopy operationLifecycle.
 		aMenu
-			target: workingCopy;
+			target: target;
 			title: ('Project {1}' format: {workingCopy name printString});
 			add: 'Organize it'
 			subMenu: (MenuMorph new in: [:subMenu |
 				subMenu
-					target: workingCopy;
+					target: target;
 					add: 'Rename it' action: #actionRename;
 					add: 'Remove it' action: #actionRemove;
 					add: 'Choose new repository location' action: #actionChooseNewRepositoryLocation;
