@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"basicUnregister:" : "mad 12/21/2024 20:19",
 		"deriveName:" : "mad 10/6/2024 21:01",
 		"doPostUpdateMigrations" : "mad 10/9/2024 20:46",
 		"doPostUpdateMigrationsOnAllInstances" : "mad 10/9/2024 19:31",
@@ -15,7 +16,7 @@
 		"named:" : "mad 10/6/2024 21:02",
 		"named:ifAbsent:" : "mad 10/6/2024 21:02",
 		"newWithNameAndRegister:" : "mad 10/6/2024 21:47",
-		"register:" : "mad 10/6/2024 21:03",
+		"register:" : "mad 12/21/2024 20:20",
 		"registeredNames" : "mad 10/6/2024 21:10",
 		"registry" : "mad 10/6/2024 22:20",
 		"registry:" : "mad 10/6/2024 22:20",
@@ -23,7 +24,7 @@
 		"requestUnregisteredNameFrom:" : "mad 10/6/2024 21:06",
 		"requestUnregisteredNameFrom:title:" : "mad 10/6/2024 21:06",
 		"uninstallSquot" : "mad 10/9/2024 21:51",
-		"unregister:" : "mad 10/6/2024 21:07" },
+		"unregister:" : "mad 12/21/2024 20:20" },
 	"instance" : {
 		"actionExportToSar" : "mad 12/21/2024 18:46",
 		"actionExportToSarNamed:" : "mad 12/1/2024 18:00",
@@ -54,7 +55,7 @@
 		"metadataMapper" : "mad 10/9/2024 16:01",
 		"name" : "mad 10/6/2024 21:17",
 		"name:" : "mad 10/6/2024 21:17",
-		"name:ifTaken:" : "mad 10/6/2024 21:18",
+		"name:ifTaken:" : "mad 12/21/2024 20:20",
 		"name:ifTakenDeriveAnd:" : "mad 10/6/2024 21:18",
 		"nameIfTakenDeriveAndInform:" : "mad 10/6/2024 21:18",
 		"register" : "mad 10/6/2024 21:18",

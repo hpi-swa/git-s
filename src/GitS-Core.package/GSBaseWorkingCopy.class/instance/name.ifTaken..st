@@ -4,6 +4,5 @@ name: aString ifTaken: aBlock
 	self isRegistered ifFalse: [^ self basicName: aString].
 	(self class isNameRegistered: aString) ifTrue: [^ aBlock value].
 	self
-		unregister;
 		basicName: aString;
 		register.
