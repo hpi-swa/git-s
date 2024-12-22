@@ -1,3 +1,0 @@
-accessing
-windowTitle
-	^ self basicWindowTitle
