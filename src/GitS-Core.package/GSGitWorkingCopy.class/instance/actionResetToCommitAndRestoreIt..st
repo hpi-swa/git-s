@@ -1,4 +1,5 @@
 actions-branches
 actionResetToCommitAndRestoreIt: aCommit
-	(self actionResetToCommit: aCommit) ifFalse: [^ self].
-	self actionMaterializeCommit: aCommit.
+	"materialize first to allow the user to cancel the operation"
+	(self actionMaterializeCommit: aCommit)
+		then: [:x | self actionResetToCommit: aCommit].
