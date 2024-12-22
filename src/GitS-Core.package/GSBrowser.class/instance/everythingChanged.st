@@ -2,6 +2,7 @@ updating
 everythingChanged
 	self
 		changed: #activeWorkingCopy;
-		activeRef: nil;
-		activeCommit: (self activeWorkingCopy ifNotNil: #headCommit);
 		initializeRefTree.
+	self activeWorkingCopy
+		ifNotNil: [self activeRef: self activeWorkingCopy currentBranchOrHead]
+		ifNil: [self activeRef: nil; activeCommit: nil].
