@@ -5,7 +5,8 @@
 	"classvars" : [
 		"BranchName",
 		"InstalledVersion",
-		"LastVersionCheck" ],
+		"LastVersionCheck",
+		"ShownChangeLogLength" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
