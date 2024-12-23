@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"basicCheckForNewVersion" : "mad 10/25/2024 11:34",
+		"actionSelfUpdate" : "mad 12/23/2024 21:06",
+		"basicCheckForNewVersion" : "mad 12/23/2024 21:01",
 		"branchName" : "mad 11/4/2024 13:01",
 		"branchName:" : "mad 11/4/2024 13:02",
-		"changeLog" : "mad 12/23/2024 21:12",
+		"changeLog" : "mad 12/23/2024 21:15",
 		"checkForNewVersion" : "mad 10/25/2024 11:32",
 		"fullRepositoryName" : "mad 10/9/2024 16:33",
 		"getShaOfVersion:" : "mad 10/24/2024 15:07",
@@ -12,7 +13,7 @@
 		"installScriptForVersion:" : "mad 10/9/2024 16:50",
 		"installedVersion" : "mad 10/9/2024 16:40",
 		"installedVersion:" : "mad 10/9/2024 16:40",
-		"isNewVersionAvailable" : "mad 10/25/2024 11:22",
+		"isNewVersionAvailableIfError:" : "mad 12/23/2024 21:01",
 		"lastVersionCheck" : "mad 10/25/2024 11:33",
 		"lastVersionCheck:" : "mad 10/25/2024 11:34",
 		"lastVersionCheckWasRecent" : "mad 10/25/2024 11:35",
