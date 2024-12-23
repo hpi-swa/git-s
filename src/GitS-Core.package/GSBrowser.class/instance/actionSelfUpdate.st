@@ -1,3 +1,3 @@
 actions
 actionSelfUpdate
-	GSSelfUpdater selfUpdate.
+	GSSelfUpdater actionSelfUpdate.
