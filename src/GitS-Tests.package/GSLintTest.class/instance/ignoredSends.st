@@ -4,4 +4,5 @@ ignoredSends
 		self ignoredSendsForLegacyMetadataLoading,
 		self ignoredSendsForLegacyProjectImporting,
 		self ignoredSendsForTextDiffing,
-		self ignoredSendsForUnmappedPathDialogOptions
+		self ignoredSendsForUnmappedPathDialogOptions,
+		self ignoredSendsForViewDirectives
