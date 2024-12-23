@@ -1,4 +1,6 @@
 ui
 revealActiveTreeMember
-	self activeRefTreeMember ifNil: [^ self].
-	self changed: {#openPath}, (self activeRefTreeMember withAllParents allButFirst collect: #label).
+	self activeRefTreeMember ifNotNil: [ | path |
+		path := self activeRefTreeMember withAllParents allButFirst.
+		self changed: {#openPath}, (path collect: #label)].
+	self changed: #activeRefTreeMember.
