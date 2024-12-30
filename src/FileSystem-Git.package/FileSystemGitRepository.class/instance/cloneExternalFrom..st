@@ -10,3 +10,4 @@ cloneExternalFrom: aStringOrUrl
 		self gitExecutable.
 		aStringOrUrl.
 		directory pathName}).
+	self refsChangedExternally.
