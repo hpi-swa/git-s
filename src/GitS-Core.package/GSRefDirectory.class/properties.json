@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"workingCopy",
-		"ref",
-		"parent" ],
-	"name" : "GSRefTreeMember",
+		"label",
+		"tooltip" ],
+	"name" : "GSRefDirectory",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GSRefTree",
 	"type" : "normal" }

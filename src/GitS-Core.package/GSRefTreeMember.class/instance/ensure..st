@@ -1,3 +1,3 @@
-compressing
-compress
+adding
+ensure: aString
 	self subclassResponsibility.

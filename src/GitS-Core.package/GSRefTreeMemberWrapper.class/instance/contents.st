@@ -1,3 +1,3 @@
 accessing
 contents
-	^ self item children collect: [:each | self class with: each model: self model]
+	^ self item sortedCompressedChildren collect: [:each | self class with: each model: self model]

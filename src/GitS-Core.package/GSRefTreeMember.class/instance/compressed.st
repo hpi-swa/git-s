@@ -1,0 +1,3 @@
+compressing
+compressed
+	self subclassResponsibility.

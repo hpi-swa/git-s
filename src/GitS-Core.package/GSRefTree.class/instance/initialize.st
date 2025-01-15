@@ -1,6 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self
-		children: OrderedCollection new;
-		compressible: true.
+	self children: OrderedCollection new.

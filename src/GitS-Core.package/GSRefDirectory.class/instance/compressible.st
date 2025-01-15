@@ -1,3 +1,3 @@
 compressing
 compressible
-	^ true
+	^ false

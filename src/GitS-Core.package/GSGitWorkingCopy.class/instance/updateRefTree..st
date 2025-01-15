@@ -7,6 +7,4 @@ updateRefTree: aRefTree
 	references do: [:each | | member |
 		member := aRefTree ensure: each.
 		keep addAll: member withAllParents].
-	aRefTree
-		keepOnly: keep;
-		compressChildrenUnsorted.
+	aRefTree keepOnly: keep.

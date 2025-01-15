@@ -1,3 +1,3 @@
 accessing
 label
-	^ label
+	^ self parent uncompressedAncestor relative: self ref

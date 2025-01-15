@@ -1,3 +1,0 @@
-compressing
-compress
-	^ self
