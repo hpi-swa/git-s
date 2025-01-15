@@ -1,3 +1,3 @@
 accessing
 asString
-	^ self withUnitOfWork: [self item text]
+	^ self asStringOrText asString
