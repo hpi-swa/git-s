@@ -19,6 +19,7 @@ knownTerminalCommands
 			'do script "{":\",'':''"''"''}"'.
 			'end tell'''.
 		} joinSeparatedBy: String crlf.
+		'ptyxis -- {}'.
 		'st -e {}'.
 		'terminator -x {}'.
 		'terminology -e {quote}'.
