@@ -1,11 +1,9 @@
 accessing
 activeRef: aString forceChange: aBoolean
-	| noChange |
-	noChange := aBoolean not and: [self activeRef = aString].
+	(aBoolean not and: [self activeRef = aString]) ifTrue: [^ self].
 	activeRef := aString.
-	self activeRefTreeMember: (aString ifNotNil: [self refTree ensure: aString]).
-	noChange ifTrue: [^ self].
 	self
+		deriveActiveRefTreeMemberFromActiveRef;
 		activeCommit: self activeRefCommit;
 		changed: #activeRef;
 		changed: #commitList.

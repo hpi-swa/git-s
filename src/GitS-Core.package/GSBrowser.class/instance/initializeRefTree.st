@@ -5,5 +5,6 @@ initializeRefTree
 					workingCopy: self activeWorkingCopy;
 					ref: '';
 					yourself);
-		updateRefTree.
+		updateRefTree;
+		deriveActiveRefTreeMemberFromActiveRef.
 	^ self refTree
