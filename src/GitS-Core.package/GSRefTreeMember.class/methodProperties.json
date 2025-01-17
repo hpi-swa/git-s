@@ -8,6 +8,8 @@
 		"compressed" : "mad 1/15/2025 17:33",
 		"compressedChildren" : "mad 1/15/2025 17:30",
 		"ensure:" : "mad 1/15/2025 17:54",
+		"findRef:ifFound:ifNone:" : "mad 1/17/2025 11:11",
+		"findRef:ifNone:" : "mad 1/17/2025 11:12",
 		"isDirectory" : "mad 1/15/2025 17:40",
 		"isRef" : "mad 10/9/2024 23:33",
 		"isTree" : "mad 10/9/2024 23:33",
