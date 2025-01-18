@@ -1,5 +1,5 @@
 toolbuilder
 windowChild: aSpec
-	^ {aSpec
+	^ aSpec
 		frame: LayoutFrame fullFrame;
-		yourself}
+		yourself
