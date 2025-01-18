@@ -7,6 +7,7 @@
 		"children:" : "mad 12/16/2024 21:41",
 		"compressed" : "mad 1/15/2025 17:33",
 		"compressedChildren" : "mad 1/15/2025 17:30",
+		"compressible" : "mad 1/18/2025 15:50",
 		"ensure:" : "mad 1/15/2025 17:54",
 		"findRef:ifFound:ifNone:" : "mad 1/17/2025 11:11",
 		"findRef:ifNone:" : "mad 1/17/2025 11:12",
@@ -25,5 +26,6 @@
 		"wants:" : "mad 1/15/2025 17:55",
 		"willCompress" : "mad 1/15/2025 17:27",
 		"withAllParents" : "mad 12/16/2024 23:09",
+		"withAllUncompressedParents" : "mad 1/18/2025 15:49",
 		"workingCopy" : "mad 10/9/2024 23:31",
 		"workingCopy:" : "mad 10/9/2024 23:32" } }
