@@ -1,4 +1,4 @@
 toolbuilder
 open
-	GSSelfUpdater checkForNewVersion.
-	self basicOpen.
+	ToolBuilder open: self.
+	self postOpen.
