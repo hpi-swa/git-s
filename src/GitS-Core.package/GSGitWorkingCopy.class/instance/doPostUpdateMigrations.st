@@ -1,4 +1,5 @@
 migrations
 doPostUpdateMigrations
-	super doPostUpdateMigrations.
-	self doImageHashMigration.
+	self withUnitOfWork: [
+		super doPostUpdateMigrations.
+		self doImageHashMigration].
