@@ -1,6 +1,6 @@
 actions-switching
 actionSwitchToCommit: aCommit displayName: aString updateSymbolicHeadTo: anotherString
-	self ifImageNotCleanAndCanceled: [^ self].
+	self ensureImageIsCleanOrUserDiscardsChanges.
 	(self
 		actionMaterializeCommit: aCommit
 		windowTitlePrefix: ('Switch to {1}: ' format: {aString}))

@@ -1,6 +1,5 @@
 actions
 activeWorkingCopyAction: aBlock
 	self activeWorkingCopy ifNil: [
-		self inform: 'Please select a project first.'.
-		^ self].
+		GSGUIUtilities informAndCancel: 'Please select a project first.'].
 	aBlock value: self activeWorkingCopy.

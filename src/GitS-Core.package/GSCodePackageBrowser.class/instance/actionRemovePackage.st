@@ -1,5 +1,5 @@
 actions
 actionRemovePackage
-	(self confirm: ('Really remove package ''{1}''?' format: {self selectedPackageName}))
-		ifFalse: [^ self].
+	GSGUIUtilities confirmOrCancel:
+		('Really remove package {1}?' format: {self selectedPackageName printString}).
 	self removePackage: self selectedPackageName.

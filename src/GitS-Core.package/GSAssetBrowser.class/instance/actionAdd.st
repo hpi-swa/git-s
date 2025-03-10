@@ -1,12 +1,12 @@
 actions
 actionAdd
-	| mapperClass path mapper |
-	self activeWorkingCopyIfNilInformAnd: [^ self].
-	mapperClass := GSAssetMapper requestMapperClass ifNil: [^ nil].
+	| workingCopy mapperClass path mapper |
+	workingCopy := self activeWorkingCopyOrCancel.
+	mapperClass := GSAssetMapper requestMapperClass.
 	path := (self
 				requestPathWithSuffix: (self defaultFileNameFor: mapperClass)
-				title: 'Path of the asset in the repository:') ifNil: [^ nil].
+				title: 'Path of the asset in the repository:').
 	mapper := mapperClass new
 					path: path;
 					yourself.
-	self activeWorkingCopy addMapper: mapper.
+	workingCopy addMapper: mapper.

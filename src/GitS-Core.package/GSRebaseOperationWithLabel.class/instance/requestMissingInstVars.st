@@ -1,4 +1,4 @@
 requesting
 requestMissingInstVars
 	super requestMissingInstVars.
-	self label isEmptyOrNil ifTrue: [self label: (self request: 'Label:')].
+	self label isEmptyOrNil ifTrue: [self label: (GSGUIUtilities request: 'Label:')].

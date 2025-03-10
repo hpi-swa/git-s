@@ -1,5 +1,5 @@
 requests
 requestBranchName
-	^ UIManager default
+	^ GSGUIUtilities
 		request: 'New self-update branch:'
 		initialAnswer: self branchName

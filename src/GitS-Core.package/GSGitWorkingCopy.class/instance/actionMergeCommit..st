@@ -1,5 +1,5 @@
 actions-merging
 actionMergeCommit: aCommit
-	self
+	^ self
 		actionMergeCommit: aCommit
-		displayName: aCommit showOneLine.
+		displayName: aCommit showOneLine

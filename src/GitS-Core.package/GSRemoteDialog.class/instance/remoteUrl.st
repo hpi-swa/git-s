@@ -1,3 +1,3 @@
 accessing
 remoteUrl
-	^ remoteUrl
+	^ remoteUrl ifNil: ['']

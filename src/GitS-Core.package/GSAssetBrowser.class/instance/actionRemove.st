@@ -1,8 +1,9 @@
 actions
 actionRemove
-	self selectedMapperIfNilInformAnd: [^ self].
-	(self confirm: ('Really remove asset ''{1}''?' format: {self selectedMapper name}))
-		ifFalse: [^ self].
-	self selectedMapper removeIn: self activeWorkingCopy.
-	self activeWorkingCopy removeMapper: self selectedMapper.
+	| mapper |
+	mapper := self selectedMapperOrCancel.
+	GSGUIUtilities confirmOrCancel:
+		('Really remove asset {1}?' format: {mapper name printString}).
+	mapper removeIn: self activeWorkingCopy.
+	self activeWorkingCopy removeMapper: mapper.
 	self selectedMapper: nil.

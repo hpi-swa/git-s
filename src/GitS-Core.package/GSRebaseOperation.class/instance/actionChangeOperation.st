@@ -1,5 +1,3 @@
 actions
 actionChangeOperation
-	self replaceWith: ([self changeOperation]
-						on: GSRebaseCancelChangeOperationError
-						do: [^ self]).
+	self replaceWith: self changeOperation.

@@ -1,4 +1,4 @@
 dialog
 getRemote
 	self open.
-	^ self remote
+	^ self remote ifNil: [GSGUIUtilities cancel]

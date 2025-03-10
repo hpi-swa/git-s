@@ -1,5 +1,3 @@
 actions
 actionImportUnmappedFiles
-	self importUnmappedFilesIn:
-		((self activeWorkingCopyIfNilInformAnd: [^ self])
-			headFSCommitIfNilInformAnd: [^ self]).
+	self importUnmappedFilesIn: self activeWorkingCopyOrCancel headFSCommitOrCancel.

@@ -3,6 +3,6 @@ requestNewRepositoryLocation
 	| start |
 	start := GSPathUtilities ancestorOf: self fsReference that: #isDirectory.
 	start := FileDirectory on: start printString.
-	^ (UIManager default
+	^ (GSGUIUtilities
 		chooseDirectory: 'New repository location:'
-		from: start) ifNotNil: #asFSReference
+		from: start) asFSReference

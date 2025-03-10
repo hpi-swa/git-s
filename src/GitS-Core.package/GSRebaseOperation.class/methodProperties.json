@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"canChangeTo:" : "mad 4/4/2024 21:24",
-		"chooseNewOperationClass" : "mad 10/9/2024 16:01",
+		"chooseNewOperationClass" : "mad 3/5/2025 21:15",
 		"compatibleOperationClasses" : "mad 4/4/2024 21:23",
 		"isAbstract" : "mad 10/13/2024 21:29",
 		"operationClasses" : "mad 10/9/2024 16:01",
@@ -9,8 +9,8 @@
 		"wantsToBeCreatedFrom:" : "mad 4/4/2024 21:24",
 		"wantsToChangeTo:" : "mad 4/4/2024 21:22" },
 	"instance" : {
-		"actionChangeOperation" : "mad 10/9/2024 16:01",
-		"actionChangeOperationTo:" : "mad 10/9/2024 16:01",
+		"actionChangeOperation" : "mad 3/5/2025 20:47",
+		"actionChangeOperationTo:" : "mad 3/5/2025 20:47",
 		"actionDelete" : "mad 4/4/2024 21:15",
 		"afterContinue:" : "mad 4/4/2024 22:11",
 		"arguments" : "mad 4/3/2024 18:08",
@@ -35,7 +35,6 @@
 		"rebase" : "mad 4/3/2024 19:38",
 		"rebase:" : "mad 4/4/2024 21:13",
 		"replaceWith:" : "mad 4/4/2024 21:12",
-		"request:" : "mad 10/9/2024 16:01",
 		"requestMissingInstVars" : "mad 4/3/2024 17:45",
 		"retry" : "mad 10/9/2024 16:01",
 		"run" : "mad 4/3/2024 18:11",

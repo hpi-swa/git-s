@@ -1,3 +1,3 @@
 actions-comparing
 actionCompareCommitToParent: aCommit
-	self actionCompareCommit: aCommit to: (self chooseCommitParent: aCommit ifCancel: [^ self]).
+	self actionCompareCommit: aCommit to: (self chooseCommitParent: aCommit).

@@ -1,11 +1,11 @@
 actions
 actionMove
-	| newPath |
-	self selectedMapperIfNilInformAnd: [^ self].
+	| mapper newPath |
+	mapper := self selectedMapperOrCancel.
 	newPath := (self activeWorkingCopy
 					requestUnmappedPathWithTitle:
-						('New path for asset ''{1}'':' format: {self selectedMapper printDescriptionStringWithoutPath})
-					initialAnswer: (GSPathUtilities asString: self selectedMapper path))
-						ifNil: [^ self].
-	self selectedMapper moveTo: newPath in: self activeWorkingCopy.
+						('New path for asset {1}:'
+							format: {mapper printDescriptionStringWithoutPath printString})
+					initialAnswer: (GSPathUtilities asString: mapper path)).
+	mapper moveTo: newPath in: self activeWorkingCopy.
 	self changed: #selectedAsset. "path changed"

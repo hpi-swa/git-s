@@ -1,6 +1,6 @@
 actions
 actionImportFile
 	| path reference |
-	path := (UIManager default chooseFileMatching: '*') ifNil: [^ self].
+	path := GSGUIUtilities chooseFileMatching: '*'.
 	reference := FileSystem disk referenceTo: path.
 	self importFile: reference.

@@ -1,8 +1,6 @@
 requests
 requestAbsolute: aString initialAnswer: aPath
-	| path |
-	path := UIManager default
-				request: aString
-				initialAnswer: (self asString: aPath).
-	path isEmptyOrNil ifTrue: [^ nil].
-	^ self fromString: path
+	^ self fromString:
+		(GSGUIUtilities
+			request: aString
+			initialAnswer: (self asString: aPath))

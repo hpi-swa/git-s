@@ -1,15 +1,14 @@
 paths
 getUnmappedPathFrom: aPath withTitle: aString additionalOptions: aCollection optionIfMapped: aBlock
 	| mapper answer |
-	mapper := self mapperThatMaps: aPath.
-	mapper ifNil: [^ aPath].
-	answer := (aBlock cull: mapper) ifNil: [
-		self
+	mapper := (self mapperThatMaps: aPath) ifNil: [^ aPath].
+	answer := aBlock cull: mapper.
+	answer = #ask ifTrue: [
+		answer := self
 			requestOptionForUnmappedPath: aPath
 			mapper: mapper
 			additionalOptions: aCollection].
 	^ answer caseOf: {
-		[#cancel] -> [nil].
 		[#different] -> [self
 							requestUnmappedPathWithTitle: aString
 							initialAnswer: aPath

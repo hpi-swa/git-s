@@ -1,3 +1,3 @@
 accessing
 remoteName
-	^ remoteName
+	^ remoteName ifNil: ['']

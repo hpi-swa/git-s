@@ -1,3 +1,3 @@
 actions
 actionExportToSar
-	self actionExportToSarNamed: (self requestSarFileName ifNil: [^ self]).
+	self actionExportToSarNamed: self requestSarFileName.

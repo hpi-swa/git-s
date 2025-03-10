@@ -1,5 +1,5 @@
 actions-private
 done
-	self dialog ifNotNil: #close.
+	self closeDialog.
 	self promise resolveWith: nil.
 	^ self promise

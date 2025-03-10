@@ -1,6 +1,5 @@
 actions
 actionChangeEncoding
-	| mapper newMapper |
+	| mapper |
 	mapper := self selectedMapper.
-	newMapper := mapper changeEncoding ifNil: [^ self].
-	self workingCopy replaceMapper: mapper with: newMapper.
+	self workingCopy replaceMapper: mapper with: mapper changeEncoding.

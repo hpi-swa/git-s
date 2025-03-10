@@ -1,5 +1,5 @@
 encoding
 changeEncoding
-	^ (self class chooseNewEncodingClass ifNil: [^ nil])
+	^ self class chooseNewEncodingClass
 		package: self package
 		path: self path

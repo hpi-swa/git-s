@@ -3,7 +3,8 @@ openDialog
 	self dialog: (self dialogClass onChangeSets: self changeSets).
 	self dialog
 		windowTitle: self windowTitle;
-		addCloseButton: self closeLabel;
+		addButton: self closeLabel
+		action: [self operationLifecycle operation: [self close]];
 		message: self initialMessage.
 	self actionBlock ifNotNil: [
 		self dialog

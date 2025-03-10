@@ -1,4 +1,4 @@
 requesting
 requestMissingInstVars
 	super requestMissingInstVars.
-	self ref isEmptyOrNil ifTrue: [self ref: (self request: 'Ref:')].
+	self ref isEmptyOrNil ifTrue: [self ref: (GSGUIUtilities request: 'Ref:')].

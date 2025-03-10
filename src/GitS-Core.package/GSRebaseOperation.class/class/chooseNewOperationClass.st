@@ -2,8 +2,7 @@ requesting
 chooseNewOperationClass
 	| classes |
 	classes := self compatibleOperationClasses.
-	^ (UIManager default
+	^ GSGUIUtilities
 		chooseFrom: (classes collect: #operationName)
 		values: classes
-		title: 'Choose the new operation type:')
-		ifNil: [GSRebaseCancelChangeOperationError signal]
+		title: 'Choose the new operation type:'

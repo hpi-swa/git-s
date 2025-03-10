@@ -1,6 +1,6 @@
 importing
 chooseFromMappers: aCollection title: aString
-	^ UIManager default
+	^ GSGUIUtilities
 		chooseFrom: (aCollection collect: #printDescriptionStringWithoutPath)
 		values: aCollection
 		title: aString

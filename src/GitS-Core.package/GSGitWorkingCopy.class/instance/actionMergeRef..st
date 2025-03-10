@@ -1,5 +1,5 @@
 actions-merging
 actionMergeRef: aString
-	self
+	^ self
 		actionMergeCommit: (self unitOfWork objectReferenced: aString)
-		displayName: (GitReference shortName: aString).
+		displayName: (GitReference shortName: aString)

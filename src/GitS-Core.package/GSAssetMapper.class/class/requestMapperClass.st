@@ -2,7 +2,7 @@ requests
 requestMapperClass
 	| classes |
 	classes := self assetMapperClasses.
-	^ UIManager default
+	^ GSGUIUtilities
 		chooseFrom: (classes collect: #kind)
 		values: classes
 		title: 'Asset type:'

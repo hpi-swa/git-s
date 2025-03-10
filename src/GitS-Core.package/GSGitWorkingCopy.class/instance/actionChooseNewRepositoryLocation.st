@@ -1,3 +1,3 @@
 actions
 actionChooseNewRepositoryLocation
-	self moveToNewRepositoryLocation: (self requestNewRepositoryLocation ifNil: [^ self]).
+	self moveToNewRepositoryLocation: self requestNewRepositoryLocation.

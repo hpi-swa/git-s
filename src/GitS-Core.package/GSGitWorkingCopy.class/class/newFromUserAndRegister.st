@@ -1,8 +1,8 @@
 instance creation
 newFromUserAndRegister
 	| name reference |
-	name := self requestUnregisteredName ifNil: [^ nil].
-	reference := (self requestFSReferenceForName: name) ifNil: [^ nil].
+	name := self requestUnregisteredName.
+	reference := self requestFSReferenceForName: name.
 	^ (self onFSReference: reference named: name)
 		register;
 		yourself

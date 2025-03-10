@@ -6,14 +6,16 @@ actionAddPackage
 								packageInfo includesSystemCategory: each].
 
 	conflictingPackages ifNotEmpty: [
-		(self confirm: ('To add  package ''{1}'', we will first remove {2}, ',
-			'because the new package is a prefix/super package for these.', String cr,
-			'(Otherwise the package contents will be duplicated)' format: {
-				self selectedPackageName.
-				conflictingPackages joinSeparatedBy: ', '.
-			})) ifFalse: [^ self]].
+		GSGUIUtilities confirmOrCancel:
+			('To add package {1}, we will first remove {2},
+			because the new package is a prefix/super package for these.
+			(Otherwise the package contents will be duplicated)'
+				withoutLineEndings withBlanksCondensed
+				format: {
+					self selectedPackageName printString.
+					conflictingPackages joinSeparatedBy: ', '})].
 	
-	mapperClass := self mapperClassForNewPackage ifNil: [^ self].
+	mapperClass := self mapperClassForNewPackage.
 	conflictingPackages do: [:each | self removePackage: each].
 	self workingCopy addMapper:
 		(mapperClass

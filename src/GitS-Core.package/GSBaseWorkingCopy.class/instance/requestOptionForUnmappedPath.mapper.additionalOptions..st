@@ -1,17 +1,12 @@
 paths
 requestOptionForUnmappedPath: aPath mapper: mapper additionalOptions: aCollection
-	| options values |
-	options := {'Cancel the operation'. 'Choose a different path'} asOrderedCollection.
-	values := {#cancel. #different} asOrderedCollection.
+	| options |
+	options := {'Choose a different path' -> [#different]} asOrderedCollection.
 	mapper canBeRemovedAtAll ifTrue: [
-		options addLast: 'Overwrite this path'.
-		values addLast: #overwrite].
-	aCollection do: [:each |
-		options addLast: each key.
-		values addLast: each value].
-	^ (UIManager default
-		chooseOptionFrom: options
-		values: values
+		options addLast: 'Overwrite this path' -> [#overwrite]].
+	options addAllLast: aCollection.
+	^ GSGUIUtilities
+		chooseOptionFromLabeledBlocks: options
 		title: ('The path {1} is already taken.'
-				format: {(GSPathUtilities asString: aPath) printString}))
-		ifNil: [#cancel]
+				format: {(GSPathUtilities asString: aPath) printString})
+		cancelLabel: 'Cancel the operation'

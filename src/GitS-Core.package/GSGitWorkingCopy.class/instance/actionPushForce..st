@@ -1,13 +1,12 @@
 actions-network
 actionPushForce: aBoolean
 	| ref |
-	ref := self currentBranchIfNilInformAnd: [^ self].
+	ref := self currentBranchOrCancel.
 	aBoolean ifTrue: [
-		(self confirm: 'Do you really want to force push? This might discard commits made by other members of your team.')
-			ifFalse: [^ self]].
+		GSGUIUtilities confirmOrCancel:
+			'Do you really want to force push? This might discard commits made by other members of your team.'].
 	(self isSqueakBranchRef: ref) ifFalse: [
-		(UIManager default confirm:
+		GSGUIUtilities confirmOrCancel:
 			('The active ref {1} is not a branch. Push anyway?'
-				format: {ref printString}))
-			ifFalse: [^ self]].
+				format: {ref printString})].
 	self pushRef: ref force: aBoolean.

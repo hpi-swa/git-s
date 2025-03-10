@@ -1,10 +1,12 @@
 remotes
 chooseRemoteName
-	| remoteNames index |
+	| remoteNames |
 	[remoteNames := self unitOfWork remoteNames.
 	remoteNames isEmpty] whileTrue: [
-		(self confirm: 'No remotes are configured for this project. Do you want to add one now?')
-			ifFalse: [^ nil].
+		GSGUIUtilities confirmOrCancel:
+			'No remotes are configured for this project. Do you want to add one now?'.
 		self actionAddRemote].
-	index := UIManager default chooseFrom: remoteNames title: 'Remote:'.
-	^ remoteNames at: index ifAbsent: [nil]
+	^ GSGUIUtilities
+		chooseFrom: remoteNames
+		values: remoteNames
+		title: 'Remote:'

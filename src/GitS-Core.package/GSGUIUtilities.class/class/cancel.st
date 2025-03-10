@@ -1,0 +1,3 @@
+cancelling
+cancel
+	GSOperationCanceledException signal.
