@@ -3,6 +3,6 @@ chooseNewOperationClass
 	| classes |
 	classes := self compatibleOperationClasses.
 	^ GSGUIUtilities
-		chooseFrom: (classes collect: #operationName)
-		values: classes
+		chooseFromValues: classes
+		label: #operationName
 		title: 'Choose the new operation type:'

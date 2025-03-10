@@ -1,6 +1,6 @@
 ui
 chooseNewEncodingClassFrom: aCollection title: aString
 	^ GSGUIUtilities
-		chooseFrom: (aCollection collect: #encodingName)
-		values: aCollection
+		chooseFromValues: aCollection
+		label: #encodingName
 		title: aString
