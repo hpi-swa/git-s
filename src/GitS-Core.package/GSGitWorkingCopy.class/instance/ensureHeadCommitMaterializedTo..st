@@ -4,9 +4,8 @@ ensureHeadCommitMaterializedTo: aString
 	changeSets := self changeSetsFromImageToHeadCommit.
 	(GSChangeSet allEmpty: changeSets) ifTrue: [^ Promise unit: nil].
 	GSGUIUtilities confirmOrCancel:
-		('To {1}, you cannot have uncommitted changes, but you have some.', String cr,
-		'Do you want to DISCARD your uncommitted changes?'
-			format: {aString}).
+		('To {1}, you cannot have uncommitted changes, but you have some.\
+		Do you want to DISCARD your uncommitted changes?' gitSFormat: {aString}).
 	^ (self pendingChanges
 		changeSets: changeSets;
 		windowTitle: ('Discard uncommitted changes in order to {1}' format: {aString});

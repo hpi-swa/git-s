@@ -9,11 +9,9 @@ actionAddPackage
 		GSGUIUtilities confirmOrCancel:
 			('To add package {1}, we will first remove {2},
 			because the new package is a prefix/super package for these.
-			(Otherwise the package contents will be duplicated)'
-				withoutLineEndings withBlanksCondensed
-				format: {
-					self selectedPackageName printString.
-					conflictingPackages joinSeparatedBy: ', '})].
+			(Otherwise the package contents will be duplicated)' gitSFormat: {
+				self selectedPackageName printString.
+				conflictingPackages joinSeparatedBy: ', '})].
 	
 	mapperClass := self mapperClassForNewPackage.
 	conflictingPackages do: [:each | self removePackage: each].

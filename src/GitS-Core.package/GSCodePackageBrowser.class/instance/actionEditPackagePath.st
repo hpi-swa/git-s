@@ -5,9 +5,8 @@ actionEditPackagePath
 	packageName := mapper package name.
 	mapper path: (GSPathUtilities
 						requestAbsolute:
-							('The package will be stored in a subdirectory of the path below, named ''{1}''. ',
-							'Thus, the package is currently stored in the directory ''{2}''.' format: {
-								packageName.
-								GSPathUtilities asString: mapper packagePath.
-							})
+							('The package will be stored in a subdirectory of the path below, named {1}.
+							Thus, the package is currently stored in the directory {2}.' gitSFormat: {
+								packageName printString.
+								(GSPathUtilities asString: mapper packagePath) printString})
 						initialAnswer: mapper path).

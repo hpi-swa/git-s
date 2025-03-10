@@ -1,5 +1,4 @@
 sar
 addGitSInstallLineToSar: aSarBuilder
 	aSarBuilder addPreambleLine:
-		GSSelfUpdater installScriptForInstalledVersion
-			withoutLineEndings withBlanksCondensed.
+		GSSelfUpdater installScriptForInstalledVersion gitSFormat.

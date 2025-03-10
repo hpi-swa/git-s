@@ -7,7 +7,6 @@ importMapperFromLegacyAsset: anAsset at: aPath
 			self inform:
 				('Could not import asset at {1}. An inspector will open on the asset
 				and it will not be imported.'
-					format: {GSPathUtilities asString: aPath})
-					withoutLineEndings withBlanksCondensed.
+					gitSFormat: {GSPathUtilities asString: aPath}).
 			anAsset inspect.
 			nil]

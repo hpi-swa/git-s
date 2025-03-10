@@ -16,15 +16,14 @@ addOtherRefsRootTo: aRefTree references: aCollection
 						label: 'this image'
 						tooltip: 'Other refs associated with this image.
 								There may be other images that use the same repository on disk.
-								Refs associated with them will not be listed here, but in their own directories.'
-									withoutLineEndings withBlanksCondensed]
+								Refs associated with them will not be listed here,
+								but in their own directories.' gitSFormat]
 				ifFalse: [ | image |
 					image := other
 						ensureDirectory: imageRef 
 						label: 'a different image'
 						tooltip: 'There is another image that uses the same repository on disk.
-								The refs listed here are associated with that image.'
-									withoutLineEndings withBlanksCondensed.
+								The refs listed here are associated with that image.' gitSFormat.
 					image
 						ensureDirectory: imageRef, 'heads/'
 						label: 'local branches'
