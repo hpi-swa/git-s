@@ -19,8 +19,7 @@
 		"dialogClass",
 		"verb",
 		"checkBlock",
-		"actionBlock",
-		"closeLabel" ],
+		"actionBlock" ],
 	"name" : "GSPendingChanges",
 	"pools" : [
 		 ],
