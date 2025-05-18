@@ -1,3 +1,3 @@
 configuring
 doRegularCommit
-	self parents: {self originalHeadCommit}.
+	self parents: ({self originalHeadCommit} reject: #isNil).
