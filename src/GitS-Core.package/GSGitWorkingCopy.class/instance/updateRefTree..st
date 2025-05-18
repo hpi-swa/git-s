@@ -1,7 +1,7 @@
 ref-tree
 updateRefTree: aRefTree
 	| keep references |
-	references := self allReferences.
+	references := self allReferencesAndSymbolicRefTargets.
 	self addRefTreeRootsTo: aRefTree references: references.
 	keep := Set new.
 	references do: [:each | | member |
