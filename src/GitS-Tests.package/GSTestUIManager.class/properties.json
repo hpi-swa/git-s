@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSTestUIManager",
+	"pools" : [
+		 ],
+	"super" : "UIManager",
+	"type" : "normal" }

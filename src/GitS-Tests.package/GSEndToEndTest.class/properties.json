@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"world" ],
+	"name" : "GSEndToEndTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

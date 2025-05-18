@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"position" ],
+	"name" : "GSEndToEndTarget",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

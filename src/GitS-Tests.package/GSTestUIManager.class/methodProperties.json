@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"askForProvidedAnswerTo:" : "mad 3/9/2025 03:56",
+		"askForProvidedAnswerTo:default:" : "mad 3/9/2025 03:54",
+		"chooseDirectory:from:" : "mad 3/9/2025 03:52",
+		"chooseFrom:lines:title:" : "mad 3/9/2025 03:56",
+		"chooseFrom:values:lines:title:" : "mad 3/9/2025 03:57",
+		"confirm:" : "mad 3/9/2025 03:44",
+		"confirm:orCancel:" : "mad 3/9/2025 03:58",
+		"displayProgress:at:from:to:during:" : "mad 3/9/2025 03:45",
+		"edit:label:accept:" : "mad 3/9/2025 03:47",
+		"inform:" : "mad 3/9/2025 03:47",
+		"informUserDuring:" : "mad 3/9/2025 03:47",
+		"request:initialAnswer:" : "mad 3/9/2025 03:49",
+		"requestPassword:" : "mad 3/9/2025 03:58",
+		"saveFilenameRequest:initialAnswer:" : "mad 3/9/2025 03:48",
+		"startUpMenu:withCaption:icon:at:allowKeyboard:" : "mad 3/9/2025 03:48" } }
