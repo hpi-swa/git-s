@@ -1,4 +1,4 @@
 ui
 changesTreeKeyStroke: aCharacter
-	(self selectedChange ifNil: [^ self])
-		keyStroke: aCharacter.
+	self currentEvent anyModifierKeyPressed ifFalse: [^ false].
+	^ (self selectedChange ifNil: [self changesTree]) keyStroke: aCharacter
