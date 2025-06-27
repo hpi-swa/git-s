@@ -1,4 +1,4 @@
 menu
 changesTreeMenu: aMenu
-	self selectedChange ifNotNil: [:change | change addMenuItemsTo: aMenu].
+	(self selectedChange ifNil: [self changesTree]) addMenuItemsTo: aMenu.
 	^ aMenu
