@@ -1,12 +1,13 @@
 toolbuilder
 buildWith: builder
-	| innerSpec builtChildren |
+	| innerSpec builtChildren nonDelayedChildrenCount |
 	builtChildren := self buildChildren: builder.
+	nonDelayedChildrenCount := self nonDelayedChildrenCount clampHigh: builtChildren size.
 	innerSpec := (GSGUIUtilities
-					buildVerticalLayout: (builtChildren first: self nonDelayedChildrenCount)
+					buildVerticalLayout: (builtChildren first: nonDelayedChildrenCount)
 					with: builder)
 						spacing: self childrenGap;
 						yourself.
 	^ GSDelayedBuilder
-		build: (builtChildren allButFirst: self nonDelayedChildrenCount)
+		build: (builtChildren allButFirst: nonDelayedChildrenCount)
 		into: innerSpec
