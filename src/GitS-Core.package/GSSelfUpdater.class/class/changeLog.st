@@ -8,4 +8,5 @@ changeLog
 		'Add support for the terminal emulator Ptyxis.'.
 		'Show the relative path of each change when selecting a changes subtree a changes dialog.'.
 		'Offer to switch to the branch created by the ''Branch'' button.'.
+		'Offer to reuse credentials.'.
 	}
