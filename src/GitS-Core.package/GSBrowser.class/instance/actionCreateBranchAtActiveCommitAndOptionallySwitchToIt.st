@@ -1,0 +1,3 @@
+actions-branches
+actionCreateBranchAtActiveCommitAndOptionallySwitchToIt
+	self activeCommitAction: #actionCreateBranchAtCommitAndOptionallySwitchToIt:.

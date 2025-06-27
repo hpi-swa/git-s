@@ -28,6 +28,7 @@
 		"actionCompareCommitToParent:" : "mad 2/21/2025 15:53",
 		"actionCreateBranchAtCommit:" : "mad 12/1/2024 18:02",
 		"actionCreateBranchAtCommit:fromRef:" : "mad 2/21/2025 15:31",
+		"actionCreateBranchAtCommitAndOptionallySwitchToIt:" : "mad 6/27/2025 12:01",
 		"actionCreateBranchAtCommitAndSwitchToIt:" : "mad 2/21/2025 15:32",
 		"actionCreateBranchAtRef:" : "mad 2/21/2025 15:32",
 		"actionCreateBranchAtRefAndSwitchToIt:" : "mad 2/21/2025 15:33",

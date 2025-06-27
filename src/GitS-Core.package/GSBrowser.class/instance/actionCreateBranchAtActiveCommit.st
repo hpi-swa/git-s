@@ -1,3 +1,0 @@
-actions-branches
-actionCreateBranchAtActiveCommit
-	self activeCommitAction: #actionCreateBranchAtCommit:.

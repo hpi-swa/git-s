@@ -7,4 +7,5 @@ changeLog
 		'Before a manual self-update is done, git-s checks whether a new version exists and prompts the user to cancel if not.'.
 		'Add support for the terminal emulator Ptyxis.'.
 		'Show the relative path of each change when selecting a changes subtree a changes dialog.'.
+		'Offer to switch to the branch created by the ''Branch'' button.'.
 	}
