@@ -14,7 +14,7 @@
 		"atPath:put:" : "mad 9/6/2023 12:57",
 		"buildChange:with:" : "mad 2/21/2025 14:12",
 		"buildChangePath:with:" : "mad 5/18/2025 14:29",
-		"buildChildren:" : "mad 2/21/2025 14:08",
+		"buildChildren:" : "mad 6/27/2025 13:54",
 		"buildWith:" : "mad 10/9/2024 16:01",
 		"children" : "mad 9/1/2023 18:02",
 		"children:" : "mad 9/1/2023 18:02",
@@ -41,4 +41,5 @@
 		"toggleExcludedAll" : "mad 9/26/2023 17:10",
 		"toggleExcludedIndividual" : "mad 6/27/2025 13:41",
 		"treeAt:" : "mad 2/21/2025 14:16",
+		"visibleRecursiveChildrenDo:" : "mad 6/27/2025 13:53",
 		"wasEdited" : "mad 9/27/2023 16:35" } }
