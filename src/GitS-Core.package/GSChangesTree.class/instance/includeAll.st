@@ -1,3 +1,5 @@
 excluding
 includeAll
-	^ self recursiveChildrenDo: #include
+	self
+		recursiveChildrenDo: #basicInclude;
+		allChildrenChanged: #isExcluded.

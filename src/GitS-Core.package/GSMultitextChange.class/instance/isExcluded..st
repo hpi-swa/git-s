@@ -1,4 +1,5 @@
 accessing
 isExcluded: aBoolean
-	isExcluded := aBoolean.
-	self changed: #isExcluded.
+	self
+		basicIsExcluded: aBoolean;
+		changed: #isExcluded.

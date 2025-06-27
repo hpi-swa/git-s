@@ -1,3 +1,5 @@
 excluding
 excludeAll
-	^ self recursiveChildrenDo: #exclude
+	self
+		recursiveChildrenDo: #basicExclude;
+		allChildrenChanged: #isExcluded.

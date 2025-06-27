@@ -4,6 +4,9 @@
 		"withChangeSet:" : "mad 9/6/2023 12:37" },
 	"instance" : {
 		"addMenuItemsTo:" : "mad 9/26/2023 17:13",
+		"basicExclude" : "mad 6/27/2025 13:31",
+		"basicInclude" : "mad 6/27/2025 13:31",
+		"basicToggleExcluded" : "mad 6/27/2025 13:40",
 		"buildWith:" : "mad 9/5/2023 22:49",
 		"changeSet" : "mad 9/5/2023 22:45",
 		"changeSet:" : "mad 9/6/2023 18:51",

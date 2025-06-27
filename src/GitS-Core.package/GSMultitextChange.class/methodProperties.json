@@ -5,6 +5,9 @@
 		"withChangeSet:" : "mad 8/27/2024 20:37" },
 	"instance" : {
 		"aboutToStyle:requestor:at:" : "mad 8/13/2024 17:37",
+		"basicExclude" : "mad 6/27/2025 13:32",
+		"basicInclude" : "mad 6/27/2025 13:34",
+		"basicIsExcluded:" : "mad 6/27/2025 13:34",
 		"buildTextFor:with:" : "mad 11/3/2023 15:40",
 		"buildTexts:" : "mad 10/24/2023 19:45",
 		"editButtonLabel" : "mad 9/12/2023 14:47",
@@ -18,7 +21,7 @@
 		"indexedModel:" : "mad 10/9/2024 16:01",
 		"initialize" : "mad 9/7/2023 16:36",
 		"isExcluded" : "mad 9/7/2023 16:36",
-		"isExcluded:" : "mad 9/11/2023 14:39",
+		"isExcluded:" : "mad 6/27/2025 13:33",
 		"isInEditMode" : "mad 9/12/2023 14:48",
 		"isInEditMode:" : "mad 11/3/2023 15:47",
 		"isReadOnly" : "mad 9/13/2023 12:29",

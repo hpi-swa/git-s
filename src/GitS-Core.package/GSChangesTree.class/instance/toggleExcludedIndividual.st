@@ -1,3 +1,5 @@
 excluding
 toggleExcludedIndividual
-	^ self recursiveChildrenDo: #toggleExcluded
+	self
+		recursiveChildrenDo: #basicToggleExcluded;
+		allChildrenChanged: #isExcluded.
