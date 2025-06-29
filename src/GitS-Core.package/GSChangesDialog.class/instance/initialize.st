@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	self
 		buttons: OrderedCollection new;
-		windowTitle: 'Changes'.
+		windowTitle: 'Changes';
+		canDiscardEdits: false.

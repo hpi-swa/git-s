@@ -11,7 +11,8 @@
 		"changesTree",
 		"selectedChange",
 		"windowTitle",
-		"buttons" ],
+		"buttons",
+		"canDiscardEdits" ],
 	"name" : "GSChangesDialog",
 	"pools" : [
 		 ],
