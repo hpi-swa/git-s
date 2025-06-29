@@ -3,6 +3,4 @@ newFromUserAndRegister
 	| name reference |
 	name := self requestUnregisteredName.
 	reference := self requestFSReferenceForName: name.
-	^ (self onFSReference: reference named: name)
-		register;
-		yourself
+	^ self onFSReference: reference registerNamed: name

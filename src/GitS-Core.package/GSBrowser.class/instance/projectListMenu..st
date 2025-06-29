@@ -17,11 +17,12 @@ projectListMenu: aMenu
 		aMenu add: 'Export it to a .sar' action: #actionExportToSar].
 	aMenu
 		addLine;
-		add: 'New project'
+		add: 'Add project'
 		subMenu: (MenuMorph new in: [:subMenu |
 			subMenu
 				target: self operationLifecycle;
 				add: 'Clone' action: #actionCloneProject;
-				add: 'From disk' action: #actionNewProject;
+				add: 'New on disk' action: #actionNewProject;
+				add: 'Existing from disk' action: #actionNewExistingProject;
 				yourself]).
 	^ aMenu

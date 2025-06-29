@@ -5,13 +5,8 @@ requestFSReferenceForName: aString
 	defaultDirectoryExisted := defaultDirectory exists.
 	defaultDirectoryReference := defaultDirectory asFSReference.
 	defaultDirectoryReference ensureCreateDirectory.
-	^ [
-		chosen := GSGUIUtilities chooseDirectory: 'Repository location:' from: defaultDirectory.
-		chosen
-			asFSReference
-			ensureCreateDirectory; "might be deleted during popup"
-			yourself] ensure: [
+	^ [chosen := self requestFSReferenceForDefault: defaultDirectory] ensure: [
 		(defaultDirectoryExisted not
-			and: [chosen ~= defaultDirectory]
+			and: [chosen ~= defaultDirectoryReference]
 			and: [defaultDirectoryReference isDirectory]
 			and: [defaultDirectoryReference children isEmpty]) ifTrue: [defaultDirectoryReference delete]]

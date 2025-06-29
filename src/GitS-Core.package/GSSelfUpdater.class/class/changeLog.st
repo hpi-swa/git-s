@@ -9,5 +9,6 @@ changeLog
 		'Show the relative path of each change when selecting a changes subtree a changes dialog.'.
 		'Offer to switch to the branch created by the ''Branch'' button.'.
 		'Offer to reuse credentials.'.
-		'Hide excluded changes in dialog unless only excluded changes are selected.'
+		'Hide excluded changes in dialog unless only excluded changes are selected.'.
+		'Add menu item for adding existing projects from disk.'.
 	}

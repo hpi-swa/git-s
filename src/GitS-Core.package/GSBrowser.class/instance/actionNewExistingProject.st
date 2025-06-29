@@ -1,0 +1,3 @@
+actions-working-copy
+actionNewExistingProject
+	self newProject: GSGitWorkingCopy newExistingFromUserAndRegister.
