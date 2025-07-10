@@ -1,0 +1,3 @@
+actions
+actionInspect
+	self inspect.

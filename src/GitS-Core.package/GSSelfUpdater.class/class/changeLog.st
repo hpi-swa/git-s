@@ -11,4 +11,5 @@ changeLog
 		'Offer to reuse credentials.'.
 		'Hide excluded changes in dialog unless only excluded changes are selected.'.
 		'Add menu item for adding existing projects from disk.'.
+		'Add ''Inspect it'' menu item for projects.'.
 	}

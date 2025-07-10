@@ -14,7 +14,9 @@ projectListMenu: aMenu
 					add: 'Choose new repository location' action: #actionChooseNewRepositoryLocation;
 					yourself]).
 		self addMappersProjectListMenu: aMenu.
-		aMenu add: 'Export it to a .sar' action: #actionExportToSar].
+		aMenu
+			add: 'Export it to a .sar' action: #actionExportToSar;
+			add: 'Inspect it' action: #actionInspect].
 	aMenu
 		addLine;
 		add: 'Add project'
