@@ -4,4 +4,5 @@ pendingChangesForCherryPick: aCommit windowTitlePrefix: aString
 		changeSetsForPick: aCommit;
 		windowTitle: aString, aCommit showOneLine;
 		initialMessage: aCommit message;
+		alwaysMaterialize;
 		yourself
