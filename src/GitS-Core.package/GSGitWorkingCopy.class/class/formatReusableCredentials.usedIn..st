@@ -1,13 +1,13 @@
 credentials
 formatReusableCredentials: credentials usedIn: workingCopies
-	^ 'Reuse credentials for user name {1} used in project{2} {3}'
+	^ 'Reuse credentials for user name {1} used in {2} {3}'
 		gitSFormat: {
 			credentials first printString.
-			workingCopies size > 1 ifTrue: ['s'] ifFalse: [''].
+			'project' asPluralBasedOn: workingCopies.
 			(workingCopies keys collect: [:workingCopy | | urls |
 				urls := workingCopies at: workingCopy.
-				'{1} (url{2}: {3})' gitSFormat: {
+				'{1} ({2}: {3})' gitSFormat: {
 					workingCopy name printString.
-					urls size > 1 ifTrue: ['s'] ifFalse: [''].
+					'url' asPluralBasedOn: urls.
 					(urls collect: #asString) asOrderedCollection sorted joinSeparatedBy: ', '}])
 				joinSeparatedBy: ', '}
