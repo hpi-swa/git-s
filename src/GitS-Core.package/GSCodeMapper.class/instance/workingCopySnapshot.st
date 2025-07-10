@@ -1,3 +1,3 @@
 snapshot-creation
 workingCopySnapshot
-	^ self package snapshot
+	^ GSGUIUtilities suppressProgressDuring: [self package snapshot]

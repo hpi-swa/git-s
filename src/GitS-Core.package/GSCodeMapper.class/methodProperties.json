@@ -25,7 +25,7 @@
 		"hexHashPath" : "mad 11/12/2024 14:51",
 		"initialize" : "mad 4/25/2023 19:41",
 		"isEmpty:" : "mad 11/16/2024 15:06",
-		"loadSnapshotFrom:" : "mad 11/12/2024 14:03",
+		"loadSnapshotFrom:" : "mad 7/10/2025 22:43",
 		"mappedPathPatterns" : "mad 10/9/2024 16:01",
 		"operationFrom:to:" : "mad 8/13/2024 17:52",
 		"package" : "mad 4/21/2023 23:34",
@@ -38,6 +38,6 @@
 		"printDescriptionOn:" : "mad 10/9/2024 16:01",
 		"readerOn:" : "mad 10/4/2024 19:58",
 		"serialize:into:" : "mad 10/4/2024 20:02",
-		"workingCopySnapshot" : "mad 4/25/2023 18:30",
+		"workingCopySnapshot" : "mad 7/10/2025 22:42",
 		"write:with:" : "mad 10/4/2024 20:02",
 		"writerOn:" : "mad 10/4/2024 20:03" } }
