@@ -1,8 +1,11 @@
 credentials
-formatReusableCredentials: credentials usedIn: workingCopies
-	^ 'Reuse credentials for user name {1} used in {2} {3}'
+formatReusableCredentials: credentials usedIn: workingCopies detailed: aBoolean
+	| formatted |
+	formatted := 'Reuse credentials for user name {1}' gitSFormat: {credentials first printString}.
+	aBoolean ifFalse: [^ formatted].
+	^ '{1} used in {2} {3}'
 		gitSFormat: {
-			credentials first printString.
+			formatted.
 			'project' asPluralBasedOn: workingCopies.
 			(workingCopies keys collect: [:workingCopy | | urls |
 				urls := workingCopies at: workingCopy.
