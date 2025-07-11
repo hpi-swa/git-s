@@ -2,20 +2,16 @@ ui
 conflictLines: aConflict on: aStream
 	{
 		self leftColor -> 
-			({(GSTextUtilities monospace: self conflictMarkerLeft), ' current'},
+			({self withConflictTextClickHandler: (GSTextUtilities monospace: self conflictMarkerLeft), ' current (click to choose)'},
 			aConflict left).
 		self baseColor ->
-			(GSPreferences showBase
+			((GSPreferences showBase
 				ifTrue: [
-					{(GSTextUtilities monospace: self conflictMarkerBase), ' base'},
-					aConflict original,
-					{GSTextUtilities monospace: self conflictMarkerSeparator}]
-				ifFalse: [
-					{GSTextUtilities monospace: self conflictMarkerSeparator}]).
+					{self withConflictTextClickHandler: (GSTextUtilities monospace: self conflictMarkerBase), ' base (click to choose)'},
+					aConflict original]
+				ifFalse: [#()]), {GSTextUtilities monospace: self conflictMarkerSeparator}).
 		self rightColor ->
 			(aConflict right,
-			{(GSTextUtilities monospace: self conflictMarkerRight), ' incoming'}).
+			{self withConflictTextClickHandler: (GSTextUtilities monospace: self conflictMarkerRight), ' incoming (click to choose)'}).
 	} do: [:each | each value do: [:line |
-		aStream nextPut: (GSTextUtilities
-								colorText: (self withConflictTextClickHandler: line)
-								with: each key)]].
+		aStream nextPut: (GSTextUtilities colorText: line with: each key)]].

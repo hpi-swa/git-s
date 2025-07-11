@@ -1,3 +1,3 @@
 ui
 refTreeRoots
-	^ self refTree children
+	^ self refTree sortedCompressedChildren

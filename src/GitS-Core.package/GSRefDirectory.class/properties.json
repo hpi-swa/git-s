@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"label",
-		"tooltip" ],
+		"tooltip",
+		"order" ],
 	"name" : "GSRefDirectory",
 	"pools" : [
 		 ],
