@@ -4,25 +4,32 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
+				#name : 'GitS-Compatibility-SqueakCommon'
+			},
+			#path : FSAbsolutePath [
+				'src'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'GitS-Tests'
+			},
+			#path : FSAbsolutePath [
+				'src'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'GitS-Compatibility-Squeak6'
+			},
+			#path : @5
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
 				#name : 'VersionControl'
-			},
-			#path : FSAbsolutePath [
-				'src'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'GitS-Compatibility'
-			},
-			#path : FSAbsolutePath [
-				'src'
-			]
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'FileSystem-Git'
 			},
 			#path : FSAbsolutePath [
 				'src'
@@ -33,19 +40,21 @@ GSMetadata {
 			#package : MCPackage {
 				#name : 'GitS-Core'
 			},
-			#path : @8
+			#path : FSAbsolutePath [
+				'src'
+			]
 		},
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
 				#name : 'BaselineOfGitS'
 			},
-			#path : @8
+			#path : @16
 		},
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
-				#name : 'GitS-Tests'
+				#name : 'FileSystem-Git'
 			},
 			#path : FSAbsolutePath [
 				'src'
