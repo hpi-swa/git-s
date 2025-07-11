@@ -13,4 +13,5 @@ changeLog
 		'Add menu item for adding existing projects from disk.'.
 		'Add ''Inspect it'' menu item for projects.'.
 		'Hide reusable credentials details until requested.'.
+		'Reorder and color changes dialog buttons to match other dialogs.'.
 	}
