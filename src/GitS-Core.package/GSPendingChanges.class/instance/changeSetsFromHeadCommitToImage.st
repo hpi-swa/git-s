@@ -1,3 +1,3 @@
 change-sets
 changeSetsFromHeadCommitToImage
-	self changeSets: (self workingCopy changeSetsFromHeadCommitToImage).
+	self refreshableChangeSets: [self workingCopy changeSetsFromHeadCommitToImage].

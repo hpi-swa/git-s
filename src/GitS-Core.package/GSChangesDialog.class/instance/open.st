@@ -2,5 +2,5 @@ toolbuilder
 open
 	| opened |
 	opened := ToolBuilder open: self.
-	self changed: #expandRootsRequested.
+	self postOpen.
 	^ opened

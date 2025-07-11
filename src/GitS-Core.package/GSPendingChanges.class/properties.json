@@ -19,7 +19,9 @@
 		"dialogClass",
 		"verb",
 		"checkBlock",
-		"actionBlock" ],
+		"actionBlock",
+		"changeSetsBlock",
+		"isRefreshable" ],
 	"name" : "GSPendingChanges",
 	"pools" : [
 		 ],

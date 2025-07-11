@@ -7,6 +7,11 @@ openDialog
 			addButton: self actionLabel
 			action: [self operationLifecycle operation: [self checkedAction]]
 			color: self actionColor].
+	self canRefresh ifTrue: [
+		self dialog
+			addButton: 'Refresh'
+			action: [self operationLifecycle operation: [self refresh]]
+			color: nil].
 	self dialog
 		addButton: self closeLabel
 		action: [self operationLifecycle operation: [self close]]

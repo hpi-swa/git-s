@@ -14,4 +14,5 @@ changeLog
 		'Add ''Inspect it'' menu item for projects.'.
 		'Hide reusable credentials details until requested.'.
 		'Reorder and color changes dialog buttons to match other dialogs.'.
+		'Add ''Refresh'' menu item for commit and compare to image dialogs.'.
 	}

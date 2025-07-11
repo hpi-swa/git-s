@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	self
 		shouldAlwaysOpenDialog: false;
-		shouldAlwaysMaterialize: false.
+		shouldAlwaysMaterialize: false;
+		isRefreshable: false.

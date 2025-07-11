@@ -5,4 +5,5 @@ actionCommitWithInitialMessage: aString
 		windowTitle: 'Changes to commit';
 		initialMessage: aString;
 		alwaysOpenDialog;
+		beRefreshable;
 		yourself) commit
