@@ -4,7 +4,7 @@
 	"instance" : {
 		"add:" : "mad 9/6/2023 12:57",
 		"addAll:" : "mad 9/3/2023 12:12",
-		"addMenuItemsTo:" : "mad 9/26/2023 17:11",
+		"addMenuItemsTo:" : "mad 6/27/2025 14:35",
 		"allChildren" : "mad 6/27/2025 13:37",
 		"allChildrenChanged:" : "mad 6/27/2025 13:40",
 		"allChildrenSatisfy:" : "mad 9/27/2023 16:00",
@@ -36,6 +36,7 @@
 		"nonDelayedChildrenCount" : "mad 10/19/2023 18:04",
 		"parent" : "mad 2/21/2025 14:14",
 		"parent:" : "mad 2/21/2025 14:14",
+		"path" : "mad 6/27/2025 14:32",
 		"printOn:" : "mad 9/10/2023 19:23",
 		"recursiveChildrenDo:" : "mad 9/3/2023 18:12",
 		"toggleExcludedAll" : "mad 9/26/2023 17:10",

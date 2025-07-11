@@ -8,3 +8,5 @@ addMenuItemsTo: aMenu
 		aMenu add: 'include all', (allExcluded ifTrue: [' (x)'] ifFalse: ['']) action: #includeAll].
 	allExcluded ifFalse: [aMenu add: 'exclude all (x)' action: #excludeAll].
 	aMenu add: 'toggle excluded' action: #toggleExcludedIndividual.
+	(self allChildren collect: #mapper) asSet do: [:each |
+		each addChangeMenuItemsTo: aMenu path: self path].

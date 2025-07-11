@@ -6,6 +6,7 @@
 		"stonAllInstVarNames" : "mad 10/28/2024 20:56" },
 	"instance" : {
 		"=" : "mad 9/30/2024 15:03",
+		"addChangeMenuItemsTo:path:" : "mad 6/27/2025 14:36",
 		"addToSar:" : "mad 1/8/2024 20:54",
 		"basicVersion:" : "mad 9/27/2024 15:46",
 		"canBeRemovedAtAll" : "mad 7/3/2024 16:27",

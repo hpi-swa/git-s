@@ -1,8 +1,14 @@
 {
 	"class" : {
-		 },
+		"resetUpdating" : "mad 7/11/2025 12:30",
+		"updateSetFor:" : "mad 7/11/2025 12:26",
+		"updateTimeStamps" : "mad 7/1/2025 16:32",
+		"when:changesStartingAt:update:" : "mad 7/1/2025 17:49" },
 	"instance" : {
 		"balloonText" : "mad 9/14/2023 19:29",
 		"decorationsFor:" : "mad 9/12/2023 13:27",
-		"formatTimeStamp:" : "mad 8/31/2023 14:08",
-		"setItem:" : "mad 6/12/2024 11:55" } }
+		"formatTimeStamp:now:" : "mad 7/10/2025 22:28",
+		"roundedToSeconds:" : "mad 7/1/2025 16:18",
+		"setItem:" : "mad 7/1/2025 16:19",
+		"updateString" : "mad 7/1/2025 18:57",
+		"updateWhen:changesStartingAt:" : "mad 7/1/2025 16:22" } }
