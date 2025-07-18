@@ -1,3 +1,3 @@
 commands
 want: gitSignature 
-	^ self wantAll: { gitSignature }
+	^ self wantAll: { gitSignature } haveAll: {}

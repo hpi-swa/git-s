@@ -4,7 +4,7 @@ readPackfileResponse
 find out, why SocketStream doesn't deliver all of the data or corrupts it (or who else does).
 Careful: when using Transcript for debugging, the code might become so slow that you won't see any problems with receiving data..."
 	
-	self readUntilNAK.
+	self readAcknowledgements.
 	
 	^ ByteArray streamContents: [ :packStream | 
 		'' displayProgressFrom: 0 to: 1 during: [:progress | [ self 
