@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkMethod:category:class:" : "mad 8/6/2025 23:08",
+		"checkNoMethod:class:" : "mad 8/6/2025 23:04",
 		"classCategory" : "mad 3/9/2025 21:01",
 		"click:button:" : "mad 3/9/2025 20:57",
 		"closeWindowContaining:" : "mad 3/9/2025 21:16",
@@ -39,6 +41,7 @@
 		"testCommitCode" : "mad 8/6/2025 20:28",
 		"testCompareToImage" : "mad 8/6/2025 22:50",
 		"testCompareToParentCommit" : "mad 8/6/2025 22:39",
+		"testLoad" : "mad 8/6/2025 23:07",
 		"testNewProject" : "mad 3/9/2025 20:59",
 		"toggleSubtree:" : "mad 3/10/2025 16:36",
 		"trackCode" : "mad 3/9/2025 21:16",
