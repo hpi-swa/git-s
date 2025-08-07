@@ -1,5 +1,5 @@
 *GitS-Tests-matching
 gitSPutMatchedTargetsOf: aString on: aStream
 	self text ifNotEmpty: [^ super gitSPutMatchedTargetsOf: aString on: aStream].
-	self balloonText = aString ifFalse: [^ self].
+	(aString match: (self balloonText ifNil: [^ self])) ifFalse: [^ self].
 	aStream nextPut: [GSEndToEndTarget morph: self].

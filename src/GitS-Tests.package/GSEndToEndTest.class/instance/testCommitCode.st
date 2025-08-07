@@ -3,12 +3,12 @@ testCommitCode
 	self
 		newProject;
 		declareClass: #GSDummy instVars: '';
-		compileMethod: 'test ^ 42' category: 'testing' class: #GSDummy;
+		compileMethod: 'method ^ 42' category: 'testing' class: #GSDummy;
 		trackCode;
 		commitWithMessage: 'Test commit' checking: [
 			self
 				toggleSubtree: 'GitS-TestData';
 				toggleSubtree: 'GSDummy';
-				leftClick: 'test';
-				find: 'test ^ 42';
+				leftClick: 'method';
+				find: 'method ^ 42';
 				find: 'testing'].
