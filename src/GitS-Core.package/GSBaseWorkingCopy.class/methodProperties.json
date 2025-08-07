@@ -2,7 +2,7 @@
 	"class" : {
 		"basicUnregister:" : "mad 12/21/2024 20:19",
 		"deriveName:" : "mad 10/6/2024 21:01",
-		"doPostUpdateMigrations" : "mad 10/9/2024 20:46",
+		"doPostUpdateMigrations" : "mad 8/6/2025 22:26",
 		"doPostUpdateMigrationsOnAllInstances" : "mad 1/20/2025 14:07",
 		"importLegacyGitStandaloneAssetLoaderInstances" : "mad 10/11/2024 14:36",
 		"importLegacyProjects" : "mad 10/11/2024 14:12",
@@ -13,6 +13,7 @@
 		"importProjectsFromLegacyClass:getInstances:getName:getFSGitRepository:getCredentials:" : "mad 10/11/2024 14:13",
 		"isNameRegistered:" : "mad 10/6/2024 21:02",
 		"isRegistered:" : "mad 10/6/2024 21:02",
+		"migrateGitStoreLog" : "mad 8/6/2025 22:26",
 		"named:" : "mad 3/10/2025 22:24",
 		"named:ifAbsent:" : "mad 10/6/2024 21:02",
 		"newWithNameAndRegister:" : "mad 10/6/2024 21:47",

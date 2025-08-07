@@ -8,7 +8,6 @@ logMessage: aString
 	| maxLogSize |
 	maxLogSize := 5000 "if each entry measures 200B, this would be up to 1MB".
 	(LogMutex ifNil: [LogMutex := Mutex new]) critical:
-		[LogMessages ifNil: [LogMessages := LinkedList new].
-		LogMessageCount ifNil: [LogMessageCount := LogMessages size].
-		LogMessageCount >= maxLogSize ifTrue: [LogMessages removeFirst].
+		[LogMessages ifNil: [LogMessages := OrderedCollection new].
+		[LogMessages size >= maxLogSize] whileTrue: [LogMessages removeFirst].
 		LogMessages add: DateAndTime now printString, String cr, aString]
