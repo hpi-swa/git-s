@@ -2,7 +2,7 @@ toolbuilder
 buildWith: builder
 	^ GSGUIUtilities buildVerticalLayout: {
 		{
-			(self pathString, String lf, 'Old:') -> #buildFrom:.
+			(self pathString, String cr, 'Old:') -> #buildFrom:.
 			'New:' -> #buildTo:.
 		} gather: [:each | {
 			GSGUIUtilities buildShrinkWrapText: each key with: builder.

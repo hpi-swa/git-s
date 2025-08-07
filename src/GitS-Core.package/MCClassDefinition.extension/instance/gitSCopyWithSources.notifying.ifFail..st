@@ -9,7 +9,7 @@ gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
 		'!{2}!'.
 		'!{3} commentStamp: {4}!'.
 		'{5}!'.
-	 } joinSeparatedBy: String lf)
+	 } joinSeparatedBy: String cr)
 		format: {instanceSide. classSide. self className. self commentStamp printString. comment}.
 	definitions := (MCStReader on: stString readStream) definitions.
 	definitions size = 1 ifFalse: [^ aBlock value: 'expected to parse exactly one class definition'].

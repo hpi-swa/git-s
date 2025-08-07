@@ -1,3 +1,3 @@
 joining
 joinStrings: aCollection
-	^ aCollection joinSeparatedBy: String lf
+	^ aCollection joinSeparatedBy: String cr

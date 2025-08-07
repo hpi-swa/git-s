@@ -7,7 +7,7 @@ gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
 		'!{1}!'.
 		'!{2} commentStamp: {3}!'.
 		'{4}!'.
-	 } joinSeparatedBy: String lf)
+	 } joinSeparatedBy: String cr)
 		format: {source. self className. self commentStamp printString. comment}.
 	definitions := (MCStReader on: stString readStream) definitions.
 	definitions size = 1 ifFalse: [^ aBlock value: 'expected to parse exactly one trait definition'].
