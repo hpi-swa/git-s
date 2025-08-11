@@ -10,7 +10,8 @@ updateChangesTree
 		oldChangesByPath at: each path put: each].
 	self changesTree
 		removeAllChildren;
-		addAll: self changes.
+		addAll: self changes;
+		removeAllEmptyTrees.
 	self changes do: [:each |
 		oldChangesByPath
 			at: each path
