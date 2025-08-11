@@ -1,6 +1,6 @@
 remotes
 unsetUpstreamOfBranchNamed: aString
 	"git branch --unset-upstream aString"
-	GitReference validateReferenceName: aString.
-	self configUnsetAt: 'branch.', aString, '.merge';
-		configUnsetAt: 'branch.', aString, '.remote'.
+	self
+		unsetUpstreamRefOfBranchNamed: aString;
+		unsetUpstreamRemoteOfBranchNamed: aString.
