@@ -3,4 +3,5 @@ changeSets: aCollection
 	changeSets := aCollection.
 	self
 		changes: nil;
-		updateChangesTree.
+		updateChangesTree;
+		changed: #buildChange:.
