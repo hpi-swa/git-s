@@ -9,7 +9,8 @@
 		"fsgitRepository",
 		"refsForCommits",
 		"credentials",
-		"lastImageHash" ],
+		"lastImageHash",
+		"commitMessageDraft" ],
 	"name" : "GSGitWorkingCopy",
 	"pools" : [
 		 ],

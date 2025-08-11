@@ -1,3 +1,3 @@
 actions-committing
 actionCommit
-	^ self actionCommitWithInitialMessage: ''
+	^ self actionCommitWithInitialMessage: (self commitMessageDraft ifNil: [''])

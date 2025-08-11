@@ -2,4 +2,5 @@ actions-private
 commitNow
 	self
 		basicCommit;
-		materializeIfNecessary.
+		materializeIfNecessary;
+		clearCommitMessageDraft.

@@ -4,5 +4,6 @@ commit
 		dialogClass: GSChangesDialogWithMessage;
 		verb: (self isMerge ifTrue: ['merge'] ifFalse: ['commit']);
 		checkBlock: [self checkCanCommit];
-		actionBlock: [self commitNow].
+		actionBlock: [self commitNow];
+		cancelBlock: [self rememberCommitMessageDraft].
 	^ self run

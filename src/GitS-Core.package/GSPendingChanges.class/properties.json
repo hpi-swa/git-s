@@ -20,6 +20,7 @@
 		"verb",
 		"checkBlock",
 		"actionBlock",
+		"cancelBlock",
 		"changeSetsBlock",
 		"isRefreshable" ],
 	"name" : "GSPendingChanges",

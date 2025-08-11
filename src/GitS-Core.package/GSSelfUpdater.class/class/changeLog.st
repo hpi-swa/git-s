@@ -17,4 +17,5 @@ changeLog
 		'Add ''Refresh'' menu item for commit and compare to image dialogs.'.
 		'Add incremental fetching (speed up fetch/pull after the initial clone for large repositories).'.
 		'The ''Refresh'' button in changes dialogs now keeps exclusions, tree expansion and selection.'.
+		'When cancelling a commit dialog, the message draft is now remembered and pre-filled when opening the commit dialog again.'.
 	}
