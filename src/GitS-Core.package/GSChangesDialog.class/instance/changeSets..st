@@ -4,4 +4,7 @@ changeSets: aCollection
 	self
 		changes: nil;
 		updateChangesTree;
-		changed: #buildChange:.
+		selectedChange:
+			((self changes includes: self selectedChange)
+				ifTrue: [self selectedChange]
+				ifFalse: [nil]).
