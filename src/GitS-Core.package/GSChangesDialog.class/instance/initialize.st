@@ -4,4 +4,5 @@ initialize
 	self
 		buttons: OrderedCollection new;
 		windowTitle: 'Changes';
-		canDiscardEdits: false.
+		canDiscardEdits: false;
+		changesTree: GSChangesTree new.

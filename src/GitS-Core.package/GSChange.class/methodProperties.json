@@ -8,6 +8,7 @@
 		"basicInclude" : "mad 6/27/2025 13:31",
 		"basicToggleExcluded" : "mad 6/27/2025 13:40",
 		"buildWith:" : "mad 9/5/2023 22:49",
+		"canRefresh:" : "mad 8/10/2025 22:26",
 		"changeSet" : "mad 9/5/2023 22:45",
 		"changeSet:" : "mad 9/6/2023 18:51",
 		"changes" : "mad 9/5/2023 22:46",
@@ -24,7 +25,9 @@
 		"mapper" : "mad 9/5/2023 22:45",
 		"markAsEdited" : "mad 9/27/2023 16:31",
 		"path" : "mad 9/5/2023 22:48",
+		"preserveStateWhileRefreshing:" : "mad 8/10/2025 22:28",
 		"printOn:" : "mad 9/10/2023 19:23",
+		"refresh:" : "mad 8/10/2025 22:28",
 		"toggleExcluded" : "mad 9/7/2023 15:30",
 		"wasEdited" : "mad 9/27/2023 16:30",
 		"wasEdited:" : "mad 9/27/2023 16:29" } }
