@@ -8,5 +8,6 @@ parents: anotherCollection
 						onCommit: self headCommit
 						message: aString
 						parents: anotherCollection.
+	newCommit store.
 	self updateHeadRefToNewCommit: newCommit.
 	^ newCommit

@@ -8,5 +8,4 @@ parents: anotherCollection
 	^ fileSystem prepareNewCommit
 		message: aString withUnixLineEndings;
 		parents: (anotherCollection collect: #asHexHash);
-		store;
 		yourself
