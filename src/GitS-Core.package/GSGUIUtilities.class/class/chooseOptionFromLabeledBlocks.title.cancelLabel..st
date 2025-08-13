@@ -1,5 +1,6 @@
 ui-manager
 chooseOptionFromLabeledBlocks: aCollection title: titleString cancelLabel: cancelString
 	^ self
-		chooseOptionFromLabeledBlocks: (aCollection copyWith: cancelString -> nil)
+		chooseOptionFromLabeledBlocks:
+			(cancelString ifNil: [aCollection] ifNotNil: [aCollection copyWith: cancelString -> nil])
 		title: titleString

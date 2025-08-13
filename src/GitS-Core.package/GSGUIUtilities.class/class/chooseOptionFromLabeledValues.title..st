@@ -1,6 +1,6 @@
 ui-manager
 chooseOptionFromLabeledValues: aCollection title: aString
 	^ self
-		chooseOptionFromLabeledBlocks:
-			(aCollection collect: [:each | each key -> [each value]])
+		chooseOptionFromLabeledValues: aCollection
 		title: aString
+		cancelLabel: nil

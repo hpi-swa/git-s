@@ -2,5 +2,5 @@ ui-manager
 chooseOptionFromLabeledBlocks: aCollection title: aString
 	^ (self wrapUIManagerForNonNilAnswer: [:manager |
 		manager
-			chooseOptionFromLabeledValues: (Dictionary newFrom: aCollection)
+			chooseOptionFromLabeledValues: (OrderedDictionary newFrom: aCollection)
 			title: aString]) value
