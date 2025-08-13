@@ -18,13 +18,13 @@ actionMergeCommit: aCommit displayName: aString
 			message := message, ' You have uncommitted changes.'].
 		self inform: message.
 		^ Promise unit: nil].
-	self ensureImageIsCleanOrUserDiscardsChanges.
-	^ mergeBase = head
-		ifTrue: [(self
-					actionMaterializeCommit: aCommit
-					windowTitlePrefix: 'Fast-forwarding: ')
-						then: [:x | self fastForwardTo: aCommit displayName: aString]]
-		ifFalse: [self
-					actionMergeCommit: aCommit
-					mergeBase: mergeBase
-					displayName: aString]
+	^ self stashUncommittedChangesDuring:
+		[mergeBase = head
+			ifTrue: [(self
+						actionMaterializeCommit: aCommit
+						windowTitlePrefix: 'Fast-forwarding: ')
+							then: [:x | self fastForwardTo: aCommit displayName: aString]]
+			ifFalse: [self
+						actionMergeCommit: aCommit
+						mergeBase: mergeBase
+						displayName: aString]]

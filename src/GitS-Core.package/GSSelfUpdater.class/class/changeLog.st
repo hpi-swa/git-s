@@ -22,4 +22,5 @@ changeLog
 		'Add ''install'' menu item for code changes show it or the ''revert'' menu item depending on the image state.'.
 		'Add keyboard shortcut (r) to ''revert'' menu item for code changes.'.
 		'Add commit (amend) to the ''...'' menu.'.
+		'Automatically stash uncommitted changes during merge/pull and offer to save uncommitted changes on the branch or move them over while switching.'. 
 	}
