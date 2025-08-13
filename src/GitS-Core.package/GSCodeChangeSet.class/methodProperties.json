@@ -4,6 +4,7 @@
 		"withMapper:from:operations:conflicts:" : "mad 11/12/2024 15:14",
 		"withMapper:from:patch:" : "mad 11/16/2024 14:57" },
 	"instance" : {
+		"addChangeMenuItemsTo:for:" : "mad 8/12/2025 22:04",
 		"addConflicts:" : "mad 10/9/2024 16:01",
 		"addOperations:" : "mad 10/9/2024 16:01",
 		"changedSnapshotForCurrentSnapshot:" : "mad 10/9/2024 17:04",
@@ -13,11 +14,14 @@
 		"from" : "mad 11/12/2024 15:11",
 		"from:" : "mad 11/12/2024 15:17",
 		"initialize" : "mad 9/7/2023 20:08",
+		"installChange:" : "mad 8/12/2025 22:00",
+		"installOperation:" : "mad 8/12/2025 22:01",
 		"isRemoval" : "mad 11/16/2024 15:06",
 		"materializeIn:" : "mad 10/9/2024 17:04",
 		"operations" : "mad 9/10/2023 18:58",
 		"package" : "mad 9/6/2023 19:18",
 		"patch" : "mad 9/7/2023 16:03",
 		"path" : "mad 9/6/2023 19:17",
-		"revert:" : "mad 8/11/2025 00:32",
+		"revertChange:" : "mad 8/12/2025 22:01",
+		"revertOperation:" : "mad 8/12/2025 22:01",
 		"serializeInto:" : "mad 2/20/2024 15:38" } }

@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"gitSHasScriptSelector" : "mad 8/12/2025 21:47" },
 	"instance" : {
 		"gitSCopyWithSources:notifying:ifFail:" : "mad 10/9/2024 17:02",
+		"gitSCurrentVersionIn:" : "mad 8/12/2025 21:48",
 		"gitSSourcesHelp" : "mad 10/9/2024 17:02",
 		"gitSSourcesStylerClasses" : "mad 10/9/2024 17:03" } }
