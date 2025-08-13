@@ -6,16 +6,19 @@ openDialog
 		self dialog
 			addButton: self actionLabel
 			action: [self operationLifecycle operation: [self checkedAction]]
-			color: self actionColor].
+			color: self actionColor
+			location: #bottom].
 	self canRefresh ifTrue: [
 		self dialog
 			addButton: 'Refresh'
 			action: [self operationLifecycle operation: [self refresh]]
-			color: nil].
+			color: nil
+			location: #changesTree].
 	self dialog
 		addButton: self closeLabel
 		action: [self operationLifecycle operation: [self close]]
-		color: self closeColor;
+		color: self closeColor
+		location: #bottom;
 		message: self initialMessage;
 		open.
 	^ self promise
