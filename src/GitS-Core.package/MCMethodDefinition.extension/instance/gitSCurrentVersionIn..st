@@ -1,3 +1,6 @@
 *GitS-Core-Code
 gitSCurrentVersionIn: aPackageInfo
-	^ self asMethodReference asValid ifNotNil: #asMethodDefinition
+	| reference |
+	reference := self asMethodReference.
+	reference isValid ifFalse: [^ nil].
+	^ reference asMethodDefinition
