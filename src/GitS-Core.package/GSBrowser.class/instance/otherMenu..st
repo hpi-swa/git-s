@@ -11,11 +11,17 @@ otherMenu: aMenuSpec
 		selector: #actionSetSelfUpdateBranch
 		argumentList: {}.
 		
-	self activeWorkingCopy ifNotNil: [:workingCopy |
+	self activeWorkingCopy ifNotNil: [:workingCopy | | target |
+		target := workingCopy operationLifecycle.
 		aMenuSpec
 			addLine;
 			
+			add: 'Commit (amend)'
+			target: target
+			selector: #actionCommitAmend
+			argumentList: #();
+			
 			add: 'Force push'
-			target: workingCopy operationLifecycle
+			target: target
 			selector: #actionForcePush
-			argumentList: {}].
+			argumentList: #()].
