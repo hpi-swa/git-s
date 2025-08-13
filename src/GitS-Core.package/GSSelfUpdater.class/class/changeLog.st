@@ -20,4 +20,5 @@ changeLog
 		'When cancelling a commit dialog, the message draft is now remembered and pre-filled when opening the commit dialog again.'.
 		'Add ''revert'' menu item for code changes in changes dialog.'.
 		'Add ''install'' menu item for code changes show it or the ''revert'' menu item depending on the image state.'.
+		'Add keyboard shortcut (r) to ''revert'' menu item for code changes.'.
 	}

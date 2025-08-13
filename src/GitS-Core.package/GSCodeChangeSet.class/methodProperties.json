@@ -4,7 +4,8 @@
 		"withMapper:from:operations:conflicts:" : "mad 11/12/2024 15:14",
 		"withMapper:from:patch:" : "mad 11/16/2024 14:57" },
 	"instance" : {
-		"addChangeMenuItemsTo:for:" : "mad 8/12/2025 22:04",
+		"activeInstallOrRevertMenuItemFor:" : "mad 8/12/2025 22:23",
+		"addChangeMenuItemsTo:for:" : "mad 8/12/2025 22:27",
 		"addConflicts:" : "mad 10/9/2024 16:01",
 		"addOperations:" : "mad 10/9/2024 16:01",
 		"changedSnapshotForCurrentSnapshot:" : "mad 10/9/2024 17:04",
@@ -17,6 +18,7 @@
 		"installChange:" : "mad 8/12/2025 22:00",
 		"installOperation:" : "mad 8/12/2025 22:01",
 		"isRemoval" : "mad 11/16/2024 15:06",
+		"keyStroke:on:" : "mad 8/12/2025 22:29",
 		"materializeIn:" : "mad 10/9/2024 17:04",
 		"operations" : "mad 9/10/2023 18:58",
 		"package" : "mad 9/6/2023 19:18",
