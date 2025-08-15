@@ -57,10 +57,10 @@ baseline: spec
 		spec
 			package: 'GitS-Compatibility-SqueakCommon';
 			package: 'GitS-Core' with: [
-				spec includes: 'GitS-Compatibility-SqueakCommon']].
+				spec requires: 'GitS-Compatibility-SqueakCommon']].
 	
 	spec for: #(#'squeak5.x' #'squeak6.0.x') do: [
 		spec
 			package: 'GitS-Compatibility-Squeak6';
 			package: 'GitS-Core' with: [
-				spec includes: 'GitS-Compatibility-Squeak6']]
+				spec requires: 'GitS-Compatibility-Squeak6']]
