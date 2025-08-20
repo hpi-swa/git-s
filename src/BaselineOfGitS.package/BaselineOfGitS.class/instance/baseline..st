@@ -12,9 +12,6 @@ baseline: spec
 			baseline: 'Tonel' with: [
 				spec
 					repository: 'github://squeak-smalltalk/squeak-tonel:squeak/'];
-			package: 'JSON' with: [
-				spec
-					repository: 'https://www.squeaksource.com/JSON'];
 			package: 'SqueakSSL-Core' with: [
 				spec
 					repository: 'http://source.squeak.org/trunk'];
@@ -61,6 +58,9 @@ baseline: spec
 	
 	spec for: #(#'squeak5.x' #'squeak6.0.x') do: [
 		spec
+			package: 'JSON' with: [
+				spec
+					repository: 'https://www.squeaksource.com/JSON'];
 			package: 'GitS-Compatibility-Squeak6';
 			package: 'GitS-Core' with: [
 				spec requires: 'GitS-Compatibility-Squeak6']]
