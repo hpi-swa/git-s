@@ -1,12 +1,13 @@
 {
 	"class" : {
 		"actionSelfUpdate" : "mad 3/6/2025 01:12",
-		"basicCheckForNewVersion" : "mad 12/23/2024 21:01",
+		"basicCheckForNewVersion" : "mad 8/19/2025 23:28",
 		"basicSelfUpdate" : "mad 5/18/2025 14:05",
 		"branchName" : "mad 11/4/2024 13:01",
 		"branchName:" : "mad 11/4/2024 13:02",
+		"cancelNextCheckForNewVersion" : "mad 8/20/2025 18:54",
 		"changeLog" : "mad 8/13/2025 14:20",
-		"checkForNewVersion" : "mad 10/25/2024 11:32",
+		"checkForNewVersion" : "mad 8/19/2025 23:17",
 		"fullRepositoryName" : "mad 10/9/2024 16:33",
 		"getShaOfVersion:" : "ct 10/6/2025 04:04",
 		"githubApiUrlForVersion:" : "mad 10/9/2024 18:38",
@@ -17,12 +18,13 @@
 		"isNewVersionAvailableIfError:" : "mad 12/23/2024 21:01",
 		"lastVersionCheck" : "mad 10/25/2024 11:33",
 		"lastVersionCheck:" : "mad 10/25/2024 11:34",
-		"lastVersionCheckWasRecent" : "mad 10/25/2024 11:35",
+		"lastVersionCheckWasRecent" : "mad 8/19/2025 23:07",
 		"metacelloRepositorySpecForVersion:" : "mad 11/4/2024 13:02",
 		"organizationName" : "mad 10/9/2024 16:34",
 		"postInstallVersion:" : "mad 12/23/2024 21:04",
 		"projectName" : "mad 10/9/2024 16:33",
 		"promptForNewVersion" : "mad 10/25/2024 11:49",
+		"queueNextCheckForNewVersion" : "mad 8/19/2025 23:24",
 		"repositoryName" : "mad 10/9/2024 16:34",
 		"requestAndSetBranchName" : "mad 3/5/2025 21:25",
 		"requestBranchName" : "mad 2/21/2025 15:08",
@@ -31,7 +33,6 @@
 		"showChangeLogDuring:" : "mad 5/18/2025 14:03",
 		"shownChangeLogLength" : "mad 12/23/2024 20:59",
 		"shownChangeLogLength:" : "mad 12/26/2024 16:34",
-		"versionCheckInterval" : "mad 10/25/2024 11:34",
 		"wantsChangeLog" : "mad 5/18/2025 14:02" },
 	"instance" : {
 		 } }

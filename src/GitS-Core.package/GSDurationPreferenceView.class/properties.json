@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"CheckForNewVersion",
-		"NewVersionCheckInterval",
-		"ShowBase" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GSPreferences",
+	"name" : "GSDurationPreferenceView",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PBTextPreferenceView",
 	"type" : "normal" }
