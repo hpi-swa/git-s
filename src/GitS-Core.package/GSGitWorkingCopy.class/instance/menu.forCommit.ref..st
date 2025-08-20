@@ -1,10 +1,11 @@
 menu
 menu: aMenu forCommit: aCommit ref: refString
-	| isRef isRefMenu isBranch refOrCommit refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
+	| isRef isRefMenu isBranch refOrCommit commitName refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
 	isRef := refString notNil.
 	isRefMenu := isRef or: [aCommit isNil].
 	isBranch := isRef and: [self isSqueakBranchRef: refString].
 	refOrCommit := isRef ifTrue: [refString] ifFalse: [aCommit].
+	commitName := isRef ifTrue: ['its latest commit'] ifFalse: ['it'].
 	refTypeName := self refTypeName: refString.
 	refShortName := isRef ifTrue: [(GitReference shortName: refString) printString] ifFalse: [nil].
 	currentBranch := self currentSymbolicHeadTarget.
@@ -83,8 +84,18 @@ menu: aMenu forCommit: aCommit ref: refString
 			argument: refOrCommit;
 			balloonTextForLastItem: 'The created branch will be visible from external git tools, like the git command line';
 			
-			add: ('Switch to {1} (detach HEAD)' format: {isRef ifTrue: ['its latest commit'] ifFalse: ['it']})
+			add: ('Switch to {1} (detach HEAD)' format: {commitName})
 			selector: #actionSwitchToCommit:
+			argument: aCommit;
+			
+			addLine;
+			
+			add: ('Cherry-pick {1}' format: {commitName})
+			selector: #actionCherryPick:
+			argument: aCommit;
+			
+			add: ('Revert {1}' format: {commitName})
+			selector: #actionRevert:
 			argument: aCommit.
 		
 		currentBranch ifNotNil: [
