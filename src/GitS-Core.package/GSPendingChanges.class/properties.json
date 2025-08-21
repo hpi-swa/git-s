@@ -9,6 +9,7 @@
 		"workingCopy",
 		"changeSets",
 		"parents",
+		"author",
 		"originalHeadCommit",
 		"windowTitle",
 		"initialMessage",

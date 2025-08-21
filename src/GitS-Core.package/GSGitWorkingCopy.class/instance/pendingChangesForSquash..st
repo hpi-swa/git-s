@@ -4,4 +4,5 @@ pendingChangesForSquash: aCommit
 		pendingChangesForCherryPick: aCommit
 		windowTitlePrefix: 'Squash ')
 			initialMessage: self headCommit message, String cr, String cr, aCommit message;
+			author: nil;
 			yourself
