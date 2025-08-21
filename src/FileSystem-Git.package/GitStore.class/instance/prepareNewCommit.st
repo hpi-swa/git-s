@@ -1,11 +1,12 @@
 git plumbing
 prepareNewCommit
-	| commit parents |
+	| now commit parents |
 	modManager processChanges.
+	now := GitStamp now.
 	commit := GitOwningCommit new
 		tree: modManager rootTree;
-		author: GitStamp now;
-		committer: GitStamp now;
+		author: now;
+		committer: now;
 		repository: repository;
 		yourself.
 	parents := OrderedCollection new.
