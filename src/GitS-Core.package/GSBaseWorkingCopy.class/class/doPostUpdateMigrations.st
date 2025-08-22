@@ -5,4 +5,4 @@ doPostUpdateMigrations
 		doPostUpdateMigrationsOnAllInstances;
 		migrateGitStoreLog;
 		uninstallSquot.
-	GSGUIUtilities queueNextCheckForNewVersion.
+	GSSelfUpdater queueNextCheckForNewVersion.
