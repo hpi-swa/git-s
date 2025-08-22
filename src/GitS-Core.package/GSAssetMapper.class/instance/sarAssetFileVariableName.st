@@ -1,3 +1,0 @@
-sar
-sarAssetFileVariableName
-	^ 'assetFile'

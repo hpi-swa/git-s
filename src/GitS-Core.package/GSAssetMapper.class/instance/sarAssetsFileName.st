@@ -1,3 +1,0 @@
-sar
-sarAssetsFileName
-	^ 'assets.st'
