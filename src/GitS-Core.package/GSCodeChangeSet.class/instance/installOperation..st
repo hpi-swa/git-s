@@ -1,3 +1,3 @@
 operations
 installOperation: anOperation
-	(MCPatch operations: {anOperation}) gitSApplyToLoaded: self package.
+	(MCPatch operations: {anOperation}) gitSApplyToLoadedWithNameLike: self package name.

@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"batchMaterialize:in:" : "mad 8/21/2025 22:44",
 		"withMapper:from:operations:" : "mad 11/12/2024 15:14",
 		"withMapper:from:operations:conflicts:" : "mad 11/12/2024 15:14",
 		"withMapper:from:patch:" : "mad 11/16/2024 14:57" },
@@ -16,10 +17,10 @@
 		"from:" : "mad 11/12/2024 15:17",
 		"initialize" : "mad 9/7/2023 20:08",
 		"installChange:" : "mad 8/12/2025 22:00",
-		"installOperation:" : "mad 8/12/2025 22:01",
+		"installOperation:" : "mad 8/20/2025 21:11",
 		"isRemoval" : "mad 11/16/2024 15:06",
 		"keyStroke:on:" : "mad 8/12/2025 22:29",
-		"materializeIn:" : "mad 10/9/2024 17:04",
+		"materializeIn:" : "mad 8/20/2025 21:18",
 		"operations" : "mad 9/10/2023 18:58",
 		"package" : "mad 9/6/2023 19:18",
 		"patch" : "mad 9/7/2023 16:03",

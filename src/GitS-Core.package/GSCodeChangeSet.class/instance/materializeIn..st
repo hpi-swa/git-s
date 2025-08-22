@@ -1,3 +1,4 @@
 operations
 materializeIn: aWorkingCopy
-	self patch gitSApplyToLoaded: self package.
+	"Implemented on the class side"
+	self shouldNotImplement.
