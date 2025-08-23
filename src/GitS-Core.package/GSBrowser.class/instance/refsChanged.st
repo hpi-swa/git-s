@@ -1,5 +1,5 @@
 updating
 refsChanged
 	self
-		changed: #commitList;
+		generateAncestryCommitList;
 		updateRefTree.

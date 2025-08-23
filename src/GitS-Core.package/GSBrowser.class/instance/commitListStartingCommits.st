@@ -1,4 +1,4 @@
-ui
+commit-list
 commitListStartingCommits
 	^ {self activeRef
 		ifNotNil: [self activeRefCommit]

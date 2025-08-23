@@ -6,4 +6,4 @@ activeRef: aString forceChange: aBoolean
 		deriveActiveRefTreeMemberFromActiveRef;
 		activeCommit: self activeRefCommit;
 		changed: #activeRef;
-		changed: #commitList.
+		generateAncestryCommitList.
