@@ -6,5 +6,6 @@ ignoredSends
 		self ignoredSendsForLegacyProjectImporting,
 		self ignoredSendsForGitStoreMigration,
 		self ignoredSendsForTextDiffing,
+		self ignoredSendsForUncommittedChangesDialogOptions,
 		self ignoredSendsForUnmappedPathDialogOptions,
 		self ignoredSendsForViewDirectives
