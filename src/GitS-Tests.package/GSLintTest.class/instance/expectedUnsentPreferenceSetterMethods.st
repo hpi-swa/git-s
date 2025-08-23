@@ -4,4 +4,5 @@ expectedUnsentPreferenceSetterMethods
 	^ {
 		#showBase:.
 		#checkForNewVersion:.
+		#newVersionCheckInterval:.
 	} collect: [:each | GSPreferences class >> each]
