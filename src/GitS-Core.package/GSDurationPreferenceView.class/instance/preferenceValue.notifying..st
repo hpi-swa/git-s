@@ -1,7 +1,7 @@
 user interface
-preferenceValue: aString notifying: requestor
+preferenceValue: aTextOrString notifying: requestor
 	| value |
-	value := Compiler evaluate: aString for: requestor.
+	value := self parseValue: aTextOrString asString notifying: requestor.
 	(value isNil or: [value isKindOf: Duration])
 		ifTrue: [self preference preferenceValue: value].
 	^ true
