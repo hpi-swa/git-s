@@ -1,0 +1,22 @@
+{
+	"category" : "GitS-Core-Browser-CommitList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"commits",
+		"activeCommit",
+		"generatingProcess",
+		"expression",
+		"block",
+		"modes",
+		"activeMode",
+		"scope" ],
+	"name" : "GSCommitList",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

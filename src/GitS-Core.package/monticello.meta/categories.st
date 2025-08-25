@@ -13,3 +13,4 @@ SystemOrganization addCategory: #'GitS-Core-Code'!
 SystemOrganization addCategory: #'GitS-Core-Rebase'!
 SystemOrganization addCategory: #'GitS-Core-Sar'!
 SystemOrganization addCategory: #'GitS-Core-Utilities'!
+SystemOrganization addCategory: #'GitS-Core-Browser-CommitList'!

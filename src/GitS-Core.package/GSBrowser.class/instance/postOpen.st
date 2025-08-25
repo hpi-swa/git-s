@@ -1,5 +1,4 @@
 toolbuilder
 postOpen
-	self
-		revealActiveTreeMember;
-		changed: #activeCommit.
+	self revealActiveTreeMember.
+	self commitList postOpen.

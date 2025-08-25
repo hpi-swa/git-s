@@ -1,0 +1,3 @@
+accessing
+basicActiveMatcher: aCommitListPatternMatcherClass
+	activeMatcher := aCommitListPatternMatcherClass.

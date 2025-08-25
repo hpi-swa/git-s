@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Browser-CommitList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"commit" ],
+	"name" : "GSCommitListFilterModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

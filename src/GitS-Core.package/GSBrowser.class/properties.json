@@ -7,9 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"activeWorkingCopy",
-		"activeCommit",
 		"commitList",
-		"commitListProcess",
 		"activeRef",
 		"refTree",
 		"activeRefTreeMember" ],

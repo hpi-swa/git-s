@@ -1,3 +1,3 @@
 accessing
 activeCommit
-	^ activeCommit
+	^ self commitList activeCommit
