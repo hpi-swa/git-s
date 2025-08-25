@@ -1,19 +1,19 @@
 accessing
 updateChangesTree
-	| oldChanges oldChangesByPath |
+	| oldChanges oldChangesByUniqueKey |
 	oldChanges := self changesTree allChildren.
-	oldChangesByPath := Dictionary new.
+	oldChangesByUniqueKey := Dictionary new.
 	oldChanges do: [:each |
 		self
-			assert: (oldChangesByPath includesKey: each path) not
-			description: 'change paths should be unique'.
-		oldChangesByPath at: each path put: each].
+			assert: (oldChangesByUniqueKey includesKey: each uniqueKey) not
+			description: 'uniqueKeys should be unique'.
+		oldChangesByUniqueKey at: each uniqueKey put: each].
 	self changesTree
 		removeAllChildren;
 		addAll: self changes;
 		removeAllEmptyTrees.
 	self changes do: [:each |
-		oldChangesByPath
-			at: each path
+		oldChangesByUniqueKey
+			at: each uniqueKey
 			ifPresent: [:oldChange | each refresh: oldChange]].
 	self changed: #rootNodes.
