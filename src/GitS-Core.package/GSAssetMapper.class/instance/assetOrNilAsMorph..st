@@ -1,5 +1,5 @@
 toolbuilder
 assetOrNilAsMorph: anAssetOrNil
 	^ anAssetOrNil
-		ifNil: [(GSTextUtilities italic: 'Missing') asMorph]
+		ifNil: [self missingMorph]
 		ifNotNil: [self assetAsMorph: anAssetOrNil]
