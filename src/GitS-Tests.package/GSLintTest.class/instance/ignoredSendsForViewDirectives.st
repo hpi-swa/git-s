@@ -1,3 +1,6 @@
 ignored-sends
 ignoredSendsForViewDirectives
-	^ {GSBrowser>>#revealActiveTreeMember -> #openPath}
+	^ {
+		GSBrowser>>#revealActiveTreeMember -> #openPath.
+		GSCommitList>>#markNotYetGenerated -> #editString.
+	}

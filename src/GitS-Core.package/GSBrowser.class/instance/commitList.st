@@ -1,3 +1,3 @@
 accessing
 commitList
-	^ commitList ifNil: [commitList := OrderedCollection new]
+	^ commitList ifNil: [commitList := self createCommitList]

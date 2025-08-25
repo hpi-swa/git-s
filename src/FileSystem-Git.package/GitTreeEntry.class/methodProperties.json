@@ -12,6 +12,7 @@
 	"instance" : {
 		"<=" : "MaxLeske 7/24/2010 17:04",
 		"=" : "MaxLeske 2/27/2012 21:31",
+		"allEntriesDo:" : "mad 8/24/2025 21:42",
 		"beInDirectoryMode" : "jr 5/14/2017 17:19",
 		"beInExecutableFileMode" : "jr 5/14/2017 17:22",
 		"beInFileMode" : "jr 5/14/2017 17:19",

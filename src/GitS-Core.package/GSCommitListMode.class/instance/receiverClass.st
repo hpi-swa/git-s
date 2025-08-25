@@ -1,0 +1,3 @@
+editor
+receiverClass
+	self subclassResponsibility.

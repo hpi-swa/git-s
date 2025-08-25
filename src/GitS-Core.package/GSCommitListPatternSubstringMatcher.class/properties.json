@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Browser-CommitList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSCommitListPatternSubstringMatcher",
+	"pools" : [
+		 ],
+	"super" : "GSCommitListPatternMatcher",
+	"type" : "normal" }

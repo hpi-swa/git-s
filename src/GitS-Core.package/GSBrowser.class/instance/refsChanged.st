@@ -1,5 +1,3 @@
 updating
 refsChanged
-	self
-		generateAncestryCommitList;
-		updateRefTree.
+	self updateRefTree.

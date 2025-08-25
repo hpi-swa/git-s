@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Browser-CommitList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSCommitListPatternFileNamesSource",
+	"pools" : [
+		 ],
+	"super" : "GSCommitListPatternEntriesBasedSource",
+	"type" : "normal" }

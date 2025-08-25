@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSUpdatingMenuMorph",
+	"pools" : [
+		 ],
+	"super" : "UpdatingMenuMorph",
+	"type" : "normal" }

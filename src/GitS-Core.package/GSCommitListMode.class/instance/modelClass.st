@@ -1,0 +1,3 @@
+editor
+modelClass
+	^ GSCommitListFilterModel

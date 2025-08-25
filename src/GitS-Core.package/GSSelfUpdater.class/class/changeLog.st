@@ -24,4 +24,5 @@ changeLog
 		'Add commit (amend) to the ''...'' menu.'.
 		'Automatically stash uncommitted changes during merge/pull and offer to save uncommitted changes on the branch or move them over while switching.'. 
 		'Add cherry-pick and revert menu items.'.
+		'Add configurable commit list search bar.'.
 	}

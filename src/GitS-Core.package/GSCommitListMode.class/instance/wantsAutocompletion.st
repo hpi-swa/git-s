@@ -1,0 +1,3 @@
+editor
+wantsAutocompletion
+	self subclassResponsibility.

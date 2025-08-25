@@ -1,0 +1,20 @@
+{
+	"category" : "GitS-Core-Browser-CommitList",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"commitList",
+		"lastActiveWorkingCopy",
+		"includeActiveRef",
+		"includeHead",
+		"includeBranches",
+		"includeRemotes",
+		"includeAllRefs" ],
+	"name" : "GSCommitListScope",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

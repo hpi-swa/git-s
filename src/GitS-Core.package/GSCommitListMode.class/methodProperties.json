@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"isAbstract" : "mad 8/25/2025 01:52" },
+	"instance" : {
+		"aboutToStyle:requestor:" : "mad 8/24/2025 13:38",
+		"activeWorkingCopy" : "mad 8/24/2025 13:42",
+		"addToMenu:" : "mad 8/24/2025 12:24",
+		"changed" : "mad 8/24/2025 15:16",
+		"commitList" : "mad 8/24/2025 11:52",
+		"commitList:" : "mad 8/24/2025 11:52",
+		"compileNotifying:" : "mad 8/24/2025 11:51",
+		"displayName" : "mad 8/24/2025 11:58",
+		"expression" : "mad 8/24/2025 11:52",
+		"modelClass" : "mad 8/24/2025 22:09",
+		"receiverClass" : "mad 8/24/2025 13:39",
+		"wantsAutocompletion" : "mad 8/24/2025 13:38" } }
