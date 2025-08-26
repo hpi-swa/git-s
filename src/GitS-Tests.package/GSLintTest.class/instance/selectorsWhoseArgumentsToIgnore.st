@@ -1,3 +1,3 @@
 ignored-sends
 selectorsWhoseArgumentsToIgnore
-	^ #(flag: = ~= changed: hResizing: horizontalResizing: vResizing: verticalResizing: listDirection:)
+	^ #(flag: = ~= changed: changed:with: hResizing: horizontalResizing: vResizing: verticalResizing: listDirection:)
