@@ -10,6 +10,6 @@ settingsMenu: aMenu
 			add: (GSGUIUtilities menuItem: each displayName enabled: self activeMode = each)
 			selector: #activeMode:
 			argument: each].
-	self activeMode addToMenu: aMenu.
+	self modes do: [:each | each addToMenu: aMenu].
 	self scope addToMenu: aMenu.
 	^ aMenu

@@ -2,7 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"basicCompilePattern:" : "mad 8/25/2025 23:27",
 		"commit" : "mad 8/24/2025 13:43",
 		"commit:" : "mad 8/24/2025 16:50",
+		"commitList" : "mad 8/25/2025 23:03",
+		"commitList:" : "mad 8/25/2025 23:03",
+		"compilePattern:" : "mad 8/25/2025 23:27",
+		"compiledPatterns" : "mad 8/25/2025 23:28",
+		"pattern:" : "mad 8/25/2025 23:16",
+		"patternMode" : "mad 8/25/2025 23:16",
 		"workingCopy" : "mad 8/24/2025 13:43",
 		"workingCopy:" : "mad 8/24/2025 16:50" } }

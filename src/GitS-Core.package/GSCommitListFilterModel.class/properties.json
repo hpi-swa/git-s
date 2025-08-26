@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"commit",
+		"commitList",
 		"workingCopy",
-		"commit" ],
+		"compiledPatterns" ],
 	"name" : "GSCommitListFilterModel",
 	"pools" : [
 		 ],

@@ -1,0 +1,3 @@
+accessing
+codeMode
+	^ codeMode
