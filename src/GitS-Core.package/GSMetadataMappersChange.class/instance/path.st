@@ -1,3 +1,3 @@
 accessing
 path
-	^ {'Metadata'. 'Project Structure'}
+	^ {'Metadata'. 'Project Structure'. self changedMapper name}

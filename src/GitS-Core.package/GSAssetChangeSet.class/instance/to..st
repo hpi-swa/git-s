@@ -1,4 +1,6 @@
 accessing
 to: anAssetFile
 	to := anAssetFile.
-	self changed: #to.
+	self
+		changed: #to;
+		changed: #isRemoval.

@@ -3,7 +3,6 @@
 		"withMapper:oldMetadata:propertyChangeSets:" : "mad 8/27/2024 20:52" },
 	"instance" : {
 		"changes" : "mad 8/24/2024 19:01",
-		"isRemoval" : "mad 11/12/2024 15:18",
 		"legacyReferencesIn:" : "mad 10/9/2024 18:02",
 		"materializeIn:" : "mad 11/12/2024 14:26",
 		"metadataReferenceIn:" : "mad 10/9/2024 17:18",

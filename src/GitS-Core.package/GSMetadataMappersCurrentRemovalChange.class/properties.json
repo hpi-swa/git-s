@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Metadata-Mappers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSMetadataMappersCurrentRemovalChange",
+	"pools" : [
+		 ],
+	"super" : "GSMetadataMappersRemovalChange",
+	"type" : "normal" }

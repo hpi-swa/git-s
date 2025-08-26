@@ -1,3 +1,3 @@
 accessing
 isExcluded
-	^ isExcluded
+	^ self change isExcluded

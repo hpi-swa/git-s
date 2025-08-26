@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"changedMapper" ],
 	"name" : "GSMetadataMappersChange",
 	"pools" : [
 		 ],
-	"super" : "GSForcedChange",
+	"super" : "GSChange",
 	"type" : "normal" }

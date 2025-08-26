@@ -10,8 +10,6 @@ ifUnchanged: unchangedBlock
 		atomicMergeLeft: leftHexHash
 		right: (aMapper hexHashIn: rightFSCommit)
 		base: (aMapper hexHashIn: baseFSCommit)
-		ifUnchanged: [unchangedBlock value: (GSEmptyChangeSet
-													withMapper: aMapper
-													isRemoval: leftHexHash isNil)]
+		ifUnchanged: [unchangedBlock value: (GSEmptyChangeSet withMapper: aMapper)]
 		ifMerged: [:merged |]
 		ifConflict: [:conflict |].

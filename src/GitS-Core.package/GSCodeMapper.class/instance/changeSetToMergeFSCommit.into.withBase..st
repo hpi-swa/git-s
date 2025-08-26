@@ -15,9 +15,7 @@ changeSetToMergeFSCommit: rightFSCommit into: leftFSCommit withBase: baseFSCommi
 			on: MCNoChangesException
 			do: #resume.
 	(merger operations isEmpty and: [merger conflicts isEmpty])
-		ifTrue: [^ GSEmptyChangeSet
-					withMapper: self
-					isRemoval: (self isEmpty: leftSnapshot)].
+		ifTrue: [^ GSEmptyChangeSet withMapper: self].
 	^ GSCodeChangeSet
 		withMapper: self
 		from: leftSnapshot

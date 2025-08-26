@@ -1,13 +1,23 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "mad 8/25/2025 20:46" },
 	"instance" : {
-		"buildWith:" : "mad 10/9/2024 16:01",
-		"description" : "mad 8/27/2024 21:25",
-		"diffText" : "mad 10/9/2024 16:01",
-		"mappersToLines:" : "mad 9/20/2023 12:31",
-		"newMapperLines" : "mad 9/20/2023 12:31",
-		"newMappers" : "mad 9/20/2023 13:04",
-		"oldMapperLines" : "mad 9/20/2023 12:31",
-		"oldMappers" : "mad 9/20/2023 13:04",
-		"path" : "mad 8/18/2024 19:28" } }
+		"applyTo:" : "mad 8/25/2025 21:47",
+		"buildWith:" : "mad 8/25/2025 21:41",
+		"changedMapper" : "mad 8/25/2025 19:18",
+		"changedMapper:" : "mad 8/25/2025 20:21",
+		"changedMapperChanges" : "mad 8/25/2025 21:50",
+		"description" : "mad 8/25/2025 21:56",
+		"edgeCaseReachedMessage" : "mad 8/25/2025 21:53",
+		"hasConflicts" : "mad 8/25/2025 20:47",
+		"help" : "mad 8/25/2025 20:09",
+		"isExcludedInEdgeCase" : "mad 8/25/2025 21:25",
+		"isExcludedMatchesEdgeCase" : "mad 8/25/2025 21:32",
+		"isRemoval" : "mad 8/25/2025 21:04",
+		"kind" : "mad 8/25/2025 21:54",
+		"path" : "mad 8/25/2025 21:17",
+		"promptToSetIsExcludedSilently:" : "mad 8/25/2025 21:41",
+		"reachedEdgeCase" : "mad 8/25/2025 21:25",
+		"side" : "mad 8/25/2025 21:54",
+		"update:with:" : "mad 8/25/2025 20:23",
+		"updateIsExcludedSilently:" : "mad 8/25/2025 21:32" } }

@@ -1,3 +1,0 @@
-excluding
-basicExclude
-	self exclude.
