@@ -15,5 +15,15 @@ batchAdd: aCollection toSar: aSarBuilder
 	memberName := aSarBuilder workingCopy name, '.st'.
 	aSarBuilder
 		addString: (stream contents convertToEncoding: 'utf8') at: memberName;
-		addPreambleLine: ('self fileInMemberNamed: {1}.' gitSFormat: {memberName printString}).
+		addPreambleLine: (String streamContents: [:preambleStream |
+			preambleStream nextPutAll:
+				('self fileInMemberNamed: {1}.\
+				(Smalltalk classNamed: #MCPackage) ifNotNil: [:mcPackage |'
+					gitSFormat: {memberName printString}).
+			codeMappers
+				do: [:each | preambleStream cr; tab; nextPutAll:
+						('(mcPackage named: {1}) workingCopy modified: false'
+							gitSFormat: {each package name printString})]
+				separatedBy: [preambleStream nextPut: $.].
+			preambleStream nextPutAll: '].']).
 	^ aCollection reject: [:each | each isKindOf: self]
