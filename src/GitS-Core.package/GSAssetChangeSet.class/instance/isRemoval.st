@@ -1,3 +1,3 @@
 testing
 isRemoval
-	^ self mapper isMissing: self assetFileToWrite
+	^ self assetFileToWrite isNil

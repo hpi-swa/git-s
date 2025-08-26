@@ -1,0 +1,3 @@
+edge-case
+isExcludedInEdgeCase
+	^ true

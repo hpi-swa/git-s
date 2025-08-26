@@ -1,3 +1,3 @@
 excluding
 exclude
-	self subclassResponsibility.
+	self excludeSilently: false.

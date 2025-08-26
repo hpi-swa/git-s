@@ -2,5 +2,5 @@ accessing
 resolution: anObject
 	resolution := anObject.
 	self updateTexts.
-	{#isResolvedToBase. #isResolvedToLeft. #isResolvedToRight}
+	{#isResolvedToBase. #isResolvedToLeft. #isResolvedToRight. #isRemoval}
 		do: [:each | self changed: each].

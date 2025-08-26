@@ -1,17 +1,15 @@
 {
 	"class" : {
-		"property" : "mad 8/18/2024 18:48",
-		"withMapper:old:potentiallyRemoved:changeSets:" : "mad 2/20/2024 15:04" },
+		"property" : "mad 8/18/2024 18:48" },
 	"instance" : {
-		"allMappers" : "mad 9/30/2024 15:00",
+		"addChangedMappers:class:" : "mad 8/25/2025 19:33",
 		"bumpMapperVersionIfNecessary:" : "mad 9/27/2024 17:45",
-		"changes" : "mad 10/9/2024 16:01",
-		"isEmpty" : "mad 10/1/2024 14:42",
+		"changes" : "mad 8/25/2025 19:21",
+		"changes:" : "mad 8/25/2025 19:21",
+		"initialize" : "mad 8/25/2025 19:31",
 		"mapperChangeSets" : "mad 2/20/2024 14:51",
 		"mapperChangeSets:" : "mad 2/20/2024 14:51",
-		"newMappers" : "mad 11/12/2024 14:45",
+		"newMappers" : "mad 8/25/2025 19:23",
 		"newValue" : "mad 11/12/2024 14:28",
 		"oldMappers" : "mad 9/20/2023 12:00",
-		"oldMappers:" : "mad 9/20/2023 12:00",
-		"potentiallyRemovedMappers" : "mad 2/20/2024 15:00",
-		"potentiallyRemovedMappers:" : "mad 2/20/2024 15:00" } }
+		"oldMappers:" : "mad 8/25/2025 19:33" } }

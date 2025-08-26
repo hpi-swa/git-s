@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applyTo:" : "mad 8/25/2025 21:47",
+		"canBeExcluded" : "mad 8/25/2025 21:34",
+		"isExcluded:silently:" : "mad 8/25/2025 22:28",
+		"isExcludedInEdgeCase" : "mad 8/25/2025 21:45",
+		"kind" : "mad 8/25/2025 21:54",
+		"reachedEdgeCase" : "mad 8/25/2025 21:34",
+		"side" : "mad 8/25/2025 21:55" } }

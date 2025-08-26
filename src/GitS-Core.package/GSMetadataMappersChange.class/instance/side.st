@@ -1,0 +1,3 @@
+accessing
+side
+	self subclassResponsibility.

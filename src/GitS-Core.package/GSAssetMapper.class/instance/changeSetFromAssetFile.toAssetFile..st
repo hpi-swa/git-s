@@ -1,9 +1,7 @@
 changes-creation
 changeSetFromAssetFile: anAssetFile toAssetFile: anotherAssetFile
 	(anAssetFile = anotherAssetFile) ifTrue: [
-		^ GSEmptyChangeSet
-			withMapper: self
-			isRemoval: (self isMissing: anotherAssetFile)].
+		^ GSEmptyChangeSet withMapper: self].
 	^ self changeSetClass
 		withMapper: self
 		from: anAssetFile

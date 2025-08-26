@@ -1,5 +1,7 @@
 accessing
 resolution: anAssetFile
 	resolution := anAssetFile.
-	self markAsEdited.
-	self changed: #resolution.
+	self
+		markAsEdited;
+		changed: #resolution;
+		changed: #isRemoval.
