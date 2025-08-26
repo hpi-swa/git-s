@@ -5,12 +5,9 @@ initialize
 		commits: OrderedCollection new;
 		basicBlock: self defaultBlock;
 		basicExpression: '';
-		modes: ({GSCommitListPatternMode. GSCommitListCodeMode} collect: [:each |
-			each new
-				commitList: self;
-				addDependent: self;
-				yourself]);
-		activeMode: self modes first;
+		patternMode: (self createMode: GSCommitListPatternMode);
+		codeMode: (self createMode: GSCommitListCodeMode);
+		activeMode: self patternMode;
 		scope: (GSCommitListScope new
 					commitList: self;
 					addDependent: self;

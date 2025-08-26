@@ -1,3 +1,3 @@
 accessing
 modes
-	^ modes
+	^ {self patternMode. self codeMode}
