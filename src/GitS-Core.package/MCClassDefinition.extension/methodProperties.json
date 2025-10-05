@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"gitSBrowse" : "mad 10/5/2025 20:03",
+		"gitSCanBrowse" : "mad 10/5/2025 20:08",
 		"gitSChangePath" : "mad 10/9/2024 17:00",
 		"gitSCopyWithSources:notifying:ifFail:" : "mad 8/6/2025 22:31",
 		"gitSCurrentVersionIn:" : "mad 8/12/2025 21:41",

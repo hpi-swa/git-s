@@ -26,4 +26,5 @@ changeLog
 		'Add cherry-pick and revert menu items.'.
 		'Add configurable commit list search bar.'.
 		'Allow changes in project structure to be excluded in changes dialogs.'.
+		'Add some standard menu items and keyboard shortcuts for code changes.'.
 	}
