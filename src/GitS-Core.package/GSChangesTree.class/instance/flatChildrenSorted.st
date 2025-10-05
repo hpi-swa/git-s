@@ -1,3 +1,3 @@
 accessing
 flatChildrenSorted
-	^ self flatChildren sorted: [:a :b | a label <= b label]
+	^ self flatChildren sorted: #label ascending
