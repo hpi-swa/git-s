@@ -7,5 +7,5 @@ queueNextCheckForNewVersion
 			waitDuration := time + waitDuration - DateAndTime now clampLow: Duration zero].
 		waitDuration wait]
 			ensure: [QueuedCheckForNewVersionProcess := nil].
-		Project current addDeferredUIMessage: [self checkForNewVersion]]
+		self checkForNewVersion]
 			forkAt: Processor userBackgroundPriority.
