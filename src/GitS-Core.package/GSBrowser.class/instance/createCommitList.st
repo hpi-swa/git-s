@@ -2,5 +2,5 @@ accessing
 createCommitList
 	^ GSCommitList new
 		browser: self;
-		addDependent: self;
+		when: #activeCommitChanged send: #activeCommitChanged to: self;
 		yourself

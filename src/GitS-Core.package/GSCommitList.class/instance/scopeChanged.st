@@ -1,0 +1,3 @@
+updating
+scopeChanged
+	self regenerate.

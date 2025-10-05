@@ -10,5 +10,5 @@ initialize
 		activeMode: self patternMode;
 		scope: (GSCommitListScope new
 					commitList: self;
-					addDependent: self;
+					when: #changed send: #scopeChanged to: self;
 					yourself).
