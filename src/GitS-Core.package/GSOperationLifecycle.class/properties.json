@@ -11,5 +11,5 @@
 	"name" : "GSOperationLifecycle",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DynamicVariable",
 	"type" : "normal" }

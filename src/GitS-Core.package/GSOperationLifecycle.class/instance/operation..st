@@ -1,3 +1,5 @@
 error handling
 operation: aBlock
-	^ [self withUnitOfWork: aBlock] on: GSOperationCanceledException do: [nil]
+	self class value ifNotNil: [:existingOperation |
+		existingOperation workingCopy = self workingCopy ifTrue: [^ aBlock value]].
+	^ self class value: self during: [[self withUnitOfWork: aBlock] on: GSOperationCanceledException do: [nil]]

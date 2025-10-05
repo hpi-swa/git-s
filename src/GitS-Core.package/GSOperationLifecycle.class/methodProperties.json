@@ -2,10 +2,11 @@
 	"class" : {
 		"driver:getWorkingCopy:" : "mad 12/21/2024 22:26" },
 	"instance" : {
+		"activeWorkingCopy" : "mad 8/23/2025 12:42",
 		"doesNotUnderstand:" : "mad 12/21/2024 23:39",
 		"driver" : "mad 12/21/2024 22:05",
 		"driver:" : "mad 12/22/2024 00:09",
-		"operation:" : "mad 3/6/2025 11:14",
+		"operation:" : "mad 8/23/2025 12:50",
 		"respondsTo:" : "mad 12/23/2024 19:51",
 		"update:" : "mad 12/22/2024 00:01",
 		"withUnitOfWork:" : "mad 12/21/2024 22:25",
