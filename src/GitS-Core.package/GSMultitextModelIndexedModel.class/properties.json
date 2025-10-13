@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Versions-UI-Multitext",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"index" ],
+	"name" : "GSMultitextModelIndexedModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

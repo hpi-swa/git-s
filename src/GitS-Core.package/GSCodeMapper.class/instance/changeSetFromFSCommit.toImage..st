@@ -1,5 +1,5 @@
 changes-creation
 changeSetFromFSCommit: anFSCommit toImage: aWorkingCopy
-	^ self
-		changeSetFromSnapshot: (self loadSnapshotFrom: anFSCommit filesystem)
-		toSnapshot: self workingCopySnapshot
+	^ self changeSetFromSnapshots: (GSVersionChange
+		current: (self loadSnapshotFrom: anFSCommit filesystem)
+		incoming: self workingCopySnapshot)

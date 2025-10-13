@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionChange" ],
+	"name" : "GSChangeWithVersions",
+	"pools" : [
+		 ],
+	"super" : "GSChange",
+	"type" : "normal" }

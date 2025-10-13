@@ -6,6 +6,6 @@ changeSetFromImage: aWorkingCopy toFSCommit: anFSCommit
 		hexHashesFrom: (imageAssetFile ifNotNil: #hexHash)
 		to: (self hexHashIn: anFSCommit)
 		ifEqual: [:emptyChangeSet | ^ emptyChangeSet].
-	^ self
-		changeSetFromAssetFile: imageAssetFile
-		toAssetFile: (self loadAssetFileFrom: anFSCommit filesystem)
+	^ self changeSetFromAssetFiles: (GSVersionChange
+		current: imageAssetFile
+		incoming: (self loadAssetFileFrom: anFSCommit filesystem))

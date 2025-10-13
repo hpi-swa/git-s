@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"fromVersions:" : "mad 10/6/2025 21:07",
+		"numberOfVersions" : "mad 10/6/2025 21:06" },
+	"instance" : {
+		"atomicModelClass" : "mad 10/10/2025 01:36",
+		"collect:" : "mad 10/5/2025 21:44",
+		"currentToResolution" : "mad 10/9/2025 22:51",
+		"fromVersions:" : "mad 10/6/2025 21:07",
+		"hasConflicts" : "mad 10/6/2025 23:52",
+		"initialize" : "mad 10/6/2025 20:39",
+		"isResolved" : "mad 10/5/2025 21:30",
+		"isResolved:" : "mad 10/6/2025 23:52",
+		"isResolvedTo:" : "mad 10/6/2025 20:39",
+		"multitextModelClass" : "mad 10/7/2025 00:53",
+		"resetToConflict" : "mad 10/6/2025 20:39",
+		"resolution" : "mad 10/5/2025 21:30",
+		"resolution:" : "mad 10/10/2025 00:32",
+		"resolveTo:" : "mad 10/5/2025 22:05",
+		"versionToWrite" : "mad 10/5/2025 22:37",
+		"versionToWrite:" : "mad 10/5/2025 22:37",
+		"versionToWriteName" : "mad 10/5/2025 22:43",
+		"versionsDictionary" : "mad 10/6/2025 21:12" } }

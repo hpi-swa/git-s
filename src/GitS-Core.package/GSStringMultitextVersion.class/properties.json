@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions-UI-Multitext",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSStringMultitextVersion",
+	"pools" : [
+		 ],
+	"super" : "GSMultitextVersion",
+	"type" : "normal" }

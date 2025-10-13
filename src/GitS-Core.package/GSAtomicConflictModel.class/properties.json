@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions-UI-Atomic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSAtomicConflictModel",
+	"pools" : [
+		 ],
+	"super" : "GSAtomicChangeModel",
+	"type" : "normal" }

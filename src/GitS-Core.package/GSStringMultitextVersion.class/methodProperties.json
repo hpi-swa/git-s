@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isAbstract" : "mad 10/7/2025 00:10" },
+	"instance" : {
+		"computeSources" : "mad 10/7/2025 00:39",
+		"fromString:" : "mad 8/18/2024 18:53",
+		"help" : "mad 10/7/2025 00:39",
+		"source" : "mad 10/7/2025 00:39",
+		"toString" : "mad 10/7/2025 00:38",
+		"versionCopyWithSources:notifying:ifFail:" : "mad 10/10/2025 00:27" } }

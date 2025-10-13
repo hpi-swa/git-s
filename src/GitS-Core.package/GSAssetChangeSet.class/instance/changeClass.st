@@ -1,3 +1,3 @@
 accessing
 changeClass
-	^ GSAssetChange
+	^ self mapper changeClass

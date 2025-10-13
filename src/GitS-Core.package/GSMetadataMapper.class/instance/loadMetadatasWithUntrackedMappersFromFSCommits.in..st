@@ -1,19 +1,19 @@
 metadata-loading
-loadMetadatasWithUntrackedMappersFromFSCommits: aCollection in: aWorkingCopy
+loadMetadatasWithUntrackedMappersFromFSCommits: aVersionChange in: aWorkingCopy
 	| fileSystems mappedPathPatterns metadatas unmappedPaths untrackedMappers |
-	fileSystems := aCollection collect: #filesystem.
+	fileSystems := aVersionChange collect: #filesystem.
 	metadatas := fileSystems collect: [:fileSystem | self loadMetadataFromFileSystem: fileSystem in: aWorkingCopy].
 	mappedPathPatterns := Set new.
 	metadatas do: [:metadata | metadata mappers do: [:mapper | mappedPathPatterns addAll: mapper mappedPathPatterns]].
 	unmappedPaths := Set new.
 	metadatas with: fileSystems do: [:metadata :fileSystem |
 		metadata unmappedReferencesIn: fileSystem do: [:each | unmappedPaths add: each path]].
-	untrackedMappers := aCollection collect: [:each | OrderedCollection new].
+	untrackedMappers := aVersionChange collect: [:each | OrderedCollection new].
 	unmappedPaths
 		do: [:path |
 			(self
 				shouldLoadUntrackedMappersAt: path
-				fromFSCommits: aCollection
+				fromFSCommits: aVersionChange
 				withMappedPathPatterns: mappedPathPatterns) ifTrue: [
 				fileSystems with: untrackedMappers do: [:fileSystem :mappers | | reference |
 					reference := fileSystem referenceTo: path.

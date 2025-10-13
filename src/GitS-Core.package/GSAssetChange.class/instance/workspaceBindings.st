@@ -1,6 +1,3 @@
 workspace
 workspaceBindings
-	^ (Dictionary newFrom: {
-		'old' -> self from.
-		'new' -> self to.
-	}) collect: [:each | each ifNotNil: #asset]
+	^ self versionChange versionsDictionary collect: [:each | each ifNotNil: #asset]

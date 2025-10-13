@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"isAbstract" : "mad 10/6/2025 23:00",
+		"withChange:version:" : "mad 10/7/2025 03:05",
+		"wrapVersion:for:" : "mad 10/10/2025 00:20",
+		"wrapVersionChange:for:" : "mad 10/10/2025 00:19" },
+	"instance" : {
+		"change" : "mad 10/7/2025 03:04",
+		"change:" : "mad 10/7/2025 03:04",
+		"computeSources" : "mad 10/6/2025 23:20",
+		"copyWithSources:notifying:ifFail:" : "mad 10/10/2025 00:28",
+		"mapper" : "mad 10/7/2025 03:04",
+		"sources" : "mad 10/6/2025 23:20",
+		"version" : "mad 10/6/2025 23:12",
+		"version:" : "mad 10/6/2025 23:12",
+		"versionCopyWithSources:notifying:ifFail:" : "mad 10/10/2025 00:28" } }

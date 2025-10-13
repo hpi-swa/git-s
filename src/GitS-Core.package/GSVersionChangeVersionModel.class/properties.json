@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Versions-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionChange",
+		"versionSelector" ],
+	"name" : "GSVersionChangeVersionModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

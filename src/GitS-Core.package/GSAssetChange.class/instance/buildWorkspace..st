@@ -5,5 +5,5 @@ buildWorkspace: builder
 		mapper: self mapper
 		setAsset: #saveNewAsset:
 		getBindings: #workspaceBindings
-		editTargetName: self workspaceEditTargetString
+		editTargetName: self versionChange versionToWriteName
 		buildWith: builder

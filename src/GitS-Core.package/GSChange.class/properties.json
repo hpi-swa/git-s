@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"changeSet",
-		"wasEdited",
 		"isExcluded" ],
 	"name" : "GSChange",
 	"pools" : [

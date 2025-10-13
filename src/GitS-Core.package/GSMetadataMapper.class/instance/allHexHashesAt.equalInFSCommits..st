@@ -1,3 +1,3 @@
 metadata-loading
-allHexHashesAt: aPath equalInFSCommits: aCollection
-	^ (aCollection collect: [:each | each commit hexHashAtPath: aPath]) asSet size = 1
+allHexHashesAt: aPath equalInFSCommits: aVersionChange
+	^ (aVersionChange collect: [:each | each commit hexHashAtPath: aPath]) versions asSet size = 1

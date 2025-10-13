@@ -1,12 +1,15 @@
 {
-	"category" : "GitS-Core-Multitext",
+	"category" : "GitS-Core-Versions-UI-Multitext",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mapper" ],
+		"versionChange",
+		"isInEditMode",
+		"editedTexts",
+		"lastRequestors" ],
 	"name" : "GSMultitextModel",
 	"pools" : [
 		 ],

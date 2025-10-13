@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"current:incoming:base:" : "mad 10/5/2025 22:05",
+		"fromVersions:" : "mad 10/6/2025 21:07",
+		"numberOfVersions" : "mad 10/6/2025 21:06" },
+	"instance" : {
+		"asConflict" : "mad 10/6/2025 22:27",
+		"atomicMergeIfUnchanged:ifMerged:ifConflict:" : "mad 10/6/2025 21:49",
+		"base" : "mad 10/5/2025 21:29",
+		"base:" : "mad 10/10/2025 00:32",
+		"hexHashMergeFor:ifUnchanged:" : "mad 10/6/2025 22:34",
+		"linesMergeChunks" : "mad 10/6/2025 23:48",
+		"stringMergeChunks" : "mad 10/6/2025 23:48",
+		"stringMergeIfConflict:" : "mad 10/5/2025 21:45",
+		"stringMergeIfUnchanged:ifMerged:ifConflict:" : "mad 10/6/2025 23:49",
+		"stringOrNilMergeIfUnchanged:ifMerged:ifConflict:" : "mad 10/6/2025 22:05",
+		"versionsDictionary" : "mad 10/6/2025 21:12" } }

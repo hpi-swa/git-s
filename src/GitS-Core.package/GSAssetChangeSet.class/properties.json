@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"from",
-		"to",
 		"change" ],
 	"name" : "GSAssetChangeSet",
 	"pools" : [

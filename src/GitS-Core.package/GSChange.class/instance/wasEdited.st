@@ -1,3 +1,3 @@
 accessing
 wasEdited
-	^ wasEdited
+	self subclassResponsibility.

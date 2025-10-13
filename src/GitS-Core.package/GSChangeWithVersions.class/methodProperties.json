@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"isAbstract" : "mad 10/9/2025 23:13" },
+	"instance" : {
+		"current" : "mad 10/7/2025 01:00",
+		"hasConflicts" : "mad 10/6/2025 23:38",
+		"incoming" : "mad 10/7/2025 01:00",
+		"someVersion" : "mad 10/7/2025 01:05",
+		"versionChange" : "mad 10/6/2025 22:37",
+		"versionChange:" : "mad 10/6/2025 22:38",
+		"versionToWrite" : "mad 10/7/2025 01:00",
+		"versionToWrite:" : "mad 10/7/2025 01:01",
+		"wasEdited" : "mad 10/6/2025 22:53" } }

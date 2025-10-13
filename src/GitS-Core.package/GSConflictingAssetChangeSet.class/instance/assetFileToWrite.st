@@ -1,3 +1,0 @@
-accessing
-assetFileToWrite
-	^ self resolution

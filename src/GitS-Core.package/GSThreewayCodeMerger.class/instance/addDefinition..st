@@ -4,5 +4,5 @@ addDefinition: aDefinition
 		definitionLike: aDefinition
 		ifPresent: [:other |
 			other = aDefinition
-				ifFalse: [self addConflictWithLeft: other right: aDefinition base: nil]]
+				ifFalse: [self addConflictWithCurrent: other incoming: aDefinition base: nil]]
 		ifAbsent: [self addOperation: (MCAddition of: aDefinition)]

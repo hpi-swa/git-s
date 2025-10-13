@@ -1,5 +1,5 @@
 change-sets
-changeSetsToMergeCommitIntoHead: rightCommit withBase: baseCommit
+changeSetsToMergeCommitIntoHead: incomingCommit withBase: baseCommit
 	self changeSets: (self workingCopy
-						changeSetsToMergeCommitIntoHead: rightCommit
+						changeSetsToMergeCommitIntoHead: incomingCommit
 						withBase: baseCommit).

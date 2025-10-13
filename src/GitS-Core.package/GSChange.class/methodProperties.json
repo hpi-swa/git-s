@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"isAbstract" : "mad 10/13/2024 20:52",
-		"withChangeSet:" : "mad 9/6/2023 12:37" },
+		"withChangeSet:" : "mad 9/6/2023 12:37",
+		"withChangeSet:versionChange:" : "mad 10/7/2025 03:11" },
 	"instance" : {
 		"addMenuItemsTo:" : "mad 10/5/2025 19:47",
 		"basicIsExcluded:" : "mad 8/25/2025 00:42",
@@ -18,7 +19,7 @@
 		"include" : "mad 8/25/2025 20:17",
 		"includeSilently" : "mad 8/25/2025 20:17",
 		"includeSilently:" : "mad 8/25/2025 20:12",
-		"initialize" : "mad 8/25/2025 20:19",
+		"initialize" : "mad 10/6/2025 22:19",
 		"isExcluded" : "mad 8/25/2025 00:45",
 		"isExcluded:silently:" : "mad 8/25/2025 20:23",
 		"isIncluded" : "mad 9/10/2023 14:33",
@@ -28,7 +29,6 @@
 		"keyStroke:" : "mad 10/5/2025 19:47",
 		"label" : "mad 9/10/2023 19:21",
 		"mapper" : "mad 9/5/2023 22:45",
-		"markAsEdited" : "mad 9/27/2023 16:31",
 		"path" : "mad 9/5/2023 22:48",
 		"preserveStateWhileRefreshing:" : "mad 10/9/2025 23:24",
 		"printOn:" : "mad 9/10/2023 19:23",
@@ -37,5 +37,5 @@
 		"toggleExcludedSilently" : "mad 8/25/2025 20:15",
 		"toggleExcludedSilently:" : "mad 8/25/2025 20:13",
 		"uniqueKey" : "mad 8/25/2025 02:02",
-		"wasEdited" : "mad 9/27/2023 16:30",
-		"wasEdited:" : "mad 9/27/2023 16:29" } }
+		"update:" : "mad 10/6/2025 20:48",
+		"wasEdited" : "mad 10/9/2025 22:39" } }

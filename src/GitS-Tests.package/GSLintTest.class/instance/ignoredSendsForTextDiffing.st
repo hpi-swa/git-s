@@ -1,4 +1,4 @@
 ignored-sends
 ignoredSendsForTextDiffing
-	^ #(diffChunksFrom:to: diffFromLines:toLines:) gather: [:selector |
+	^ #(diffChunksFromLines: diffFromLines:) gather: [:selector |
 		#(common different) collect: [:symbol | GSTextUtilities class>>selector -> symbol]]

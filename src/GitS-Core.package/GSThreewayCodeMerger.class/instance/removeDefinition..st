@@ -5,5 +5,5 @@ removeDefinition: aDefinition
 		ifPresent: [:other |
 			other = aDefinition
 				ifTrue: [self addOperation: (MCRemoval of: aDefinition)]
-				ifFalse: [self addConflictWithLeft: other right: nil base: aDefinition]]
+				ifFalse: [self addConflictWithCurrent: other incoming: nil base: aDefinition]]
 		ifAbsent: []

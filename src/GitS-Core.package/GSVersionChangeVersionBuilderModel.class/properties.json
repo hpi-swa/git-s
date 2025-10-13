@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"buildBlock" ],
+	"name" : "GSVersionChangeVersionBuilderModel",
+	"pools" : [
+		 ],
+	"super" : "GSVersionChangeVersionModel",
+	"type" : "normal" }

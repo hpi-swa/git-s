@@ -1,3 +1,3 @@
 operations
 materializeIn: aWorkingCopy
-	aWorkingCopy metadata: self newMetadata.
+	aWorkingCopy metadata: self metadataToWrite.

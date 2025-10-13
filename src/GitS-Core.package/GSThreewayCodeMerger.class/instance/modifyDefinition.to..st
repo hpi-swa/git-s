@@ -6,5 +6,5 @@ modifyDefinition: baseDefinition to: targetDefinition
 			other = baseDefinition
 				ifTrue: [self addOperation: (MCModification of: baseDefinition to: targetDefinition)]
 				ifFalse: [other = targetDefinition
-							ifFalse: [self addConflictWithLeft: other right: targetDefinition base: baseDefinition]]]
-		ifAbsent: [self addConflictWithLeft: nil right: targetDefinition base: baseDefinition]
+							ifFalse: [self addConflictWithCurrent: other incoming: targetDefinition base: baseDefinition]]]
+		ifAbsent: [self addConflictWithCurrent: nil incoming: targetDefinition base: baseDefinition]

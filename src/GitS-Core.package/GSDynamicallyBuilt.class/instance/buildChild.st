@@ -1,3 +1,3 @@
 toolbuilder
 buildChild
-	^ self model perform: self buildSelector with: self builder
+	^ self model perform: self buildSelector withEnoughArguments: {self builder}
