@@ -1,10 +1,10 @@
 {
 	"class" : {
 		"basicOpen" : "mad 5/18/2025 15:40",
+		"doPostUpdateMigrations" : "mad 11/1/2025 18:14",
 		"errorOutdated" : "mad 3/10/2025 22:39",
 		"initialize" : "mad 9/21/2023 18:47",
 		"open" : "mad 5/18/2025 15:40",
-		"rebuildAll" : "mad 1/18/2025 16:22",
 		"registerInWorldMenu" : "mad 10/18/2023 15:14",
 		"unload" : "mad 9/26/2023 15:50",
 		"unregisterFromWorldMenu" : "mad 9/19/2023 13:45" },
@@ -63,6 +63,7 @@
 		"commitList" : "mad 8/24/2025 11:21",
 		"createCommitList" : "mad 10/5/2025 16:16",
 		"deriveActiveRefTreeMemberFromActiveRef" : "mad 1/17/2025 11:08",
+		"doPostUpdateMigrations" : "mad 11/1/2025 18:15",
 		"everythingChanged" : "mad 1/15/2025 17:07",
 		"headChanged:" : "mad 12/17/2024 19:20",
 		"ifRepositoryDoesNotExist:" : "mad 11/30/2023 17:08",
