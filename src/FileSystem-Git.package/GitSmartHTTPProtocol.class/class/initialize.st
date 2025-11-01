@@ -1,4 +1,4 @@
 class initialization
 initialize
 	"GitSmartHTTPProtocol initialize"
-	PushRepeatCount := 3.
+	ConnectionClosedRetryCount := 3.

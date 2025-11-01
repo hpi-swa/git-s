@@ -5,7 +5,7 @@ discoverReferencesForService: aServiceName
 		[response := self initialRequestTo: self url withService: aServiceName.
 		response isSuccess
 			ifFalse: [
-				(response code = 401 and: [credentials isNil and: [self requestCredentials]])
+				(response code = 401 and: [self requestCredentials])
 					ifTrue: ["try again with credentials"
 						self applyCredentials.
 						^ self discoverReferencesForService: aServiceName].
