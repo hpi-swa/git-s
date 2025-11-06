@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSAssetMapper
+	^ self class = thisContext methodClass

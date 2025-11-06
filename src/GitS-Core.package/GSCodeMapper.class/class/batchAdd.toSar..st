@@ -1,7 +1,7 @@
 sar
 batchAdd: aCollection toSar: aSarBuilder
 	| codeMappers stream definitions memberName |
-	self = GSCodeMapper ifFalse: [^ aCollection].
+	self class = thisContext methodClass ifFalse: [^ aCollection].
 	codeMappers := aCollection select: [:each | each isKindOf: self].
 	codeMappers ifEmpty: [^ aCollection].
 	stream := RWBinaryOrTextStream on: (String new: 10000).

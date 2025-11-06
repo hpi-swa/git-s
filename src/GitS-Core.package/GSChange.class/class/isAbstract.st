@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSChange
+	^ self class = thisContext methodClass

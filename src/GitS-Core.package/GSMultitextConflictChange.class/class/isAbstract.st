@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSMultitextConflictChange
+	^ self class = thisContext methodClass

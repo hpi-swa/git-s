@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSMapper
+	^ self class = thisContext methodClass

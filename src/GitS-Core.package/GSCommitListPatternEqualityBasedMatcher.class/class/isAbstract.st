@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSCommitListPatternEqualityBasedMatcher
+	^ self class = thisContext methodClass

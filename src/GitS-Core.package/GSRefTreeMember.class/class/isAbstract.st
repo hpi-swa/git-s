@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSRefTreeMember
+	^ self class = thisContext methodClass

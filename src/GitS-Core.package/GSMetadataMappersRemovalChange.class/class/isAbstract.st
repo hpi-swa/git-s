@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSMetadataMappersRemovalChange
+	^ self class = thisContext methodClass

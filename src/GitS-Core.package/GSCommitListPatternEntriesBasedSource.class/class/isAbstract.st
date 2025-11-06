@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSCommitListPatternEntriesBasedSource
+	^ self class = thisContext methodClass

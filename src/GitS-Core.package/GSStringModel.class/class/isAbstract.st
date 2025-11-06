@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSStringModel
+	^ self class = thisContext methodClass

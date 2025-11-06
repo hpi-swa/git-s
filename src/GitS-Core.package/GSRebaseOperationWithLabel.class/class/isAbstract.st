@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSRebaseOperationWithLabel
+	^ self class = thisContext methodClass

@@ -1,3 +1,3 @@
 as yet unclassified
 isAbstract
-	^ self = GSCommitListPatternRegexBasedMatcher
+	^ self class = thisContext methodClass

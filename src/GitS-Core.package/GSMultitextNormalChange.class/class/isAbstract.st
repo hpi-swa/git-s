@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSMultitextNormalChange
+	^ self class = thisContext methodClass

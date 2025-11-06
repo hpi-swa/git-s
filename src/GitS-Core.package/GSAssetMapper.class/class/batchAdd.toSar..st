@@ -1,6 +1,6 @@
 sar
 batchAdd: aCollection toSar: aSarBuilder
-	self = GSAssetMapper ifFalse: [^ aCollection].
+	self class = thisContext methodClass ifFalse: [^ aCollection].
 	self
 		addAssetFiles: ((aCollection select: [:each | each isKindOf: self])
 							collect: [:each | each loadAssetFileFromImage: aSarBuilder workingCopy]

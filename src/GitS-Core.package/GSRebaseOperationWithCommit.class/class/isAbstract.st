@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSRebaseOperationWithCommit
+	^ self class = thisContext methodClass

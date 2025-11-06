@@ -1,3 +1,3 @@
 testing
 isAbstract
-	^ self = GSCodeMapper
+	^ self class = thisContext methodClass
