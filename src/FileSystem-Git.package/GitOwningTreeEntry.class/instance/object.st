@@ -1,3 +1,3 @@
-as yet unclassified
+public-accessing
 object
 	^ object

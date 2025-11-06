@@ -1,4 +1,4 @@
-updating
+accessing
 isExcluded: excludedBoolean silently: silentBoolean
 	(excludedBoolean not and: [self canBeIncluded not])
 		ifFalse: [^ super isExcluded: excludedBoolean silently: silentBoolean].

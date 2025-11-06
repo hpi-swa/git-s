@@ -5,5 +5,4 @@ protectWorkingCopyRegistriesDuring: aBlock
 		({GSBaseWorkingCopy. GSGitWorkingCopy}
 			collect: [:each | each -> each registry]).
 	^ [oldRegistries keysDo: [:each | each registry: nil].
-	aBlock value]
-		ensure: [oldRegistries keysAndValuesDo: [:class :oldRegistry | class registry: oldRegistry]].
+		aBlock value] ensure: [oldRegistries keysAndValuesDo: [:class :oldRegistry | class registry: oldRegistry]]

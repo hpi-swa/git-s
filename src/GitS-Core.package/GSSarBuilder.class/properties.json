@@ -8,8 +8,7 @@
 	"instvars" : [
 		"workingCopy",
 		"zip",
-		"preamble",
-		"postAddHooks" ],
+		"preamble" ],
 	"name" : "GSSarBuilder",
 	"pools" : [
 		 ],

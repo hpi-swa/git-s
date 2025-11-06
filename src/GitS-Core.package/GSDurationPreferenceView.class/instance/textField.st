@@ -1,7 +1,7 @@
 user interface
 textField
 
-	^(PluggableTextMorph
+	^ (PluggableTextMorph
 		on: self
 		text: #preferenceValue
 		accept: #preferenceValue:notifying:)
@@ -12,4 +12,4 @@ textField
 			hResizing: #rigid;
 			height: ToolBuilder default inputFieldHeight;
 			width: (TextStyle default compositionWidthFor: 30);
-			yourself.
+			yourself

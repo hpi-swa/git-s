@@ -1,4 +1,4 @@
-as yet unclassified
+scrolling
 scrollIntoView
 	| scrollee scrollPane |
 	scrollee := self morph.

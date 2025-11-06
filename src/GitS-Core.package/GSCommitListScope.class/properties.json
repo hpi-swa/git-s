@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"commitList",
-		"lastActiveWorkingCopy",
 		"includeActiveRef",
 		"includeHead",
 		"includeBranches",

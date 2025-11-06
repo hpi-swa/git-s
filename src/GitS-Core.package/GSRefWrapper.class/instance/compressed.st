@@ -1,3 +1,3 @@
-as yet unclassified
+compressing
 compressed
 	^ self

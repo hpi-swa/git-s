@@ -5,5 +5,5 @@ ensureDirectory: refString label: labelString tooltip: tooltipString order: aNum
 		ifNone: [self addDirectory: refString])
 			label: labelString;
 			tooltip: tooltipString;
-			order: aNumber
+			order: aNumber;
 			yourself
