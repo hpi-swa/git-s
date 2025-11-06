@@ -6,6 +6,7 @@ ignoredSends
 		self ignoredSendsForLegacyProjectImporting,
 		self ignoredSendsForGitStoreMigration,
 		self ignoredSendsForMorphProperties,
+		self ignoredSendsForSqueakCompatibility,
 		self ignoredSendsForTextDiffing,
 		self ignoredSendsForUncommittedChangesDialogOptions,
 		self ignoredSendsForUnmappedPathDialogOptions,
