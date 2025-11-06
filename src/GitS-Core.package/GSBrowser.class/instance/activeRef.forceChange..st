@@ -5,5 +5,4 @@ activeRef: aString forceChange: aBoolean
 	self
 		deriveActiveRefTreeMemberFromActiveRef;
 		activeCommit: self activeRefCommit;
-		changed: #activeRef;
-		regenerateCommitList.
+		changed: #activeRef.
