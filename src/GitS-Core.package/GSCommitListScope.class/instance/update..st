@@ -4,5 +4,5 @@ update: anObject
 	(anObject = #activeWorkingCopy
 		or: [anObject = #allReferences]
 		or: [anObject = #activeRef and: [self includeActiveRef]]
-		or: [(anObject isKindOf: GitReference) and: [self refs includes: anObject name]])
+		or: [anObject isKindOf: GitReference])
 			ifTrue: [self changed].
