@@ -1,3 +1,3 @@
 *GitS-Tests-matching
 gitSInteractionPosition
-	^ (self left + (self minWidth // 2)) @ self center y
+	^ (self toggleRectangle right + (self minWidth // 2)) @ self center y

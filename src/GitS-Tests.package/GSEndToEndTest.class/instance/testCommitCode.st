@@ -1,10 +1,8 @@
 tests
 testCommitCode
 	self
-		newProject;
-		declareClass: #GSDummy instVars: '';
-		compileMethod: 'method ^ 42' category: 'testing' class: #GSDummy;
-		trackCode;
+		setupCode;
+		compileMethod: 'method ^ 42';
 		commitWithMessage: 'Test commit' checking: [
 			self
 				toggleSubtree: 'GitS-TestData';

@@ -1,4 +1,4 @@
 *GitS-Tests-matching
-gitSPutMatchedTargetsOf: aString on: aStream
-	(aString match: self text asString) ifFalse: [^ self].
+gitSPutMatchedTargetsOf: aBlock on: aStream
+	(aBlock value: self text) ifFalse: [^ self].
 	aStream nextPut: [GSEndToEndTarget morph: self].

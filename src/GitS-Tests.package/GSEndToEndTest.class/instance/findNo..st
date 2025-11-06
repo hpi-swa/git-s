@@ -1,4 +1,4 @@
 finding
 findNo: anObject
-	anObject isString ifTrue: [^ self findNoString: anObject].
+	(anObject isString or: [anObject isText]) ifTrue: [^ self findNoMatch: anObject].
 	self error: 'Unknown target'.

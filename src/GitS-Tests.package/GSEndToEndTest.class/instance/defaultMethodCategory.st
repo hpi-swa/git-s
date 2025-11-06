@@ -1,0 +1,3 @@
+data
+defaultMethodCategory
+	^ 'testing'

@@ -3,8 +3,7 @@ trackCode
 	self
 		rightClick: self projectName;
 		leftClick: 'Manage its packages';
-		leftClick: self classCategory.
-	[self leftClick: 'Add package'] valueSupplyingAnswer:
-		{'Encoding for new package:'. 'Tonel'}.
-	self
+		leftClick: self classCategory;
+		do: [self leftClick: 'Add package']
+		supplyingAnswer: #('Encoding for new package:' 'Tonel');
 		closeWindowContaining: 'Package Browser'.

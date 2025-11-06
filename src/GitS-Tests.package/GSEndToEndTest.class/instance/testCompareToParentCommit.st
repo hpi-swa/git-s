@@ -1,14 +1,12 @@
 tests
 testCompareToParentCommit
 	self
-		newProject;
-		declareClass: #GSDummy instVars: '';
-		compileMethod: 'method ^ 42' category: 'testing' class: #GSDummy;
-		compileMethod: 'method2 ^ 42' category: 'testing' class: #GSDummy;
-		trackCode;
-		commitWithMessage: 'first commit' checking: [];
-		compileMethod: 'method ^ Float pi' category: 'testing' class: #GSDummy;
-		commitWithMessage: 'second commit' checking: [];
+		setupCode;
+		compileMethod: 'method ^ 42';
+		compileMethod: 'method2 ^ 42';
+		commitWithMessage: 'first commit';
+		compileMethod: 'method ^ Float pi';
+		commitWithMessage: 'second commit';
 		rightClick: '* second commit';
 		moveTo: 'Compare it to';
 		leftClick: 'its parent commit';

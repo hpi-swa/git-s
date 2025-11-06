@@ -1,7 +1,7 @@
 data
-declareClass: aSymbol instVars: aString
+declareClass: aSymbol
 	Object subclass: aSymbol
-		instanceVariableNames: aString
+		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
 		category: self classCategory.

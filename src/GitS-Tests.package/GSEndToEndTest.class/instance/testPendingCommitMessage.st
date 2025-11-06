@@ -1,9 +1,7 @@
 tests
 testPendingCommitMessage
 	self
-		newProject;
-		declareClass: #GSDummy instVars: '';
-		trackCode;
+		setupCode;
 		leftClick: 'Commit';
 		leftClick: 'message';
 		type: 'remember';

@@ -4,4 +4,4 @@ testNewProject
 		newProject;
 		find: self projectName;
 		find: 'local branches';
-		find: 'main'.
+		find: 'main' asText allBold.

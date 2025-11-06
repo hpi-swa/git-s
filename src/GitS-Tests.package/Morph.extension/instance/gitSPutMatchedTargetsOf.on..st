@@ -1,3 +1,3 @@
 *GitS-Tests-matching
-gitSPutMatchedTargetsOf: aString on: aStream
+gitSPutMatchedTargetsOf: aBlock on: aStream
 	"do nothing"

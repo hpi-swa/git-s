@@ -1,13 +1,11 @@
 tests
 testCompareToImage
 	self
-		newProject;
-		declareClass: #GSDummy instVars: '';
-		compileMethod: 'method ^ 42' category: 'testing' class: #GSDummy;
-		compileMethod: 'method2 ^ 42' category: 'testing' class: #GSDummy;
-		trackCode;
-		commitWithMessage: 'test commit' checking: [];
-		compileMethod: 'method ^ Float pi' category: 'testing' class: #GSDummy;
+		setupCode;
+		compileMethod: 'method ^ 42';
+		compileMethod: 'method2 ^ 42';
+		commitWithMessage: 'test commit';
+		compileMethod: 'method ^ Float pi';
 		rightClick: '* test commit';
 		moveTo: 'Compare it to';
 		leftClick: 'the image';
