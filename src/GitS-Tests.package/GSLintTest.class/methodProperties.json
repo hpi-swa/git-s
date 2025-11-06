@@ -25,5 +25,5 @@
 		"packageInfo" : "mad 10/13/2024 19:52",
 		"selectorsWhoseArgumentsToIgnore" : "mad 8/25/2025 21:08",
 		"sendsOf:do:" : "mad 10/13/2024 19:50",
-		"testNoAbstractMethodsInConcreteClasses" : "mad 10/13/2024 21:13",
-		"testNoUnimplementedAndNoUnsentMethods" : "mad 11/17/2024 23:36" } }
+		"testNoAbstractMethodsInConcreteClasses" : "mad 11/6/2025 19:17",
+		"testNoUnimplementedAndNoUnsentMethods" : "mad 11/6/2025 19:18" } }

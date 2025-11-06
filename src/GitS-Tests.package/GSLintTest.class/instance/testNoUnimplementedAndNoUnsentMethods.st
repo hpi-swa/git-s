@@ -9,10 +9,10 @@ testNoUnimplementedAndNoUnsentMethods
 	unexpectedSent := expectedUnsent difference: unsent.
 	self
 		assert: unimplemented isEmpty
-		description: 'Found unimplemented selectors or references to non-existing globals'.
+		description: ('Found unimplemented selectors or references to non-existing globals: {1}' format: {unimplemented}).
 	self
 		assert: unexpectedUnsent isEmpty
-		description: 'Found unsent methods'.
+		description: ('Found unsent methods: {1}' format: {unexpectedUnsent}).
 	self
 		assert: unexpectedSent isEmpty
-		description: 'Found sent methods which were expected to be unsent'.
+		description: ('Found sent methods which were expected to be unsent: {1}' format: {unexpectedSent}).
