@@ -10,6 +10,7 @@ addToMenu: aMenu
 		'all local branches'.					self includeBranches.	#toggleIncludeBranches.
 		'all remote-tracking branches'.		self includeRemotes.	#toggleIncludeRemotes.
 		'all refs (all of the above and more)'.	self includeAllRefs.	#toggleIncludeAllRefs.
+		'reflogs of all included refs'.			self includeReflogs.	#toggleIncludeReflogs.
 	} groupsDo: [:label :enabled :toggle |
 		aMenu
 			add: (GSGUIUtilities menuItem: label enabled: enabled)

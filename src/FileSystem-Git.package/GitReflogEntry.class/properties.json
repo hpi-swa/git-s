@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"logfile",
-		"entries" ],
-	"name" : "GitReflog",
+		"previousHexHash",
+		"nextHexHash",
+		"stamp",
+		"message" ],
+	"name" : "GitReflogEntry",
 	"pools" : [
 		 ],
 	"super" : "Object",

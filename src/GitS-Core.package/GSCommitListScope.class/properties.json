@@ -11,7 +11,8 @@
 		"includeHead",
 		"includeBranches",
 		"includeRemotes",
-		"includeAllRefs" ],
+		"includeAllRefs",
+		"includeReflogs" ],
 	"name" : "GSCommitListScope",
 	"pools" : [
 		 ],

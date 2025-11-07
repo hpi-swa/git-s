@@ -2,6 +2,10 @@
 	"class" : {
 		"on:" : "jr 2/22/2017 17:05" },
 	"instance" : {
-		"logUpdateFrom:to:by:message:" : "jr 8/13/2020 22:51",
+		"addEntry:" : "mad 11/6/2025 23:34",
+		"entries" : "mad 11/6/2025 23:33",
+		"entries:" : "mad 11/6/2025 23:22",
+		"loadEntries" : "mad 11/6/2025 23:34",
+		"logUpdateFrom:to:by:message:" : "mad 11/6/2025 23:37",
 		"logfile" : "jr 2/22/2017 17:04",
 		"logfile:" : "jr 2/22/2017 17:04" } }

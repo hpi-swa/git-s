@@ -6,4 +6,5 @@ initialize
 		includeHead: false;
 		includeBranches: false;
 		includeRemotes: false;
-		includeAllRefs: false.
+		includeAllRefs: false;
+		includeReflogs: false.
