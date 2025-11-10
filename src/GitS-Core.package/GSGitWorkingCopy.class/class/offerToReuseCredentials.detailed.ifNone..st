@@ -1,5 +1,6 @@
 credentials
 offerToReuseCredentials: aCollection detailed: aBoolean ifNone: aBlock
+	<ignoreSends: #(new moreDetails)>
 	| values chosen |
 	values := #(new), (aCollection keys sorted: #first ascending).
 	aBoolean ifFalse: [values := values copyWith: #moreDetails].

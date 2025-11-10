@@ -1,5 +1,6 @@
 importing
 importDirectory: aReference
+	<ignoreSends: #(ask skip)>
 	| optionIfMapped basePath |
 	optionIfMapped := #ask.
 	basePath := self

@@ -1,5 +1,6 @@
 paths
 requestOptionForUnmappedPath: aPath mapper: mapper additionalOptions: aCollection
+	<ignoreSends: #(different overwrite)>
 	| options |
 	options := {'Choose a different path' -> [#different]} asOrderedCollection.
 	mapper canBeRemovedAtAll ifTrue: [

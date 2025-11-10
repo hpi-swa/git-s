@@ -1,5 +1,6 @@
 metadata-loading-legacy
 loadMapperFromLegacySquotContentsReference: aReference fallbackSerializer: aSymbol
+	<ignoreSends: #(SquotTonelSerializer SquotCypressCodeSerializer)>
 	| serializerName mapperClass |
 	serializerName := (self loadLegacySerializerNameFromSquotContentsReference: aReference) ifNil: [aSymbol].
 	mapperClass := serializerName caseOf: {

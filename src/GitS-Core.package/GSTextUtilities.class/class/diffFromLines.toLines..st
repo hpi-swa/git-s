@@ -1,5 +1,6 @@
 diffing
 diffFromLines: fromCollection toLines: toCollection
+	<ignoreSends: #(common different)>
 	^ self joinTexts: ((self diffChunksFrom: fromCollection to: toCollection) collect: [:each |
 		"each is either (#common -> {...}) or (#different -> ({...} -> {...}))"
 		each key caseOf: {

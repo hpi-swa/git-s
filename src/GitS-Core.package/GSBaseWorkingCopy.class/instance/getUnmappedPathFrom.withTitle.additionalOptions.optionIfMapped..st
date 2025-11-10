@@ -1,5 +1,6 @@
 paths
 getUnmappedPathFrom: aPath withTitle: aString additionalOptions: aCollection optionIfMapped: aBlock
+	<ignoreSends: #(ask different overwrite)>
 	| mapper answer |
 	mapper := (self mapperThatMaps: aPath) ifNil: [^ aPath].
 	answer := aBlock cull: mapper.

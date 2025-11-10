@@ -1,5 +1,6 @@
 migrations
 importLegacyGitStandaloneAssetLoaderInstances
+	<ignoreSends: #(GitNamedAssetLoader assets)>
 	self
 		importProjectsFromLegacyClass: #GitNamedAssetLoader
 		getInstances: [:class | class registry values select: [:each | each class name = 'GitStandaloneAssetLoader']]
