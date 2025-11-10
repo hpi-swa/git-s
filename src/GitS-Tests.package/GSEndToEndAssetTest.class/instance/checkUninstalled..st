@@ -1,0 +1,3 @@
+data
+checkUninstalled: anEndToEndAssetTestVersion
+	self checkAssetUninstalled: anEndToEndAssetTestVersion.

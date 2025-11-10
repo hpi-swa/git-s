@@ -1,0 +1,16 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"source",
+		"category" ],
+	"name" : "GSEndToEndCodeTestVersion",
+	"pools" : [
+		 ],
+	"super" : "GSEndToEndTestVersion",
+	"type" : "normal" }

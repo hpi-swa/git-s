@@ -1,0 +1,3 @@
+versions
+autoMergeVersionCurrent
+	self subclassResponsibility.

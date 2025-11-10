@@ -1,0 +1,3 @@
+versions
+version
+	^ GSEndToEndAssetTestVersion new

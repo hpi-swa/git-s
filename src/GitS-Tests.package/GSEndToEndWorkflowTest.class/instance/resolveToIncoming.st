@@ -1,0 +1,3 @@
+resolving
+resolveToIncoming
+	self subclassResponsibility.

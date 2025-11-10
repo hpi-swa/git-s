@@ -7,4 +7,5 @@ performTest
 					self protectWorkingCopyRegistriesDuring: [
 						self setPreferencesDuring: [
 							self easeDebuggingDuring: [
+								self preTest.
 								super performTest]]]]]]]

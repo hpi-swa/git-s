@@ -1,0 +1,3 @@
+dialog
+openDialogPath
+	"do nothing"

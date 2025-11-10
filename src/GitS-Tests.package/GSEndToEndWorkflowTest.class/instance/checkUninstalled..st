@@ -1,0 +1,3 @@
+data
+checkUninstalled: anEndToEndTestVersion
+	self subclassResponsibility.

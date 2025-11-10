@@ -1,0 +1,3 @@
+versions
+conflict1AddAAddB
+	self subclassResponsibility.

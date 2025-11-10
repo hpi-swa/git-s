@@ -1,0 +1,3 @@
+versions
+conflict1ModifyBDelete
+	self subclassResponsibility.

@@ -1,0 +1,3 @@
+data
+classCategory
+	^ 'GitS-TestData'

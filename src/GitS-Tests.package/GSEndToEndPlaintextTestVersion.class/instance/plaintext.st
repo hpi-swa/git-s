@@ -1,0 +1,3 @@
+accessing
+plaintext
+	^ self asset

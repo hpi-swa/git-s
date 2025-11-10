@@ -1,3 +1,0 @@
-accessing
-classCategory
-	^ 'GitS-TestData'

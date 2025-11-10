@@ -1,6 +1,4 @@
 running
 setUp
-	self
-		world: (PasteUpMorph newWorldForProject: nil);
-		removeTestData.
-		
+	super setUp.
+	self world: (PasteUpMorph newWorldForProject: nil).

@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path",
+		"expression" ],
+	"name" : "GSEndToEndAssetTestVersion",
+	"pools" : [
+		 ],
+	"super" : "GSEndToEndTestVersion",
+	"type" : "normal" }

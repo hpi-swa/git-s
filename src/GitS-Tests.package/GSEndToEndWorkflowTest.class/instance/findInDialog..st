@@ -1,0 +1,3 @@
+data
+findInDialog: anEndToEndTestVersion
+	self subclassResponsibility.
