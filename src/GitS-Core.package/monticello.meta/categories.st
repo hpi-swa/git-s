@@ -3,6 +3,7 @@ SystemOrganization addCategory: #'GitS-Core-Metadata'!
 SystemOrganization addCategory: #'GitS-Core-Metadata-Mappers'!
 SystemOrganization addCategory: #'GitS-Core-Metadata-Name'!
 SystemOrganization addCategory: #'GitS-Core-Browser'!
+SystemOrganization addCategory: #'GitS-Core-Help'!
 SystemOrganization addCategory: #'GitS-Core-Asset'!
 SystemOrganization addCategory: #'GitS-Core-Image'!
 SystemOrganization addCategory: #'GitS-Core-Plaintext'!

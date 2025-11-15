@@ -4,6 +4,8 @@ settingsMenu: aMenu
 		target: self operationLifecycle;
 		title: 'Search settings';
 		addStayUpItem;
+		add: 'help...' target: GSHelp selector: #edit: argument: #searching;
+		addLine;
 		addItem: [:item | item contents: 'what to enter:'].
 	self modes do: [:each |
 		aMenu
