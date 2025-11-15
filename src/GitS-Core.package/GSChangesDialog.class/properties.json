@@ -12,7 +12,8 @@
 		"selectedChange",
 		"windowTitle",
 		"buttons",
-		"canDiscardEdits" ],
+		"canDiscardEdits",
+		"closeBlock" ],
 	"name" : "GSChangesDialog",
 	"pools" : [
 		 ],

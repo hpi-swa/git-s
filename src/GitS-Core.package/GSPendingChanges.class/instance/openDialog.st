@@ -15,8 +15,9 @@ openDialog
 			color: nil
 			location: #changesTree].
 	self dialog
+		closeBlock: [self operationLifecycle operation: [self dialogIsClosing]];
 		addButton: self closeLabel
-		action: [self operationLifecycle operation: [self close]]
+		action: [self operationLifecycle operation: [self closeDialog]]
 		color: self closeColor
 		location: #bottom;
 		message: self initialMessage;
