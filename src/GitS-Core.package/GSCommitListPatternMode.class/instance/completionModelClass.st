@@ -1,0 +1,3 @@
+editor
+completionModelClass
+	^ nil

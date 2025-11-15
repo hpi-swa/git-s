@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"allSelectorsForCompletionWithout:" : "mad 11/7/2025 01:54",
+		"publicClassVariables" : "mad 11/7/2025 01:43",
+		"publicInstanceVariables" : "mad 11/7/2025 01:34",
+		"publicSelectors" : "mad 11/7/2025 01:55" },
 	"instance" : {
 		"after:" : "mad 11/15/2025 17:17",
 		"author" : "mad 11/7/2025 00:52",
