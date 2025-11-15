@@ -1,3 +1,3 @@
-accessing
+public - accessing
 commit
 	^ commit

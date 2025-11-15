@@ -2,14 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
+		"after:" : "mad 11/15/2025 17:17",
+		"author" : "mad 11/7/2025 00:52",
 		"basicCompilePattern:" : "mad 8/25/2025 23:27",
+		"before:" : "mad 11/7/2025 00:53",
+		"between:and:" : "mad 11/7/2025 00:59",
 		"commit" : "mad 8/24/2025 13:43",
 		"commit:" : "mad 8/24/2025 16:50",
 		"commitList" : "mad 8/25/2025 23:03",
 		"commitList:" : "mad 8/25/2025 23:03",
+		"committer" : "mad 11/7/2025 00:53",
 		"compilePattern:" : "mad 8/25/2025 23:27",
 		"compiledPatterns" : "mad 8/25/2025 23:28",
-		"pattern:" : "mad 8/25/2025 23:16",
+		"message" : "mad 11/10/2025 23:12",
+		"pattern:" : "mad 11/10/2025 22:59",
 		"patternMode" : "mad 8/25/2025 23:16",
+		"timeStamp" : "mad 11/7/2025 00:52",
 		"workingCopy" : "mad 8/24/2025 13:43",
 		"workingCopy:" : "mad 8/24/2025 16:50" } }
