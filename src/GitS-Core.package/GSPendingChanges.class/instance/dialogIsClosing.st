@@ -1,3 +1,3 @@
 actions-private
 dialogIsClosing
-	self actionBlock ifNotNil: [self cancel].
+	(self actionHasRun not and: [self actionBlock notNil]) ifTrue: [self cancel].

@@ -21,6 +21,7 @@
 		"verb",
 		"checkBlock",
 		"actionBlock",
+		"actionHasRun",
 		"cancelBlock",
 		"changeSetsBlock",
 		"isRefreshable" ],

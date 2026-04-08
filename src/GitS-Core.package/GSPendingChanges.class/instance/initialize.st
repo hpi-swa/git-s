@@ -4,4 +4,5 @@ initialize
 	self
 		shouldAlwaysOpenDialog: false;
 		shouldAlwaysMaterialize: false;
-		isRefreshable: false.
+		isRefreshable: false;
+		actionHasRun: false.
