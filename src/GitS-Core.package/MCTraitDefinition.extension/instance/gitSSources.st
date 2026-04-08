@@ -1,6 +1,3 @@
 *GitS-Core-Code
 gitSSources
-	^ {
-		self definitionString.
-		self comment.
-	}
+	^ {self gitSInstanceSideDefinitionSource. self gitSCommentSource}

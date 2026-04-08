@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"base" ],
+	"name" : "GSVersionMerge",
+	"pools" : [
+		 ],
+	"super" : "GSVersionChange",
+	"type" : "normal" }

@@ -1,3 +1,0 @@
-accessing
-someVersion
-	self subclassResponsibility.

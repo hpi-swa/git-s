@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Versions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resolution",
+		"isResolved" ],
+	"name" : "GSVersionConflict",
+	"pools" : [
+		 ],
+	"super" : "GSVersionMerge",
+	"type" : "normal" }

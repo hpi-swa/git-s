@@ -2,14 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"gitSAboutToStyle:requestor:at:" : "mad 10/9/2024 17:00",
+		"gitSBodySource" : "mad 10/7/2025 00:33",
 		"gitSBrowse" : "mad 10/5/2025 20:06",
 		"gitSCanBrowse" : "mad 10/5/2025 20:09",
+		"gitSCategorySource" : "mad 10/7/2025 00:32",
 		"gitSChangePath" : "mad 10/9/2024 17:00",
 		"gitSCopyWithSources:notifying:ifFail:" : "mad 10/9/2024 17:02",
 		"gitSCurrentVersionIn:" : "mad 8/14/2025 20:05",
-		"gitSSources" : "mad 10/9/2024 17:02",
-		"gitSSourcesHelp" : "mad 10/9/2024 17:02",
-		"gitSSourcesIsTimeStamp" : "mad 10/9/2024 17:03",
-		"gitSSourcesSize" : "mad 10/9/2024 17:03",
-		"gitSSourcesStylerClasses" : "mad 10/9/2024 17:03" } }
+		"gitSSources" : "mad 10/9/2025 23:37",
+		"gitSTimeStampSource" : "mad 10/7/2025 00:33" } }

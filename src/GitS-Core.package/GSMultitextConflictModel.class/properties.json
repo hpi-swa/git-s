@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Versions-UI-Multitext",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"texts" ],
+	"name" : "GSMultitextConflictModel",
+	"pools" : [
+		 ],
+	"super" : "GSMultitextModel",
+	"type" : "normal" }

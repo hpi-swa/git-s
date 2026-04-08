@@ -5,5 +5,5 @@ buildWorkspace: builder
 		mapper: self selectedMapper
 		setAsset: #asset:
 		getBindings: #workspaceBindings
-		editTargetName: 'the asset'
+		editTargetName: 'asset'
 		buildWith: builder

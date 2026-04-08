@@ -1,23 +1,18 @@
 {
 	"class" : {
-		"withMapper:from:to:" : "mad 9/29/2024 16:54" },
+		"withMapper:versionChange:" : "mad 10/7/2025 02:50" },
 	"instance" : {
 		"assetAsAssetFile:" : "mad 10/2/2024 20:34",
-		"assetFileToWrite" : "mad 9/29/2024 16:51",
-		"assetFileToWrite:" : "mad 9/29/2024 16:53",
-		"change" : "mad 9/11/2023 14:39",
-		"changeClass" : "mad 10/9/2024 16:01",
+		"assetFileToWrite" : "mad 10/10/2025 00:17",
+		"assetFileToWrite:" : "mad 10/10/2025 00:17",
+		"change" : "mad 10/6/2025 22:38",
+		"change:" : "mad 10/6/2025 22:39",
+		"changeClass" : "mad 10/7/2025 00:44",
 		"changes" : "mad 9/11/2023 14:38",
-		"from" : "mad 9/5/2023 22:54",
-		"from:" : "mad 9/29/2024 16:54",
-		"hasConflicts" : "mad 9/6/2023 12:38",
 		"isExcluded" : "mad 8/25/2025 00:43",
-		"isRemoval" : "mad 8/25/2025 22:31",
-		"markAsEdited" : "mad 9/27/2023 16:32",
 		"materializeIn:" : "mad 9/29/2024 16:52",
 		"path" : "mad 9/5/2023 22:56",
 		"saveNewAsset:" : "mad 9/29/2024 17:29",
-		"saveNewAssetFile:" : "mad 9/29/2024 16:54",
+		"saveNewAssetFile:" : "mad 10/6/2025 21:26",
 		"serializeInto:" : "mad 9/29/2024 16:52",
-		"to" : "mad 9/5/2023 22:54",
-		"to:" : "mad 8/25/2025 21:37" } }
+		"versionChange:" : "mad 10/7/2025 00:44" } }

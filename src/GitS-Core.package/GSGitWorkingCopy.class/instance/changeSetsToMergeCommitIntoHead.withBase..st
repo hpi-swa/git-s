@@ -1,6 +1,3 @@
 changes-creation
-changeSetsToMergeCommitIntoHead: rightCommit withBase: baseCommit
-	^ self
-		changeSetsToMergeCommit: rightCommit
-		into: self headCommit
-		withBase: baseCommit
+changeSetsToMergeCommitIntoHead: incomingCommit withBase: baseCommit
+	^ self changeSetsToMergeCommit: incomingCommit into: self headCommit withBase: baseCommit

@@ -1,3 +1,3 @@
 versions
 diff1BToA
-	^ self old: self version1B new: self version1A
+	^ self current: self version1B incoming: self version1A

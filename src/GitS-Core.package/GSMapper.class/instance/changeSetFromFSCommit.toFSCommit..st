@@ -1,3 +1,3 @@
 changes-creation
-changeSetFromFSCommit: anFSCommit toFSCommit: anotherFSCommit
-	self subclassResponsibility.
+changeSetFromFSCommit: currentFSCommit toFSCommit: incomingFSCommit
+	^ self changeSetFromFSCommits: (GSVersionChange current: currentFSCommit incoming: incomingFSCommit)

@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionBrowse" : "mad 10/7/2025 01:07",
+		"actionImplementors" : "mad 10/7/2025 01:08",
+		"actionInstall" : "mad 10/7/2025 01:12",
+		"actionReferences" : "mad 10/7/2025 01:08",
+		"actionRevert" : "mad 10/7/2025 01:14",
+		"actionSenders" : "mad 10/7/2025 01:08",
+		"activeInstallOrRevertMenuItem" : "mad 10/7/2025 01:09",
+		"addInstallOrRevertMenuItemTo:" : "mad 10/7/2025 01:12",
+		"addMenuItemsTo:" : "mad 10/7/2025 01:09",
+		"buildWith:" : "mad 10/7/2025 00:58",
+		"canBrowse" : "mad 10/9/2025 23:19",
+		"currentDefinition" : "mad 10/7/2025 01:06",
+		"definitionToWrite" : "mad 10/7/2025 01:06",
+		"installOperation:" : "mad 10/7/2025 01:14",
+		"isRemoval" : "mad 10/7/2025 02:53",
+		"keyStroke:" : "mad 10/7/2025 01:13",
+		"operation" : "mad 10/7/2025 01:06",
+		"package" : "mad 10/7/2025 01:13",
+		"path" : "mad 10/7/2025 03:07",
+		"revertOperation:" : "mad 10/7/2025 01:14",
+		"someDefinition" : "mad 10/7/2025 01:07",
+		"update:" : "mad 10/7/2025 02:56",
+		"versionChange:" : "mad 10/10/2025 00:20" } }

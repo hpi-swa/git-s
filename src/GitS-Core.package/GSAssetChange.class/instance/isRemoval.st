@@ -1,3 +1,3 @@
 accessing
 isRemoval
-	^ self changeSet isRemoval
+	^ self versionToWrite isNil

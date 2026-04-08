@@ -1,12 +1,6 @@
 toolbuilder
 buildWith: builder
-	^ GSGUIUtilities buildVerticalLayout: {
-		{
-			(self pathString, String cr, 'Old:') -> #buildFrom:.
-			'New:' -> #buildTo:.
-		} gather: [:each | {
-			GSGUIUtilities buildShrinkWrapText: each key with: builder.
-			self buildDynamicAsset: each value with: builder.
-		}].
-		self buildWorkspace: builder.
-	} with: builder
+	^ self versionChange
+		buildAtomicWith: builder
+		buildBlock: [:assetFile | self buildAssetFile: assetFile with: builder]
+		workspace: (self buildWorkspace: builder)

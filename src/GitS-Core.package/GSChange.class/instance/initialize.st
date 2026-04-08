@@ -1,6 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self
-		include;
-		wasEdited: false.
+	self include.

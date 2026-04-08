@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Plaintext",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSPlaintextMultitextVersion",
+	"pools" : [
+		 ],
+	"super" : "GSStringMultitextVersion",
+	"type" : "normal" }

@@ -1,7 +1,3 @@
 *GitS-Core-Code
 gitSSources
-	^ {
-		self definitionString.
-		String streamContents: [:stream | self printClassSideDefinitionOn: stream].
-		self comment.
-	}
+	^ {self gitSInstanceSideDefinitionSource. self gitSClassSideDefinitionSource. self gitSCommentSource}

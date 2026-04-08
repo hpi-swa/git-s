@@ -1,0 +1,17 @@
+{
+	"category" : "GitS-Core-Versions-UI-Atomic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"versionChange",
+		"buildBlock",
+		"workspace",
+		"builder" ],
+	"name" : "GSAtomicChangeModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

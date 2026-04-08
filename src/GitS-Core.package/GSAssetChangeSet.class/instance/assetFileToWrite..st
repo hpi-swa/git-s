@@ -1,3 +1,3 @@
 accessing
 assetFileToWrite: anAssetFile
-	self to: anAssetFile.
+	self change assetFileToWrite: anAssetFile.

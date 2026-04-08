@@ -1,3 +1,4 @@
 adding
 addOperations: aCollection
-	self changes addAll: (aCollection collect: [:each | GSCodeNormalChange withChangeSet: self operation: each]).
+	self addVersionChanges: (aCollection collect: [:each |
+		GSVersionChange current: each baseDefinition incoming: each targetDefinition]).

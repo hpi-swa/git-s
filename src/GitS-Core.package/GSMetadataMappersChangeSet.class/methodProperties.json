@@ -3,13 +3,12 @@
 		"property" : "mad 8/18/2024 18:48" },
 	"instance" : {
 		"addChangedMappers:class:" : "mad 8/25/2025 19:33",
-		"bumpMapperVersionIfNecessary:" : "mad 9/27/2024 17:45",
+		"bumpMapperVersionIfNecessary:" : "mad 10/10/2025 00:55",
 		"changes" : "mad 8/25/2025 19:21",
 		"changes:" : "mad 8/25/2025 19:21",
+		"currentMappers" : "mad 10/10/2025 00:55",
+		"currentMappers:" : "mad 10/10/2025 00:55",
 		"initialize" : "mad 8/25/2025 19:31",
 		"mapperChangeSets" : "mad 2/20/2024 14:51",
 		"mapperChangeSets:" : "mad 2/20/2024 14:51",
-		"newMappers" : "mad 8/25/2025 19:23",
-		"newValue" : "mad 11/12/2024 14:28",
-		"oldMappers" : "mad 9/20/2023 12:00",
-		"oldMappers:" : "mad 8/25/2025 19:33" } }
+		"valueToWrite" : "mad 10/10/2025 00:56" } }
