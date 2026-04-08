@@ -6,6 +6,6 @@ handleMovedImageFrom: oldHash to: newHash
 					title:
 						'The image is not where it used to be. Did you move or copy it?\
 						If in doubt, choose copy.' gitSFormat]
-					on: [GSOperationCanceledException] do: [false].
+					on: [GSOperationCanceledError] do: [false].
 	self allInstancesDo: [:each | each withUnitOfWork: [
 		each handleMovedImageFrom: oldHash to: newHash doMove: doMove]].
