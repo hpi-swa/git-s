@@ -1,6 +1,9 @@
 {
 	"class" : {
+		"allClassVarNames" : "mad 4/8/2026 17:31",
+		"allInstVarNames" : "mad 4/8/2026 17:30",
 		"allSelectorsForCompletionWithout:" : "mad 11/7/2025 01:54",
+		"isAutocompletionContext:" : "mad 4/8/2026 17:34",
 		"publicClassVariables" : "mad 11/7/2025 01:43",
 		"publicInstanceVariables" : "mad 11/7/2025 01:34",
 		"publicSelectors" : "mad 11/7/2025 01:55" },
