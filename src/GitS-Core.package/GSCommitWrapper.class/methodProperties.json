@@ -2,7 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"balloonText" : "mad 9/14/2023 19:29",
-		"decorationsFor:" : "mad 11/6/2025 16:06",
-		"formatTimeStamp:" : "mad 8/31/2023 14:08",
-		"setItem:" : "mad 8/20/2025 20:51" } }
+		"balloonText" : "mad 4/9/2026 18:38",
+		"commit" : "mad 4/9/2026 18:38",
+		"decorations" : "mad 4/9/2026 18:39",
+		"findFirstChangeOf:between:and:" : "mad 4/9/2026 20:09",
+		"formatTimeStamp:now:" : "mad 7/10/2025 22:28",
+		"roundedToSeconds:" : "mad 7/1/2025 16:18",
+		"setItem:" : "mad 7/1/2025 16:19",
+		"string:" : "mad 4/9/2026 18:23",
+		"stringChanged" : "mad 4/9/2026 18:23",
+		"updateString" : "mad 4/9/2026 20:17",
+		"updateWhen:changesBetween:and:" : "mad 4/9/2026 19:57" } }

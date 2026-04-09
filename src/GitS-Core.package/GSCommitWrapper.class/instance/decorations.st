@@ -1,6 +1,6 @@
 initialization
-decorationsFor: aCommit
-	^ ((((self workingCopy refsForCommit: aCommit)
+decorations
+	^ ((((self workingCopy refsForCommit: self commit)
 		collect: [:each | GitReference shortName: each])
 		copyWithout: 'HEAD')
 		sorted

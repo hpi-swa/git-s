@@ -1,3 +1,3 @@
 accessing
 balloonText
-	^ self item show
+	^ self commit show

@@ -3,12 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"UpdateTimeStamps" ],
+		"Registry" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GSCommitWrapper",
+		"timeStamp",
+		"commitWrappers",
+		"delay" ],
+	"name" : "GSCommitWrapperTimeStampUpdater",
 	"pools" : [
 		 ],
-	"super" : "GSListItemWrapper",
+	"super" : "Object",
 	"type" : "normal" }
