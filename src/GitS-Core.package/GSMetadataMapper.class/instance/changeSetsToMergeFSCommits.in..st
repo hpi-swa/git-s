@@ -27,10 +27,8 @@ changeSetsToMergeFSCommits: aVersionMerge in: aWorkingCopy
 		class: GSMetadataMappersIncomingRemovalChange;
 		addChangedMappers: (changedMappersFor value: #(current base))
 		class: GSMetadataMappersIncomingAdditionChange;
-		addChangedMappers: ((changedMappersFor value: #(current)) select: [:mapper | | changeSet |
-			changeSet := mapperChangeSets at: mapper.
-			changeSet hasConflicts ifFalse: [self assert: changeSet isEmpty].
-			changeSet hasConflicts])
+		addChangedMappers: ((changedMappersFor value: #(current)) select: [:mapper |
+			(mapperChangeSets at: mapper) isEmpty not])
 		class: GSMetadataMappersCurrentRemovalChange;
 		"a 'current addition' change is unnecessary, since the incoming side cannot cause conflicts"
 		yourself.

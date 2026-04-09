@@ -1,0 +1,3 @@
+accessing
+canMapperBeRemoved
+	self subclassResponsibility.

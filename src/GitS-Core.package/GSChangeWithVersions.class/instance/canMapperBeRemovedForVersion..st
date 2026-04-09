@@ -1,3 +1,3 @@
 accessing
-isRemoval
+canMapperBeRemovedForVersion: anObject
 	self subclassResponsibility.

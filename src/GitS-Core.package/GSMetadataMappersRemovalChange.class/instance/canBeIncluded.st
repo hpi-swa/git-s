@@ -1,3 +1,3 @@
 edge-case
 canBeIncluded
-	^ self changedMapperChanges allSatisfy: #isIncludedRemoval
+	^ self changedMapperChanges allSatisfy: #canMapperBeRemoved

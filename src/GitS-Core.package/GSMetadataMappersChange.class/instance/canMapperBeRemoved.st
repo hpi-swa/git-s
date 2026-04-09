@@ -1,4 +1,4 @@
 accessing
-isRemoval
+canMapperBeRemoved
 	"should not be called"
 	self shouldNotImplement.

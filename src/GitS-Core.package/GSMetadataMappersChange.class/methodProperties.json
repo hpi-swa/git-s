@@ -4,6 +4,7 @@
 	"instance" : {
 		"applyTo:" : "mad 8/25/2025 21:47",
 		"buildWith:" : "mad 8/25/2025 21:41",
+		"canMapperBeRemoved" : "mad 4/9/2026 17:50",
 		"changedMapper" : "mad 8/25/2025 19:18",
 		"changedMapper:" : "mad 8/25/2025 20:21",
 		"changedMapperChanges" : "mad 8/25/2025 21:50",
@@ -13,7 +14,6 @@
 		"help" : "mad 8/25/2025 20:09",
 		"isExcludedInEdgeCase" : "mad 8/25/2025 21:25",
 		"isExcludedMatchesEdgeCase" : "mad 8/25/2025 21:32",
-		"isRemoval" : "mad 8/25/2025 21:04",
 		"kind" : "mad 8/25/2025 21:54",
 		"path" : "mad 8/25/2025 21:17",
 		"promptToSetIsExcludedSilently:" : "mad 10/10/2025 00:14",
