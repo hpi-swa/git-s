@@ -1,6 +1,6 @@
 expected-unsent
 expectedUnsentMethods
-	^
-		self expectedUnsentGitAssetLoaderMethods,
-		self expectedUnsentMethodsForFutureUse,
-		self expectedUnsentPreferenceSetterMethods
+	^ Array streamContents: [:stream |
+		self packageInfo actualMethodsDo: [:each |
+			(each hasPragma: #linterIgnoreUnsent)
+				ifTrue: [stream nextPut: each]]]
