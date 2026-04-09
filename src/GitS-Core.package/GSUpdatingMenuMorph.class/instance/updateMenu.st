@@ -1,6 +1,6 @@
 update
 updateMenu
-	<ignoreSends: #(hasTitlebarWidgets)>
+	<linterIgnoreSends: #(hasTitlebarWidgets)>
 	self removeProperty: #hasTitlebarWidgets.
 	super updateMenu.
 	self stayUp ifTrue: [self removeStayUpBox; restoreStayUpButton].

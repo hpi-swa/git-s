@@ -1,6 +1,6 @@
 migrations
 importLegacySqueakWorkingCopyInstances
-	<ignoreSends: #(SqueakWorkingCopy)>
+	<linterIgnoreSends: #(SqueakWorkingCopy)>
 	self
 		importProjectsFromLegacyClass: #SqueakWorkingCopy
 		getInstances: [:class | class registry values]

@@ -1,6 +1,6 @@
 migrations
 migrateGitStoreLog
-	<ignoreSends: #(LogMessages)>
+	<linterIgnoreSends: #(LogMessages)>
 	| messages |
 	messages := GitStore classPool at: #LogMessages.
 	messages ifNil: [^ self].

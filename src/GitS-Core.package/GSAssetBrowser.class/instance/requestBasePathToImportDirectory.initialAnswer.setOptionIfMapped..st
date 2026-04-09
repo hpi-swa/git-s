@@ -2,7 +2,7 @@ requests
 requestBasePathToImportDirectory: aReference
 initialAnswer: aPath
 setOptionIfMapped: aBlock
-	<ignoreSends: #(skip overwrite ask)>
+	<linterIgnoreSends: #(skip overwrite ask)>
 	| basePath mappedPaths |
 	basePath := GSPathUtilities
 					requestAbsolute: 'Base path for assets in the repository:'

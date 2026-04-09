@@ -1,6 +1,6 @@
 migrations
 importLegacySquotWorkingCopyInstances
-	<ignoreSends: #(SquotWorkingCopy registered)>
+	<linterIgnoreSends: #(SquotWorkingCopy registered)>
 	self
 		importProjectsFromLegacyClass: #SquotWorkingCopy
 		getInstances: #registered

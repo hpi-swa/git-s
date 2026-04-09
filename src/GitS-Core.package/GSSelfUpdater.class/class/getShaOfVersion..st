@@ -1,6 +1,6 @@
 requests
 getShaOfVersion: aString
-	<ignoreSends: #(SmalltalkCI getEnv: getenv:)>
+	<linterIgnoreSends: #(SmalltalkCI getEnv: getenv:)>
 	| response json |
 	response := WebClient new
 		httpGet: (self githubApiUrlForVersion: aString)

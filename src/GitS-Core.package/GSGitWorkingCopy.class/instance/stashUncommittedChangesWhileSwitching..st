@@ -1,6 +1,6 @@
 stash
 stashUncommittedChangesWhileSwitching: aBlock
-	<ignoreSends: #(saveHere moveOver)>
+	<linterIgnoreSends: #(saveHere moveOver)>
 	| uncommittedChangeSets oldHeadCommit |
 	oldHeadCommit := self headCommitOrCancel.
 	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.

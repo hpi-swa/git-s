@@ -1,5 +1,5 @@
 ignored-sends
 ignoredSendsFor: aCompiledMethod
-	^ (aCompiledMethod pragmaAt: #ignoreSends:)
+	^ (aCompiledMethod pragmaAt: #linterIgnoreSends:)
 		ifNil: [#()]
 		ifNotNil: [:pragma | pragma argumentAt: 1]

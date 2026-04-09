@@ -1,6 +1,6 @@
 diffing
 diffFromLines: aVersionChange
-	<ignoreSends: #(common different)>
+	<linterIgnoreSends: #(common different)>
 	^ self joinTexts: ((self diffChunksFromLines: aVersionChange) collect: [:each |
 		"each is either (#common -> {...}) or (#different -> ({...} -> {...}))"
 		each key caseOf: {

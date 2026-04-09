@@ -1,6 +1,6 @@
 metadata-loading-legacy
 legacySquotClassMappings
-	<ignoreSends: #(SquotTrackedObjectMetadata)>
+	<linterIgnoreSends: #(SquotTrackedObjectMetadata)>
 	^ Dictionary newFrom: {
 		#SquotTrackedObjectMetadata -> Dictionary.
 	}, ((GSMapper withAllSubclasses copyWith: GSMetadata)
