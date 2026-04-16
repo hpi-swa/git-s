@@ -1,5 +1,6 @@
 Autocompletion
 allSelectorsForCompletionWithout: behaviorCollection
+	<linterIgnoreUnsent> "called by autocompletion implementations"
 	| selectors |
 	selectors := IdentitySet new.
 	self withAllSubclassesDo: [:each |
