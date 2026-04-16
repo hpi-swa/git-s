@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"resources" : "mad 4/16/2026 13:52" },
 	"instance" : {
 		"click:button:" : "mad 8/26/2025 21:23",
 		"closeWindowContaining:" : "mad 11/9/2025 23:55",
