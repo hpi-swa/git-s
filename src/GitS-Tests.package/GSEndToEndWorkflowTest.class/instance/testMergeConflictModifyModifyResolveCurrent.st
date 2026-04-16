@@ -1,5 +1,5 @@
 tests
 testMergeConflictModifyModifyResolveCurrent
 	self
-		testMergeConflictModifyModifyDo: [self resolveToCurrent]
+		testMergeConflictModifyModifyResolve: [self resolveToCurrent]
 		checkMerged: [self check: self version1B].

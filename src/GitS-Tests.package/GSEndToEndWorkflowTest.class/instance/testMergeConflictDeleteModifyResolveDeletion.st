@@ -1,5 +1,5 @@
 tests
 testMergeConflictDeleteModifyResolveDeletion
 	self
-		testMergeConflictDeleteModifyDo: [self resolveToCurrent]
+		testMergeConflictDeleteModifyResolve: [self resolveToCurrent]
 		checkMerged: [self checkUninstalled: self version1].
