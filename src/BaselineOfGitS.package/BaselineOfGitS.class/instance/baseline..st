@@ -61,7 +61,7 @@ baseline: spec
 			package: 'JSON' with: [
 				spec
 					repository: 'https://www.squeaksource.com/JSON'];
-			package: 'GitS-Compatibility-Squeak6' with: [
+			package: 'GitS-Compatibility-Squeak60AndEarlier' with: [
 				spec requires: 'JSON'];
 			package: 'GitS-Core' with: [
-				spec requires: 'GitS-Compatibility-Squeak6']]
+				spec requires: 'GitS-Compatibility-Squeak60AndEarlier']].

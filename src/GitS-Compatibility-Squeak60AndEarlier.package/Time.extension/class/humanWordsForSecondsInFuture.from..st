@@ -1,4 +1,4 @@
-*GitS-Compatibility-Squeak6-override
+*GitS-Compatibility-Squeak60AndEarlier-override
 humanWordsForSecondsInFuture: secs from: now
 	"Return natural language for this date and time in the future."
 
