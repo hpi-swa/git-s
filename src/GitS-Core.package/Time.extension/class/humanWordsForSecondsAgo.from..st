@@ -1,4 +1,4 @@
-*GitS-Compatibility-Squeak60AndEarlier-override
+*GitS-Core-override
 humanWordsForSecondsAgo: secs from: now
 	"Return natural language for this date and time in the past."
 	

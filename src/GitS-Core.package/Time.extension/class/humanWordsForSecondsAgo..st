@@ -1,4 +1,4 @@
-*GitS-Compatibility-Squeak60AndEarlier-override
+*GitS-Core-override
 humanWordsForSecondsAgo: secs
 
 	^ self humanWordsForSecondsAgo: secs from: DateAndTime now
