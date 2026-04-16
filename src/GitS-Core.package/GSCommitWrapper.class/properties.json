@@ -6,7 +6,7 @@
 		"UpdateTimeStamps" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"workingCopy" ],
 	"name" : "GSCommitWrapper",
 	"pools" : [
 		 ],

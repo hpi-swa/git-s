@@ -7,9 +7,12 @@
 		"decorations" : "mad 4/9/2026 18:39",
 		"findFirstChangeOf:between:and:" : "mad 4/9/2026 20:09",
 		"formatTimeStamp:now:" : "mad 7/10/2025 22:28",
+		"rememberWorkingCopy" : "mad 4/16/2026 13:51",
 		"roundedToSeconds:" : "mad 7/1/2025 16:18",
-		"setItem:" : "mad 7/1/2025 16:19",
+		"setItem:" : "mad 4/16/2026 13:52",
 		"string:" : "mad 4/9/2026 18:23",
 		"stringChanged" : "mad 4/9/2026 18:23",
 		"updateString" : "mad 4/9/2026 20:17",
-		"updateWhen:changesBetween:and:" : "mad 4/9/2026 19:57" } }
+		"updateWhen:changesBetween:and:" : "mad 4/9/2026 19:57",
+		"workingCopy" : "mad 4/16/2026 13:52",
+		"workingCopy:" : "mad 4/16/2026 13:52" } }
