@@ -23,6 +23,8 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
+          smalltalkCI-branch: 'update-osvm'
+          smalltalkCI-source: 'MariusDoe/smalltalkCI'
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
