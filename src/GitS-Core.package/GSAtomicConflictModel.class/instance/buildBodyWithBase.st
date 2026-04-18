@@ -1,7 +1,12 @@
 toolbuilder
 buildBodyWithBase
-	^ GSGUIUtilities buildEvenGrid: {
-		{'Base:' -> #base. 'Current:' -> #current. 'Incoming:' -> #incoming} collect: [:each |
-			self buildDynamic: each value label: each key].
-		self buildResolutionPanel.
-	} ofSize: 2 @ 2 with: builder
+	^ GSGUIUtilities buildVerticalLayout: {
+		GSGUIUtilities buildHorizontalLayout: {
+			self buildDynamic: #base label: 'Base:'.
+			self buildDynamic: #current label: 'Current:'.
+		} with: self builder.
+		GSGUIUtilities buildHorizontalLayout: {
+			self buildDynamic: #incoming label: 'Incoming:'.
+			self buildResolutionPanel.
+		} with: self builder.
+	} with: self builder
