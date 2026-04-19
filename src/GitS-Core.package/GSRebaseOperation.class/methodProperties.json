@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"applyUserInterfaceTheme" : "mad 4/19/2026 15:07",
 		"canChangeTo:" : "mad 4/4/2024 21:24",
 		"chooseNewOperationClass" : "mad 3/10/2025 23:19",
 		"compatibleOperationClasses" : "mad 4/4/2024 21:23",
@@ -25,7 +26,7 @@
 		"icon" : "mad 4/3/2024 20:30",
 		"icons" : "mad 4/5/2024 18:29",
 		"isHeader" : "mad 4/4/2024 17:14",
-		"lineIcon" : "mad 4/3/2024 20:41",
+		"lineIcon" : "mad 4/19/2026 14:57",
 		"menu:" : "mad 4/18/2026 12:25",
 		"modifiesPreviousCommit" : "mad 4/3/2024 19:41",
 		"nextOperation" : "mad 10/9/2024 16:01",

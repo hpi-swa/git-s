@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"onChangeSets:" : "mad 9/15/2023 12:43" },
+		"onChangeSets:" : "mad 9/15/2023 12:43",
+		"themeProperties" : "mad 4/19/2026 15:05" },
 	"instance" : {
 		"addButton:action:color:location:" : "mad 8/12/2025 22:44",
 		"buildButton:action:color:with:" : "mad 7/11/2025 11:21",
@@ -31,7 +32,7 @@
 		"closeBlock" : "mad 11/15/2025 18:18",
 		"closeBlock:" : "mad 11/15/2025 18:18",
 		"computeChanges" : "mad 9/6/2023 19:34",
-		"excludedColor" : "mad 9/11/2023 14:34",
+		"excludedColor" : "mad 4/19/2026 14:45",
 		"formatEditedLabel:" : "mad 9/27/2023 16:34",
 		"formatExcludedLabel:" : "mad 10/9/2024 16:01",
 		"formatLabelWithConflicts:" : "mad 10/9/2024 16:01",

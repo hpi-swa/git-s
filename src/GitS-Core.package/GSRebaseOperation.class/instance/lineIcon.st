@@ -5,4 +5,4 @@ lineIcon
 			line: canvas clipRect topCenter
 			to: canvas clipRect bottomCenter
 			width: 4
-			color: Color black]
+			color: (self userInterfaceTheme get: #textColor for: PluggableListMorph)]

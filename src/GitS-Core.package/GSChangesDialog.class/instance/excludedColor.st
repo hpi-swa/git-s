@@ -1,3 +1,3 @@
 accessing
 excludedColor
-	^ Color gray
+	^ self userInterfaceTheme get: #disabledTextColor for: MenuItemMorph

@@ -3,7 +3,8 @@
 		"newWithWorkingCopy:commits:" : "mad 12/1/2024 21:50",
 		"newWithWorkingCopy:operations:" : "mad 12/1/2024 21:50",
 		"nextOperation" : "mad 4/4/2024 22:12",
-		"retry" : "mad 4/4/2024 22:28" },
+		"retry" : "mad 4/4/2024 22:28",
+		"themeProperties" : "mad 4/19/2026 15:05" },
 	"instance" : {
 		"abort" : "mad 4/10/2024 16:51",
 		"actionAbort" : "mad 4/7/2024 17:29",
@@ -13,6 +14,7 @@
 		"activeOperation:" : "mad 4/4/2024 17:17",
 		"add:" : "mad 4/4/2024 19:23",
 		"addAll:" : "mad 4/4/2024 18:07",
+		"applyUserInterfaceTheme" : "mad 4/19/2026 15:08",
 		"buildAbortButton:" : "mad 12/21/2024 22:09",
 		"buildAddOperationButton:" : "mad 12/21/2024 22:16",
 		"buildButtons:" : "mad 10/9/2024 16:01",
