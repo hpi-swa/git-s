@@ -5,4 +5,6 @@ activeOperation: aRebaseOperation
 		ifFalse: [
 			self assert: (self operations includes: aRebaseOperation).
 			activeOperation := aRebaseOperation].
-	self changed: #activeOperation.
+	self
+		changed: #activeOperation;
+		updateChangesDialog.

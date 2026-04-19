@@ -12,7 +12,8 @@
 		"continueBlock",
 		"labels",
 		"refsToUpdate",
-		"originalHeadCommit" ],
+		"originalHeadCommit",
+		"changesDialog" ],
 	"name" : "GSRebase",
 	"pools" : [
 		 ],

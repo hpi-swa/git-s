@@ -5,4 +5,5 @@ initialize
 		operations: OrderedCollection new;
 		labels: Dictionary new;
 		refsToUpdate: Dictionary new;
-		originalHeadCommit: nil.
+		originalHeadCommit: nil;
+		changesDialog: GSChangesDialog new.
