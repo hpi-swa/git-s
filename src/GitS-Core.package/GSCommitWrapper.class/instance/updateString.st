@@ -6,7 +6,7 @@ updateString
 	self string: (({
 		self formatTimeStamp: commitTimeStamp now: now.
 		self commit author name.
-		self decorations, (self commit message lineNumber: 1).
+		self commit message lineNumber: 1.
 	} collect: #withBlanksTrimmed) joinSeparatedBy: Character tab).
 	self
 		updateWhen: [:futureTimeStamp | self formatTimeStamp: commitTimeStamp now: futureTimeStamp]
