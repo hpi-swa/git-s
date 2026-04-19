@@ -1,3 +1,4 @@
 accessing
 beTimeStamp
-	self isTimeStamp: true.
+	<linterIgnoreSends: #(timeStamp)>
+	self category: #timeStamp.

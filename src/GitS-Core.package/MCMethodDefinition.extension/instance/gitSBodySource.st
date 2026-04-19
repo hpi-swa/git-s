@@ -3,6 +3,6 @@ gitSBodySource
 	^ GSMultitextSource new
 		string: self source;
 		help: 'source';
-		beCode;
+		beMethodCode;
 		methodClass: self actualClass;
 		yourself

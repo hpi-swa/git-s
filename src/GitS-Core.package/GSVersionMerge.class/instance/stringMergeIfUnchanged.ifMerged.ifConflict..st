@@ -2,7 +2,7 @@ merging
 stringMergeIfUnchanged: unchangedBlock ifMerged: mergedBlock ifConflict: conflictBlock
 	| lines chunks |
 	lines := self collect: #lines.
-	chunks := lines linesMergeChunks.
+	chunks := lines mergeChunks.
 	^ (chunks allSatisfy: [:each | each key = #ok])
 		ifFalse: [conflictBlock value: self asConflict]
 		ifTrue: [ | mergedLines |

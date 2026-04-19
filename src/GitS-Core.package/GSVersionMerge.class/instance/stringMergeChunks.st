@@ -1,3 +1,3 @@
 merging
 stringMergeChunks
-	^ (self collect: #lines) linesMergeChunks
+	^ (self collect: #lines) mergeChunks

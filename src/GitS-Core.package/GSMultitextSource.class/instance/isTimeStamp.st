@@ -1,3 +1,4 @@
 accessing
 isTimeStamp
-	^ isTimeStamp
+	<linterIgnoreSends: #(timeStamp)>
+	^ self category = #timeStamp

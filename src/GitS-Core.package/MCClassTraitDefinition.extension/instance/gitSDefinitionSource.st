@@ -3,5 +3,5 @@ gitSDefinitionSource
 	^ GSMultitextSource new
 		string: self source;
 		help: 'class side definition';
-		beCode;
+		beClassCode;
 		yourself

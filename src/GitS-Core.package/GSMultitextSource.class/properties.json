@@ -8,8 +8,7 @@
 	"instvars" : [
 		"string",
 		"help",
-		"isTimeStamp",
-		"isCode",
+		"category",
 		"methodClass" ],
 	"name" : "GSMultitextSource",
 	"pools" : [

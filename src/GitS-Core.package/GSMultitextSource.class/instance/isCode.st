@@ -1,3 +1,3 @@
 accessing
 isCode
-	^ isCode
+	^ self isMethodCode or: [self isClassCode]
