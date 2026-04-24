@@ -1,7 +1,7 @@
-operations
-add: aRebaseOperation
-	aRebaseOperation rebase: self.
-	self activeOperation
-		ifNil: [self operations addFirst: aRebaseOperation]
-		ifNotNil: [:active | self operations add: aRebaseOperation after: active].
-	self operationsChanged.
+commands
+add: aRebaseCommand
+	aRebaseCommand rebase: self.
+	self activeCommand
+		ifNil: [self commands addFirst: aRebaseCommand]
+		ifNotNil: [:active | self commands add: aRebaseCommand after: active].
+	self commandsChanged.

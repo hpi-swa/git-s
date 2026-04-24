@@ -1,8 +1,8 @@
 events
-dropItem: aRebaseOperation on: anotherRebaseOperation
-	aRebaseOperation == anotherRebaseOperation ifTrue: [^ self].
-	self operations remove: aRebaseOperation ifAbsent: [].
-	anotherRebaseOperation isHeader
-		ifTrue: [self operations addFirst: aRebaseOperation]
-		ifFalse: [self operations add: aRebaseOperation after: anotherRebaseOperation].
-	self operationsChanged.
+dropItem: aRebaseCommand on: anotherRebaseCommand
+	aRebaseCommand == anotherRebaseCommand ifTrue: [^ self].
+	self commands remove: aRebaseCommand ifAbsent: [].
+	anotherRebaseCommand isHeader
+		ifTrue: [self commands addFirst: aRebaseCommand]
+		ifFalse: [self commands add: aRebaseCommand after: anotherRebaseCommand].
+	self commandsChanged.

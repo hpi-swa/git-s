@@ -1,5 +1,5 @@
-operations
-remove: aRebaseOperation
-	aRebaseOperation = self nextOperation ifTrue: [self continueBlock: nil].
-	self operations remove: aRebaseOperation.
-	self operationsChanged.
+commands
+remove: aRebaseCommand
+	aRebaseCommand = self nextCommand ifTrue: [self continueBlock: nil].
+	self commands remove: aRebaseCommand.
+	self commandsChanged.

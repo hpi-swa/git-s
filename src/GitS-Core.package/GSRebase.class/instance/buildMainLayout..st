@@ -1,3 +1,3 @@
 toolbuilder
 buildMainLayout: builder
-	^ self buildOperations: builder
+	^ self buildCommands: builder

@@ -1,3 +1,3 @@
 accessing
 canAbort
-	^ self hasStarted and: [self operations notEmpty]
+	^ self hasStarted and: [self commands notEmpty]

@@ -4,4 +4,4 @@ continue
 	result := self continueBlock value.
 	self
 		continueBlock: nil;
-		handleDelayedOperationResult: result.
+		handleDelayedCommandResult: result.

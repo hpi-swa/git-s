@@ -1,3 +1,3 @@
 events
 wantsDropItem: anObject
-	^ anObject isKindOf: GSRebaseOperation
+	^ anObject isKindOf: GSRebaseCommand

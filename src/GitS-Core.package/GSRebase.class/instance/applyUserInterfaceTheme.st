@@ -1,5 +1,5 @@
 updating
 applyUserInterfaceTheme
 	super applyUserInterfaceTheme.
-	GSRebaseOperation applyUserInterfaceTheme.
-	self changed: #operations.
+	GSRebaseCommand applyUserInterfaceTheme.
+	self changed: #commands.

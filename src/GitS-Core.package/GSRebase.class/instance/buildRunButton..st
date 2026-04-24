@@ -4,5 +4,5 @@ buildRunButton: builder
 		model: self operationStarter;
 		action: #actionRun;
 		label: #runLabel;
-		help: 'Run the next operation.';
+		help: 'Run the next command.';
 		yourself

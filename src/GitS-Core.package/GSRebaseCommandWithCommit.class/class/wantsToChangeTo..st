@@ -1,0 +1,3 @@
+compatibility
+wantsToChangeTo: aRebaseCommandClass
+	^ aRebaseCommandClass inheritsFrom: GSRebaseCommandWithCommit

@@ -1,3 +1,3 @@
 running
 run
-	[self runNextOperation] whileTrue.
+	[self runNextCommand] whileTrue.

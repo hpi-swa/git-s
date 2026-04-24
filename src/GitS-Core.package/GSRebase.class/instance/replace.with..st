@@ -1,6 +1,6 @@
-operations
-replace: aRebaseOperation with: anotherRebaseOperation
-	self operations
-		at: (self operations indexOf: aRebaseOperation)
-		put: anotherRebaseOperation.
-	self operationsChanged.
+commands
+replace: aRebaseCommand with: anotherRebaseCommand
+	self commands
+		at: (self commands indexOf: aRebaseCommand)
+		put: anotherRebaseCommand.
+	self commandsChanged.

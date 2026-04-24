@@ -1,5 +1,5 @@
-operations
+commands
 addAll: aCollection
 	aCollection do: [:each | each rebase: self].
-	self operations addAll: aCollection.
-	self operationsChanged.
+	self commands addAll: aCollection.
+	self commandsChanged.

@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Rebase",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSRebaseCommandPick",
+	"pools" : [
+		 ],
+	"super" : "GSRebaseCommandWithCommit",
+	"type" : "normal" }

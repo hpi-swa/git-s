@@ -1,0 +1,3 @@
+running
+nextCommand
+	^ GSRebase nextCommand

@@ -1,3 +1,0 @@
-running
-nextOperation
-	^ GSRebase nextOperation
