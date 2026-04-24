@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"activeWorkingCopy" : "mad 8/24/2025 14:35",
-		"addToMenu:" : "mad 11/7/2025 02:01",
+		"addToMenu:" : "mad 4/24/2026 18:25",
 		"basicIncludeActiveRef:" : "mad 8/24/2025 15:11",
 		"basicIncludeAllRefs:" : "mad 8/24/2025 15:11",
 		"basicIncludeBranches:" : "mad 8/24/2025 15:11",
@@ -30,7 +30,7 @@
 		"includeRemotes" : "mad 8/24/2025 14:25",
 		"includeRemotes:" : "mad 8/24/2025 15:12",
 		"initialize" : "mad 11/6/2025 23:42",
-		"operationLifecycle" : "mad 8/24/2025 14:35",
+		"operationStarter" : "mad 4/24/2026 18:23",
 		"reflogFor:" : "mad 11/6/2025 23:50",
 		"refs" : "mad 8/24/2025 16:24",
 		"toggleIncludeActiveRef" : "mad 8/24/2025 14:47",

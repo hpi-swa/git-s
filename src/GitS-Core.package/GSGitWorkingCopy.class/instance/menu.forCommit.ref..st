@@ -10,7 +10,7 @@ menu: aMenu forCommit: aCommit ref: refString
 	refShortName := isRef ifTrue: [(GitReference shortName: refString) printString] ifFalse: [nil].
 	currentBranch := self currentSymbolicHeadTarget.
 	currentBranchShortName := currentBranch ifNotNil: [(GitReference shortName: currentBranch) printString].
-	target := self operationLifecycle.
+	target := self operationStarter.
 	
 	aMenu target: target.
 	

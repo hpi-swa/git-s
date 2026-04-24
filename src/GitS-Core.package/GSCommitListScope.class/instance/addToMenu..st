@@ -1,7 +1,7 @@
 menu
 addToMenu: aMenu
 	aMenu
-		target: self operationLifecycle;
+		target: self operationStarter;
 		addLine;
 		addItem: [:item | item contents: 'which commits to search:'].
 	{

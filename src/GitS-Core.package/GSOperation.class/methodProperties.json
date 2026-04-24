@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"activeFor:" : "mad 4/24/2026 18:49",
+		"ensureActiveFor:during:" : "mad 4/24/2026 18:52",
+		"for:" : "mad 4/24/2026 18:52" },
+	"instance" : {
+		"activateDuring:" : "mad 4/24/2026 18:59",
+		"becomeActiveDuring:" : "mad 4/24/2026 18:59",
+		"ignoreCancelationDuring:" : "mad 4/24/2026 18:58",
+		"withUnitOfWork:" : "mad 4/24/2026 18:57",
+		"workingCopy" : "mad 4/24/2026 18:39",
+		"workingCopy:" : "mad 4/24/2026 18:40" } }

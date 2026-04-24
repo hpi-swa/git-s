@@ -1,7 +1,7 @@
 toolbuilder
 buildCommits: builder
 	^ builder pluggableMultiColumnListSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		list: #commitColumns;
 		icon: #commitIconAtRow:column:;
 		getIndex: #activeCommitIndex;

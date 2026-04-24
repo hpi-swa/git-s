@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"driver",
-		"workingCopySelector" ],
-	"name" : "GSOperationLifecycle",
+		"workingCopy" ],
+	"name" : "GSOperation",
 	"pools" : [
 		 ],
 	"super" : "DynamicVariable",

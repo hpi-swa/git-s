@@ -1,4 +1,4 @@
 running
 handleDelayedOperationResult: anObject
 	(self handleOperationResult: anObject)
-		ifTrue: [self operationLifecycle operation: [self run]].
+		ifTrue: [self operationStarter ensureActiveOperationDuring: [self run]].

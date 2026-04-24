@@ -1,7 +1,7 @@
 menu
 otherMenu: aMenuSpec
 	| target |
-	target := self operationLifecycle.
+	target := self operationStarter.
 	aMenuSpec
 		add: 'Self-update'
 		target: target
@@ -14,7 +14,7 @@ otherMenu: aMenuSpec
 		argumentList: {}.
 		
 	self activeWorkingCopy ifNotNil: [:workingCopy |
-		target := workingCopy operationLifecycle.
+		target := workingCopy operationStarter.
 		aMenuSpec
 			addLine;
 			

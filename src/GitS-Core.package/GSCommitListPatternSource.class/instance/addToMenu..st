@@ -1,6 +1,6 @@
 menu
 addToMenu: aMenu
 	aMenu
-		target: self operationLifecycle;
+		target: self operationStarter;
 		add: (GSGUIUtilities menuItem: self displayName enabled: self isActive)
 		action: #toggleIsActive.

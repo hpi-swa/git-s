@@ -1,7 +1,7 @@
 toolbuilder
 buildRefTree: builder
 	^ builder pluggableTreeSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		roots: #refTreeRoots;
 		getSelected: #activeRefTreeMember;
 		setSelected: #activeRefTreeMember:;

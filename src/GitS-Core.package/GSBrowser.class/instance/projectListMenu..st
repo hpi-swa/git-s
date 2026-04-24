@@ -1,7 +1,7 @@
 menu
 projectListMenu: aMenu
 	self activeWorkingCopy ifNotNil: [:workingCopy | | target |
-		target := workingCopy operationLifecycle.
+		target := workingCopy operationStarter.
 		aMenu
 			target: target;
 			title: ('Project {1}' format: {workingCopy name printString});
@@ -22,7 +22,7 @@ projectListMenu: aMenu
 		add: 'Add project'
 		subMenu: (MenuMorph new in: [:subMenu |
 			subMenu
-				target: self operationLifecycle;
+				target: self operationStarter;
 				add: 'Clone' action: #actionCloneProject;
 				add: 'New on disk' action: #actionNewProject;
 				add: 'Existing from disk' action: #actionNewExistingProject;

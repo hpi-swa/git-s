@@ -1,7 +1,7 @@
 toolbuilder
 buildRemovePackageButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		action: #actionRemovePackage;
 		enabled: #isSelectedPackageMapped;
 		label: 'Remove package';

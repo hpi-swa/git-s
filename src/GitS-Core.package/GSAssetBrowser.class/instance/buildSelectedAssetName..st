@@ -1,7 +1,7 @@
 toolbuilder
 buildSelectedAssetName: builder
 	^ builder pluggableTextSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		getText: #selectedAssetName;
 		readOnly: true;
 		verticalResizing: #shrinkWrap;

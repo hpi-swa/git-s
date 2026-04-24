@@ -10,7 +10,8 @@
 		"refsForCommits",
 		"credentials",
 		"lastImageHash",
-		"commitMessageDraft" ],
+		"commitMessageDraft",
+		"activeOperation" ],
 	"name" : "GSGitWorkingCopy",
 	"pools" : [
 		 ],

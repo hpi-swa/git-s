@@ -1,7 +1,7 @@
 toolbuilder
 buildRemoteList: builder
 	^ builder pluggableListSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		list: #remoteList;
 		getSelected: #selectedRemoteName;
 		setSelected: #selectedRemoteName:;

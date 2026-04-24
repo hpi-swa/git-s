@@ -1,7 +1,7 @@
 toolbuilder
 buildClearButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		action: #clear;
 		label: 'Clear';
 		horizontalResizing: #shrinkWrap;

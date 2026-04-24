@@ -3,7 +3,7 @@
 		"isAbstract" : "mad 11/6/2025 13:07" },
 	"instance" : {
 		"activeWorkingCopy" : "mad 8/24/2025 12:37",
-		"addToMenu:" : "mad 8/24/2025 12:36",
+		"addToMenu:" : "mad 4/24/2026 18:25",
 		"basicIsActive:" : "mad 8/24/2025 13:23",
 		"commitList" : "mad 8/24/2025 14:54",
 		"defaultIsActive" : "mad 8/24/2025 22:02",
@@ -11,7 +11,7 @@
 		"initialize" : "mad 8/24/2025 22:02",
 		"isActive" : "mad 8/24/2025 12:15",
 		"isActive:" : "mad 8/24/2025 15:15",
-		"operationLifecycle" : "mad 8/24/2025 12:37",
+		"operationStarter" : "mad 4/24/2026 18:23",
 		"patternMode" : "mad 8/24/2025 14:54",
 		"patternMode:" : "mad 8/24/2025 14:54",
 		"stringsOf:do:" : "mad 8/24/2025 21:52",

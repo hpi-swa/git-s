@@ -4,4 +4,4 @@ activeWorkingCopy: aWorkingCopy
 	activeWorkingCopy ifNotNil: [activeWorkingCopy removeDependent: self].
 	activeWorkingCopy := aWorkingCopy.
 	activeWorkingCopy ifNotNil: [activeWorkingCopy addDependent: self].
-	self operationLifecycle operation: [self everythingChanged].
+	self operationStarter ensureActiveOperationDuring: [self everythingChanged].

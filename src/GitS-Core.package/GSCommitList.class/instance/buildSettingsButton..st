@@ -1,7 +1,7 @@
 toolbuilder
 buildSettingsButton: builder
 	^ builder pluggableActionButtonSpec new
-		model: self operationLifecycle;
+		model: self operationStarter;
 		action: #settingsMenu;
 		label: 'Settings';
 		style: #menuButton;

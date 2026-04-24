@@ -1,7 +1,7 @@
 menu
 settingsMenu: aMenu
 	aMenu
-		target: self operationLifecycle;
+		target: self operationStarter;
 		title: 'Search settings';
 		addStayUpItem;
 		add: 'help...' target: GSHelp selector: #edit: argument: #searching;

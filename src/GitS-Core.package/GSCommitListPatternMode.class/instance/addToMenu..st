@@ -6,7 +6,7 @@ addToMenu: aMenu
 		addItem: [:item | item contents: 'what to search:'].
 	self sources do: [:each | each addToMenu: aMenu].
 	aMenu
-		target: self operationLifecycle;
+		target: self operationStarter;
 		addLine;
 		addItem: [:item | item contents: 'search using:'].
 	self matchers do: [:each |

@@ -1,9 +1,9 @@
 menu
 menu: aMenu
 	aMenu
-		defaultTarget: self operationLifecycle;
+		defaultTarget: self operationStarter;
 		add: 'Change type to' subMenu: (MenuMorph new in: [:menu |
-			menu defaultTarget: self operationLifecycle.
+			menu defaultTarget: self operationStarter.
 			(self class compatibleOperationClasses sorted: #operationName ascending) do: [:each |
 				menu
 					add: each operationName
