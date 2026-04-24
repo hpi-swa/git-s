@@ -1,3 +1,3 @@
 accessing
 operationStarter
-	^ GSOperationStarter driver: self getWorkingCopy: #workingCopy
+	^ GSRebaseOperationStarter driver: self getWorkingCopy: #workingCopy
