@@ -1,12 +1,16 @@
 {
-	"category" : "GitS-Core-Utilities",
+	"category" : "GitS-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"workingCopy" ],
+		"workingCopy",
+		"initialImageCommit",
+		"pendingChangeSetsCommit",
+		"deferMaterializationLevel",
+		"isBatchingEnabled" ],
 	"name" : "GSOperation",
 	"pools" : [
 		 ],

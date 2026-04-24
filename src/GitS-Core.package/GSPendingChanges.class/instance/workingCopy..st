@@ -3,4 +3,5 @@ workingCopy: aWorkingCopy
 	workingCopy := aWorkingCopy.
 	self
 		originalHeadCommit: self currentHeadCommit;
-		doRegularCommit.
+		doRegularCommit;
+		operation: self workingCopy activeOperation.

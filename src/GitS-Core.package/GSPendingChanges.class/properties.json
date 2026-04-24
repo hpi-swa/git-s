@@ -24,7 +24,8 @@
 		"actionHasRun",
 		"cancelBlock",
 		"changeSetsBlock",
-		"isRefreshable" ],
+		"isRefreshable",
+		"operation" ],
 	"name" : "GSPendingChanges",
 	"pools" : [
 		 ],

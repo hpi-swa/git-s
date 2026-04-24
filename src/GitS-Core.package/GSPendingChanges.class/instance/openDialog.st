@@ -5,19 +5,19 @@ openDialog
 	self actionBlock ifNotNil: [
 		self dialog
 			addButton: self actionLabel
-			action: [self operationStarter ensureActiveOperationDuring: [self checkedAction]]
+			action: [self operation activateDuring: [self checkedAction]]
 			color: self actionColor
 			location: #bottom].
 	self canRefresh ifTrue: [
 		self dialog
 			addButton: 'Refresh'
-			action: [self operationStarter ensureActiveOperationDuring: [self refresh]]
+			action: [self operation activateDuring: [self refresh]]
 			color: nil
 			location: #changesTree].
 	self dialog
-		closeBlock: [self operationStarter ensureActiveOperationDuring: [self dialogIsClosing]];
+		closeBlock: [self operation activateDuring: [self dialogIsClosing]];
 		addButton: self closeLabel
-		action: [self operationStarter ensureActiveOperationDuring: [self closeDialog]]
+		action: [self operation activateDuring: [self closeDialog]]
 		color: self closeColor
 		location: #bottom;
 		message: self initialMessage;
