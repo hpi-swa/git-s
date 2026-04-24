@@ -6,7 +6,7 @@ compileNotifying: requestor
 					in: self receiverClass
 					notifying: requestor
 					ifFail: [^ self defaultBlock])
-						generate.
+						generateWithTempNames.
 	model := self createModel.
 	^ [:commit | | answer |
 		model commit: commit.
