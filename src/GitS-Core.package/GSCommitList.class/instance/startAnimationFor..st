@@ -1,12 +1,8 @@
 generating
 startAnimationFor: aProcess
-	| morph |
+	| done |
 	self hasExpression ifFalse: [^ self].
-	morph := self actualDependents
-		detect: [:each | (each isKindOf: PluggableTextMorph) and: [each getTextSelector = #expression]]
-		ifNone: [^ self].
-	((morph ownerThatIsA: SystemWindow) ifNil: morph world)
-		addMorphInLayer: (GSLoadingAnimationMorph new
-								morph: morph;
-								done: [self generatingProcess ~= aProcess or: [aProcess isTerminated]];
-								yourself).
+	done := [self generatingProcess ~= aProcess or: [aProcess isTerminated]].
+	self actualDependents
+		select: [:each | (each isKindOf: PluggableTextMorph) and: [each getTextSelector = #expression]]
+		thenDo: [:each | self startAnimationOn: each done: done].
