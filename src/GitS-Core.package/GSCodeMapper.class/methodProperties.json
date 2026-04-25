@@ -15,9 +15,7 @@
 		"=" : "mad 9/26/2023 15:20",
 		"addToSar:" : "mad 8/21/2025 22:46",
 		"changeEncoding" : "mad 2/21/2025 15:27",
-		"changeSetFromFSCommit:toImage:" : "mad 10/6/2025 22:26",
 		"changeSetFromFSCommits:" : "mad 10/6/2025 22:47",
-		"changeSetFromImage:toFSCommit:" : "mad 10/6/2025 22:27",
 		"changeSetFromSnapshots:" : "mad 4/8/2026 00:46",
 		"changeSetToMergeFSCommits:" : "mad 10/6/2025 22:51",
 		"cleanDirectory:" : "mad 10/9/2024 16:01",
@@ -39,6 +37,7 @@
 		"printDescriptionOn:" : "mad 10/9/2024 16:01",
 		"readerOn:" : "mad 10/4/2024 19:58",
 		"serialize:into:" : "mad 10/5/2025 19:30",
+		"serializeImage:into:" : "mad 4/24/2026 20:01",
 		"workingCopySnapshot" : "mad 7/10/2025 22:42",
 		"write:with:" : "mad 10/4/2024 20:02",
 		"writerOn:" : "mad 10/4/2024 20:03" } }

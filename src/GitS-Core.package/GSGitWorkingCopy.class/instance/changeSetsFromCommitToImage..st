@@ -1,3 +1,3 @@
 changes-creation
 changeSetsFromCommitToImage: aCommitOrNil
-	^ self changeSetsFromFSCommitToImage: (self fsCommitFrom: aCommitOrNil)
+	^ self changeSetsFromCommit: aCommitOrNil toCommit: self imageCommit
