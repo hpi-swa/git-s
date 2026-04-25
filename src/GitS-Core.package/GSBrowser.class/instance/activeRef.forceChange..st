@@ -4,5 +4,5 @@ activeRef: aString forceChange: aBoolean
 	activeRef := aString.
 	self
 		deriveActiveRefTreeMemberFromActiveRef;
-		activeCommit: self activeRefCommit;
-		changed: #activeRef.
+		changed: #activeRef;
+		activeCommit: self activeRefCommit.

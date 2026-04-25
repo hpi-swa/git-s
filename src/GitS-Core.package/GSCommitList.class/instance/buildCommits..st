@@ -1,17 +1,13 @@
 toolbuilder
 buildCommits: builder
-	^ builder pluggableTreeSpec new
+	^ builder pluggableMultiColumnListSpec new
 		model: self operationLifecycle;
-		roots: #commits;
-		nodeClass: GSCommitWrapper;
-		getSelected: #activeCommit;
-		setSelected: #activeCommit:;
-		columns: {
-			[:listMorph | (listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 1]) max].
-			[:listMorph | (listMorph filteredItems collect: [:item |
-					item preferredWidthOfColumn: 2]) max].
-			nil.
-		};
+		list: #commitColumns;
+		icon: #commitIconAtRow:column:;
+		getIndex: #activeCommitIndex;
+		setIndex: #activeCommitIndex:;
+		columnResizings: #(shrinkWrap shrinkWrap spaceFill);
+		itemPaddings: {5 px @ 0. 0 @ 0. 0 @ 0};
 		menu: #commitsMenu:;
+		helpItem: #balloonTextForCommitAt:;
 		yourself

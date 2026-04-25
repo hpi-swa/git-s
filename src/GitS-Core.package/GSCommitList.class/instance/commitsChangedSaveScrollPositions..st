@@ -4,9 +4,10 @@ commitsChangedSaveScrollPositions: aBoolean
 	savedScrollPositions := IdentityDictionary new.
 	aBoolean ifTrue: [
 		self actualDependents do: [:each |
-			((each isKindOf: PluggableTreeMorph) and: [each getRootsSelector = #commits]) ifTrue: [
+			((each isKindOf: PluggableMultiColumnListMorph) and: [each getListSelector = #commitColumns]) ifTrue: [
 				savedScrollPositions at: each put: each hScrollBar value @ each vScrollBar value]]].
-	self changed: #commits.
-	savedScrollPositions keysAndValuesDo: [:tree :offset |
-		tree hScrollBar setValue: offset x.
-		tree vScrollBar setValue: offset y].
+	self changed: #commitColumns.
+	savedScrollPositions keysAndValuesDo: [:list :offset |
+		list hScrollBar setValue: offset x.
+		list vScrollBar setValue: offset y.
+		self forceFullShrinkWrapLayoutingFor: list].

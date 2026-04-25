@@ -1,6 +1,3 @@
 accessing
 activeCommit: aCommit
-	self
-		basicActiveCommit: aCommit;
-		changed: #activeCommit.
-	self triggerEvent: #activeCommitChanged.
+	self activeCommitIndex: (aCommit ifNil: [0] ifNotNil: [self commits indexOf: aCommit]).
