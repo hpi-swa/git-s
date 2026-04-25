@@ -5,7 +5,7 @@ testCompareToImage
 		install: self version2A;
 		commitWithMessage: 'test commit';
 		install: self version1B;
-		rightClick: '* test commit';
+		rightClick: 'test commit';
 		moveTo: 'Compare it to';
 		leftClick: 'the image';
 		find: 'Show changes from the image to * test commit';

@@ -2,6 +2,7 @@
 	"class" : {
 		"resources" : "mad 4/16/2026 13:52" },
 	"instance" : {
+		"check:hasBalloon:" : "mad 4/25/2026 00:16",
 		"click:button:" : "mad 8/26/2025 21:23",
 		"closeWindowContaining:" : "mad 11/9/2025 23:55",
 		"do:" : "mad 11/9/2025 20:43",

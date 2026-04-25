@@ -1,3 +1,3 @@
 tests
 testCreateBranchAtCommit
-	self testCreateBranchAt: '*first commit' displayName: '* first commit'.
+	self testCreateBranchAt: 'first commit' displayName: '* first commit'.

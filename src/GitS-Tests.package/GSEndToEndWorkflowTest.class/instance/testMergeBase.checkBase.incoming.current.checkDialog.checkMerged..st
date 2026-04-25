@@ -28,7 +28,7 @@ checkMerged: checkMergedBlock
 		leftClick: 'Merge changes';
 		do: checkMergedBlock;
 		leftClick: 'merge-target' asText allBold;
-		find: '*[merge-target] Merge main into merge-target';
-		find: '*current commit';
-		find: '*[main] incoming commit';
-		find: '*base commit'.
+		check: 'Merge main into merge-target' hasBalloon: 'Latest commit of merge-target*';
+		check: 'current commit' hasBalloon: 'Commit *';
+		check: 'incoming commit' hasBalloon: 'Latest commit of main*';
+		check: 'base commit' hasBalloon: 'Commit *'.

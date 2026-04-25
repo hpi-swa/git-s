@@ -9,9 +9,9 @@ testCreateBranchAtDo: aBlock
 		install: self version1B;
 		commitWithMessage: 'second commit';
 		leftClick: 'feature' asText;
-		find: '*[feature] first commit';
-		findNo: '*second commit';
+		check: 'first commit' hasBalloon: 'Latest commit of feature*';
+		findNo: 'second commit';
 		leftClick: 'main' asText allBold;
-		find: '*[feature] first commit';
-		find: '*[main] second commit';
+		check: 'first commit' hasBalloon: 'Latest commit of feature*';
+		check: 'second commit' hasBalloon: 'Latest commit of main*';
 		check: self version1B.

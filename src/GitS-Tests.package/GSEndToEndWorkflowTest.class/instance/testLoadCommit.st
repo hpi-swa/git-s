@@ -1,3 +1,3 @@
 tests
 testLoadCommit
-	self testLoad: '* test commit'.
+	self testLoad: 'test commit'.

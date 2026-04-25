@@ -10,4 +10,4 @@ testPendingCommitMessage
 		find: 'remember';
 		findNo: 'message';
 		leftClick: 'Commit changes';
-		find: '* remember'.
+		find: 'remember'.

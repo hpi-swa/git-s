@@ -20,4 +20,4 @@ testMergeFastForward: aBlock
 		leftClick: 'Load changes';
 		check: self version1B;
 		check: self version2A;
-		find: '*[main] [merge-target] second commit'.
+		check: 'second commit' hasBalloon: 'Latest commit of main and merge-target*'.
