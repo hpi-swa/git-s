@@ -23,6 +23,7 @@
 		"preTest" : "mad 11/9/2025 19:56",
 		"resolveToCurrent" : "mad 11/9/2025 21:49",
 		"resolveToIncoming" : "mad 11/9/2025 21:49",
+		"testBrowserOpenLoadsCommitList" : "mad 4/25/2026 21:07",
 		"testCommit" : "mad 11/9/2025 18:56",
 		"testCompareToImage" : "mad 4/25/2026 00:18",
 		"testCompareToParentCommit" : "mad 4/25/2026 00:18",
