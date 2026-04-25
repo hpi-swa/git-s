@@ -1,3 +1,3 @@
 accessing
-emptyCommit
+emptyFSCommit
 	^ FileSystemGitCommit emptyIn: self fsgitRepository

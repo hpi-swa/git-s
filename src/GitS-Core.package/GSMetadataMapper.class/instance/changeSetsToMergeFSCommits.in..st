@@ -1,12 +1,12 @@
 changes-creation
 changeSetsToMergeFSCommits: aVersionMerge in: aWorkingCopy
-	| emptyCommit metadataForCommits commitsForMappers mapperChangeSets changedMappersFor mappersChangeSet metadataChangeSet |
-	emptyCommit := aWorkingCopy emptyCommit.
+	| emptyFSCommit metadataForCommits commitsForMappers mapperChangeSets changedMappersFor mappersChangeSet metadataChangeSet |
+	emptyFSCommit := aWorkingCopy emptyFSCommit.
 	metadataForCommits := self loadMetadatasWithUntrackedMappersFromFSCommits: aVersionMerge in: aWorkingCopy.
 	commitsForMappers := Dictionary new.
 	aVersionMerge versionsDictionary keysAndValuesDo: [:selector :commit |
 		(metadataForCommits perform: selector) mappers do: [:mapper |
-			(commitsForMappers at: mapper ifAbsentPut: [GSVersionMerge all: emptyCommit])
+			(commitsForMappers at: mapper ifAbsentPut: [GSVersionMerge all: emptyFSCommit])
 				perform: selector asSimpleSetter with: commit]].
 	mapperChangeSets := Dictionary new.
 	commitsForMappers associations
@@ -19,7 +19,7 @@ changeSetsToMergeFSCommits: aVersionMerge in: aWorkingCopy
 		displayingProgress: [:mapperToCommits | 'Merging {1}' format: {mapperToCommits key}].
 	changedMappersFor := [:missingVersions | commitsForMappers keys select: [:mapper | | commitsForMapper |
 		commitsForMapper := commitsForMappers at: mapper.
-		missingVersions asSet = (commitsForMapper versionsDictionary select: [:commit | commit = emptyCommit]) keys asSet]].
+		missingVersions asSet = (commitsForMapper versionsDictionary select: [:commit | commit = emptyFSCommit]) keys asSet]].
 	mappersChangeSet := GSMetadataMappersChangeSet new
 		currentMappers: metadataForCommits current mappers;
 		mapperChangeSets: mapperChangeSets;

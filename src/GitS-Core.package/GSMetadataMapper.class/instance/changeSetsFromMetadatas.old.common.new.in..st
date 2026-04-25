@@ -4,15 +4,15 @@ old: oldBlock
 common: commonBlock
 new: newBlock
 in: aWorkingCopy
-	| emptyCommit mapperChangeSets removedMappers addedMappers mappersChangeSet metadataChangeSet |
-	emptyCommit := aWorkingCopy emptyCommit.
+	| emptyFSCommit mapperChangeSets removedMappers addedMappers mappersChangeSet metadataChangeSet |
+	emptyFSCommit := aWorkingCopy emptyFSCommit.
 	mapperChangeSets := Dictionary new.
 	removedMappers := aVersionChange current mappers difference: aVersionChange incoming mappers.
 	addedMappers := aVersionChange incoming mappers difference: aVersionChange current mappers.
 	
-	(removedMappers collect: [:old | old -> [oldBlock value: old value: emptyCommit]]),
+	(removedMappers collect: [:old | old -> [oldBlock value: old value: emptyFSCommit]]),
 	((aVersionChange incoming mappers intersection: aVersionChange current mappers) collect: [:common | common -> [commonBlock value: common]]),
-	(addedMappers collect: [:new | new -> [newBlock value: new value: emptyCommit]])
+	(addedMappers collect: [:new | new -> [newBlock value: new value: emptyFSCommit]])
 		do: [:todo | mapperChangeSets at: todo key put: todo value value]
 		displayingProgress: [:todo | 'Gathering changes from {1}' format: {todo key}].
 
