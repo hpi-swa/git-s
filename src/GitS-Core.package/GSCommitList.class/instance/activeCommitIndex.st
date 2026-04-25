@@ -1,3 +1,3 @@
 accessing
 activeCommitIndex
-	^ activeCommitIndex
+	^ self commits indexOf: self activeCommit

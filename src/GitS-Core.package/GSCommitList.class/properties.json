@@ -8,7 +8,7 @@
 	"instvars" : [
 		"browser",
 		"commits",
-		"activeCommitIndex",
+		"activeCommit",
 		"generatingProcess",
 		"expression",
 		"block",

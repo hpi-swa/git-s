@@ -1,7 +1,3 @@
 accessing
 activeCommitIndex: anInteger
-	activeCommitIndex := anInteger.
-	self
-		changed: #activeCommitIndex;
-		changed: #activeCommit;
-		triggerEvent: #activeCommitChanged.
+	self activeCommit: (anInteger = 0 ifTrue: [nil] ifFalse: [self commits at: anInteger]).
