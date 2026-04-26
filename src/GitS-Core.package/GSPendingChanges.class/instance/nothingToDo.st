@@ -1,4 +1,4 @@
 actions-private
 nothingToDo
-	self inform: self nothingToDoMessage.
+	GSPendingChangesEmpty signal: self nothingToDoMessage.
 	^ self done
