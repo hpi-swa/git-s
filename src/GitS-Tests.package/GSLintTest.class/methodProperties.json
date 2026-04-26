@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"defaultTimeout" : "mad 10/14/2024 00:00",
+		"defaultTimeout" : "mad 4/26/2026 23:50",
 		"expectedUnsentMethods" : "mad 4/9/2026 17:11",
 		"findAbstractMethodsInConcreteClasses" : "mad 4/8/2026 17:03",
 		"findUnimplementedAndUnsentMethods" : "mad 10/14/2024 00:03",

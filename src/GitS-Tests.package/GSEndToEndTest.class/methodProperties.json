@@ -5,6 +5,7 @@
 		"check:hasBalloon:" : "mad 4/25/2026 00:16",
 		"click:button:" : "mad 8/26/2025 21:23",
 		"closeWindowContaining:" : "mad 11/9/2025 23:55",
+		"defaultTimeout" : "mad 4/26/2026 23:49",
 		"do:" : "mad 11/9/2025 20:43",
 		"do:supplyingAnswer:" : "mad 11/6/2025 13:49",
 		"do:supplyingAnswers:" : "mad 11/6/2025 13:49",
