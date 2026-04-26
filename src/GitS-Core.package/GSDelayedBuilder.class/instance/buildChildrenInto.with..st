@@ -1,6 +1,7 @@
 toolbuilder
 buildChildrenInto: aMorph with: builder
-	self children groupsOfAtMost: self childrenBuildGroupSize atATimeDo: [:group |
+	self children groupsOfAtMost: self childrenBuildGroupSize atATimeDo: [:group | | built |
 		aMorph isInWorld ifFalse: [^ self].
-		group do: [:each | aMorph addMorphBack: (each buildWith: builder)].
+		built := group collect: [:each | each buildWith: builder].
+		Project current addDeferredUIMessage: [aMorph addAllMorphsBack: built].
 		self wait].
