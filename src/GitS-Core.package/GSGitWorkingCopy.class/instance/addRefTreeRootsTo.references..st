@@ -1,7 +1,7 @@
 ref-tree
 addRefTreeRootsTo: aRefTree references: aCollection
 	aRefTree
-		ensureDirectory: self branchesBaseName
+		ensureDirectory: self branchesDirectory
 		label: 'local branches'
 		tooltip: 'Local branches are those that exist in this image.
 				They are not visible from your system''s git unless you make them available
@@ -9,7 +9,7 @@ addRefTreeRootsTo: aRefTree references: aCollection
 		order: 1.
 	self remoteNames do: [:each |
 		aRefTree
-			ensureDirectory: self remoteRefBaseName, each, $/
+			ensureDirectory: (self remoteTrackingBranchDirectoryFor: each)
 			label: ('remote branches on {1}' format: {each printString})
 			tooltip: 'These branches exist on the remote.
 					You cannot directly change these branches,
@@ -17,7 +17,7 @@ addRefTreeRootsTo: aRefTree references: aCollection
 					and then push your new commits to the remote.' gitSFormat
 			order: 2].
 	aRefTree
-		ensureDirectory: self gitBranchesBaseName
+		ensureDirectory: self externalBranchesDirectory
 		label: 'external branches'
 		tooltip: 'External branches are those available via your system''s git.
 				You can create local branches from these to edit in the image

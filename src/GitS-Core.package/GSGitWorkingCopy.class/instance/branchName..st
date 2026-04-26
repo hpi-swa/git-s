@@ -1,3 +1,3 @@
 branches
 branchName: aString
-	^ self branchesBaseName, aString
+	^ self branchesDirectory, aString

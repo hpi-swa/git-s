@@ -1,3 +1,3 @@
 head
 headRefName
-	^ self refName: self headRefBasename
+	^ self imageRefName: self headRefBasename

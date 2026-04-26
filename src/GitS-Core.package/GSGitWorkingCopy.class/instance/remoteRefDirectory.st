@@ -1,3 +1,3 @@
 remotes
-remoteRefBaseName
+remoteRefDirectory
 	^ 'refs/remotes/'

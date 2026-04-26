@@ -1,3 +1,3 @@
 refs
-refsBaseNameForHash: aString
+imageRefsDirectoryForHash: aString
 	^ 'refs/squeak/', aString, '/'

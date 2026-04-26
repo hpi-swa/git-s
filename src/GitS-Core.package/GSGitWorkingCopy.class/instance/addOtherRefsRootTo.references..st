@@ -10,7 +10,7 @@ addOtherRefsRootTo: aRefTree references: aCollection
 		select: [:each | each beginsWith: 'refs/squeak/'])
 		collect: [:each | (((each splitBy: '/') first: 3) joinSeparatedBy: '/'), $/])
 		asSet do: [:imageRef |
-			imageRef = self refsBaseName
+			imageRef = self imageRefsDirectory
 				ifTrue: [
 					other
 						ensureDirectory: imageRef

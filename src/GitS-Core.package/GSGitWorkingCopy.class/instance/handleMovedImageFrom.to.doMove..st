@@ -1,8 +1,8 @@
 image-hash
 handleMovedImageFrom: oldHash to: newHash doMove: doMove
 	| oldPrefix newPrefix oldRefs |
-	oldPrefix := self refsBaseNameForHash: oldHash.
-	newPrefix := self refsBaseNameForHash: newHash.
+	oldPrefix := self imageRefsDirectoryForHash: oldHash.
+	newPrefix := self imageRefsDirectoryForHash: newHash.
 	oldRefs := self allReferences select: [:each | each beginsWith: oldPrefix].
 	oldRefs do: [:oldRef | | newRef |
 		newRef := newPrefix, (oldRef allButFirst: oldPrefix size).

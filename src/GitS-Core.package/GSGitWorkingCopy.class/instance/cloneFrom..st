@@ -6,8 +6,8 @@ cloneFrom: aStringOrUrl
 	gitHead ifNil: [^ self error: 'No HEAD found after clone.'].
 	target := self unitOfWork objectReferenced: self headRefBasename.
 	target ifNil: [^ self inform: 'The main branch of the repository does not contain a commit.'].
-	(gitHead isSymbolic and: [self isGitBranchRef: gitHead targetRef]) ifTrue: [ | branchName branch |
-		branchName := gitHead targetRef allButFirst: self gitBranchesBaseName size.
+	(gitHead isSymbolic and: [self isExternalBranch: gitHead targetRef]) ifTrue: [ | branchName branch |
+		branchName := self externalBranchBasename: gitHead targetRef.
 		branch := self createBranchNamed: branchName atCommit: target.
 		self setUpstreamRemoteName: self unitOfWork remoteNames first andRef: branchName for: branch.
 		target := branch].

@@ -5,7 +5,7 @@ actionPushForce: aBoolean
 	aBoolean ifTrue: [
 		GSGUIUtilities confirmOrCancel:
 			'Do you really want to force push? This might discard commits made by other members of your team.'].
-	(self isSqueakBranchRef: ref) ifFalse: [
+	(self isBranch: ref) ifFalse: [
 		GSGUIUtilities confirmOrCancel:
 			('The active ref {1} is not a branch. Push anyway?'
 				format: {ref printString})].

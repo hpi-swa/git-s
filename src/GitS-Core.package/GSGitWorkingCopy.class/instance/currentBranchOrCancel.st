@@ -4,6 +4,6 @@ currentBranchOrCancel
 	headRef := self headRef.
 	(headRef isSymbolic and: [
 		branch := headRef targetRef.
-		self isSqueakBranchRef: branch])
+		self isBranch: branch])
 			ifFalse: [GSGUIUtilities informAndCancel: 'Please switch to a branch first.'].
 	^ branch

@@ -3,7 +3,7 @@ menu: aMenu forCommit: aCommit ref: refString
 	| isRef isRefMenu isBranch refOrCommit commitName refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
 	isRef := refString notNil.
 	isRefMenu := isRef or: [aCommit isNil].
-	isBranch := isRef and: [self isSqueakBranchRef: refString].
+	isBranch := isRef and: [self isBranch: refString].
 	refOrCommit := isRef ifTrue: [refString] ifFalse: [aCommit].
 	commitName := isRef ifTrue: ['its latest commit'] ifFalse: ['it'].
 	refTypeName := self refTypeName: refString.
@@ -80,7 +80,7 @@ menu: aMenu forCommit: aCommit ref: refString
 	aCommit ifNotNil: [
 		advancedMenu
 			add: 'Create an external branch at it'
-			selector: (isRef ifTrue: [#actionCreateGitBranchAtRef:] ifFalse: [#actionCreateGitBranchAtCommit:])
+			selector: (isRef ifTrue: [#actionCreateExternalBranchAtRef:] ifFalse: [#actionCreateExternalBranchAtCommit:])
 			argument: refOrCommit;
 			balloonTextForLastItem: 'The created branch will be visible from external git tools, like the git command line';
 			

@@ -1,3 +1,3 @@
 branch-stashes
 branchStashName: aString
-	^ self branchStashesBaseName, aString
+	^ self branchStashesDirectory, aString

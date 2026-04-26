@@ -1,3 +1,3 @@
 branches
 branchesDo: aBlock
-	self unitOfWork allReferencesPrefixedWith: self branchesBaseName do: aBlock.
+	self unitOfWork allReferencesPrefixedWith: self branchesDirectory do: aBlock.
