@@ -1,5 +1,5 @@
 toolbuilder
-buildWith: builder
+buildWith: builder shrinkWrap: aBoolean
 	^ GSGUIUtilities buildVerticalLayout: {
 		{
 			'Current:' -> #current.
@@ -9,4 +9,4 @@ buildWith: builder
 			self buildDynamic: each value with: builder.
 		}].
 		self workspace.
-	} with: builder
+	} shrinkWrap: aBoolean with: builder

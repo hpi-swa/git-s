@@ -1,3 +1,3 @@
 toolbuilder
 buildWith: builder
-	self subclassResponsibility.
+	^ self buildWith: builder shrinkWrap: false

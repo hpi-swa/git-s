@@ -7,8 +7,8 @@
 	"instance" : {
 		"anySatisfy:" : "mad 10/13/2025 15:07",
 		"atomicModelClass" : "mad 10/10/2025 01:36",
-		"buildAtomicWith:buildBlock:workspace:" : "mad 4/26/2026 20:25",
-		"buildMultitextWith:" : "mad 10/7/2025 00:53",
+		"buildAtomicWith:buildBlock:workspace:shrinkWrap:" : "mad 4/26/2026 22:33",
+		"buildMultitextWith:shrinkWrap:" : "mad 4/26/2026 22:36",
 		"clearEdited" : "mad 10/6/2025 20:46",
 		"collect:" : "mad 10/6/2025 21:03",
 		"current" : "mad 10/5/2025 21:29",

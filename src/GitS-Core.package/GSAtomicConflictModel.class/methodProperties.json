@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildBodyWith:" : "mad 4/26/2026 20:26",
-		"buildBodyWithBaseWith:" : "mad 4/26/2026 20:28",
-		"buildBodyWithoutBaseWith:" : "mad 4/26/2026 20:31",
+		"buildBodyWith:shrinkWrap:" : "mad 4/26/2026 22:43",
+		"buildBodyWithBaseWith:shrinkWrap:" : "mad 4/26/2026 22:42",
+		"buildBodyWithoutBaseWith:shrinkWrap:" : "mad 4/26/2026 22:43",
 		"buildDynamic:label:includeResolve:with:" : "mad 4/26/2026 20:29",
 		"buildDynamic:label:with:" : "mad 4/26/2026 20:27",
 		"buildHeadWith:" : "mad 4/26/2026 20:28",
 		"buildResolutionPanelWith:" : "mad 4/26/2026 20:28",
 		"buildResolveButton:with:" : "mad 4/26/2026 20:29",
-		"buildWith:" : "mad 4/26/2026 20:26",
+		"buildWith:shrinkWrap:" : "mad 4/26/2026 22:43",
 		"headText" : "mad 10/13/2025 15:26",
 		"isResolved" : "mad 4/8/2026 15:44",
 		"update:" : "mad 4/16/2026 13:51" } }

@@ -5,6 +5,7 @@ buildWith: builder
 	nonDelayedChildrenCount := self nonDelayedChildrenCount clampHigh: builtChildren size.
 	innerSpec := (GSGUIUtilities
 					buildVerticalLayout: (builtChildren first: nonDelayedChildrenCount)
+					shrinkWrap: true
 					with: builder)
 						spacing: self childrenGap;
 						yourself.

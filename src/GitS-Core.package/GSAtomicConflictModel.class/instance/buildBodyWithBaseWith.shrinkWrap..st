@@ -1,5 +1,5 @@
 toolbuilder
-buildBodyWithBaseWith: builder
+buildBodyWithBaseWith: builder shrinkWrap: aBoolean
 	^ GSGUIUtilities buildVerticalLayout: {
 		GSGUIUtilities buildHorizontalLayout: {
 			self buildDynamic: #base label: 'Base:' with: builder.
@@ -9,4 +9,4 @@ buildBodyWithBaseWith: builder
 			self buildDynamic: #incoming label: 'Incoming:' with: builder.
 			self buildResolutionPanelWith: builder.
 		} with: builder.
-	} with: builder
+	} shrinkWrap: aBoolean with: builder

@@ -6,7 +6,8 @@
 	"instance" : {
 		"addMenuItemsTo:" : "mad 10/5/2025 19:47",
 		"basicIsExcluded:" : "mad 8/25/2025 00:42",
-		"buildWith:" : "mad 9/5/2023 22:49",
+		"buildWith:" : "mad 4/26/2026 20:36",
+		"buildWith:shrinkWrap:" : "mad 4/26/2026 20:16",
 		"canMapperBeRemoved" : "mad 4/9/2026 17:41",
 		"canRefresh:" : "mad 8/10/2025 22:26",
 		"changeSet" : "mad 9/5/2023 22:45",
