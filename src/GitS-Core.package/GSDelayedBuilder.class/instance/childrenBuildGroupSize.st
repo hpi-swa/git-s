@@ -1,0 +1,3 @@
+toolbuilder
+childrenBuildGroupSize
+	^ 20
