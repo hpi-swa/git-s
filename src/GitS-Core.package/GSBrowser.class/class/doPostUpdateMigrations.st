@@ -1,5 +1,5 @@
 self-update
 doPostUpdateMigrations
-	self allInstances do: #doPostUpdateMigrations.
+	self allSubInstances do: #doPostUpdateMigrations.
 	"collect old morphs to prevent double updates, like commitList"
 	Smalltalk garbageCollect.
