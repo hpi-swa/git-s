@@ -1,12 +1,11 @@
 upstream
 checkSetUpstreamForCreatedBranch: aString to: anotherString
+	| basename |
 	(self isRemoteTrackingBranch: anotherString) ifFalse: [^ self].
-	(self confirm:
-		('You created a branch {1} from the remote-tracking branch {2}.
-		Do you want to set the upstream branch of {1} to {2}?'
-			gitSFormat: ({aString. anotherString}
-							collect: [:each | (GitReference shortName: each) printString])))
-		ifFalse: [^ self].
+	basename := self remoteTrackingBranchBasename: anotherString.
+	(((self isBranch: aString) and: [(self branchBasename: aString) = basename])
+		or: [(self isExternalBranch: aString) and: [(self externalBranchBasename: aString) = basename]])
+			ifFalse: [^ self].
 	self
 		setUpstreamRemoteNameAndRef: (self splitRemoteTrackingBranch: anotherString)
 		for: aString.
