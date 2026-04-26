@@ -1,9 +1,10 @@
 toolbuilder
-buildResolutionPanel
+buildResolutionPanelWith: builder
 	^ GSGUIUtilities buildVerticalSplit: 0.6
 		of: (self
 				buildDynamic: #resolution
 				label: 'Resolution:'
-				includeResolve: false)
+				includeResolve: false
+				with: builder)
 		and: self workspace
-		with: self builder
+		with: builder

@@ -1,5 +1,5 @@
 toolbuilder
-buildDynamic: aSelector
+buildDynamic: aSelector with: builder
 	^ GSDynamicallyBuilt
 		model: (GSVersionChangeVersionBuilderModel new
 					versionChange: self versionChange;

@@ -1,6 +1,6 @@
 toolbuilder
-buildResolveButton: aSelector
-	^ self builder pluggableActionButtonSpec new
+buildResolveButton: aSelector with: builder
+	^ builder pluggableActionButtonSpec new
 		model: (GSVersionChangeVersionModel new
 					versionChange: self versionChange;
 					versionSelector: aSelector;

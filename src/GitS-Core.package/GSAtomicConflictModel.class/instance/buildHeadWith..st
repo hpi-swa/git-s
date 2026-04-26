@@ -1,5 +1,5 @@
 toolbuilder
-buildHead
+buildHeadWith: builder
 	^ builder pluggableTextSpec new
 		model: self;
 		getText: #headText;

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"versionChange",
 		"buildBlock",
-		"workspace",
-		"builder" ],
+		"workspace" ],
 	"name" : "GSAtomicChangeModel",
 	"pools" : [
 		 ],
