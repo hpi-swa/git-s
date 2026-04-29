@@ -20,10 +20,11 @@ addOtherRefsRootTo: aRefTree references: aCollection
 								Refs associated with them will not be listed here,
 								but in their own directories.' gitSFormat
 						order: 1]
-				ifFalse: [ | image |
+				ifFalse: [ | hash image |
+					hash := imageRef copyFrom: (imageRef allButLast lastIndexOf: $/) + 1 to: imageRef size - 1.
 					image := other
 						ensureDirectory: imageRef 
-						label: 'a different image'
+						label: ('a different image ({1})' format: {hash first: 7})
 						tooltip: 'There is another image that uses the same repository on disk.
 								The refs listed here are associated with that image.' gitSFormat
 						order: 2.
