@@ -6,7 +6,8 @@ handleMovedImageFrom: oldHash to: newHash doMove: doMove
 	oldRefs := self allReferences select: [:each | each beginsWith: oldPrefix].
 	oldRefs do: [:oldRef | | newRef |
 		newRef := newPrefix, (oldRef allButFirst: oldPrefix size).
-		self handleMovedImageRef: oldRef to: newRef doMove: doMove].
+		self handleMovedImageRef: oldRef to: newRef doMove: doMove silently: true].
+	self changed.
 	self allReferences do: [:each | | ref target |
 		ref := self unitOfWork ref: each.
 		((ref name beginsWith: newPrefix)
