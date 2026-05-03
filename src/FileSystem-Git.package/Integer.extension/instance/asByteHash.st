@@ -1,3 +1,3 @@
 *FileSystem-Git-Plumbing
 asByteHash
-	^ self asHexHash asByteHash
+	^ self asByteArrayOfSize: 20
