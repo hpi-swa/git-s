@@ -6,4 +6,4 @@ serialize: aSnapshot into: aFileSystem
 		ifEmpty: [directory exists ifTrue: [directory deleteAll]]
 		ifNotEmpty: [
 			self cleanDirectory: directory.
-			self write: aSnapshot with: (self writerOn: directory)].
+			GSGUIUtilities suppressProgressDuring: [self write: aSnapshot with: (self writerOn: directory)]].
