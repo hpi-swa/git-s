@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Code",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mad 5/6/2026 18:42",
+	"instvars" : [
+		"fsCommits" ],
+	"name" : "GSCypressDiffer",
+	"pools" : [
+		 ],
+	"super" : "GSMCFileTreeStCypressReader",
+	"type" : "normal" }

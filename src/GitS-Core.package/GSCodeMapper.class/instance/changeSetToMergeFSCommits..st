@@ -4,7 +4,7 @@ changeSetToMergeFSCommits: aVersionMerge
 	aVersionMerge
 		hexHashMergeFor: self
 		ifUnchanged: [:emptyChangeSet | ^ emptyChangeSet].
-	snapshots := aVersionMerge collect: [:each | self loadSnapshotFrom: each filesystem].
+	snapshots := aVersionMerge collect: [:each | self loadSnapshotFrom: each filesystem fsCommits: aVersionMerge].
 	merger := [GSThreewayCodeMerger
 		base: snapshots current
 		target: snapshots incoming

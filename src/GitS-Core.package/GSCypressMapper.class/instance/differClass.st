@@ -1,0 +1,3 @@
+classes
+differClass
+	^ GSCypressDiffer

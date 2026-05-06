@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Code",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fsCommits" ],
+	"name" : "GSTonelDiffer",
+	"pools" : [
+		 ],
+	"super" : "TonelReader",
+	"type" : "normal" }
