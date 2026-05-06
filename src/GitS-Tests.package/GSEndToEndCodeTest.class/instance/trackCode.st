@@ -5,5 +5,5 @@ trackCode
 		leftClick: 'Manage its packages';
 		leftClick: self classCategory;
 		do: [self leftClick: 'Add package']
-		supplyingAnswer: #('Encoding for new package:' 'Tonel');
+		supplyingAnswer: {'Encoding for new package:'. self packageEncoding};
 		closeWindowContaining: 'Package Browser'.

@@ -1,0 +1,3 @@
+operations
+packageEncoding
+	self subclassResponsibility.

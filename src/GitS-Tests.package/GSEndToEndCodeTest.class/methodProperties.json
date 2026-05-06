@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "mad 5/6/2026 18:56" },
 	"instance" : {
 		"autoMergeVersionBase" : "mad 11/9/2025 19:58",
 		"autoMergeVersionCurrent" : "mad 11/9/2025 19:58",
@@ -20,13 +20,14 @@
 		"findInDialog:" : "mad 11/9/2025 20:26",
 		"install:" : "mad 11/9/2025 20:26",
 		"openDialogPath" : "mad 11/9/2025 18:21",
+		"packageEncoding" : "mad 5/6/2026 18:55",
 		"preTest" : "mad 11/9/2025 19:57",
 		"removeTestData" : "mad 3/10/2025 17:30",
 		"setUp" : "mad 11/9/2025 19:55",
 		"targetClass" : "mad 11/9/2025 20:12",
 		"targetClassName" : "mad 11/9/2025 20:05",
 		"tearDown" : "mad 11/9/2025 19:46",
-		"trackCode" : "mad 11/6/2025 13:51",
+		"trackCode" : "mad 5/6/2026 18:54",
 		"uninstall:" : "mad 11/9/2025 20:11",
 		"version" : "mad 11/9/2025 20:12",
 		"version1" : "mad 11/9/2025 20:54",

@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSEndToEndTonelTest",
+	"pools" : [
+		 ],
+	"super" : "GSEndToEndCodeTest",
+	"type" : "normal" }
