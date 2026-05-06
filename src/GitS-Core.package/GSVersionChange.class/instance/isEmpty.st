@@ -1,3 +1,3 @@
 testing
 isEmpty
-	^ self current = self incoming
+	^ self versionToWrite = self current
