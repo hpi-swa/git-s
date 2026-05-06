@@ -1,4 +1,6 @@
 mappers
 replaceMapper: aMapper with: anotherMapper
+	aMapper removeDependent: self.
 	self mappers at: (self mappers indexOf: aMapper) put: anotherMapper.
-	self changed: #mappers.
+	anotherMapper addDependent: self.
+	self mappersChanged.

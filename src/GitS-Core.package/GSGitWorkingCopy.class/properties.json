@@ -11,7 +11,8 @@
 		"credentials",
 		"lastImageHash",
 		"commitMessageDraft",
-		"activeOperation" ],
+		"activeOperation",
+		"imageCommitCache" ],
 	"name" : "GSGitWorkingCopy",
 	"pools" : [
 		 ],

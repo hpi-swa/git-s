@@ -1,0 +1,3 @@
+image-commit
+imageCommitChanged
+	self imageCommitCache recreateInBackground.

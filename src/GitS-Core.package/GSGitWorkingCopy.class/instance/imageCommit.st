@@ -1,3 +1,3 @@
-changes-creation
+image-commit
 imageCommit
 	^ self activeOperation imageCommit

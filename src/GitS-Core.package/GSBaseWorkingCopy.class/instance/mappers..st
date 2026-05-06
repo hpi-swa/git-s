@@ -1,4 +1,6 @@
 accessing
 mappers: aCollection
+	self mappers ifNotNil: [self mappers do: [:each | each removeDependent: self]].
 	mappers := aCollection asOrderedCollection.
-	self changed: #mappers.
+	self mappers ifNotNil: [self mappers do: [:each | each addDependent: self]].
+	self mappersChanged.
