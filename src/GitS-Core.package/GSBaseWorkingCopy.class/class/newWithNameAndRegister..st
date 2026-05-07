@@ -1,6 +1,5 @@
 instance creation
 newWithNameAndRegister: aString
-	^ self new
-		name: aString;
+	^ (self newWithName: aString)
 		register;
 		yourself
