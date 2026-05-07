@@ -11,5 +11,5 @@
 	"name" : "GSOperationStarter",
 	"pools" : [
 		 ],
-	"super" : "DynamicVariable",
+	"super" : "Object",
 	"type" : "normal" }
