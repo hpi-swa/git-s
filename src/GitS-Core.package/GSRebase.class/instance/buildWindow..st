@@ -1,7 +1,7 @@
 toolbuilder
 buildWindow: builder
 	^ builder pluggableWindowSpec new
-		model: self;
+		model: self operationStarter;
 		label: #windowTitle;
 		children: {GSGUIUtilities windowChild: (self buildLayout: builder)};
 		yourself

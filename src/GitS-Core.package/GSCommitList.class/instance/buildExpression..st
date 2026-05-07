@@ -1,7 +1,7 @@
 toolbuilder
 buildExpression: builder
 	^ builder pluggableCodePaneSpec new
-		model: self;
+		model: self operationStarter;
 		getText: #expression;
 		editText: #basicExpression:;
 		setText: #expression:notifying:;
