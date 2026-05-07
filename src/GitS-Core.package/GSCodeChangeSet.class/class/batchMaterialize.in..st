@@ -3,6 +3,7 @@ batchMaterialize: aCollection in: aWorkingCopy
 	| codeChangeSets |
 	self class = thisContext methodClass ifFalse: [^ aCollection].
 	codeChangeSets := aCollection select: [:each | each isKindOf: self].
-	(MCPatch operations: (codeChangeSets gather: #operations))
-		gitSApplyToLoadedWithNameLike: 'Code'.
+	GSCodeMapper batchSystemChangesDuring:
+		[(MCPatch operations: (codeChangeSets gather: #operations))
+			gitSApplyToLoadedWithNameLike: 'Code'].
 	^ aCollection reject: [:each | each isKindOf: self]

@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"BatchSystemChangesLevel",
+		"HasBatchedSystemChanges" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"package",
