@@ -1,13 +1,12 @@
 *GitS-Core-formatting
 gitSFormat
-	^ String streamContents: [:stream | | hadCharacter hadSpace |
-		hadCharacter := false.
-		hadSpace := false.
+	<linterIgnoreSends: #(cr space character)>
+	^ String streamContents: [:stream | | last |
+		last := nil.
 		self do: [:each | true caseOf: {
-			[each isSeparator] -> [hadSpace := true].
-			[each = $\] -> [stream cr. hadSpace := false].
+			[each isSeparator] -> [last = #cr ifFalse: [last := #space]].
+			[each = $\] -> [stream cr. last := #cr].
 			[true] -> [
-				(hadCharacter and: [hadSpace]) ifTrue: [stream space].
+				(last = #space) ifTrue: [stream space].
 				stream nextPut: each.
-				hadCharacter := true.
-				hadSpace := false]}]]
+				last := #character]}]]
