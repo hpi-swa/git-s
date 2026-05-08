@@ -54,17 +54,21 @@ menu: aMenu forCommit: aCommit ref: refString
 			selector: (isRef ifTrue: [#actionMergeRef:] ifFalse: [#actionMergeCommit:])
 			argument: refOrCommit;
 			
-			add: 'Compare it to'
+			add: 'Compare'
 			subMenu: (MenuMorph new in: [:subMenu |
 				subMenu
 					target: target;
 					
-					add: 'its parent commit'
+					add: 'it to its parent commit'
 					selector: #actionCompareCommitToParent:
 					argument: aCommit;
 					
-					add: 'the image'
+					add: 'it to the image'
 					selector: #actionCompareCommitToImage:
+					argument: aCommit;
+					
+					add: 'the image to it'
+					selector: #actionCompareImageToCommit:
 					argument: aCommit;
 					
 					yourself])].
