@@ -1,5 +1,5 @@
 stash
-restore: uncommittedChangeSets from: oldHeadCommit
+restore: uncommittedChangeSets from: oldHeadCommit actionDescription: aString
 	| newHeadCommit stashCommit mergedChangeSets |
 	newHeadCommit := self headCommit.
 	newHeadCommit = oldHeadCommit ifTrue: [^ self materializeChangeSets: uncommittedChangeSets].
@@ -14,4 +14,11 @@ restore: uncommittedChangeSets from: oldHeadCommit
 	self pendingChanges
 		changeSets: mergedChangeSets;
 		windowTitle: 'Restore uncommitted changes';
+		subtitle:
+			('{1} was successful.\
+			Now, your uncommitted changes from before starting that will be restored (merged),\
+			but there are merge conflicts. Please resolve them now.\
+			The ''current'' version is the one that resulted from {2}.\
+			The ''incoming'' version represents your uncommitted changes from before.'
+				gitSFormat: {aString capitalized. aString});
 		materialize.

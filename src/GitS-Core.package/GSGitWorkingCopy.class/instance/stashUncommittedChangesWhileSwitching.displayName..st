@@ -1,5 +1,5 @@
 stash
-stashUncommittedChangesWhileSwitching: aBlock
+stashUncommittedChangesWhileSwitching: aBlock displayName: aString
 	<linterIgnoreSends: #(saveHere moveOver)>
 	| uncommittedChangeSets oldHeadCommit |
 	oldHeadCommit := self headCommitOrCancel.
@@ -16,4 +16,8 @@ stashUncommittedChangesWhileSwitching: aBlock
 			cancelLabel: 'Cancel'.
 		option = #saveHere ifTrue: [
 			^ self stash: uncommittedChangeSets onBranch: branch during: aBlock]].
-	^ self stash: uncommittedChangeSets from: oldHeadCommit during: aBlock
+	^ self
+		stash: uncommittedChangeSets
+		from: oldHeadCommit
+		during: aBlock
+		description: ('switching to {1}' gitSFormat: {aString})

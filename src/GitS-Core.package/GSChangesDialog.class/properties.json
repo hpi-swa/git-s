@@ -11,6 +11,7 @@
 		"changesTree",
 		"selectedChange",
 		"windowTitle",
+		"subtitle",
 		"buttons",
 		"canDiscardEdits",
 		"closeBlock" ],

@@ -1,5 +1,6 @@
 toolbuilder
 buildButtons: aSymbol with: builder
+	(self hasButtons: aSymbol) ifFalse: [^ nil].
 	^ GSGUIUtilities buildButtons:
 		(self buttons
 			select: [:each | each fourth = aSymbol]

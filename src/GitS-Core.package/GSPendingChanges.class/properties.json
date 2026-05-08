@@ -12,6 +12,7 @@
 		"author",
 		"originalHeadCommit",
 		"windowTitle",
+		"subtitle",
 		"initialMessage",
 		"shouldAlwaysOpenDialog",
 		"shouldAlwaysMaterialize",

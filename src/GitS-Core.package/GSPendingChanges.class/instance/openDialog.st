@@ -1,7 +1,9 @@
 actions-private
 openDialog
 	self dialog: (self dialogClass onChangeSets: self changeSets).
-	self dialog windowTitle: self windowTitle.
+	self dialog
+		windowTitle: self windowTitle;
+		subtitle: self subtitle.
 	self actionBlock ifNotNil: [
 		self dialog
 			addButton: self actionLabel
