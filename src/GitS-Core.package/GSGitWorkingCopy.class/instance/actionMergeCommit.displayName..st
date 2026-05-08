@@ -8,10 +8,13 @@ actionMergeCommit: aCommit displayName: aString
 		displayStatus: 'Looking for a merge base'
 		during: [head ifNil: [#(nil)] ifNotNil: [head allMergeBasesWithAnyOf: {aCommit}]].
 	mergeBase := mergeBases size caseOf: {
-		[0] -> [GSGUIUtilities informAndCancel: 'Cannot merge unrelated histories.'].
+		[0] -> [self inform: 'Warning: merging unrelated histories. This could result in a lot of conflicts.'. nil].
 		[1] -> [mergeBases anyOne].
-	} otherwise: [GSGUIUtilities informAndCancel:
-					'Found multiple merge bases. Recursive merging is currently unsupported.'].
+	} otherwise: [
+		GSGUIUtilities
+			chooseFromValues: (mergeBases sorted: [:each | each author timeStamp] descending)
+			label: #showOneLine
+			title: 'Found multiple merge bases. Recursive merging is currently unsupported, so please choose a merge base to use.'].
 	mergeBase = aCommit ifTrue: [ | message |
 		message := 'Already up to date.'.
 		self isImageClean ifFalse: [
