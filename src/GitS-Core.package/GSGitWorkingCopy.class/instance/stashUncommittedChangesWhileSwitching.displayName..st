@@ -1,17 +1,17 @@
 stash
 stashUncommittedChangesWhileSwitching: aBlock displayName: aString
-	<linterIgnoreSends: #(saveHere moveOver)>
+	<linterIgnoreSends: #(saveHere takeThem)>
 	| uncommittedChangeSets oldHeadCommit |
 	oldHeadCommit := self headCommitOrCancel.
 	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
 	(GSChangeSet allEmpty: uncommittedChangeSets) ifTrue: [^ aBlock value].
 	self currentSymbolicHeadTarget ifNotNil: [:branch | | option |
 		option := GSGUIUtilities
-			chooseOptionFromLabeledValues: {'a) save here' -> #saveHere. 'b) move over' -> #moveOver}
+			chooseOptionFromLabeledValues: {'a) save here' -> #saveHere. 'b) take them' -> #takeThem}
 			title:
 				('You have uncommitted changes. You can\
 				a) save them on your current branch ({1}) and automatically restore them when you return here or\
-				b) move them over after switching.\
+				b) take them with you during switching.\
 				What do you want to do?' gitSFormat: {(GitReference shortName: branch) printString})
 			cancelLabel: 'Cancel'.
 		option = #saveHere ifTrue: [
