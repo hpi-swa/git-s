@@ -3,10 +3,10 @@ actionMergeCommit: aCommit displayName: aString
 	| head mergeBases mergeBase |
 	aCommit ifNil: [GSGUIUtilities informAndCancel:
 						('Cannot merge {1}, it does not refer to a commit.' format: {aString})].
-	head := self headCommitOrCancel.
+	head := self headCommit.
 	mergeBases := GSGUIUtilities
 		displayStatus: 'Looking for a merge base'
-		during: [head allMergeBasesWithAnyOf: {aCommit}].
+		during: [head ifNil: [#(nil)] ifNotNil: [head allMergeBasesWithAnyOf: {aCommit}]].
 	mergeBase := mergeBases size caseOf: {
 		[0] -> [GSGUIUtilities informAndCancel: 'Cannot merge unrelated histories.'].
 		[1] -> [mergeBases anyOne].

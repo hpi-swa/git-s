@@ -1,7 +1,7 @@
 stash
 stashUncommittedChangesDuring: aBlock description: aString
 	| oldHeadCommit uncommittedChangeSets |
-	oldHeadCommit := self headCommitOrCancel.
+	oldHeadCommit := self headCommit.
 	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
 	^ self
 		stash: uncommittedChangeSets

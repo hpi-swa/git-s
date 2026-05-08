@@ -2,7 +2,7 @@ stash
 stashUncommittedChangesWhileSwitching: aBlock displayName: aString
 	<linterIgnoreSends: #(saveHere takeThem)>
 	| uncommittedChangeSets oldHeadCommit |
-	oldHeadCommit := self headCommitOrCancel.
+	oldHeadCommit := self headCommit.
 	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
 	(GSChangeSet allEmpty: uncommittedChangeSets) ifTrue: [^ aBlock value].
 	self currentSymbolicHeadTarget ifNotNil: [:branch | | option |
