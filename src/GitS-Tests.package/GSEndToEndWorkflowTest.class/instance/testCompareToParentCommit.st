@@ -7,8 +7,8 @@ testCompareToParentCommit
 		install: self version1B;
 		commitWithMessage: 'second commit';
 		rightClick: 'second commit';
-		moveTo: 'Compare it to';
-		leftClick: 'its parent commit';
+		moveTo: 'Compare';
+		leftClick: 'it to its parent commit';
 		find: 'Show changes from * first commit to * second commit';
 		openDialogPath;
 		findInDialog: self diff1AToB;

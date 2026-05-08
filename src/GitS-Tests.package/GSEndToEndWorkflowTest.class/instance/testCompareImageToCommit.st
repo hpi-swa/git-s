@@ -1,5 +1,5 @@
 tests
-testCompareToImage
+testCompareImageToCommit
 	self
 		install: self version1A;
 		install: self version2A;
@@ -7,8 +7,8 @@ testCompareToImage
 		install: self version1B;
 		rightClick: 'test commit';
 		moveTo: 'Compare';
-		leftClick: 'it to the image';
-		find: 'Show changes from the image to * test commit';
+		leftClick: 'the image to it';
+		find: 'Show changes from * test commit to the image';
 		openDialogPath;
-		findInDialog: self diff1BToA;
+		findInDialog: self diff1AToB;
 		findNo: self version2A label.
