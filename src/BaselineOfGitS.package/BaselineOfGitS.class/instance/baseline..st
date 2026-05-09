@@ -42,6 +42,7 @@ baseline: spec
 			package: 'GitS-Core' with: [
 				spec
 					requires: #('FileSystem' 'VersionControl' 'FileSystem-Git' 'DiffMerge' 'Ston' 'Tonel');
+					preLoadDoIt: #preLoad;
 					postLoadDoIt: #postLoad];
 			package: 'GitS-Tests' with: [
 				spec
