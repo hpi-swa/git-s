@@ -5,5 +5,5 @@ activeWorkingCopy: aWorkingCopy
 	activeWorkingCopy ifNotNil: [activeWorkingCopy addDependent: self].
 	self
 		changed: #activeWorkingCopy;
-		changed: #assetList.
-	activeWorkingCopy ifNil: [self selectedMapper: nil].
+		changed: #assetTreeRoots.
+	activeWorkingCopy ifNil: [self selectedPath: nil].

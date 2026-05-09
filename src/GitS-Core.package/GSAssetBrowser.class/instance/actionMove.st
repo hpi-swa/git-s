@@ -8,4 +8,4 @@ actionMove
 							format: {mapper printDescriptionStringWithoutPath printString})
 					initialAnswer: (GSPathUtilities asString: mapper path)).
 	mapper moveTo: newPath in: self activeWorkingCopy.
-	self changed: #selectedAsset. "path changed"
+	self selectedPath: mapper path.
