@@ -1,7 +1,7 @@
 image-commit
 basicCreateImageCommit
 	| fileSystem |
-	fileSystem := self headFSCommit filesystem.
+	fileSystem := self emptyFSCommit filesystem.
 	self allMappers
 		do: [:each | each serializeImage: self into: fileSystem]
 		displayingProgress: [:each | 'Gathering current image version from {1}' format: {each}].

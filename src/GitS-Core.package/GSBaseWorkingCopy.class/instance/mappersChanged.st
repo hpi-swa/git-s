@@ -1,3 +1,5 @@
 mappers
 mappersChanged
-	self changed: #mappers.
+	self
+		changed: #mappers;
+		changed: #allMappers.

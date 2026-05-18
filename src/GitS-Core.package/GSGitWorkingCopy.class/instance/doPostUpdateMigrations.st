@@ -2,4 +2,6 @@ migrations
 doPostUpdateMigrations
 	self withUnitOfWork: [
 		super doPostUpdateMigrations.
-		self doImageHashMigration].
+		self
+			doImageHashMigration;
+			lazyLoadAssetFilesFromHeadCommit].

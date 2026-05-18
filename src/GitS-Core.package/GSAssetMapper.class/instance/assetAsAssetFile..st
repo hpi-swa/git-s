@@ -1,4 +1,4 @@
 asset-creation
 assetAsAssetFile: anAsset
 	anAsset ifNil: [^ GSMissingAssetFile withMapper: self].
-	^ GSLoadedAssetFile withMapper: self asset: anAsset
+	^ GSPresentAssetFile withMapper: self asset: anAsset

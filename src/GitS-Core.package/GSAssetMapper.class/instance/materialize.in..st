@@ -1,4 +1,5 @@
 changes-operations
 materialize: anAssetFile in: aWorkingCopy
-	aWorkingCopy materializedAt: self path put: anAssetFile.
-	self changed: #imageCommit.
+	aWorkingCopy
+		materializedAt: self path put: anAssetFile;
+		imageCommitChanged.

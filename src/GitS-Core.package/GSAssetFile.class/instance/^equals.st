@@ -1,5 +1,5 @@
 comparing
 = anObject
-	^ self class == anObject class
+	^ (anObject class isKindOf: thisContext methodClass)
 		and: [self mapper = anObject mapper]
-		and: [self contents = anObject contents]
+		and: [self hexHash = anObject hexHash]

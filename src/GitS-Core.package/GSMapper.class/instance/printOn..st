@@ -1,4 +1,4 @@
 printing
 printOn: aStream
 	self printDescriptionOn: aStream.
-	self isTracked ifFalse: [aStream nextPutAll: ' (untracked)'].
+	self isTracked ifFalse: [aStream nextPutAll: ' (inferred)'].

@@ -1,3 +1,3 @@
 accessing
 mappersOfKind: aMapperClass
-	^ self mappers select: [:each | each isKindOf: aMapperClass]
+	^ self allMappers select: [:each | each isKindOf: aMapperClass]

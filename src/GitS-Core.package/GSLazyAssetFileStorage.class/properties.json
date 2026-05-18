@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"contents",
-		"asset",
+		"repository",
 		"hexHash" ],
-	"name" : "GSLoadedAssetFile",
+	"name" : "GSLazyAssetFileStorage",
 	"pools" : [
 		 ],
-	"super" : "GSAssetFile",
+	"super" : "GSAssetFileStorage",
 	"type" : "normal" }

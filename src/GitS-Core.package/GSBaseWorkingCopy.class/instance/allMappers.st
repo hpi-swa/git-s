@@ -1,3 +1,3 @@
 accessing
 allMappers
-	^ self mappers copyWith: self metadataMapper
+	^ (self mappers, (self materialized values collect: #mapper), {self metadataMapper}) withoutDuplicates

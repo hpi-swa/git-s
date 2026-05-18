@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"withContents:" : "mad 5/18/2026 14:52" },
+	"instance" : {
+		"computeHexHash" : "mad 10/2/2024 18:06",
+		"contents" : "mad 5/18/2026 14:51",
+		"contents:" : "mad 5/18/2026 14:51",
+		"hexHash" : "mad 5/18/2026 15:10",
+		"load" : "mad 5/18/2026 14:53",
+		"serializeInto:at:" : "mad 5/18/2026 15:14" } }

@@ -7,6 +7,6 @@ tryMCRepositoryNamed: aString
 	workingCopy mappers:
 		(workingCopy metadataMapper loadMappersFromFileSystem: fileSystem).
 	(workingCopy mappersOfKind: GSAssetMapper) do: [:each |
-		each materialize: (each loadAssetFileFrom: fileSystem) in: workingCopy].
+		each materialize: (each loadAssetFileFromFileSystem: fileSystem) in: workingCopy].
 	workingCopy register.
 	^ self forWorkingCopy: workingCopy

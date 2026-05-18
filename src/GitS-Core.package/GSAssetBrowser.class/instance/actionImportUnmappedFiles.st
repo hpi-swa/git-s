@@ -1,3 +1,0 @@
-actions
-actionImportUnmappedFiles
-	self importUnmappedFilesIn: self activeWorkingCopyOrCancel headFSCommitOrCancel.
