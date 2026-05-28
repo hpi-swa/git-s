@@ -1,5 +1,6 @@
-post-load
+baseline
 postLoad
 	GSSelfUpdater postInstallVersion: self installedVersion.
-	GSBaseWorkingCopy doPostUpdateMigrations.
-	GSBrowser doPostUpdateMigrations.
+	self
+		runMigrationsFor: #postLoadMigration:;
+		runMigrationsFor: #postLoadMigrationAlways: always: true.

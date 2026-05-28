@@ -1,6 +1,0 @@
-migrations
-importLegacyProjects
-	self
-		importLegacySqueakWorkingCopyInstances;
-		importLegacySquotWorkingCopyInstances;
-		importLegacyGitStandaloneAssetLoaderInstances.

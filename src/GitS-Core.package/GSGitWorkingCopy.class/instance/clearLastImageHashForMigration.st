@@ -1,3 +1,0 @@
-migrations
-clearLastImageHashForMigration
-	lastImageHash := nil.

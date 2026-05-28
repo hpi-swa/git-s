@@ -1,5 +1,3 @@
-pre-load
+baseline
 preLoad
-	self
-		migratePlaintextInstances;
-		renameOldAssetFileClass.
+	self runMigrationsFor: #preLoadMigration:.

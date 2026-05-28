@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"LastRunMigrations" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

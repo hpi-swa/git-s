@@ -1,3 +1,0 @@
-migrations
-doPostUpdateMigrationsIn: aWorkingCopy
-	self fallbackToLegacyVersion.
