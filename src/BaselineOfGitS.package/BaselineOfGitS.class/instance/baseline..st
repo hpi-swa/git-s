@@ -58,10 +58,13 @@ baseline: spec
 	
 	spec for: #(#'squeak5.x' #'squeak6.0.x.release') do: [
 		spec
+			package: 'GitS-Core' with: [
+				spec requires: 'GitS-Compatibility-Squeak60AndEarlier']].
+	
+	spec for: #'squeak5.x' do: [
+		spec
 			package: 'JSON' with: [
 				spec
 					repository: 'https://www.squeaksource.com/JSON'];
-			package: 'GitS-Compatibility-Squeak60AndEarlier' with: [
-				spec requires: 'JSON'];
 			package: 'GitS-Core' with: [
-				spec requires: 'GitS-Compatibility-Squeak60AndEarlier']].
+				spec requires: 'JSON']].
