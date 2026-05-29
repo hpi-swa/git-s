@@ -1,4 +1,4 @@
 refs
 allReferences
-	self ifRepositoryDoesNotExist: [^ {}].
+	self tryEnsureRepositoryExistsIfFail: [^ {}].
 	^ self unitOfWork allReferences

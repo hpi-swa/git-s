@@ -1,3 +1,3 @@
 ui
 activeCommitInfo
-	^ (self activeCommit ifNil: [^ '']) show
+	^ (self activeCommit ifNil: [^ nil]) show

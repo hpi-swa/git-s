@@ -1,3 +1,3 @@
 toolbuilder
 buildLowerLayout: builder
-	^ self buildCommitInfo: builder
+	^ self buildStatusText: builder

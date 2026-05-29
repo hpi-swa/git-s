@@ -1,7 +1,7 @@
 toolbuilder
-buildCommitInfo: builder
+buildStatusText: builder
 	^ builder pluggableTextSpec new
 		model: self operationStarter;
-		getText: #activeCommitInfo;
+		getText: #statusText;
 		readOnly: true;
 		yourself

@@ -1,3 +1,5 @@
 initialize-release
 initializeHead
-	self headRef. "internally ensures the head ref exists"
+	self unitOfWork
+		updateRef: self headRefName
+		toRef: (self branchName: 'main').

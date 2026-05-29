@@ -1,3 +1,3 @@
 updating
 activeCommitChanged
-	self changed: #activeCommitInfo.
+	self changed: #statusText.
