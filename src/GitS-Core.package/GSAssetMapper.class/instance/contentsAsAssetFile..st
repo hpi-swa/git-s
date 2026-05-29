@@ -1,3 +1,3 @@
 asset-creation
 contentsAsAssetFile: aByteArray
-	^ GSAssetFile withMapper: self contents: aByteArray
+	^ GSLoadedAssetFile withMapper: self contents: aByteArray

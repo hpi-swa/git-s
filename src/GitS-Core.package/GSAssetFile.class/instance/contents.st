@@ -1,3 +1,3 @@
 accessing
 contents
-	^ contents
+	self subclassResponsibility.

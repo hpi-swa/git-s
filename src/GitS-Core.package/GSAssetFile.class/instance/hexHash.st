@@ -1,3 +1,3 @@
-comparing
+accessing
 hexHash
-	^ hexHash ifNil: [hexHash := self computeHexHash]
+	self subclassResponsibility.

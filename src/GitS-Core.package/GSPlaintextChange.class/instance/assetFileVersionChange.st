@@ -1,3 +1,3 @@
 accessing
 assetFileVersionChange
-	^ self versionChange collect: [:each | each ifNotNil: #version]
+	^ self versionChange collect: #version

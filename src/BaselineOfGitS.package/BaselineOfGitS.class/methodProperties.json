@@ -10,5 +10,6 @@
 		"installedVersionFromRepository:" : "mad 10/24/2024 14:26",
 		"migratePlaintextInstances" : "mad 5/9/2026 16:31",
 		"postLoad" : "mad 11/1/2025 18:13",
-		"preLoad" : "mad 5/9/2026 18:36",
-		"projectClass" : "jr 5/4/2017 17:25" } }
+		"preLoad" : "mad 5/9/2026 18:59",
+		"projectClass" : "jr 5/4/2017 17:25",
+		"renameOldAssetFileClass" : "mad 5/9/2026 16:36" } }

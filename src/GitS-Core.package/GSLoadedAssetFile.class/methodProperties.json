@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"withMapper:asset:" : "mad 9/29/2024 19:21",
+		"withMapper:contents:" : "mad 5/8/2026 19:00",
+		"withMapper:fromStream:" : "mad 9/30/2024 14:33" },
+	"instance" : {
+		"addToSar:" : "mad 5/8/2026 19:20",
+		"asMorph" : "mad 5/8/2026 19:11",
+		"asset" : "mad 9/29/2024 19:17",
+		"assetOr:" : "mad 5/8/2026 20:55",
+		"computeHexHash" : "mad 10/2/2024 18:06",
+		"contents" : "mad 9/27/2024 20:02",
+		"contents:" : "mad 9/27/2024 20:02",
+		"hexHash" : "mad 10/1/2024 22:52",
+		"readAsset" : "mad 9/29/2024 19:17",
+		"serializeInto:" : "mad 5/8/2026 19:32" } }

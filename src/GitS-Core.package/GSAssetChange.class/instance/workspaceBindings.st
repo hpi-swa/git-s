@@ -1,3 +1,3 @@
 workspace
 workspaceBindings
-	^ self assetFileVersionChange versionsDictionary collect: [:each | each ifNotNil: #asset]
+	^ self assetFileVersionChange versionsDictionary collect: #assetOrNil

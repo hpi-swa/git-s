@@ -1,3 +1,3 @@
 changes-operations
 removeIn: aWorkingCopy
-	self materialize: nil in: aWorkingCopy.
+	aWorkingCopy removeMaterializedAt: self path.

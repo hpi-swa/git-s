@@ -1,5 +1,5 @@
 toolbuilder
 buildAssetFromImage: aWorkingCopy with: builder
 	^ self
-		buildAsset: (self loadAssetFromImage: aWorkingCopy)
+		buildAssetFile: (self loadAssetFileFromImage: aWorkingCopy)
 		with: builder

@@ -1,0 +1,3 @@
+accessing
+hexHash
+	^ GitReference zeroSignature

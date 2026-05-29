@@ -1,6 +1,5 @@
 instance creation
 withMapper: aMapper contents: aByteArray
-	^ self new
-		mapper: aMapper;
+	^ (self withMapper: aMapper)
 		contents: aByteArray;
 		yourself

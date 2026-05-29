@@ -1,3 +1,3 @@
 accessing
 assetFileToWrite
-	^ self versionToWrite ifNotNil: #version
+	^ self versionToWrite version

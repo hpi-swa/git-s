@@ -3,4 +3,4 @@ changeSetToMergeFSCommits: aVersionMerge
 	aVersionMerge
 		hexHashMergeFor: self
 		ifUnchanged: [:emptyChangeSet | ^ emptyChangeSet].
-	^ self changeSetToMergeAssetFiles: (aVersionMerge collect: [:each | self loadAssetFileFrom: each filesystem])
+	^ self changeSetToMergeAssetFiles: (aVersionMerge collect: [:each | self loadAssetFileFromFSCommit: each])

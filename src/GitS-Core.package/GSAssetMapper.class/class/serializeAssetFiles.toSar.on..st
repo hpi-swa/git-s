@@ -8,6 +8,6 @@ serializeAssetFiles: aCollection toSar: aSarBuilder on: aStream
 			('{1} in: [:assetFile |
 				workingCopy addMapper: assetFile mapper.
 				assetFile mapper materialize: assetFile in: workingCopy]'
-					gitSFormat: {each mapper serializeAssetFile: each toSar: aSarBuilder})]
+					gitSFormat: {each addToSar: aSarBuilder})]
 		separatedBy: [aStream nextPut: $.].
 	aStream nextPutAll: '].'.

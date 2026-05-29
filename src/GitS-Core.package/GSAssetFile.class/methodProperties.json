@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"withMapper:asset:" : "mad 9/29/2024 19:21",
-		"withMapper:contents:" : "mad 9/27/2024 20:03",
-		"withMapper:fromStream:" : "mad 9/30/2024 14:33" },
+		"withMapper:" : "mad 5/8/2026 19:00" },
 	"instance" : {
 		"=" : "mad 5/9/2026 18:42",
-		"asset" : "mad 9/29/2024 19:17",
-		"computeHexHash" : "mad 10/2/2024 18:06",
-		"contents" : "mad 9/27/2024 20:02",
-		"contents:" : "mad 9/27/2024 20:02",
+		"addToSar:" : "mad 5/8/2026 19:19",
+		"asMorph" : "mad 5/8/2026 19:11",
+		"assetOr:" : "mad 5/8/2026 20:39",
+		"assetOrNil" : "mad 5/8/2026 20:39",
+		"contents" : "mad 5/8/2026 19:06",
 		"hash" : "mad 5/9/2026 18:42",
-		"hexHash" : "mad 10/1/2024 22:52",
+		"hexHash" : "mad 5/8/2026 19:09",
 		"mapper" : "mad 9/27/2024 19:42",
 		"mapper:" : "mad 9/27/2024 19:42",
-		"readAsset" : "mad 9/29/2024 19:17" } }
+		"path" : "mad 5/8/2026 19:20",
+		"referenceIn:" : "mad 5/8/2026 19:30",
+		"serializeInto:" : "mad 5/8/2026 19:23" } }

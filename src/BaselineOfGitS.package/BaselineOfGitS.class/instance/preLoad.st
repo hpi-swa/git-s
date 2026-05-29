@@ -1,3 +1,5 @@
 pre-load
 preLoad
-	self migratePlaintextInstances.
+	self
+		migratePlaintextInstances;
+		renameOldAssetFileClass.

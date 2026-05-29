@@ -1,6 +1,6 @@
 migrations
 migrateMaterialized: anObject
-	anObject isNil ifTrue: [^ anObject].
+	anObject ifNil: [^ GSMissingAssetFile withMapper: self].
 	(anObject isKindOf: GSAssetFile) ifTrue: [^ anObject].
 	(self isValidAsset: anObject) ifTrue: [ | asset |
 		asset := self transformAsset: anObject ifFail: [^ self migrateMaterializedFailed: anObject].

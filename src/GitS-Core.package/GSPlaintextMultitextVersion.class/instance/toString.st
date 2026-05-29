@@ -1,3 +1,3 @@
 conversion
 toString
-	^ self version ifNotNil: #asset
+	^ self version assetOr: ['']
