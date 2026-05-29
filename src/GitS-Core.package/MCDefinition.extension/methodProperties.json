@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"gitSBrowse" : "mad 10/5/2025 20:08",
+		"gitSBrowseVersions" : "mad 5/29/2026 15:08",
 		"gitSCanBrowse" : "mad 10/5/2025 20:08",
+		"gitSCanBrowseVersions" : "mad 5/29/2026 15:07",
 		"gitSChangePath" : "mad 10/9/2024 17:00",
 		"gitSCopyWithSources:notifying:ifFail:" : "mad 10/9/2024 17:02",
 		"gitSCurrentVersionIn:" : "mad 8/12/2025 21:40",

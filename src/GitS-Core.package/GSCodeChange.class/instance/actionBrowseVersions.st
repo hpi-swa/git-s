@@ -1,0 +1,3 @@
+accessing
+actionBrowseVersions
+	^ self someDefinition gitSBrowseVersions

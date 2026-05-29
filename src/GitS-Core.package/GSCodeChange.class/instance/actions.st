@@ -7,4 +7,5 @@ actions
 		('senders' $n actionSenders true)
 		('implementors' $m actionImplementors true)
 		('references' $N actionReferences true)
+		('versions' $v actionBrowseVersions canBrowseVersions)
 	) for: self)

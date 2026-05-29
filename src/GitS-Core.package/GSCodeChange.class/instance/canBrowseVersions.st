@@ -1,0 +1,3 @@
+accessing
+canBrowseVersions
+	^ self someDefinition gitSCanBrowseVersions
