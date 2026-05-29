@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"allFromSelectors:for:" : "mad 5/29/2026 14:40",
+		"fromSelectors:for:" : "mad 5/29/2026 14:56",
+		"handleKeyStroke:withAll:" : "mad 5/29/2026 14:50" },
+	"instance" : {
+		"addMenuItemTo:" : "mad 5/29/2026 14:51",
+		"handlesKeyStroke:" : "mad 5/29/2026 14:50",
+		"initialize" : "mad 5/29/2026 14:47",
+		"isActive" : "mad 5/29/2026 14:21",
+		"isActive:" : "mad 5/29/2026 14:47",
+		"isActiveBlock" : "mad 5/29/2026 14:21",
+		"isActiveBlock:" : "mad 5/29/2026 14:22",
+		"isActiveFrom:for:" : "mad 5/29/2026 14:56",
+		"keyStroke" : "mad 5/29/2026 14:20",
+		"keyStroke:" : "mad 5/29/2026 14:21",
+		"label" : "mad 5/29/2026 14:20",
+		"label:" : "mad 5/29/2026 14:21",
+		"labelWithKeyStroke" : "mad 5/29/2026 14:27",
+		"run" : "mad 5/29/2026 14:21",
+		"runBlock" : "mad 5/29/2026 14:20",
+		"runBlock:" : "mad 5/29/2026 14:21" } }

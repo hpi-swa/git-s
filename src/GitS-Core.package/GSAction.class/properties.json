@@ -1,0 +1,17 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"keyStroke",
+		"runBlock",
+		"isActiveBlock" ],
+	"name" : "GSAction",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

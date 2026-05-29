@@ -1,4 +1,3 @@
 ui
 keyStroke: aCharacter
-	aCharacter = $x ifTrue: [self toggleExcludedAll. ^ true].
-	^ false
+	^ GSAction handleKeyStroke: aCharacter withAll: self actions

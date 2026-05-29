@@ -1,5 +1,5 @@
-menu
-activeInstallOrRevertMenuItem 
+actions
+activeInstallOrRevertAction 
 	| operation currentVersion installActive revertActive |
 	operation := self operation.
 	operation ifNil: [^ nil].
