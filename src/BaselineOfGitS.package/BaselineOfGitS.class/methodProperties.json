@@ -39,7 +39,7 @@
 		"queueNextCheckForNewVersion" : "mad 5/18/2026 16:00",
 		"rebuildBrowsers" : "mad 5/18/2026 17:35",
 		"reformatPlaintextInstances" : "mad 5/18/2026 16:25",
-		"restructureAssetFilesPostLoadPhase" : "mad 5/28/2026 15:57",
+		"restructureAssetFilesPostLoadPhase" : "mad 6/1/2026 17:34",
 		"restructureAssetFilesPreLoadPhase" : "mad 5/28/2026 15:57",
 		"runMigration:for:ordering:" : "mad 5/18/2026 17:30",
 		"runMigrationsFor:" : "mad 5/18/2026 17:33",

@@ -4,7 +4,7 @@ restructureAssetFilesPostLoadPhase
 	thus without this rename, an update causes all existing instances to lose their data"
 	| newInstances oldInstances oldInstancesToContents |
 	<postLoadMigration: 15>
-	oldInstancesToContents := Smalltalk removeKey: #GitSOldAssetFilesToContents ifAbsent: [^ self].
+	oldInstancesToContents := Smalltalk globals removeKey: #GitSOldAssetFilesToContents ifAbsent: [^ self].
 	oldInstances := oldInstancesToContents keys asArray.
 	newInstances := oldInstances collect: [:each |
 		(GSPresentAssetFile withMapper: each mapper contents: (oldInstancesToContents at: each))].
