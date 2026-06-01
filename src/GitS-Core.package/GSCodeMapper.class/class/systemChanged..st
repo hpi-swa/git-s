@@ -1,3 +1,3 @@
 updating
 systemChanged: anEvent
-	self systemChanged.
+	self imageCommitChanged.

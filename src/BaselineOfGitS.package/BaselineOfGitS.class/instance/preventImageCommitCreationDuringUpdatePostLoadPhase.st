@@ -1,0 +1,4 @@
+migrations
+preventImageCommitCreationDuringUpdatePostLoadPhase
+	<postLoadMigrationAlways: 3>
+	GSImageCommitCache creationBatchLevel: 0.

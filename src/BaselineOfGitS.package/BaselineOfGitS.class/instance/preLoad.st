@@ -1,3 +1,5 @@
 baseline
 preLoad
-	self runMigrationsFor: #preLoadMigration:.
+	self
+		runMigrationsFor: #preLoadMigrationAlways: always: true;
+		runMigrationsFor: #preLoadMigration:.
