@@ -4,7 +4,6 @@ moveInstanceSideLastImageHashToClassSidePreLoadPhase
 	| workingCopyClass oldHashes |
 	workingCopyClass := Smalltalk at: #GSGitWorkingCopy ifAbsent: [^ self].
 	(workingCopyClass instVarNames includes: 'lastImageHash') ifFalse: [^ self].
-	workingCopyClass addClassVarName: 'LastImageHash'.
 	oldHashes := Smalltalk globals at: #GitSInstanceSideLastImageHashes ifAbsentPut: [IdentityDictionary new].
 	workingCopyClass allSubInstancesDo: [:each |
 		(each instVarNamed: 'lastImageHash') ifNotNil: [:hash |
