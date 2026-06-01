@@ -7,16 +7,16 @@ actions
 		GSAction new
 			label: 'include all';
 			keyStroke: (allExcluded ifTrue: [$x] ifFalse: [nil]);
-			actionBlock: [self includeAll];
+			runBlock: [self includeAll];
 			isActive: allIncluded not.
 		GSAction new
 			label: 'exclude all';
 			keyStroke: $x;
-			actionBlock: [self excludeAll];
+			runBlock: [self excludeAll];
 			isActive: allExcluded not.
 		GSAction new
 			label: 'toggle excluded';
 			keyStroke: nil;
-			actionBlock: [self toggleExcludedIndividual].
+			runBlock: [self toggleExcludedIndividual].
 	}
 	
