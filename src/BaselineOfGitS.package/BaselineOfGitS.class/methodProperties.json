@@ -24,6 +24,7 @@
 		"installedVersionFromRepository:" : "mad 10/24/2024 14:26",
 		"isOldAnimationAsset:" : "mad 5/18/2026 17:17",
 		"lastRunMigrationFor:" : "mad 5/18/2026 17:29",
+		"lastRunMigrationFor:put:" : "mad 6/1/2026 16:31",
 		"lastRunMigrations" : "mad 5/18/2026 17:28",
 		"lazyLoadAssetFilesFromHeadCommit" : "mad 5/28/2026 15:58",
 		"mappersFallbackToLegacyVersion" : "mad 5/18/2026 17:22",
