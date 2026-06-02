@@ -1,3 +1,3 @@
 versions
 version3
-	^ self version: '/assets/image3.png'
+	^ self version: #('assets' 'image3.png')

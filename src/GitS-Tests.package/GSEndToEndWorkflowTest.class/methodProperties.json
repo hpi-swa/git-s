@@ -2,7 +2,7 @@
 	"class" : {
 		"isAbstract" : "mad 11/9/2025 19:45" },
 	"instance" : {
-		"assetAt:do:" : "mad 11/9/2025 22:58",
+		"assetAt:do:" : "mad 6/2/2026 13:12",
 		"check:" : "mad 11/9/2025 20:08",
 		"checkAsset:" : "mad 11/9/2025 23:56",
 		"checkAssetUninstalled:" : "mad 11/9/2025 23:07",
@@ -65,7 +65,7 @@
 		"testNoChangesToCommit" : "mad 11/9/2025 19:33",
 		"testPendingCommitMessage" : "mad 4/25/2026 00:26",
 		"testSwitchToBranch" : "mad 11/9/2025 19:35",
-		"trackAssetOfType:at:" : "mad 11/9/2025 20:48",
+		"trackAssetOfType:at:" : "mad 6/2/2026 13:13",
 		"trackAssetsOfType:" : "mad 11/9/2025 20:53",
 		"uninstall:" : "mad 11/9/2025 20:08",
 		"uninstallAsset:" : "mad 11/9/2025 23:08",

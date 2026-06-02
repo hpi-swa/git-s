@@ -1,3 +1,3 @@
 versions
 version2
-	^ self version: '/assets/plaintext2.txt'
+	^ self version: #('assets' 'plaintext2.txt')

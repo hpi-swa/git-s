@@ -1,6 +1,8 @@
 assets
-assetAt: aString do: aBlock
+assetAt: aCollection do: aBlock
 	self withAssetBrowser: [
+		aCollection allButLastDo: [:each |
+			self toggleSubtree: each].
 		self
-			leftClick: aString;
+			leftClick: aCollection last;
 			do: aBlock].

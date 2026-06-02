@@ -1,3 +1,3 @@
 accessing
-path: aString
-	path := aString
+path: aCollection
+	path := aCollection

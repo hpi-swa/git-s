@@ -1,5 +1,5 @@
 versions
-version: aString
+version: aCollection
 	^ self version
-		path: aString;
+		path: aCollection;
 		yourself
