@@ -14,4 +14,4 @@ findAbstractMethodsInConcreteClasses
 		(methodsWithClasses associationsSelect: [:each | 
 			(self packageInfo includesMethodReference: each key methodReference)
 				and: [self isAbstractMethod: each key]])
-			sorted: #name ascending]
+			withKeysSorted: #name ascending]
