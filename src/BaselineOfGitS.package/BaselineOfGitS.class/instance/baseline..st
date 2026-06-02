@@ -59,6 +59,7 @@ baseline: spec
 	
 	spec for: #(#'squeak5.x' #'squeak6.0.x.release') do: [
 		spec
+			package: 'GitS-Compatibility-Squeak60AndEarlier';
 			package: 'GitS-Core' with: [
 				spec requires: 'GitS-Compatibility-Squeak60AndEarlier']].
 	
