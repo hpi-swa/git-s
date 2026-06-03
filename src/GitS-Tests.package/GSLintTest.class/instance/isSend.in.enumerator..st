@@ -5,6 +5,6 @@ isSend: aSymbol in: aCompiledMethod enumerator: aSendsEnumerator
 	((self ignoredSendsFor: aCompiledMethod) includes: aSymbol) ifTrue: [^ false].
 	parent := aSendsEnumerator parent ifNil: [^ true].
 	parent isMessageNode ifFalse: [^ true].
-	(parent arguments includes: aSendsEnumerator current) ifFalse: [^ true].
-	(self selectorsWhoseArgumentsToIgnore includes: parent selector key) ifTrue: [^ false].
+	((parent arguments copyWith: parent receiver) includes: aSendsEnumerator current) ifFalse: [^ true].
+	(self selectorsWhoseReceiverAndArgumentsToIgnore includes: parent selector key) ifTrue: [^ false].
 	^ true

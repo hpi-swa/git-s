@@ -8,9 +8,9 @@
 		"findUnimplementedAndUnsentMethods" : "mad 10/14/2024 00:03",
 		"ignoredSendsFor:" : "mad 4/9/2026 17:16",
 		"isAbstractMethod:" : "mad 10/13/2024 20:42",
-		"isSend:in:enumerator:" : "mad 11/10/2025 12:30",
+		"isSend:in:enumerator:" : "mad 6/3/2026 20:45",
 		"packageInfo" : "mad 10/13/2024 19:52",
-		"selectorsWhoseArgumentsToIgnore" : "mad 8/25/2025 21:08",
+		"selectorsWhoseReceiverAndArgumentsToIgnore" : "mad 6/3/2026 20:45",
 		"sendsOf:do:" : "mad 10/13/2024 19:50",
 		"testNoAbstractMethodsInConcreteClasses" : "mad 11/6/2025 19:17",
 		"testNoUnimplementedAndNoUnsentMethods" : "mad 4/19/2026 14:01" } }
