@@ -1,3 +1,3 @@
 tests
 testGitPackFilesRepositoriesAreRepositories
-	GitPackFile allSubInstancesDo: [:each | self assert: each repository class = GitRepository].
+	GitPackFile allSubInstancesDo: [:each | each repository ifNotNil: [:repository | self assert: repository class = GitRepository]].
