@@ -1,3 +1,3 @@
 accessing
 wasEdited
-	^ self anyChildSatisfies: #wasEdited
+	^ self anyDescendantSatisfies: #wasEdited

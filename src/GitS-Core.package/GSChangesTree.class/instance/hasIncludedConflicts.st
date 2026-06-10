@@ -1,3 +1,3 @@
 accessing
 hasIncludedConflicts
-	^ self anyChildSatisfies: #hasIncludedConflicts
+	^ self anyDescendantSatisfies: #hasIncludedConflicts

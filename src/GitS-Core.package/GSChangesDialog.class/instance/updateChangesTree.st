@@ -1,7 +1,7 @@
 accessing
 updateChangesTree
 	| oldChanges oldChangesByUniqueKey |
-	oldChanges := self changesTree allChildren.
+	oldChanges := self changesTree descendants.
 	oldChangesByUniqueKey := Dictionary new.
 	oldChanges do: [:each |
 		self
@@ -9,9 +9,9 @@ updateChangesTree
 			description: 'uniqueKeys should be unique'.
 		oldChangesByUniqueKey at: each uniqueKey put: each].
 	self changesTree
-		removeAllChildren;
+		removeAllDescendants;
 		addAll: self changes;
-		removeAllEmptyTrees.
+		removeEmptyDescendantTrees.
 	self changes do: [:each |
 		oldChangesByUniqueKey
 			at: each uniqueKey

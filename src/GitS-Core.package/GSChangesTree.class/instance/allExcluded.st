@@ -1,3 +1,3 @@
 accessing
 allExcluded
-	^ self allChildrenSatisfy: #isExcluded
+	^ self allDescendantsSatisfy: #isExcluded

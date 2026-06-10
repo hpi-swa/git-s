@@ -1,3 +1,3 @@
 updating
 allNodesChanged: aSymbol
-	self root allChildrenChanged: aSymbol.
+	self root descendantsChanged: aSymbol.

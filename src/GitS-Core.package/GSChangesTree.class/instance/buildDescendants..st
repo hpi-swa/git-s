@@ -1,5 +1,5 @@
 toolbuilder
-buildChildren: builder
+buildDescendants: builder
 	^ Array streamContents: [:stream | 
-		self visibleRecursiveChildrenDo: [:each |
+		self visibleDescendantsDo: [:each |
 			stream nextPut: (self buildChange: each with: builder)]]

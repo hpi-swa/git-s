@@ -1,5 +1,5 @@
 excluding
 toggleExcludedIndividual
 	self
-		recursiveChildrenDo: #toggleExcludedSilently;
+		descendantsDo: #toggleExcludedSilently;
 		allNodesChanged: #isExcluded.

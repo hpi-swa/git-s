@@ -1,3 +1,3 @@
 toolbuilder
-childrenGap
+descendantsGap
 	^ 15 px

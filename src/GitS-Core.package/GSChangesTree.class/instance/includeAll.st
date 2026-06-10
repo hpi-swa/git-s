@@ -1,5 +1,5 @@
 excluding
 includeAll
 	self
-		recursiveChildrenDo: #includeSilently;
+		descendantsDo: #includeSilently;
 		allNodesChanged: #isExcluded.
