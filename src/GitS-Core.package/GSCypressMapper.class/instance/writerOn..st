@@ -5,11 +5,11 @@ writerOn: aReference
 					directory: aReference;
 					yourself.
 	fileUtils := self fileUtilsOn: aReference.
-	fileTreeWriter := (self fileTreeWriterClass on: repository)
+	fileTreeWriter := (GSMCFileTreeWriter on: repository)
 						directory: (GSPathUtilities asString: aReference path);
 						fileUtils: fileUtils;
 						initializePackageFileDirectoryCache;
 						yourself.
-	^ (self writerClass on: fileTreeWriter)
+	^ (GSMCFileTreeStCypressWriter on: fileTreeWriter)
 		fileUtils: fileUtils;
 		yourself

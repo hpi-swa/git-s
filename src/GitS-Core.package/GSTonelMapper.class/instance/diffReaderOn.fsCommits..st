@@ -1,6 +1,6 @@
 snapshot-creation
-differOn: aReference fsCommits: aVersionChange
-	^ (GSTonelDiffer
+diffReaderOn: aReference fsCommits: aVersionChange
+	^ (GSTonelDiffReader
 		on: aReference parent
 		fileName: self package name)
 			fsCommits: aVersionChange;
