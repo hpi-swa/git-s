@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"selectCommitIn:title:" : "mad 6/4/2026 15:34" },
+	"instance" : {
+		"actionCancel" : "mad 6/4/2026 15:37",
+		"actionSelect" : "mad 6/4/2026 15:32",
+		"buildButtons:" : "mad 6/4/2026 15:35",
+		"buildCancelButton:" : "mad 6/4/2026 15:35",
+		"buildDialogWith:" : "mad 6/4/2026 15:30",
+		"buildSelectButton:" : "mad 6/4/2026 15:33",
+		"buildWith:" : "mad 6/4/2026 15:27",
+		"close" : "mad 6/4/2026 15:32",
+		"getCommit" : "mad 6/4/2026 15:31",
+		"title" : "mad 6/4/2026 15:25",
+		"title:" : "mad 6/4/2026 15:25",
+		"workingCopy" : "mad 6/4/2026 15:19",
+		"workingCopy:" : "mad 6/4/2026 15:42",
+		"workingCopyOrNil" : "mad 6/4/2026 15:19" } }

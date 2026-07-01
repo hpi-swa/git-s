@@ -203,6 +203,7 @@
 		"requestNewRepositoryLocation" : "mad 3/5/2025 21:07",
 		"requestRemoteNameAndRefFor:" : "mad 2/21/2025 15:06",
 		"restore:from:actionDescription:" : "mad 5/8/2026 12:31",
+		"selectCommitInDialog:" : "mad 6/4/2026 15:39",
 		"serializeChangeSets:onCommit:" : "mad 10/2/2024 18:35",
 		"setUpstreamRemoteName:andRef:for:" : "mad 12/13/2023 18:28",
 		"setUpstreamRemoteNameAndRef:for:" : "mad 12/8/2023 19:31",

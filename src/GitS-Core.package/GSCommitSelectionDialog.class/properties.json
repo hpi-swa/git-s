@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"title" ],
+	"name" : "GSCommitSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "GSCommitsAndRefsBrowser",
+	"type" : "normal" }
