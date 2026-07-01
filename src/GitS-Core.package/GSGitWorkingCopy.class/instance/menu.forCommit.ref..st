@@ -63,6 +63,10 @@ menu: aMenu forCommit: aCommit ref: refString
 					selector: #actionCompareCommitToParent:
 					argument: aCommit;
 					
+					add: 'it to another commit...'
+					selector: #actionCompareCommitToDialogCommit:
+					argument: aCommit;
+					
 					add: 'it to the image'
 					selector: #actionCompareCommitToImage:
 					argument: aCommit;
