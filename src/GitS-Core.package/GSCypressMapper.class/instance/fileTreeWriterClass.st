@@ -1,3 +1,0 @@
-classes
-fileTreeWriterClass
-	^ GSMCFileTreeWriter

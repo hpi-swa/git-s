@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "mad 7/1/2026 14:05" },
 	"instance" : {
 		"actionFetchAll" : "mad 6/4/2026 15:28",
 		"actionRefresh" : "mad 6/4/2026 13:21",

@@ -4,7 +4,7 @@ selectorsWhoseReceiverAndArgumentsToIgnore
 		flag:
 		= ~= includes:
 		changed: changed:with:
-		triggerEvent: triggerEvent:with: when:send:to:
+		triggerEvent: triggerEvent:with:
 		hResizing: horizontalResizing: vResizing: verticalResizing: columnResizings:
 		listDirection:
 	)

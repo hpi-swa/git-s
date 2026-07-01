@@ -7,4 +7,5 @@ isSend: aSymbol in: aCompiledMethod enumerator: aSendsEnumerator
 	parent isMessageNode ifFalse: [^ true].
 	((parent arguments copyWith: parent receiver) includes: aSendsEnumerator current) ifFalse: [^ true].
 	(self selectorsWhoseReceiverAndArgumentsToIgnore includes: parent selector key) ifTrue: [^ false].
+	(parent selector key = #when:send:to:) ifTrue: [^ aSendsEnumerator current = parent arguments second].
 	^ true
