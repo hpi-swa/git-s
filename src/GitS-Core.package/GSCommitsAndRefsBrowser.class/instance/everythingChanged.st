@@ -1,9 +1,9 @@
 updating
 everythingChanged
 	self
-		changed: #activeWorkingCopy;
+		changed: #workingCopy;
 		initializeRefTree;
-		activeRef: (self activeWorkingCopy ifNotNil: [:workingCopy |
+		activeRef: (self workingCopyOrNil ifNotNil: [:workingCopy |
 			workingCopy repositoryExists
 				ifTrue: [workingCopy currentBranchOrHead]
 				ifFalse: [nil]])

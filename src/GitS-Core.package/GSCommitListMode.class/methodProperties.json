@@ -3,16 +3,16 @@
 		"isAbstract" : "mad 11/6/2025 13:07" },
 	"instance" : {
 		"aboutToStyle:requestor:" : "mad 8/24/2025 13:38",
-		"activeWorkingCopy" : "mad 8/24/2025 13:42",
 		"addToMenu:" : "mad 8/24/2025 12:24",
 		"changed" : "mad 10/5/2025 16:28",
 		"commitList" : "mad 8/24/2025 11:52",
 		"commitList:" : "mad 8/24/2025 11:52",
 		"compileNotifying:" : "mad 8/24/2025 11:51",
-		"createModel" : "mad 8/25/2025 23:26",
+		"createModel" : "mad 7/1/2026 13:39",
 		"defaultBlock" : "mad 4/23/2026 17:49",
 		"displayName" : "mad 8/24/2025 11:58",
 		"expression" : "mad 8/24/2025 11:52",
 		"modelClass" : "mad 8/24/2025 22:09",
 		"receiverClass" : "mad 8/24/2025 13:39",
-		"wantsAutocompletion" : "mad 8/24/2025 13:38" } }
+		"wantsAutocompletion" : "mad 8/24/2025 13:38",
+		"workingCopyOrNil" : "mad 6/4/2026 15:07" } }

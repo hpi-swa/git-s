@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"activeWorkingCopy" : "mad 8/24/2025 14:35",
 		"addToMenu:" : "mad 4/24/2026 18:25",
 		"basicIncludeActiveRef:" : "mad 8/24/2025 15:11",
 		"basicIncludeAllRefs:" : "mad 8/24/2025 15:11",
@@ -29,14 +28,15 @@
 		"includeRemotes" : "mad 8/24/2025 14:25",
 		"includeRemotes:" : "mad 8/24/2025 15:12",
 		"initialize" : "mad 11/6/2025 23:42",
-		"operationStarter" : "mad 4/24/2026 18:23",
-		"reflogFor:" : "mad 11/6/2025 23:50",
-		"refs" : "mad 8/24/2025 16:24",
+		"operationStarter" : "mad 6/4/2026 15:08",
+		"reflogFor:" : "mad 6/4/2026 15:09",
+		"refs" : "mad 6/4/2026 15:13",
 		"toggleIncludeActiveRef" : "mad 8/24/2025 14:47",
 		"toggleIncludeAllRefs" : "mad 8/24/2025 14:48",
 		"toggleIncludeBranches" : "mad 8/24/2025 14:48",
 		"toggleIncludeHead" : "mad 8/24/2025 14:47",
 		"toggleIncludeReflogs" : "mad 11/6/2025 23:43",
 		"toggleIncludeRemotes" : "mad 8/24/2025 14:48",
-		"unitOfWork" : "mad 8/24/2025 14:46",
-		"update:" : "mad 11/6/2025 16:09" } }
+		"unitOfWork" : "mad 6/4/2026 15:09",
+		"update:" : "mad 6/4/2026 13:41",
+		"workingCopyOrNil" : "mad 6/4/2026 15:08" } }

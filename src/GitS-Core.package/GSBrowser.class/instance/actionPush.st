@@ -1,3 +1,3 @@
 actions-network
 actionPush
-	self activeWorkingCopyAction: #actionPush.
+	self activeWorkingCopyOrCancel actionPush.

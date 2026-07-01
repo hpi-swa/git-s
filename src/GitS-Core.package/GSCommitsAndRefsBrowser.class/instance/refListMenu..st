@@ -1,6 +1,6 @@
 menu
 refListMenu: aMenu
-	self activeWorkingCopy ifNil: [^ aMenu].
+	self workingCopyOrNil ifNil: [^ aMenu].
 	self activeRefTreeMember ifNil: [^ aMenu].
 	self activeRefTreeMember ref = self activeRef ifFalse: [^ aMenu].
-	^ self activeWorkingCopy menu: aMenu forRef: self activeRef
+	^ self workingCopy menu: aMenu forRef: self activeRef

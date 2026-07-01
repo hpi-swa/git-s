@@ -1,3 +1,3 @@
 actions-committing
 actionCommit
-	self activeWorkingCopyAction: #actionCommit.
+	self activeWorkingCopyOrCancel actionCommit.

@@ -1,3 +1,3 @@
 accessing
 unitOfWork
-	^ self activeWorkingCopy unitOfWork
+	^ self workingCopyOrNil unitOfWork

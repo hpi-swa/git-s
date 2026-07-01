@@ -1,3 +1,3 @@
 listing
 reflogFor: aString
-	^ self activeWorkingCopy reflogFor: aString
+	^ self workingCopyOrNil reflogFor: aString

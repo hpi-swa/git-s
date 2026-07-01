@@ -2,7 +2,7 @@ ui
 initializeRefTree
 	self
 		refTree: (GSRefTree new
-					workingCopy: self activeWorkingCopy;
+					workingCopy: self workingCopyOrNil;
 					ref: '';
 					yourself);
 		updateRefTree;

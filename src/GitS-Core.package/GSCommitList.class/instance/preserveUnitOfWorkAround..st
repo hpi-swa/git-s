@@ -1,6 +1,6 @@
 generating
 preserveUnitOfWorkAround: aBlock
 	| unitOfWork |
-	self activeWorkingCopy ifNil: [^ aBlock]. 
+	self workingCopyOrNil ifNil: [^ aBlock].
 	unitOfWork := self unitOfWork.
 	^ [unitOfWork activateDuring: aBlock]

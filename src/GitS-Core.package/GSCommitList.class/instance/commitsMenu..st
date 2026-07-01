@@ -1,4 +1,4 @@
 menu
 commitsMenu: aMenu
-	^ (self activeWorkingCopy ifNil: [^ aMenu])
+	^ (self workingCopyOrNil ifNil: [^ aMenu])
 		menu: aMenu forCommit: self activeCommit

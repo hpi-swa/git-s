@@ -1,3 +1,5 @@
 actions-branches
 actionCreateBranchAtActiveCommitAndOptionallySwitchToIt
-	self activeCommitAction: #actionCreateBranchAtCommitAndOptionallySwitchToIt:.
+	| workingCopy |
+	workingCopy := self activeWorkingCopyOrCancel.
+	workingCopy actionCreateBranchAtCommitAndOptionallySwitchToIt: self activeCommitOrCancel.

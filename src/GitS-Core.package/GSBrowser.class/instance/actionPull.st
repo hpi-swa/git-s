@@ -1,3 +1,3 @@
 actions-network
 actionPull
-	self activeWorkingCopyAction: #actionPull.
+	self activeWorkingCopyOrCancel actionPull.

@@ -1,3 +1,3 @@
 accessing
 workingCopy
-	^ self listModel activeWorkingCopy
+	^ self listModel workingCopyOrNil
