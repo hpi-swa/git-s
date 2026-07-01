@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assetMappersAndWorkingCopiesDo:" : "mad 5/18/2026 16:47",
 		"baseline:" : "mad 6/2/2026 13:05",
 		"breakCommitListDependencyCycle" : "mad 5/18/2026 16:03",
 		"collectGarbage" : "mad 5/18/2026 17:27",
@@ -22,7 +21,7 @@
 		"installedVersionFromDirectoryRepository:" : "mad 10/24/2024 14:59",
 		"installedVersionFromGitHubRepository:" : "mad 10/24/2024 14:27",
 		"installedVersionFromRepository:" : "mad 10/24/2024 14:26",
-		"isOldAnimationAsset:" : "mad 5/18/2026 17:17",
+		"isOldAnimationAsset:" : "mad 6/10/2026 19:38",
 		"lastRunMigrationFor:" : "mad 5/18/2026 17:29",
 		"lastRunMigrationFor:put:" : "mad 6/1/2026 16:31",
 		"lastRunMigrations" : "mad 5/18/2026 17:28",

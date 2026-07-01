@@ -1,4 +1,4 @@
 updating
 update: anObject
 	super update: anObject.
-	(anObject = #resolution or: [anObject = #isResolved]) ifTrue: [self changed: #canMapperBeRemoved].
+	(#(resolution isResolved) includes: anObject) ifTrue: [self changed: #canMapperBeRemoved].

@@ -1,8 +1,7 @@
 ui
 assetTreeChildrenOf: aPath
 	| basenames |
-	basenames := Set new.
-	self mappers do: [:each |
-		(aPath contains: each path) ifTrue: [
-			basenames add: (each path at: aPath size + 1)]].
+	basenames := (self mappers
+		select: [:each | aPath contains: each path])
+		collect: [:each | each path at: aPath size + 1] as: Set.
 	^ basenames sorted collect: [:each | aPath / each]

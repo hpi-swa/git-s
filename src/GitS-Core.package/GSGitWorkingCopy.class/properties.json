@@ -9,7 +9,6 @@
 		"fsgitRepository",
 		"refsForCommits",
 		"credentials",
-		"lastImageHash",
 		"commitMessageDraft",
 		"activeOperation",
 		"imageCommitCache" ],

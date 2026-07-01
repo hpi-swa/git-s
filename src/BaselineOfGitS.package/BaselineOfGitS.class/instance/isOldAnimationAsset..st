@@ -1,3 +1,3 @@
 migrations
 isOldAnimationAsset: anObject
-	^ #(SquotAnimation. AnObsoleteSquotAnimation) includes: anObject class name
+	^ #(SquotAnimation AnObsoleteSquotAnimation) includes: anObject class name
