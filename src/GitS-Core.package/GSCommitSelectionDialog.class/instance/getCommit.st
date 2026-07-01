@@ -1,4 +1,5 @@
 dialog
 getCommit
 	self open.
-	^ self activeCommit ifNil: [GSGUIUtilities cancel]
+	self didSelectACommit ifFalse: [GSGUIUtilities cancel].
+	^ self activeCommit
