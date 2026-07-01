@@ -1,3 +1,3 @@
 menu
 addMenuItemsTo: aMenu
-	self actions do: [:each | each addMenuItemTo: aMenu].
+	self allActions do: [:each | each addMenuItemTo: aMenu].

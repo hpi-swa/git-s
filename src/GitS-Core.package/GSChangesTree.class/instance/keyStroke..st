@@ -1,3 +1,3 @@
 ui
 keyStroke: aCharacter
-	^ GSAction handleKeyStroke: aCharacter withAll: self actions
+	^ GSAction handleKeyStroke: aCharacter withAll: self allActions
