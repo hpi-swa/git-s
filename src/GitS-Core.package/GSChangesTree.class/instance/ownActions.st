@@ -21,5 +21,15 @@ ownActions
 			keyStroke: nil;
 			runBlock: [self toggleExcludedIndividual];
 			yourself.
+		GSAction new
+			label: 'inspect';
+			keyStroke: $i;
+			runBlock: [self inspect];
+			yourself.
+		GSAction new
+			label: 'explore';
+			keyStroke: $I;
+			runBlock: [self explore];
+			yourself.
 	}
 	
