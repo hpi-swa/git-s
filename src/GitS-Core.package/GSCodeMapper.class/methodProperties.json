@@ -1,12 +1,13 @@
 {
 	"class" : {
 		"batchAdd:toSar:" : "mad 11/6/2025 13:21",
+		"cachedAllSubInstances" : "mad 7/2/2026 13:13",
 		"chooseNewEncodingClass" : "mad 10/25/2024 11:58",
 		"chooseNewEncodingClassFrom:title:" : "mad 3/10/2025 23:17",
 		"encodingName" : "mad 4/18/2024 18:11",
 		"fromLegacySquotContentsReference:" : "mad 10/4/2024 16:36",
 		"fromPackagePath:" : "mad 10/4/2024 16:29",
-		"imageCommitChanged" : "mad 5/6/2026 23:31",
+		"imageCommitChanged" : "mad 7/2/2026 13:11",
 		"initialize" : "mad 5/6/2026 23:14",
 		"isAbstract" : "mad 11/6/2025 13:07",
 		"package:" : "mad 4/21/2023 23:40",
@@ -28,7 +29,7 @@
 		"encodingName" : "mad 4/18/2024 18:11",
 		"hash" : "mad 9/13/2023 18:28",
 		"hexHashPath" : "mad 11/12/2024 14:51",
-		"initialize" : "mad 4/25/2023 19:41",
+		"initialize" : "mad 7/2/2026 13:07",
 		"loadSnapshotFrom:" : "mad 7/10/2025 22:43",
 		"loadSnapshotFrom:fsCommits:" : "mad 6/4/2026 12:58",
 		"lookupChangesTreeClassLabel:ifAbsent:" : "mad 6/3/2026 20:17",

@@ -1,3 +1,3 @@
 updating
 imageCommitChanged
-	(self allSubInstances gather: #dependents) asSet do: [:each | each update: #imageCommit].
+	(self cachedAllSubInstances gather: #dependents) asSet do: [:each | each update: #imageCommit].
