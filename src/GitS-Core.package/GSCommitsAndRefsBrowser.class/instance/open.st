@@ -1,4 +1,6 @@
 toolbuilder
 open
-	ToolBuilder open: self.
+	| opened |
+	opened := ToolBuilder open: self.
 	self postOpen.
+	^ opened

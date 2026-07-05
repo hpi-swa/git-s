@@ -1,3 +1,5 @@
 toolbuilder
 postOpen
-	self changed: #expandRootsRequested.
+	self
+		changed: #expandRootsRequested;
+		revealSelectedChange.

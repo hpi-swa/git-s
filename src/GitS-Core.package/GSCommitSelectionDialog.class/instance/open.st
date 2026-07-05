@@ -6,3 +6,4 @@ open
 	built := ToolBuilder build: self.
 	self postOpen.
 	ToolBuilder open: built.
+	^ built

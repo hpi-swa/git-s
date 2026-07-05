@@ -1,3 +1,4 @@
 toolbuilder
 open
-	^ self start then: [:x | ToolBuilder open: self]
+	self assert: self hasStarted.
+	^ ToolBuilder open: self
