@@ -5,5 +5,5 @@ buildButtons: builder
 		self buildPullButton: builder.
 		self buildPushDropDownButton: builder.
 		self buildBranchButton: builder.
-		self buildOtherButton: builder.
+		self buildMoreButton: builder.
 	} with: builder

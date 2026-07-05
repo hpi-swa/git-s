@@ -1,5 +1,5 @@
 menu
-otherMenu: aMenuSpec
+moreMenu: aMenuSpec
 	| target |
 	target := self operationStarter.
 	aMenuSpec

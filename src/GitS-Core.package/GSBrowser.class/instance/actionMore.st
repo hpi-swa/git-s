@@ -1,7 +1,7 @@
 actions
-actionOther
+actionMore
 	| builder menu |
 	builder := ToolBuilder default.
 	menu := builder pluggableMenuSpec new.
-	self otherMenu: menu.
+	self moreMenu: menu.
 	builder open: menu.

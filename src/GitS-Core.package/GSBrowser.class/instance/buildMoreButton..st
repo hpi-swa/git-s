@@ -1,8 +1,8 @@
 toolbuilder
-buildOtherButton: builder
+buildMoreButton: builder
 	^ builder pluggableActionButtonSpec new
 		model: self operationStarter;
-		action: #actionOther;
-		label: '...';
+		action: #actionMore;
+		label: 'More';
 		help: 'Open a menu to perform other tasks.';
 		yourself
