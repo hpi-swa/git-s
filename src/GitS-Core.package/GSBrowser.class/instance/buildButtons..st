@@ -1,9 +1,9 @@
 toolbuilder
 buildButtons: builder
 	^ GSGUIUtilities buildButtons: {
-		self buildCommitButton: builder.
+		self buildCommitDropDownButton: builder.
 		self buildPullButton: builder.
-		self buildPushButton: builder.
+		self buildPushDropDownButton: builder.
 		self buildBranchButton: builder.
 		self buildOtherButton: builder.
 	} with: builder

@@ -1,0 +1,3 @@
+actions-committing
+actionCommitDropDown
+	self activeWorkingCopyOrCancel actionCommitDropDown.
