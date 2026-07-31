@@ -9,6 +9,7 @@ testRebaseFixup
 		onto: 'target commit';
 		changeRebaseCommand: '* main two' to: 'fixup';
 		runRebaseToCompletion;
+		check: self version1B;
 		check: self version2A;
 		check: self version3A;
 		leftClick: 'main' asText allBold;
