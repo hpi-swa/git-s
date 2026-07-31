@@ -10,6 +10,7 @@ testRebaseLabelReset
 		addRebaseCommandAfter: '* main one' type: 'label' supplyingAnswers: #(('Label:' 'X'));
 		addRebaseCommandAfter: '* main two' type: 'reset' supplyingAnswers: #(('Label:' 'X'));
 		runRebaseToCompletion;
+		check: self version1B;
 		check: self version2A;
 		checkUninstalled: self version3;
 		leftClick: 'main' asText allBold;
