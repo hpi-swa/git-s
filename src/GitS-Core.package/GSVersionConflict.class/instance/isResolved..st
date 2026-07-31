@@ -3,4 +3,5 @@ isResolved: aBoolean
 	isResolved := aBoolean.
 	self	
 		changed: #isResolved;
-		changed: #hasConflicts.
+		changed: #hasConflicts;
+		changed: #headerText.
