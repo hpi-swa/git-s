@@ -1,7 +1,8 @@
 toolbuilder
-buildHeadWith: builder
+buildHeader: builder
 	^ builder pluggableTextSpec new
 		model: self;
-		getText: #headText;
+		getText: #headerText;
 		verticalResizing: #shrinkWrap;
+		readOnly: true;
 		yourself

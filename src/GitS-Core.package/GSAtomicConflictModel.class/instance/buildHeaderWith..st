@@ -1,3 +1,3 @@
 toolbuilder
-buildHeader: builder
+buildHeaderWith: builder
 	^ self versionChange buildHeader: builder
