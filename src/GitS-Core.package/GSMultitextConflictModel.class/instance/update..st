@@ -1,5 +1,4 @@
 updating
 update: aSymbol
 	super update: aSymbol.
-	aSymbol = #resolution ifTrue: [self updateTexts].
-	aSymbol = #isResolved ifTrue: [self updateTexts; changed: #headerText].
+	(#(resolution isResolved) includes: aSymbol) ifTrue: [self updateTexts].
