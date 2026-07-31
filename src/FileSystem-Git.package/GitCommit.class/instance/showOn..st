@@ -4,13 +4,13 @@ showOn: aStream
 		nextPutAll: 'Commit ';
 		nextPutAll: self hexHash.
 	self basicParents
-		ifNotEmpty: [aStream lf; nextPutAll: 'Parents: '];
+		ifNotEmpty: [aStream cr; nextPutAll: 'Parents: '];
 		do: [:each | aStream nextPutAll: each]
 		separatedBy: [aStream nextPutAll: ', '].
-	aStream lf; nextPutAll: 'Author: '.
+	aStream cr; nextPutAll: 'Author: '.
 	self author showOn: aStream.
-	aStream lf; nextPutAll: 'Committer: '.
+	aStream cr; nextPutAll: 'Committer: '.
 	self committer showOn: aStream.
 	aStream
-		lf; lf;
-		nextPutAll: self message.
+		cr; cr;
+		nextPutAll: self message withSqueakLineEndings.
