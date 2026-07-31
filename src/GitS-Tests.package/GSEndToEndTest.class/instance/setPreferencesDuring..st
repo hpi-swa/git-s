@@ -4,4 +4,10 @@ setPreferencesDuring: aBlock
 		preferenceValue: false
 		during: [(Preferences pragmaPreferenceFor: GSPreferences getter: #showBase)
 					preferenceValue: false
-					during: aBlock]
+					during: [Smalltalk
+								at: #ECPreferences
+								ifPresent: [:ecPreferences |
+									(Preferences pragmaPreferenceFor: ecPreferences getter: #enabled)
+										preferenceValue: false
+										during: aBlock]
+								ifAbsent: [aBlock value]]]
