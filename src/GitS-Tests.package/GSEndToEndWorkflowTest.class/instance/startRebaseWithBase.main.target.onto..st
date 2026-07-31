@@ -1,8 +1,8 @@
 rebase
-testRebaseBase: baseBlock main: mainBlock target: targetBlock onto: commitLabel window: windowBlock
+startRebaseWithBase: baseBlock main: mainBlock target: targetBlock onto: commitLabel
 	"Both branches start from a shared base commit created by baseBlock; mainBlock then commits on
 	main and targetBlock on target. Opens the Rebase window that rebases main's commit(s) onto the
-	target tip (commitLabel). windowBlock drives the opened window and asserts."
+	target tip (commitLabel)."
 	self
 		do: baseBlock;
 		rightClick: 'main' asText allBold;
@@ -19,5 +19,4 @@ testRebaseBase: baseBlock main: mainBlock target: targetBlock onto: commitLabel 
 		leftClick: 'target' asText;
 		rightClick: commitLabel;
 		moveTo: 'Advanced';
-		leftClick: 'Rebase branch ''main'' onto it';
-		do: windowBlock.
+		leftClick: 'Rebase branch ''main'' onto it'.
