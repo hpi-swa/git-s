@@ -6,21 +6,17 @@ reopenWindowsPreLoadPhase
 	openedWindows := SystemWindow
 		windowsIn: Project current world
 		satisfying: [:each | each model class packageInfo name beginsWith: 'GitS-'].
-	"avoid holding strong references, see below"
-	openedWindows := openedWindows collect: [:each | WeakArray with: each].
-	openedWindows do: [:each | | oldWindow block bounds index model |
-		oldWindow := each first.
+	openedWindows do: [:oldWindow | | block index model |
 		index := oldWindow getIndexInOwner.
-		bounds := oldWindow bounds.
 		model := oldWindow model.
 		(#(GSOperationStarter GSOperationLifecycle) includes: model class name) ifTrue: [model := model driver].
-		oldWindow := nil. "avoid holding a strong reference in block's outerContext"
-		block := [ | newWindow |
-			newWindow := self preventOpeningToolsAttachedToMouseCursorDuring: [model open].
-			newWindow setIndexInOwner: index.
-			newWindow bounds: bounds].
+		"separated into a method to prevent the closure from holding onto oldWindow"
+		block := self
+			createReopenWindowBlockForModel: model
+			index: index
+			bounds: oldWindow bounds.
 		reopenWindowBlocks add: index -> block].
 	openedWindows do: [:each |
-		each first
+		each
 			model: nil; "prevent call of okToClose"
 			delete].
