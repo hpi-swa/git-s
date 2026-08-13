@@ -3,5 +3,5 @@ block: aBlock
 	aBlock = self block ifTrue: [^ self].
 	self
 		basicBlock: aBlock;
-		regenerate;
+		generateCommits;
 		changed: #clearUserEdits.

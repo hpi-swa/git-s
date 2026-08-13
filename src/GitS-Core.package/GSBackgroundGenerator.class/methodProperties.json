@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"on:" : "mad 8/13/2026 13:50" },
+	"instance" : {
+		"boostProcessPriorityAndWaitWithTimeout:" : "mad 8/13/2026 13:58",
+		"buffer" : "mad 7/31/2026 01:34",
+		"buffer:" : "mad 7/31/2026 01:34",
+		"clearGoal" : "mad 8/13/2026 13:49",
+		"consumeAll" : "mad 8/12/2026 15:30",
+		"finished" : "mad 8/12/2026 15:55",
+		"generate:" : "mad 8/13/2026 13:52",
+		"goal" : "mad 7/31/2026 01:34",
+		"goal:" : "mad 7/31/2026 01:34",
+		"goalReached" : "mad 7/31/2026 01:51",
+		"initialize" : "mad 8/13/2026 13:49",
+		"isStopped" : "mad 8/1/2026 00:56",
+		"isStopped:" : "mad 7/31/2026 01:52",
+		"mutex" : "mad 7/31/2026 01:34",
+		"mutex:" : "mad 7/31/2026 01:34",
+		"process" : "mad 7/31/2026 01:34",
+		"process:" : "mad 7/31/2026 01:35",
+		"produced:" : "mad 8/13/2026 13:47",
+		"stop" : "mad 8/1/2026 00:53",
+		"waitForAtLeast:timeout:" : "mad 8/13/2026 13:48",
+		"wakeUpSemaphore" : "mad 7/31/2026 01:34",
+		"wakeUpSemaphore:" : "mad 7/31/2026 01:35" } }

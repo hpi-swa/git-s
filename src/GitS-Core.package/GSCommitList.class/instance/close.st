@@ -1,3 +1,3 @@
 ui
 close
-	self generatingProcess ifNotNil: #terminate.
+	self generator ifNotNil: #stop.

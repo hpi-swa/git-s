@@ -1,4 +1,4 @@
 ui
 postOpen
-	self regenerate.
+	self generateCommits.
 	self changed: #activeCommit.
