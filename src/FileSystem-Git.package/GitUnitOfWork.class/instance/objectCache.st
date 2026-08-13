@@ -1,3 +1,0 @@
-accessing
-objectCache
-	^ repository objectCache

@@ -3,4 +3,4 @@ activateDuring: aBlock
 	^ GitCurrentUnitOfWork
 		value: self
 		for: repository
-		during: aBlock
+		during: [self publishObjectCacheAfter: aBlock]
