@@ -1,3 +1,3 @@
 accessing
 isMissing
-	^ self plaintext isEmpty
+	^ self plaintext isNil
