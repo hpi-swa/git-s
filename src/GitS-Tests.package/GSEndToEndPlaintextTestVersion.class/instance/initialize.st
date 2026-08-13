@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self plaintext: ''.
+	self plaintext: nil.
