@@ -1,6 +1,6 @@
 updating
 refChanged: aGitReference
 	self refsChanged.
-	self workingCopyOrNil ifNotNil: [
-		aGitReference name = self workingCopyOrNil headRefName
+	self workingCopyOrNil ifNotNil: [:workingCopy |
+		aGitReference name = workingCopy headRefName
 			ifTrue: [self headChanged: aGitReference]].
