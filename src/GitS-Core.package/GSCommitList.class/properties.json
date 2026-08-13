@@ -9,7 +9,7 @@
 		"browser",
 		"commits",
 		"activeCommit",
-		"generatingProcess",
+		"generator",
 		"expression",
 		"block",
 		"patternMode",

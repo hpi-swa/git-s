@@ -1,3 +1,3 @@
 updating
 scopeChanged
-	self regenerate.
+	self generateCommits.
