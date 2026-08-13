@@ -9,9 +9,9 @@ testRebaseConflict
 		openDialogPath;
 		do: [self leftClick: 'Commit changes'] suppressingMessage: 'There are conflicts. Please resolve them first. Aborting.';
 		findInDialog: self conflict1AddAAddB;
-		find: 'Conflict (' asText, 'unresolved' asText allBold, ')' asText;
+		find: 'Conflict (both added; ' asText, 'unresolved' asText allBold, ')' asText;
 		resolveToIncoming;
-		find: 'Conflict (resolved)' asText;
+		find: 'Conflict (both added; resolved)' asText;
 		do: [self leftClick: 'Commit changes'] suppressingMessage: 'Rebase complete.';
 		leftClick: 'main' asText allBold;
 		find: 'base commit';
