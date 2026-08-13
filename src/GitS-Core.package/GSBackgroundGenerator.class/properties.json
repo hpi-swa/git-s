@@ -1,0 +1,19 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process",
+		"isStopped",
+		"buffer",
+		"goal",
+		"wakeUpSemaphore",
+		"mutex" ],
+	"name" : "GSBackgroundGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

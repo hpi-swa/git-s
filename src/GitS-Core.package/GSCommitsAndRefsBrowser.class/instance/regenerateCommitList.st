@@ -1,3 +1,3 @@
 commit-list
 regenerateCommitList
-	self commitList regenerate.
+	self commitList generateCommits.

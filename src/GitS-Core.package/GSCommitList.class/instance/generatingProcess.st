@@ -1,3 +1,0 @@
-accessing
-generatingProcess
-	^ generatingProcess
