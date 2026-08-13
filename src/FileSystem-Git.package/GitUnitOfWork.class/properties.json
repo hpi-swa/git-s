@@ -11,7 +11,8 @@
 		"refStores",
 		"refLogs",
 		"config",
-		"refCache" ],
+		"refCache",
+		"objectCache" ],
 	"name" : "GitUnitOfWork",
 	"pools" : [
 		 ],
