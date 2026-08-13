@@ -1,3 +1,3 @@
 accessing
 canMapperBeRemovedForVersion: anObject
-	self subclassResponsibility.
+	^ anObject gitSIsMissing

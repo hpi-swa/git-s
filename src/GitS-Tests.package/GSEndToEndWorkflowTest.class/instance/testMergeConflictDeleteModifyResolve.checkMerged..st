@@ -5,6 +5,7 @@ testMergeConflictDeleteModifyResolve: resolveBlock checkMerged: checkMergedBlock
 		checkBase: [self check: self version1A]
 		incoming: [self install: self version1B]
 		current: [self uninstall: self version1]
+		type: 'current deleted, incoming modified'
 		findInDialog: [self findInDialog: self conflict1DeleteModifyB]
 		resolve: resolveBlock
 		checkMerged: checkMergedBlock.
