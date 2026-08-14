@@ -1,8 +1,9 @@
 merging
 mergeChunks
-	^ (Diff3 new
-		file0: self base;
-		file1: self current;
-		file2: self incoming;
-		diffClass: MyersUkkonenDiff;
-		yourself) merge: true
+	^ self convertMergeChunks:
+		((Diff3 new
+			file0: self base;
+			file1: self current;
+			file2: self incoming;
+			diffClass: MyersUkkonenDiff;
+			yourself) merge: true)
