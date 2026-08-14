@@ -23,7 +23,7 @@ menu: aMenu forCommit: aCommit ref: refString
 	
 	isRef ifTrue: [
 		aMenu
-			add: ('Switch to {1}' format: {isBranch ifTrue: ['it'] ifFalse: ['a new branch at it']})
+			add: ('Switch to {1}' format: {isBranch ifTrue: ['it'] ifFalse: ['a new local branch at it']})
 			selector: (isBranch ifTrue: [#actionSwitchToBranch:] ifFalse: [#actionCreateBranchAtRefAndSwitchToIt:])
 			argument: refString;
 			
