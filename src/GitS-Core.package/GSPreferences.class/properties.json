@@ -5,6 +5,7 @@
 	"classvars" : [
 		"CheckForNewVersion",
 		"NewVersionCheckInterval",
+		"PrepareCommitsInBackground",
 		"ShowBase" ],
 	"commentStamp" : "",
 	"instvars" : [

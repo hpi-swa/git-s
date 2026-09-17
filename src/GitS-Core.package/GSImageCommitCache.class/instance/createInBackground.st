@@ -1,5 +1,6 @@
 caching
 createInBackground
+	GSPreferences prepareCommitsInBackground ifFalse: [^ self].
 	self class creationBatchLevel > 0 ifTrue: [^ self class shouldCreateAfterBatch: true].
 	self creationProcess:
 		([GSGUIUtilities suppressProgressDuring: [self workingCopy withUnitOfWork: [self create]]]
