@@ -2,7 +2,6 @@ metadata-creation
 metadataToWrite
 	| metadata |
 	metadata := self currentMetadata copy.
-	self propertyChangeSets do: [:each |
-		metadata perform: each property asSimpleSetter with: each valueToWrite].
+	self propertyChangeSets do: [:each | each writeValueTo: metadata].
 	metadata setCurrentVersion.
 	^ metadata withoutUntrackedMappers

@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"property" : "mad 8/18/2024 18:49",
 		"withMapper:versionChange:" : "mad 10/7/2025 02:50" },
 	"instance" : {
 		"change" : "mad 8/18/2024 18:58",
 		"change:" : "mad 10/7/2025 02:48",
 		"changes" : "mad 8/18/2024 19:57",
 		"valueToWrite" : "mad 10/10/2025 00:54",
-		"versionChange:" : "mad 10/7/2025 02:49" } }
+		"versionChange:" : "mad 10/7/2025 02:49",
+		"writeValueTo:" : "mad 9/22/2026 16:07" } }
