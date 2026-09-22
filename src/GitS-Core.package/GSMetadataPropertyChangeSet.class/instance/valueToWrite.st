@@ -1,3 +1,0 @@
-accessing
-valueToWrite
-	self subclassResponsibility.
