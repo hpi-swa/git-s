@@ -7,6 +7,6 @@ actionEditPackagePath
 						requestAbsolute:
 							('The package will be stored in a subdirectory of the path below, named {1}.
 							Thus, the package is currently stored in the directory {2}.' gitSFormat: {
-								packageName printString.
+								mapper packagePath basename printString.
 								(GSPathUtilities asString: mapper packagePath) printString})
 						initialAnswer: mapper path).
