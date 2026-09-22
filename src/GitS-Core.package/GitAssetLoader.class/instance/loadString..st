@@ -1,4 +1,3 @@
 loading
 loadString: aStringOrPath
-	<linterIgnoreUnsent> "public API"
-	^ self loadPlaintext: aStringOrPath
+	^ self loadAsset: aStringOrPath ofType: String
