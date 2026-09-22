@@ -1,3 +1,5 @@
 loading
 loadPlaintext: aStringOrPath
-	^ self loadAsset: aStringOrPath ofType: String
+	<linterIgnoreUnsent> "public API"
+	self deprecated: 'Use loadString:'.
+	^ self loadString: aStringOrPath
