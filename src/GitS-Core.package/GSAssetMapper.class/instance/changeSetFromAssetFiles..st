@@ -1,4 +1,4 @@
 changes-creation
 changeSetFromAssetFiles: aVersionChange
-	aVersionChange isEmpty ifTrue: [^ GSEmptyChangeSet withMapper: self].
+	aVersionChange isEmpty ifTrue: [^ self emptyChangeSet].
 	^ GSAssetChangeSet withMapper: self versionChange: aVersionChange

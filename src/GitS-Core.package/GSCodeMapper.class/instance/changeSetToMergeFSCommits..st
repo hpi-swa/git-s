@@ -3,7 +3,7 @@ changeSetToMergeFSCommits: aVersionMerge
 	| snapshots merger |
 	aVersionMerge
 		hexHashMergeFor: self
-		ifUnchanged: [:emptyChangeSet | ^ emptyChangeSet].
+		ifUnchanged: [^ self emptyChangeSet].
 	snapshots := aVersionMerge collect: [:each | self loadSnapshotFrom: each filesystem fsCommits: aVersionMerge].
 	merger := [GSThreewayCodeMerger
 		base: snapshots current
@@ -12,7 +12,7 @@ changeSetToMergeFSCommits: aVersionMerge
 			on: MCNoChangesException
 			do: #resume.
 	(merger operations isEmpty and: [merger conflicts isEmpty])
-		ifTrue: [^ GSEmptyChangeSet withMapper: self].
+		ifTrue: [^ self emptyChangeSet].
 	^ GSCodeChangeSet
 		withMapper: self
 		operations: merger operations
