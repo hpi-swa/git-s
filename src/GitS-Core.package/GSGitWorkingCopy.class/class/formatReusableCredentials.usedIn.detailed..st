@@ -12,5 +12,5 @@ formatReusableCredentials: credentials usedIn: workingCopies detailed: aBoolean
 				'{1} ({2}: {3})' gitSFormat: {
 					workingCopy name printString.
 					'url' asPluralBasedOn: urls.
-					(urls collect: #asString) asOrderedCollection sorted joinSeparatedBy: ', '}])
-				joinSeparatedBy: ', '}
+					(urls collect: #asString) asOrderedCollection sorted asCommaStringAnd}])
+				asCommaStringAnd}
