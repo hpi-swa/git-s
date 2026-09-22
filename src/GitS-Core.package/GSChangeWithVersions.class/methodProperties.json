@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"isAbstract" : "mad 4/8/2026 02:11" },
+		"isAbstract" : "mad 4/8/2026 02:11",
+		"withChangeSet:versionChange:" : "mad 10/7/2025 03:11" },
 	"instance" : {
 		"canMapperBeRemoved" : "mad 4/9/2026 17:48",
 		"canMapperBeRemovedForVersion:" : "mad 8/13/2026 16:02",
