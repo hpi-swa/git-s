@@ -1,3 +1,3 @@
 accessing
 emptyFSCommit
-	^ FileSystemGitCommit emptyIn: self fsgitRepository
+	^ self handleMissingGitStampDuring: [FileSystemGitCommit emptyIn: self fsgitRepository]
