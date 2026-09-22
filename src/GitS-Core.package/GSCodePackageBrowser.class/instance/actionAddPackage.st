@@ -11,7 +11,7 @@ actionAddPackage
 			because the new package is a prefix/super package for these.
 			(Otherwise the package contents will be duplicated)' gitSFormat: {
 				self selectedPackageName printString.
-				conflictingPackages joinSeparatedBy: ', '})].
+				conflictingPackages asCommaStringAnd})].
 	
 	mapperClass := self mapperClassForNewPackage.
 	conflictingPackages do: [:each | self removePackage: each].
