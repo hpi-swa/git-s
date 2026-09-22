@@ -1,6 +1,6 @@
 stash
 stash: uncommmittedChangeSets from: oldHeadCommit during: aBlock description: aString
-	(GSChangeSet allEmpty: uncommmittedChangeSets) ifTrue: [^ aBlock value].
+	(GSChangeSet allNoop: uncommmittedChangeSets) ifTrue: [^ aBlock value].
 	self materializeCommit: oldHeadCommit.
 	^ (Promise gitSFulfillWith: aBlock)
 		then: [:result |

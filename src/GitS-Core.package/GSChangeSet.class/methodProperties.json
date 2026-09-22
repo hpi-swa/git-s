@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"allEmpty:" : "mad 10/22/2023 00:35",
+		"allNoop:" : "mad 9/22/2026 16:30",
 		"anyIncludesConflicts:" : "mad 4/10/2024 16:15",
 		"batchMaterialize:in:" : "mad 8/20/2025 21:34",
 		"isAbstract" : "mad 11/6/2025 13:07",
@@ -9,7 +9,7 @@
 		"changes" : "mad 9/5/2023 22:51",
 		"hasConflicts" : "mad 9/27/2023 16:06",
 		"hasIncludedConflicts" : "mad 9/27/2023 16:12",
-		"isEmpty" : "mad 9/27/2024 17:00",
+		"isNoop" : "mad 9/22/2026 16:28",
 		"mapper" : "mad 9/1/2023 17:25",
 		"mapper:" : "mad 9/1/2023 17:25",
 		"materializeIn:" : "mad 9/5/2023 22:51",

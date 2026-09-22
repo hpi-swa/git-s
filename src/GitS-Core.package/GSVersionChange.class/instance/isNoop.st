@@ -1,3 +1,3 @@
 testing
-isEmpty
+isNoop
 	^ self versionToWrite = self current

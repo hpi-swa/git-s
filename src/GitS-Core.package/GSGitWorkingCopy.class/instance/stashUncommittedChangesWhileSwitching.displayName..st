@@ -4,7 +4,7 @@ stashUncommittedChangesWhileSwitching: aBlock displayName: aString
 	| uncommittedChangeSets oldHeadCommit |
 	oldHeadCommit := self headCommit.
 	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
-	(GSChangeSet allEmpty: uncommittedChangeSets) ifTrue: [^ aBlock value].
+	(GSChangeSet allNoop: uncommittedChangeSets) ifTrue: [^ aBlock value].
 	self currentSymbolicHeadTarget ifNotNil: [:branch | | option |
 		option := GSGUIUtilities
 			chooseOptionFromLabeledValues: {'a) save here' -> #saveHere. 'b) take them' -> #takeThem}

@@ -1,4 +1,4 @@
 changes-creation
 changeSetFromNames: aVersionChange
-	aVersionChange isEmpty ifTrue: [^ nil].
+	aVersionChange isNoop ifTrue: [^ nil].
 	^ GSMetadataNameChangeSet withMapper: self versionChange: aVersionChange
