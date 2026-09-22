@@ -1,3 +1,3 @@
 accessing
-isEmpty
+childrenAreEmpty
 	^ self children values allSatisfy: #isEmpty

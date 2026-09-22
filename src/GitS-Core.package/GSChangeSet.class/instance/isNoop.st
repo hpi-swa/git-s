@@ -1,3 +1,3 @@
 accessing
-isEmpty
+isNoop
 	^ self changes allSatisfy: #isExcluded
