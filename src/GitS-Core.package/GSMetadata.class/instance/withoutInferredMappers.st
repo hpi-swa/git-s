@@ -1,6 +1,6 @@
 untracked-mappers
-withoutUntrackedMappers
-	self hasUntrackedMappers ifFalse: [^ self].
+withoutInferredMappers
+	self hasInferredMappers ifFalse: [^ self].
 	^ self copy
 		mappers: self trackedMappers;
 		yourself
