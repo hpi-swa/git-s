@@ -7,5 +7,5 @@ chooseRemoteName
 			'No remotes are configured for this project. Do you want to add one now?'.
 		self actionAddRemote].
 	^ GSGUIUtilities
-		chooseFromValues: remoteNames
 		title: 'Remote:'
+		chooseFromValues: remoteNames

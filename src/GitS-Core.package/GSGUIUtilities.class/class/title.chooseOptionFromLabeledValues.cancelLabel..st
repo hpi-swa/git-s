@@ -1,7 +1,7 @@
 ui-manager
-chooseOptionFromLabeledValues: aCollection title: titleString cancelLabel: cancelString
+title: titleString chooseOptionFromLabeledValues: aCollection cancelLabel: cancelString
 	^ self
+		title: titleString
 		chooseOptionFromLabeledBlocks:
 			(aCollection collect: [:each | each key -> [each value]])
-		title: titleString
 		cancelLabel: cancelString

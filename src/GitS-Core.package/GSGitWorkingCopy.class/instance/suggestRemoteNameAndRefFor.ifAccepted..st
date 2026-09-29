@@ -6,8 +6,8 @@ suggestRemoteNameAndRefFor: aString ifAccepted: aBlock
 	remoteName := remoteNames anyOne.
 	ref := self initialRemoteRefNameFor: aString.
 	(GSGUIUtilities
-		chooseOptionFromLabeledValues: {'Yes' -> true. 'No, choose a different one' -> false}
 		title: ('Do you want to use {1} on the remote {2} as the remote branch?' format: {ref printString. remoteName printString})
+		chooseOptionFromLabeledValues: {'Yes' -> true. 'No, choose a different one' -> false}
 		cancelLabel: 'Cancel')
 			ifFalse: [^ self].
 	ref := self fsgitRepository expandRemoteRef: ref.

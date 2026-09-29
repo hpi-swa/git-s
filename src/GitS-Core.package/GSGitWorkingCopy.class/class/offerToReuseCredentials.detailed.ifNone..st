@@ -5,6 +5,7 @@ offerToReuseCredentials: aCollection detailed: aBoolean ifNone: aBlock
 	values := #(new), (aCollection keys sorted: #first ascending).
 	aBoolean ifFalse: [values := values copyWith: #moreDetails].
 	chosen := GSGUIUtilities
+				title: 'Do you want to reuse credentials?'
 				chooseFromValues: values
 				label: [:credentials |
 					credentials caseOf: {
@@ -13,8 +14,7 @@ offerToReuseCredentials: aCollection detailed: aBoolean ifNone: aBlock
 					} otherwise: [self
 									formatReusableCredentials: credentials
 									usedIn: (aCollection at: credentials)
-									detailed: aBoolean]]
-				title: 'Do you want to reuse credentials?'.
+									detailed: aBoolean]].
 	^ chosen caseOf: {
 		[#new] -> [aBlock value].
 		[#moreDetails] -> [self offerToReuseCredentials: aCollection detailed: true ifNone: aBlock].

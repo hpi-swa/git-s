@@ -12,9 +12,9 @@ actionMergeCommit: aCommit displayName: aString
 		[1] -> [mergeBases anyOne].
 	} otherwise: [
 		GSGUIUtilities
+			title: 'Found multiple merge bases. Recursive merging is currently unsupported, so please choose a merge base to use.'
 			chooseFromValues: (mergeBases sorted: [:each | each author timeStamp] descending)
-			label: #showOneLine
-			title: 'Found multiple merge bases. Recursive merging is currently unsupported, so please choose a merge base to use.'].
+			label: #showOneLine].
 	mergeBase = aCommit ifTrue: [ | message |
 		message := 'Already up to date.'.
 		self isImageClean ifFalse: [

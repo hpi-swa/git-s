@@ -13,6 +13,10 @@ setOptionIfMapped: aBlock
 						collect: [:each | GSPathUtilities asString: each].
 	mappedPaths ifNotEmpty: [
 		 aBlock value: (GSGUIUtilities
+			title: (('{1} paths' format: {mappedPaths size}) asText
+						addAttribute: (PluggableTextAttribute evalBlock: [
+										self inform: (mappedPaths joinSeparatedBy: String cr)]);
+						yourself), ' inside the base path are already taken.'
 			chooseOptionFromLabeledBlocks: {
 				'Choose a different base path' -> [
 					^ self
@@ -22,9 +26,5 @@ setOptionIfMapped: aBlock
 				'Skip taken paths' -> [#skip].
 				'Overwrite taken paths (if possible)' -> [#overwrite].
 				'Ask for each taken path' -> [#ask]}
-			title: (('{1} paths' format: {mappedPaths size}) asText
-						addAttribute: (PluggableTextAttribute evalBlock: [
-										self inform: (mappedPaths joinSeparatedBy: String cr)]);
-						yourself), ' inside the base path are already taken.'
 			cancelLabel: 'Cancel')].
 	^ basePath
