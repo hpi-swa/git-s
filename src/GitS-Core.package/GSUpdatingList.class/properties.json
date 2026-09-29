@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSUpdatingList",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

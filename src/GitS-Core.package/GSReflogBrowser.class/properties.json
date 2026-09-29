@@ -1,0 +1,17 @@
+{
+	"category" : "GitS-Core-Browser-Reflog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingCopy",
+		"ref",
+		"reflog",
+		"activeEntryIndex" ],
+	"name" : "GSReflogBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

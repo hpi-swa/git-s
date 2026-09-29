@@ -15,8 +15,9 @@ duplicateRef: oldRefPath to: newRefPath deleteOld: deleteBoolean silently: silen
 			perform: (deleteBoolean ifTrue: [#moveTo:] ifFalse: [#copyTo:])
 			with: newReflogFile].
 	hexHash := self resolveRef: oldRefPath.
-	(self reflogForReference: newRefPath)
-		logUpdateFrom: hexHash
+	self
+		logReflogUpdateFor: newRefPath
+		from: hexHash
 		to: hexHash
 		by: GitStamp now
 		message: ('{1} {2} to {3}' format: {

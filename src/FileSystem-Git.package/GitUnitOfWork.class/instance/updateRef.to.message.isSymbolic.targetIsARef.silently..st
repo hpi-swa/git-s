@@ -13,8 +13,9 @@ updateRef: refPath to: target message: reflogMessageString isSymbolic: isSymboli
 		ifNil: [[:ref | ]]
 		ifNotNil: [ | oldHash |
 			oldHash := (self resolveRef: refPath) ifNil: [0 asHexHash].
-			[:ref | (self reflogForReference: ref)
-						logUpdateFrom: oldHash
+			[:ref | self
+						logReflogUpdateFor: ref
+						from: oldHash
 						to: hexHash
 						by: updaterAndTimestamp
 						message: reflogMessageString]].
