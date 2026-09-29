@@ -1,3 +1,3 @@
 accessing
-isUntracked
+isInferred
 	^ self isTracked not
