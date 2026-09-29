@@ -1,4 +1,6 @@
 requesting
 requestMissingInstVars
 	super requestMissingInstVars.
-	self assert: self commit notNil description: 'should have a commit by now'.
+	self commit ifNil: [
+		self commit: (self workingCopy selectCommitInDialog:
+			('Select a commit for the {1} command' format: {self commandName}))].

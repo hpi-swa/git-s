@@ -1,14 +1,12 @@
 {
 	"class" : {
 		"applyUserInterfaceTheme" : "mad 4/19/2026 15:07",
-		"canChangeTo:" : "mad 4/24/2026 22:39",
+		"canChangeTo:" : "mad 9/27/2026 14:53",
 		"chooseNewCommandClass" : "mad 4/24/2026 22:38",
 		"commandClasses" : "mad 4/24/2026 22:38",
 		"commandName" : "mad 4/24/2026 22:19",
 		"compatibleCommandClasses" : "mad 4/24/2026 22:38",
-		"isAbstract" : "mad 11/6/2025 13:08",
-		"wantsToBeCreatedFrom:" : "mad 4/24/2026 22:39",
-		"wantsToChangeTo:" : "mad 4/24/2026 22:39" },
+		"isAbstract" : "mad 11/6/2025 13:08" },
 	"instance" : {
 		"actionChangeCommandTo:" : "mad 4/24/2026 22:18",
 		"actionDelete" : "mad 4/4/2024 21:15",

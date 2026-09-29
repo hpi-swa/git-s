@@ -1,3 +1,0 @@
-compatibility
-wantsToBeCreatedFrom: aRebaseCommandClass
-	^ true
