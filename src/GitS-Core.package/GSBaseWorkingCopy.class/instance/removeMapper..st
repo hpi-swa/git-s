@@ -1,5 +1,7 @@
 mappers
 removeMapper: aMapper
 	self mappers remove: aMapper ifAbsent: [^ self].
-	self removeDependent: aMapper.
+	aMapper
+		removeDependent: self;
+		isTracked: false.
 	self mappersChanged.

@@ -5,5 +5,6 @@ buildButtons: builder
 		self buildImportDirectoryButton: builder.
 		self buildAddButton: builder.
 		self buildMoveButton: builder.
+		self buildToggleTrackedButton: builder.
 		self buildRemoveButton: builder.
 	} with: builder

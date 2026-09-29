@@ -4,4 +4,5 @@ selectedPath: aPath
 	self
 		changed: #selectedPath;
 		changed: #selectedAssetName;
-		changed: #buildAssetPanel:.
+		changed: #buildAssetPanel:;
+		changed: #toggleTrackedLabel.
