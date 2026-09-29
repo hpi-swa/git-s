@@ -23,6 +23,7 @@
 		"loadGIFReadWriter:" : "mad 9/29/2024 17:18",
 		"loadImageMorph:" : "mad 4/9/2026 01:55",
 		"loadPlaintext:" : "mad 9/22/2026 19:14",
+		"loadRawAssetBytes:" : "mad 9/29/2026 01:03",
 		"loadSound:" : "mad 10/19/2023 13:58",
 		"loadString:" : "mad 9/22/2026 19:14",
 		"mappers" : "mad 10/9/2024 16:01",
