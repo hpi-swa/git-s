@@ -3,5 +3,5 @@ buildRow: aCollection splits: anotherCollection with: builder
 	^ self
 		buildGrid: aCollection
 		horizontalSplits: anotherCollection
-		verticalSplits: {}
+		verticalSplits: #()
 		with: builder

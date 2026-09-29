@@ -3,11 +3,11 @@ gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
 	| source comment stString definitions definition |
 	source := aCollection first.
 	comment := aCollection second.
-	stString := ({
-		'!{1}!'.
-		'!{2} commentStamp: {3}!'.
-		'{4}!'.
-	 } joinSeparatedBy: String cr)
+	stString := (#(
+		'!{1}!'
+		'!{2} commentStamp: {3}!'
+		'{4}!'
+	 ) joinSeparatedBy: String cr)
 		format: {source. self className. self commentStamp printString. comment}.
 	definitions := (MCStReader on: stString readStream) definitions.
 	definitions size = 1 ifFalse: [^ aBlock value: 'expected to parse exactly one trait definition'].

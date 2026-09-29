@@ -33,7 +33,7 @@
 		"loadFallbackMetadataFromFileSystem:in:" : "mad 8/27/2024 21:08",
 		"loadLegacySerializerNameFromSquotContentsReference:" : "mad 4/9/2026 17:16",
 		"loadLegacySquotContentsReferencesAndSerializersFromLegacySquotFileIn:" : "mad 10/9/2024 23:12",
-		"loadLegacySquotContentsReferencesIn:" : "mad 10/9/2024 17:12",
+		"loadLegacySquotContentsReferencesIn:" : "mad 9/29/2026 22:08",
 		"loadMapperFromLegacySquotContentsReference:fallbackSerializer:" : "mad 4/9/2026 17:16",
 		"loadMappersFromFileSystem:" : "mad 8/24/2024 17:06",
 		"loadMappersFromLegacySquotFileIn:" : "mad 10/9/2024 17:12",

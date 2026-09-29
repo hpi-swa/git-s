@@ -4,12 +4,12 @@ gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
 	instanceSide := aCollection first.
 	classSide := aCollection second.
 	comment := aCollection third.
-	stString := ({
-		'!{1}!'.
-		'!{2}!'.
-		'!{3} commentStamp: {4}!'.
-		'{5}!'.
-	 } joinSeparatedBy: String cr)
+	stString := (#(
+		'!{1}!'
+		'!{2}!'
+		'!{3} commentStamp: {4}!'
+		'{5}!'
+	 ) joinSeparatedBy: String cr)
 		format: {instanceSide. classSide. self className. self commentStamp printString. comment}.
 	definitions := (MCStReader on: stString readStream) definitions.
 	definitions size = 1 ifFalse: [^ aBlock value: 'expected to parse exactly one class definition'].

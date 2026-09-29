@@ -2,6 +2,6 @@ toolbuilder
 buildColumn: aCollection splits: anotherCollection with: builder
 	^ self
 		buildGrid: aCollection
-		horizontalSplits: {}
+		horizontalSplits: #()
 		verticalSplits: anotherCollection
 		with: builder

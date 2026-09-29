@@ -5,8 +5,8 @@ buildGrid: aCollection horizontalSplits: horizontalSplits verticalSplits: vertic
 	width := horizontalSplits size + 1.
 	height := verticalSplits size + 1.
 	self assert: width * height = children size.
-	hSplits := {0}, horizontalSplits, {1}.
-	vSplits := {0}, verticalSplits, {1}.
+	hSplits := #(0), horizontalSplits, #(1).
+	vSplits := #(0), verticalSplits, #(1).
 	^ self buildLayout: (Array streamContents: [:stream |
 		hSplits overlappingPairsWithIndexDo: [:hFrom :hTo :hIndex |
 			vSplits overlappingPairsWithIndexDo: [:vFrom :vTo :vIndex |
