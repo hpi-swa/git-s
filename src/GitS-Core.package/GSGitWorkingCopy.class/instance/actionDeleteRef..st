@@ -4,6 +4,7 @@ actionDeleteRef: aString
 	GSGUIUtilities confirmOrCancel:
 		('Are you sure you want to delete the ref {1}?'
 			format: {(GitReference shortName: aString) printString}).
+	self offerToDeleteRemoteBranch: aString.
 	self unitOfWork deleteRef: aString.
 	(self isBranch: aString) ifTrue: [
 		self unitOfWork deleteRef: (self branchStashNameFromBranch: aString)].
