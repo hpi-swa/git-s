@@ -124,6 +124,14 @@ menu: aMenu forCommit: aCommit ref: refString
 				selector: #actionRebaseOntoCommit:
 				argument: aCommit]].
 	
+	isRef ifTrue: [
+		advancedMenu
+			addLine;
+			
+			add: 'Browse its reflog'
+			selector: #actionOpenReflogOn:
+			argument: refString].
+	
 	isBranch ifTrue: [
 		advancedMenu
 			addLine;
