@@ -1,9 +1,7 @@
 sar
 batchAdd: aCollection toSar: aSarBuilder
-	self class = thisContext methodClass ifFalse: [^ aCollection].
 	self
-		addAssetFiles: ((aCollection select: [:each | each isKindOf: self])
+		addAssetFiles: (aCollection
 							collect: [:each | each loadAssetFileFromImage: aSarBuilder workingCopy]
 							thenSelect: #notNil)
 		toSar: aSarBuilder.
-	^ aCollection reject: [:each | each isKindOf: self]

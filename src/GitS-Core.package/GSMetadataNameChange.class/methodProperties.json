@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"applyTo:" : "mad 9/28/2026 20:32",
 		"buildWith:shrinkWrap:" : "mad 4/26/2026 22:37",
 		"canMapperBeRemovedForVersion:" : "mad 4/9/2026 17:50",
+		"materializeIn:" : "mad 9/28/2026 22:10",
+		"nameToWrite" : "mad 9/28/2026 20:32",
 		"path" : "mad 10/7/2025 03:06",
+		"serializeInto:" : "mad 9/28/2026 22:10",
 		"versionChange:" : "mad 10/10/2025 00:20" } }

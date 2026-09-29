@@ -8,7 +8,7 @@
 	"instvars" : [
 		"workingCopy",
 		"initialImageCommit",
-		"pendingChangeSetsCommit",
+		"pendingChangesCommit",
 		"deferMaterializationLevel",
 		"isBatchingEnabled" ],
 	"name" : "GSOperation",

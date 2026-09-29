@@ -6,7 +6,7 @@ actionMergeCommit: incomingCommit mergeBase: baseCommit displayName: aString
 				ifTrue: [GitReference shortName: headRef targetRef]
 				ifFalse: ['HEAD'].
 	^ (self pendingChanges
-		changeSetsToMergeCommitIntoHead: incomingCommit withBase: baseCommit;
+		changesToMergeCommitIntoHead: incomingCommit withBase: baseCommit;
 		doMerge: incomingCommit;
 		initialMessage: ('Merge {1} into {2}' format: {aString. branch});
 		windowTitle: ('Changes to merge from {1} into {2}' format: {aString. branch});

@@ -2,15 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assetAsAssetFile:" : "mad 10/2/2024 20:34",
 		"assetFileToWrite" : "mad 10/10/2025 00:18",
 		"assetFileToWrite:" : "mad 10/10/2025 00:18",
 		"assetFileVersionChange" : "mad 4/8/2026 16:23",
+		"assetToWrite:" : "mad 9/28/2026 22:38",
 		"buildAssetFile:with:" : "mad 9/29/2024 16:49",
 		"buildWith:shrinkWrap:" : "mad 4/26/2026 22:33",
-		"buildWorkspace:" : "mad 10/6/2025 22:53",
-		"changeSet:" : "mad 9/13/2023 14:39",
+		"buildWorkspace:" : "mad 9/28/2026 22:38",
 		"fsPath" : "mad 9/6/2023 18:57",
+		"materializeIn:" : "mad 9/29/2024 16:52",
 		"path" : "mad 9/6/2023 18:57",
 		"pathString" : "mad 10/9/2024 16:01",
-		"saveNewAsset:" : "mad 9/29/2024 17:24",
+		"serializeInto:" : "mad 5/8/2026 19:32",
 		"workspaceBindings" : "mad 6/3/2026 13:39" } }

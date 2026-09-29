@@ -1,10 +1,9 @@
 stash
 stashUncommittedChangesWhileSwitching: aBlock displayName: aString
 	<linterIgnoreSends: #(saveHere takeThem)>
-	| uncommittedChangeSets oldHeadCommit |
+	| uncommittedChanges oldHeadCommit |
 	oldHeadCommit := self headCommit.
-	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
-	(GSChangeSet allNoop: uncommittedChangeSets) ifTrue: [^ aBlock value].
+	uncommittedChanges := (self changesFromCommitToImage: oldHeadCommit) ifEmpty: [^ aBlock value].
 	self currentSymbolicHeadTarget ifNotNil: [:branch | | option |
 		option := GSGUIUtilities
 			chooseOptionFromLabeledValues: {'a) save here' -> #saveHere. 'b) take them' -> #takeThem}
@@ -15,9 +14,9 @@ stashUncommittedChangesWhileSwitching: aBlock displayName: aString
 				What do you want to do?' gitSFormat: {(GitReference shortName: branch) printString})
 			cancelLabel: 'Cancel'.
 		option = #saveHere ifTrue: [
-			^ self stash: uncommittedChangeSets onBranch: branch during: aBlock]].
+			^ self stash: uncommittedChanges onBranch: branch during: aBlock]].
 	^ self
-		stash: uncommittedChangeSets
+		stash: uncommittedChanges
 		from: oldHeadCommit
 		during: aBlock
 		description: ('switching to {1}' gitSFormat: {aString})

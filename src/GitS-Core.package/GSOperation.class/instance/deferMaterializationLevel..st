@@ -1,4 +1,4 @@
 accessing
 deferMaterializationLevel: anInteger
 	deferMaterializationLevel := anInteger.
-	self maybeMaterializePendingChangeSets.
+	self maybeMaterializePendingChanges.

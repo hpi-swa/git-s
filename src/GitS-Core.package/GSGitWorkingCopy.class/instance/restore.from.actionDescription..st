@@ -1,18 +1,18 @@
 stash
-restore: uncommittedChangeSets from: oldHeadCommit actionDescription: aString
-	| newHeadCommit stashCommit mergedChangeSets |
+restore: uncommittedChanges from: oldHeadCommit actionDescription: aString
+	| newHeadCommit stashCommit mergedChanges |
 	newHeadCommit := self headCommit.
-	newHeadCommit = oldHeadCommit ifTrue: [^ self materializeChangeSets: uncommittedChangeSets].
+	newHeadCommit = oldHeadCommit ifTrue: [^ self materializeChanges: uncommittedChanges].
 	stashCommit := self
-		commitChangeSets: uncommittedChangeSets
+		commitChanges: uncommittedChanges
 		onCommit: newHeadCommit
 		message: 'Temporary stash commit'.
-	mergedChangeSets := self
-		changeSetsToMergeCommit: stashCommit
+	mergedChanges := self
+		changesToMergeCommit: stashCommit
 		into: newHeadCommit
 		withBase: oldHeadCommit.
 	self pendingChanges
-		changeSets: mergedChangeSets;
+		changes: mergedChanges;
 		windowTitle: 'Restore uncommitted changes';
 		subtitle:
 			('{1} was successful.\

@@ -1,3 +1,3 @@
 changes-operations
 materializeCommit: aCommit
-	self materializeChangeSets: (self changeSetsFromImageToCommit: aCommit).
+	self materializeChanges: (self changesFromImageToCommit: aCommit).

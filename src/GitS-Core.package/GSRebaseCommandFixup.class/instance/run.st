@@ -1,7 +1,7 @@
 running
 run
 	^ (self workingCopy pendingChanges
-		changeSetsForPick: self commit;
+		changesForPick: self commit;
 		doAmend;
 		initialMessage: self message;
 		windowTitle: 'Apply fixup ', self commit showOneLine;

@@ -1,4 +1,4 @@
 actions-private
 basicMaterialize
-	self workingCopy materializeChangeSets: self changeSets.
+	self workingCopy materializeChanges: self changes.
 	self dialog ifNotNil: [self dialog canDiscardEdits: true].

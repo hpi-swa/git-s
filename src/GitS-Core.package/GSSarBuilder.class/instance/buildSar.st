@@ -1,12 +1,14 @@
 building
 buildSar
-	GSGUIUtilities displayStatus: 'Building .sar' during: [ | remaining |
-		remaining := self mappers.
-		GSMapper withAllSubclassesDo: [:each |
-			remaining := each batchAdd: remaining toSar: self].
-		remaining
-			do: [:each | each addToSar: self]
-			displayingProgress: [:each | 'Adding {1}' format: {each name}]].
+	GSMapperBatchProcessor new
+		label: 'Building .sar...';
+		batchSelector: #batchAdd:toSar:;
+		remainingSelector: #addToSar:;
+		extraArguments: {self};
+		mapperBlock: #yourself;
+		batchLabelBlock: [:each | 'Adding {1}' format: {each batchLabel}];
+		remainingLabelBlock: [:each | 'Adding {1}' format: {each name}];
+		processAll: self mappers.
 	self
 		addString: (self fixupChunkTerminatorsIn: self preamble)
 		at: 'install/preamble'.

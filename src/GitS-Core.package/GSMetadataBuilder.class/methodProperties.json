@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newWithCurrentMetadata:mapperChanges:" : "mad 9/28/2026 19:54" },
+	"instance" : {
+		"bumpMapperVersionIfNecessary:" : "mad 10/4/2026 13:12",
+		"bumpMapperVersionsIfNecessary" : "mad 9/28/2026 19:23",
+		"currentMetadata" : "mad 9/28/2026 19:14",
+		"currentMetadata:" : "mad 9/28/2026 19:14",
+		"finish" : "mad 9/28/2026 21:51",
+		"mapperChanges" : "mad 9/28/2026 19:26",
+		"mapperChanges:" : "mad 9/28/2026 19:26",
+		"mappersToWrite" : "mad 9/28/2026 19:25",
+		"metadataToWrite" : "mad 9/28/2026 19:14",
+		"metadataToWrite:" : "mad 9/28/2026 19:14",
+		"start" : "mad 9/28/2026 23:50" } }

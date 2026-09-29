@@ -1,3 +1,3 @@
 accessing
 mapper
-	^ self changeSet mapper
+	^ mapper

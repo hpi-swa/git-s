@@ -1,0 +1,3 @@
+printing
+batchLabel
+	^ self printString

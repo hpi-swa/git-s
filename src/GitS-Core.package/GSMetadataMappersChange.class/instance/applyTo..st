@@ -1,3 +1,5 @@
 applying
-applyTo: aCollection
-	self subclassResponsibility.
+applyTo: aMetadataBuilder
+	self verifyExclusionState.
+	self isExcluded ifTrue: [^ self].
+	self basicApplyTo: aMetadataBuilder.

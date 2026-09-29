@@ -1,5 +1,5 @@
 accessing
 imageCommit
 	^ self isBatchingEnabled
-		ifTrue: [self pendingChangeSetsCommit]
+		ifTrue: [self pendingChangesCommit]
 		ifFalse: [self workingCopy createImageCommit]

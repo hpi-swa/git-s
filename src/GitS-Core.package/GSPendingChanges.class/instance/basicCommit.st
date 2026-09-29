@@ -1,7 +1,7 @@
 actions-private
 basicCommit
 	self workingCopy
-		commitChangeSets: self changeSets
+		commitChanges: self changes
 		message: self message
 		parents: self parents
 		author: self author.
