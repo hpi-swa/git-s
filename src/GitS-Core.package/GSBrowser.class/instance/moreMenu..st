@@ -5,10 +5,8 @@ moreMenu: aMenuSpec
 	aMenuSpec
 		add: 'Self-update'
 		target: target
-		selector: #actionSelfUpdate
-		argumentList: {};
+		selector: #actionSelfUpdate;
 		
 		add: 'Set self-update branch'
 		target: target
-		selector: #actionSetSelfUpdateBranch
-		argumentList: {}.
+		selector: #actionSetSelfUpdateBranch.
