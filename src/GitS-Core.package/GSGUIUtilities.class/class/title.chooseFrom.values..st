@@ -1,5 +1,5 @@
 ui-manager
-chooseFrom: labelCollection values: valueCollection title: aString
+title: aString chooseFrom: labelCollection values: valueCollection
 	^ self
 		wrapUIManager: [:manager |
 			manager chooseFrom: labelCollection values: valueCollection title: aString]

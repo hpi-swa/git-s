@@ -7,7 +7,7 @@ requestOptionForUnmappedPath: aPath mapper: mapper additionalOptions: aCollectio
 		options addLast: 'Overwrite this path' -> [#overwrite]].
 	options addAllLast: aCollection.
 	^ GSGUIUtilities
-		chooseOptionFromLabeledBlocks: options
 		title: ('The path {1} is already taken.'
 				format: {(GSPathUtilities asString: aPath) printString})
+		chooseOptionFromLabeledBlocks: options
 		cancelLabel: 'Cancel the operation'
