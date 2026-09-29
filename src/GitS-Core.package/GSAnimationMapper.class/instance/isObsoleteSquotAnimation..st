@@ -1,3 +1,3 @@
 ui
 isObsoleteSquotAnimation: anAsset
-	^ {'SquotAnimation'. 'AnObsoleteSquotAnimation'} includes: anAsset class name
+	^ #('SquotAnimation' 'AnObsoleteSquotAnimation') includes: anAsset class name

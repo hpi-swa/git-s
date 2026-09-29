@@ -1,31 +1,31 @@
 change-log
 changeLog
-	^ {
-		'Warnings about uncommitted changes before merging only occur when not up-to-date.'.
-		'The list of branches, remote branches, etc. is now a tree. Hover over the root nodes to get an explanation.'.
-		'A change log is shown after a self-update (the one you are currently seeing :)).'.
-		'Before a manual self-update is done, git-s checks whether a new version exists and prompts the user to cancel if not.'.
-		'Add support for the terminal emulator Ptyxis.'.
-		'Show the relative path of each change when selecting a changes subtree a changes dialog.'.
-		'Offer to switch to the branch created by the ''Branch'' button.'.
-		'Offer to reuse credentials.'.
-		'Hide excluded changes in dialog unless only excluded changes are selected.'.
-		'Add menu item for adding existing projects from disk.'.
-		'Add ''Inspect it'' menu item for projects.'.
-		'Hide reusable credentials details until requested.'.
-		'Reorder and color changes dialog buttons to match other dialogs.'.
-		'Add ''Refresh'' menu item for commit and compare to image dialogs.'.
-		'Add incremental fetching (speed up fetch/pull after the initial clone for large repositories).'.
-		'The ''Refresh'' button in changes dialogs now keeps exclusions, tree expansion and selection.'.
-		'When cancelling a commit dialog, the message draft is now remembered and pre-filled when opening the commit dialog again.'.
-		'Add ''revert'' menu item for code changes in changes dialog.'.
-		'Add ''install'' menu item for code changes show it or the ''revert'' menu item depending on the image state.'.
-		'Add keyboard shortcut (r) to ''revert'' menu item for code changes.'.
-		'Add commit (amend) to the ''...'' menu.'.
-		'Automatically stash uncommitted changes during merge/pull and offer to save uncommitted changes on the branch or move them over while switching.'. 
-		'Add cherry-pick and revert menu items.'.
-		'Add configurable commit list search bar.'.
-		'Allow changes in project structure to be excluded in changes dialogs.'.
-		'Add some standard menu items and keyboard shortcuts for code changes.'.
-		'Add option to search reflogs.'.
-	}
+	^ #(
+		'Warnings about uncommitted changes before merging only occur when not up-to-date.'
+		'The list of branches, remote branches, etc. is now a tree. Hover over the root nodes to get an explanation.'
+		'A change log is shown after a self-update (the one you are currently seeing :)).'
+		'Before a manual self-update is done, git-s checks whether a new version exists and prompts the user to cancel if not.'
+		'Add support for the terminal emulator Ptyxis.'
+		'Show the relative path of each change when selecting a changes subtree a changes dialog.'
+		'Offer to switch to the branch created by the ''Branch'' button.'
+		'Offer to reuse credentials.'
+		'Hide excluded changes in dialog unless only excluded changes are selected.'
+		'Add menu item for adding existing projects from disk.'
+		'Add ''Inspect it'' menu item for projects.'
+		'Hide reusable credentials details until requested.'
+		'Reorder and color changes dialog buttons to match other dialogs.'
+		'Add ''Refresh'' menu item for commit and compare to image dialogs.'
+		'Add incremental fetching (speed up fetch/pull after the initial clone for large repositories).'
+		'The ''Refresh'' button in changes dialogs now keeps exclusions, tree expansion and selection.'
+		'When cancelling a commit dialog, the message draft is now remembered and pre-filled when opening the commit dialog again.'
+		'Add ''revert'' menu item for code changes in changes dialog.'
+		'Add ''install'' menu item for code changes show it or the ''revert'' menu item depending on the image state.'
+		'Add keyboard shortcut (r) to ''revert'' menu item for code changes.'
+		'Add commit (amend) to the ''...'' menu.'
+		'Automatically stash uncommitted changes during merge/pull and offer to save uncommitted changes on the branch or move them over while switching.'
+		'Add cherry-pick and revert menu items.'
+		'Add configurable commit list search bar.'
+		'Allow changes in project structure to be excluded in changes dialogs.'
+		'Add some standard menu items and keyboard shortcuts for code changes.'
+		'Add option to search reflogs.'
+	)

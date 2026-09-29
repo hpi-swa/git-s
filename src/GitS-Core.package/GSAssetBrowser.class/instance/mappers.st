@@ -1,3 +1,3 @@
 accessing
 mappers
-	^ (self activeWorkingCopy ifNil: [^ {}]) mappersOfKind: GSAssetMapper
+	^ (self activeWorkingCopy ifNil: [^ #()]) mappersOfKind: GSAssetMapper

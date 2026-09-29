@@ -7,4 +7,4 @@ compatibleMappersFromStream: aStream
 		aStream reset.
 		(mapper canReadAssetFrom: aStream)
 			ifTrue: [{mapper}]
-			ifFalse: [{}]]
+			ifFalse: [#()]]
