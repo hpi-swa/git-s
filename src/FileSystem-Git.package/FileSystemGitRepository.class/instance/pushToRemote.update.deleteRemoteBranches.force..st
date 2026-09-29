@@ -1,12 +1,13 @@
 git porcelain
 pushToRemote: remoteName update: aCollectionOfBranchNamesAndAssociations deleteRemoteBranches: aCollectionOfRemoteBranchNames force: forceBoolean
-	| remote url protocol updateRefs deleteRefs pushBlock report |
+	| remote url protocol updateRefs deleteRefs report |
 	remote := self unitOfWork remoteNamed: remoteName.
 	url := remote url.
 	(self shouldHandleUrlExternally: url) ifTrue: [
 		^ self
 			externalPush: aCollectionOfBranchNamesAndAssociations
 			toRemote: remoteName
+			delete: aCollectionOfRemoteBranchNames
 			force: forceBoolean].
 	updateRefs := aCollectionOfBranchNamesAndAssociations collect: [:each |
 		each value == each
@@ -20,12 +21,21 @@ pushToRemote: remoteName update: aCollectionOfBranchNamesAndAssociations deleteR
 	deleteRefs := aCollectionOfRemoteBranchNames collect: [:each | self expandRemoteRef: each].
 	protocol := GitAbstractProtocol url: url.
 	protocol remote: remote.
-	pushBlock := [protocol pushReferences: updateRefs of: repository deleting: deleteRefs].
-	report := forceBoolean
-				ifTrue: [pushBlock
-							on: GitNonFastForwardPushUpdatesDetected
-							do: [:notification | notification proceedWithForcedPush]]
-				ifFalse: [pushBlock value].
+	report := [protocol pushReferences: updateRefs of: repository deleting: deleteRefs]
+		on: GitNonFastForwardPushUpdatesDetected
+		do: [:notification | forceBoolean
+								ifTrue: [notification proceedWithForcedPush]
+								ifFalse: [notification pass]]
+		on: ConnectionClosed
+		do: [:exception |
+			self
+				handleConnectionClosed: exception
+				while: 'pushing'
+				ifRetry: [self
+							pushToRemote: remoteName
+							update: aCollectionOfBranchNamesAndAssociations
+							deleteRemoteBranches: aCollectionOfRemoteBranchNames
+							force: forceBoolean]].
 	updateRefs do: [:refAndCommit |
 		(report successes includes: refAndCommit key) ifTrue:
 			[self unitOfWork
