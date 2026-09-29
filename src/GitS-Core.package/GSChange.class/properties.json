@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"changeSet",
+		"mapper",
 		"isExcluded" ],
 	"name" : "GSChange",
 	"pools" : [

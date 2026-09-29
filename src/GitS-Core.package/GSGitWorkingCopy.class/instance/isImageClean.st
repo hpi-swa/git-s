@@ -1,3 +1,3 @@
 testing
 isImageClean
-	^ GSChangeSet allNoop: (self changeSetsFromImageToCommit: self headCommit)
+	^ (self changesFromImageToCommit: self headCommit) isEmpty

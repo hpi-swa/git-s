@@ -1,0 +1,3 @@
+changes-creation
+changesToMergeFSCommits: aVersionMerge
+	self subclassResponsibility.

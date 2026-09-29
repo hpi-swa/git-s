@@ -1,10 +1,10 @@
 stash
 stashUncommittedChangesDuring: aBlock description: aString
-	| oldHeadCommit uncommittedChangeSets |
+	| oldHeadCommit uncommittedChanges |
 	oldHeadCommit := self headCommit.
-	uncommittedChangeSets := self changeSetsFromCommitToImage: oldHeadCommit.
+	uncommittedChanges := self changesFromCommitToImage: oldHeadCommit.
 	^ self
-		stash: uncommittedChangeSets
+		stash: uncommittedChanges
 		from: oldHeadCommit
 		during: aBlock
 		description: aString

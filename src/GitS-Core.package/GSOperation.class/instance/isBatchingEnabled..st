@@ -1,4 +1,4 @@
 accessing
 isBatchingEnabled: aBoolean
-	aBoolean ifFalse: [self materializePendingChangeSets].
+	aBoolean ifFalse: [self materializePendingChanges].
 	isBatchingEnabled := aBoolean.

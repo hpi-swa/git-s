@@ -1,7 +1,7 @@
 actions-committing
 actionCommitWithInitialMessage: aString
 	^ (self pendingChanges
-		changeSetsFromHeadCommitToImage;
+		changesFromHeadCommitToImage;
 		windowTitle: 'Changes to commit';
 		initialMessage: aString;
 		alwaysOpenDialog;

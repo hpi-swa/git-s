@@ -1,10 +1,10 @@
 stash
-stash: uncommittedChangeSets onBranch: aString during: aBlock
+stash: uncommittedChanges onBranch: aString during: aBlock
 	| branchCommit stashCommit branchStash |
 	branchCommit := self unitOfWork objectReferenced: aString.
 	self assert: branchCommit = self headCommit.
 	stashCommit := self
-		commitChangeSets: uncommittedChangeSets
+		commitChanges: uncommittedChanges
 		onCommit: branchCommit
 		message: ('Uncommitted changes on branch {1}'
 						gitSFormat: {(GitReference shortName: aString) printString}).

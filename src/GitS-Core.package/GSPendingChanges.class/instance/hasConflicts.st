@@ -1,3 +1,3 @@
 testing
 hasConflicts
-	^ GSChangeSet anyIncludesConflicts: self changeSets
+	^ self changes anySatisfy: #hasIncludedConflicts

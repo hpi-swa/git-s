@@ -1,7 +1,7 @@
 actions-committing
 actionCommitAmend
 	^ (self pendingChanges
-		changeSetsFromHeadCommitToImage;
+		changesFromHeadCommitToImage;
 		doAmend;
 		windowTitle: 'Changes to commit (amend)';
 		initialMessage: self headCommit message;

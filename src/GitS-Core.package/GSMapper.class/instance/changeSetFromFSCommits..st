@@ -1,3 +1,0 @@
-changes-creation
-changeSetFromFSCommits: aVersionChange
-	self subclassResponsibility.

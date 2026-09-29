@@ -1,3 +1,0 @@
-changes-operations
-materializeChangeSets: aCollection
-	self activeOperation materializeChangeSets: aCollection.

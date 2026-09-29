@@ -1,0 +1,3 @@
+applying
+basicApplyTo: aMetadataBuilder
+	self subclassResponsibility.

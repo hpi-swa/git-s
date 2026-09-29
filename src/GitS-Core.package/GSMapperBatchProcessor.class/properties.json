@@ -1,0 +1,23 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remaining",
+		"step",
+		"label",
+		"batchSelector",
+		"remainingSelector",
+		"extraArguments",
+		"mapperBlock",
+		"batchLabelBlock",
+		"remainingLabelBlock",
+		"progressBarBlock" ],
+	"name" : "GSMapperBatchProcessor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

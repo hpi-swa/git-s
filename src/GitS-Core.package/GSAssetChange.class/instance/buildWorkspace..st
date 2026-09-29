@@ -3,7 +3,7 @@ buildWorkspace: builder
 	^ GSAssetWorkspace
 		model: self
 		mapper: self mapper
-		setAsset: #saveNewAsset:
+		setAsset: #assetToWrite:
 		getBindings: #workspaceBindings
 		editTargetName: self versionChange versionToWriteName
 		buildWith: builder

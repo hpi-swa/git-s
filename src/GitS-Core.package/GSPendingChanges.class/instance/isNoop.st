@@ -1,3 +1,3 @@
 testing
 isNoop
-	^ self isMerge not and: [GSChangeSet allNoop: self changeSets]
+	^ self isMerge not and: [self changes isEmpty]
