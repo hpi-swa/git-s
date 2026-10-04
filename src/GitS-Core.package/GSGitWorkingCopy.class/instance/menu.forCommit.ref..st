@@ -1,11 +1,12 @@
 menu
 menu: aMenu forCommit: aCommit ref: refString
-	| isRef isRefMenu isBranch refOrCommit commitName refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
+	| isRef isRefMenu isBranch refOrCommit commitName commitPossessive refTypeName refShortName currentBranch currentBranchShortName target advancedMenu |
 	isRef := refString notNil.
 	isRefMenu := isRef or: [aCommit isNil].
 	isBranch := isRef and: [self isBranch: refString].
 	refOrCommit := isRef ifTrue: [refString] ifFalse: [aCommit].
 	commitName := isRef ifTrue: ['its latest commit'] ifFalse: ['it'].
+	commitPossessive := isRef ifTrue: ['its latest commit''s'] ifFalse: ['its'].
 	refTypeName := self refTypeName: refString.
 	refShortName := isRef ifTrue: [(GitReference shortName: refString) printString] ifFalse: [nil].
 	currentBranch := self currentSymbolicHeadTarget.
@@ -76,6 +77,35 @@ menu: aMenu forCommit: aCommit ref: refString
 					argument: aCommit;
 					
 					yourself])].
+	
+	aMenu
+		add: 'Copy'
+		subMenu: (MenuMorph new in: [:subMenu |
+			subMenu target: Clipboard.
+			
+			isRef ifTrue: [{
+					'short name'. GitReference shortName: refString.
+					'full name'. refString.
+				} pairsDo: [:label :value |
+					subMenu
+						add: ('its {1}' format: {label})
+						selector: #clipboardText:
+						argument: value]].
+			
+			aCommit ifNotNil: [{
+					'commit hash'. aCommit hexHash.
+					'commit message'. aCommit message.
+					'author''s name'. aCommit author name.
+					'author''s email'. aCommit author email.
+					'committer''s name'. aCommit committer name.
+					'committer''s email'. aCommit committer email.
+				} pairsDo: [:label :value |
+					subMenu
+						add: ('{1} {2}' format: {commitPossessive. label})
+						selector: #clipboardText:
+						argument: value]].
+			
+			subMenu]).
 	
 	isRefMenu ifTrue: [
 		aMenu
