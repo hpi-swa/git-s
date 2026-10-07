@@ -1,3 +1,3 @@
 as yet unclassified
 asTreeEntryNamed: aName
-	^ GitTreeEntry directoryNamed: aName hash: self hash in: repository
+	^ GitOwningTreeEntry directory: self named: aName in: repository
