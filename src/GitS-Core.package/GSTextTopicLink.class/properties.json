@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core-Help",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topic",
+		"heading" ],
+	"name" : "GSTextTopicLink",
+	"pools" : [
+		 ],
+	"super" : "TextAction",
+	"type" : "normal" }

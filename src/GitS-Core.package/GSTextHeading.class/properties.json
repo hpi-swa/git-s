@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Help",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key" ],
+	"name" : "GSTextHeading",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"type" : "normal" }

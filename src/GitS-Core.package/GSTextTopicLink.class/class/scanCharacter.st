@@ -1,0 +1,3 @@
+fileIn/Out
+scanCharacter
+	^ $l
