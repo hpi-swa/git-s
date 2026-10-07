@@ -148,11 +148,18 @@ menu: aMenu forCommit: aCommit ref: refString
 				
 				add: resetLabel, ' and load'
 				selector: #actionResetToCommitAndRestoreIt:
-				argument: aCommit;
-				
-				add: ('Rebase branch {1} onto it' format: {currentBranchShortName})
-				selector: #actionRebaseOntoCommit:
-				argument: aCommit]].
+				argument: aCommit].
+		
+		advancedMenu
+			add: ('Rebase {1} onto it' format: {
+				currentBranchShortName
+					ifNotNil: ['branch {1}' format: {currentBranchShortName}]
+					ifNil: ['HEAD ({1})' format: {
+						self headCommit
+							 ifNotNil: [:commit | commit showOneLine truncateWithElipsisTo: 15]
+							ifNil: ['no commit yet']}]})
+			selector: #actionRebaseOntoCommit:
+			argument: aCommit].
 	
 	isRef ifTrue: [
 		advancedMenu
