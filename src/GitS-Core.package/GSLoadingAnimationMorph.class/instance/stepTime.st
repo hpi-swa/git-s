@@ -1,3 +1,3 @@
 stepping and presenter
 stepTime
-	^ 0
+	^ 10
