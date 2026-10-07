@@ -3,6 +3,10 @@ moreMenu: aMenuSpec
 	| target |
 	target := self operationStarter.
 	aMenuSpec
+		add: 'Help...'
+		target: GSHelp
+		selector: #open;
+		
 		add: 'Self-update'
 		target: target
 		selector: #actionSelfUpdate;

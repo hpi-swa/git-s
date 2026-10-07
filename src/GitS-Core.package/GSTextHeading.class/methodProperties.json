@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"scanCharacter" : "mad 9/28/2026 16:10",
+		"scanFrom:" : "mad 9/28/2026 16:13" },
+	"instance" : {
+		"analyze:" : "mad 9/28/2026 16:37",
+		"dominatedByCmd0" : "mad 9/28/2026 16:36",
+		"emphasizeScanner:" : "mad 9/28/2026 15:55",
+		"key" : "mad 9/28/2026 15:52",
+		"key:" : "mad 9/28/2026 15:52",
+		"writeScanOn:" : "mad 9/28/2026 16:11" } }
