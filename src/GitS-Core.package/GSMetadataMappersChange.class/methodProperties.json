@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"changesFromMappers:builder:metadataMapper:" : "mad 9/28/2026 23:21",
+		"changesFromMappers:builder:metadataMapper:" : "MCPServer 10/8/2026 20:39",
 		"isAbstract" : "mad 11/6/2025 13:07" },
 	"instance" : {
 		"applyTo:" : "mad 9/28/2026 19:24",
@@ -8,7 +8,7 @@
 		"buildWith:shrinkWrap:" : "mad 4/26/2026 22:37",
 		"canMapperBeRemoved" : "mad 4/9/2026 17:50",
 		"changedMapper" : "mad 8/25/2025 19:18",
-		"changedMapper:" : "mad 8/13/2026 17:29",
+		"changedMapper:" : "MCPServer 10/8/2026 20:50",
 		"changedMapperChanges" : "mad 9/28/2026 19:28",
 		"description" : "mad 8/25/2025 21:56",
 		"edgeCaseReachedMessage" : "mad 8/25/2025 21:53",

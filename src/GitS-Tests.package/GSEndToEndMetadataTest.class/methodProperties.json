@@ -8,4 +8,8 @@
 		"selectMapperChange:" : "MCPServer 10/8/2026 19:34",
 		"testCommitMapperAddition" : "MCPServer 10/8/2026 19:43",
 		"testCommitMapperRemoval" : "MCPServer 10/8/2026 20:13",
-		"trackPlaintextAt:" : "MCPServer 10/8/2026 19:34" } }
+		"testExcludeAllContentOfMapperAddition" : "MCPServer 10/8/2026 20:59",
+		"testExcludeMapperAddition" : "MCPServer 10/8/2026 20:59",
+		"testIncludeMapperRemovalWithExcludedContent" : "MCPServer 10/8/2026 20:59",
+		"trackPlaintextAt:" : "MCPServer 10/8/2026 19:34",
+		"writePlaintext:at:" : "MCPServer 10/8/2026 20:31" } }
