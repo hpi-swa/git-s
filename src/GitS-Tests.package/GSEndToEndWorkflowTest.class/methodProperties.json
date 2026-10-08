@@ -26,10 +26,12 @@
 		"testBrowserOpenLoadsCommitList" : "mad 4/25/2026 21:07",
 		"testCommit" : "mad 11/9/2025 18:56",
 		"testCommitAllExcluded" : "MCPServer 10/9/2026 00:24",
+		"testCommitExcludeAll" : "MCPServer 10/9/2026 00:53",
 		"testCommitExcludedAddition" : "MCPServer 10/9/2026 00:24",
 		"testCommitExcludedDeletion" : "MCPServer 10/9/2026 00:24",
 		"testCommitExcludedModification" : "MCPServer 10/9/2026 00:24",
 		"testCommitRefreshKeepsExclusion" : "MCPServer 10/9/2026 00:24",
+		"testCommitToggleExcluded" : "MCPServer 10/9/2026 01:08",
 		"testCompareImageToCommit" : "MCPServer 10/9/2026 00:24",
 		"testCompareToImage" : "MCPServer 10/9/2026 00:24",
 		"testCompareToParentCommit" : "MCPServer 10/9/2026 00:24",
@@ -95,4 +97,5 @@
 		"version2A" : "mad 11/9/2025 18:39",
 		"version3" : "mad 11/9/2025 19:27",
 		"version3A" : "mad 11/9/2025 19:11",
-		"versions" : "mad 11/9/2025 20:53" } }
+		"versions" : "mad 11/9/2025 20:53",
+		"versionsParentLabel" : "MCPServer 10/9/2026 00:32" } }
