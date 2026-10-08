@@ -1,0 +1,16 @@
+tests
+testCommitExcludedAddition
+	self
+		commitWithMessage: 'base commit';
+		install: self version1A;
+		install: self version2A;
+		commitWithMessage: 'test commit'
+		checking: [self
+					openDialogPath;
+					exclude: self version2A;
+					find: ('( {1} )' format: {self version2A label})];
+		check: self version2A;
+		leftClick: 'Commit';
+		openDialogPath;
+		findInDialog: self version2A;
+		findNo: self version1A label.
