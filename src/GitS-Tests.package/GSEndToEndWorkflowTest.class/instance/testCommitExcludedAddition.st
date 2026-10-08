@@ -8,9 +8,9 @@ testCommitExcludedAddition
 		checking: [self
 					openDialogPath;
 					exclude: self version2;
-					find: ('( {1} )' format: {self version2A label})];
+					find: ('( {1} )' format: {self version2 label})];
 		check: self version2A;
 		leftClick: 'Commit';
 		openDialogPath;
 		findInDialog: self version2A;
-		findNo: self version1A label.
+		findNo: self version1 label.

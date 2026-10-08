@@ -12,10 +12,10 @@ testCommitRefreshKeepsExclusion
 					leftClick: (self
 								find: 'Refresh'
 								in: (self findWindowContaining: 'Commit changes'));
-					find: ('( {1} )' format: {self version2A label});
+					find: ('( {1} )' format: {self version2 label});
 					findInDialog: self version3A];
 		check: self version2A;
 		leftClick: 'Commit';
 		openDialogPath;
 		findInDialog: self version2A;
-		findNo: self version3A label.
+		findNo: self version3 label.

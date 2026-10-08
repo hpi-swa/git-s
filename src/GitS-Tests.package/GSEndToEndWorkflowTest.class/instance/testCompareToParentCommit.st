@@ -12,4 +12,4 @@ testCompareToParentCommit
 		find: 'Show changes from * first commit to * second commit';
 		openDialogPath;
 		findInDialog: self diff1AToB;
-		findNo: self version2A label.
+		findNo: self version2 label.

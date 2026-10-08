@@ -9,9 +9,9 @@ testCommitExcludedModification
 		checking: [self
 					openDialogPath;
 					exclude: self version1;
-					find: ('( {1} )' format: {self version1B label})];
+					find: ('( {1} )' format: {self version1 label})];
 		check: self version1B;
 		leftClick: 'Commit';
 		openDialogPath;
 		findInDialog: self diff1AToB;
-		findNo: self version2A label.
+		findNo: self version2 label.

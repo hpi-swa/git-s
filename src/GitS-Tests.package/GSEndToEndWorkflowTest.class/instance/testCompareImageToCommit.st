@@ -11,4 +11,4 @@ testCompareImageToCommit
 		find: 'Show changes from * test commit to the image';
 		openDialogPath;
 		findInDialog: self diff1AToB;
-		findNo: self version2A label.
+		findNo: self version2 label.

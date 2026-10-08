@@ -5,5 +5,5 @@ testMergeBranchCleanDo: actionBlock checkDialog: checkDialogBlock checkMerged: c
 		checkBase: [self check: self version1A; checkUninstalled: self version2]
 		incoming: actionBlock
 		current: [self install: self version3A]
-		checkDialog: [self do: checkDialogBlock; findNo: self version3A label]
+		checkDialog: [self do: checkDialogBlock; findNo: self version3 label]
 		checkMerged: [self do: checkMergedBlock; check: self version3A].

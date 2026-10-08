@@ -11,7 +11,7 @@ testLoad: labelString
 		find: 'Load commit * test commit';
 		openDialogPath;
 		findInDialog: self diff1BToA;
-		findNo: self version2A label;
+		findNo: self version2 label;
 		findInDialog: self version3A;
 		leftClick: 'Load changes';
 		check: self version1A;
