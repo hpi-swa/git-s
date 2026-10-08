@@ -43,6 +43,7 @@
 		"testLoad:" : "mad 11/9/2025 19:26",
 		"testLoadBranch" : "mad 11/6/2025 18:17",
 		"testLoadCommit" : "mad 4/25/2026 00:23",
+		"testLoadExcludedModification" : "mad 10/9/2026 01:12",
 		"testMergeBranchCleanAddition" : "mad 11/9/2025 19:12",
 		"testMergeBranchCleanDeletion" : "mad 11/9/2025 19:26",
 		"testMergeBranchCleanDo:checkDialog:checkMerged:" : "mad 11/9/2025 21:36",
