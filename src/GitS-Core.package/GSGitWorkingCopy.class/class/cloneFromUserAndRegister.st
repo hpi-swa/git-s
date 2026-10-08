@@ -1,9 +1,9 @@
 instance creation
 cloneFromUserAndRegister
-	| url name reference |
+	| url reference instanceName |
 	url := GSGUIUtilities request: 'URL to clone:'.
-	name := self nameFromURL: url.
-	reference := self requestEmptyFSReferenceForName: name.
-	^ (self cloneFrom: url to: reference named: name)
+	instanceName := self nameFromURL: url.
+	reference := self requestEmptyFSReferenceForName: instanceName.
+	^ (self cloneFrom: url to: reference named: instanceName)
 		register;
 		yourself

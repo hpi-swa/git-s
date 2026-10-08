@@ -1,8 +1,8 @@
 instance creation
 requestUnregisteredNameFrom: aString title: anotherString
-	| name |
-	name := GSGUIUtilities request: anotherString initialAnswer: aString.
-	(self isNameRegistered: name) ifTrue: [
+	| result |
+	result := GSGUIUtilities request: anotherString initialAnswer: aString.
+	(self isNameRegistered: result) ifTrue: [
 		self inform: 'A project with that name is already registered, pick another.'.
-		^ self requestUnregisteredNameFrom: name title: anotherString].
-	^ name
+		^ self requestUnregisteredNameFrom: result title: anotherString].
+	^ result

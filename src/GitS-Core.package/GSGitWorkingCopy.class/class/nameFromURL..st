@@ -1,11 +1,11 @@
 instance creation
 nameFromURL: aString
-	| path name |
+	| path result |
 	path := aString splitBy: '/'.
-	name := (path
+	result := (path
 				reversed
 				collect: [:each | self withoutGitSuffix: each])
 				detect: #notEmpty ifNone: [''].
-	(name isEmpty or: [self isNameRegistered: name])
-		ifTrue: [^ self requestUnregisteredNameFrom: name].
-	^ name
+	(result isEmpty or: [self isNameRegistered: result])
+		ifTrue: [^ self requestUnregisteredNameFrom: result].
+	^ result

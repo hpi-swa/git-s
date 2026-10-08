@@ -2,4 +2,4 @@
 gitSCurrentVersionIn: aPackageInfo
 	^ aPackageInfo systemCategories
 		ifEmpty: [nil]
-		ifNotEmpty: [:categories | self class categories: categories]
+		ifNotEmpty: [:systemCategories | self class categories: systemCategories]
