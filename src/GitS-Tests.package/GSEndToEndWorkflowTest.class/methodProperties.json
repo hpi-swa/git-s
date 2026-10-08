@@ -60,6 +60,8 @@
 		"testMergeConflictModifyModifyResolve:checkMerged:" : "mad 8/13/2026 15:53",
 		"testMergeConflictModifyModifyResolveCurrent" : "mad 4/16/2026 15:41",
 		"testMergeConflictModifyModifyResolveIncoming" : "mad 4/16/2026 15:41",
+		"testMergeExcludedAddition" : "mad 10/9/2026 01:12",
+		"testMergeExcludedConflict" : "mad 10/9/2026 01:12",
 		"testMergeFastForward:" : "mad 4/25/2026 00:25",
 		"testMergeFastForwardBranch" : "mad 11/6/2025 18:18",
 		"testMergeFastForwardCommit" : "mad 4/25/2026 00:25",
