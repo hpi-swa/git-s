@@ -10,6 +10,7 @@ testCommitMarkAssetInferredThenTracked
 				openDialogPath;
 				selectMapperChange: 'Plaintext at /assets/inferred.txt (tracked)';
 				find: 'Removal on the incoming side of the Plaintext at /assets/inferred.txt (tracked)'];
+		check: 'infer mapper' hasBalloon: 'Latest commit of main*';
 		markAssetTrackedAt: #('assets' 'inferred.txt');
 		commitWithMessage: 'track mapper' checking: [
 			self
