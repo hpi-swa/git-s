@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"client",
-		"stream",
-		"outputStream" ],
+		 ],
 	"name" : "GitDumbHTTPProtocol",
 	"pools" : [
 		 ],

@@ -8,7 +8,6 @@
 		"ExternalFetchAndPush",
 		"ExternalGitExecutable",
 		"PruneWhenFetching",
-		"UseUnitOfWorkInterface",
 		"WarnAboutUseOfDeprecatedMethods" ],
 	"commentStamp" : "",
 	"instvars" : [
