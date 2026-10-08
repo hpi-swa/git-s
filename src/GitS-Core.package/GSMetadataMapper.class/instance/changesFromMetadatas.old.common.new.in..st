@@ -23,7 +23,7 @@ in: aWorkingCopy
 	
 	^ OrderedCollection streamContents: [:stream |
 		mapperChanges valuesDo: [:each | stream nextPutAll: each].
-		stream nextPutAll: (self changesFromNames: (aVersionChange collect: #name)).
+		stream nextPutAll: (self changesFromNames: (aVersionChange collect: #name) builder: metadataBuilder).
 		{GSMetadataMappersIncomingRemovalChange. removedMappers.
 		GSMetadataMappersIncomingAdditionChange. addedMappers} pairsDo: [:class :mappers |
 			stream nextPutAll: (class
