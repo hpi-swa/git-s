@@ -1,3 +1,3 @@
 processing
 process
-	self processBatches; processRemaining.
+	[self remainingGroups notEmpty] whileTrue: [self processGroup].

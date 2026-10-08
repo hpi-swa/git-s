@@ -1,5 +1,6 @@
 changes-operations
 materialize: anAssetFile in: aWorkingCopy
-	aWorkingCopy
-		materializedAt: self path put: anAssetFile;
-		imageCommitChanged.
+	(anAssetFile gitSIsMissing and: [(aWorkingCopy mappers includes: self) not])
+		ifTrue: [aWorkingCopy removeMaterializedAt: self path]
+		ifFalse: [aWorkingCopy materializedAt: self path put: anAssetFile].
+	aWorkingCopy imageCommitChanged.
