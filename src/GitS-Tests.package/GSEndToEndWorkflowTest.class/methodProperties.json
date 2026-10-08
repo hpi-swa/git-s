@@ -59,6 +59,8 @@
 		"testMergeConflictModifyModifyResolve:checkMerged:" : "mad 8/13/2026 15:53",
 		"testMergeConflictModifyModifyResolveCurrent" : "mad 4/16/2026 15:41",
 		"testMergeConflictModifyModifyResolveIncoming" : "mad 4/16/2026 15:41",
+		"testMergeExcludedAddition" : "MCPServer 10/8/2026 23:55",
+		"testMergeExcludedConflict" : "MCPServer 10/8/2026 23:55",
 		"testMergeFastForward:" : "mad 4/25/2026 00:25",
 		"testMergeFastForwardBranch" : "mad 11/6/2025 18:18",
 		"testMergeFastForwardCommit" : "mad 4/25/2026 00:25",
