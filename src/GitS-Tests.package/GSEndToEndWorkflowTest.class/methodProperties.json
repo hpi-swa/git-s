@@ -41,6 +41,7 @@
 		"testCreateBranchAtDo:" : "mad 4/25/2026 00:22",
 		"testDeleteBranch" : "mad 11/9/2025 18:38",
 		"testEmptyCommitMessage" : "mad 11/9/2025 18:38",
+		"testExcludeAll" : "mad 10/9/2026 01:12",
 		"testLoad:" : "mad 11/9/2025 19:26",
 		"testLoadBranch" : "mad 11/6/2025 18:17",
 		"testLoadCommit" : "mad 4/25/2026 00:23",
@@ -86,6 +87,7 @@
 		"testRebaseSquash" : "mad 8/1/2026 01:20",
 		"testRebaseUpdateRef" : "mad 8/1/2026 01:20",
 		"testSwitchToBranch" : "mad 11/9/2025 19:35",
+		"testToggleExcluded" : "mad 10/9/2026 01:12",
 		"trackAssetsOfType:" : "mad 11/9/2025 20:53",
 		"uninstall:" : "mad 11/9/2025 20:08",
 		"uninstallAsset:" : "mad 11/9/2025 23:08",
@@ -97,4 +99,5 @@
 		"version2A" : "mad 11/9/2025 18:39",
 		"version3" : "mad 11/9/2025 19:27",
 		"version3A" : "mad 11/9/2025 19:11",
-		"versions" : "mad 11/9/2025 20:53" } }
+		"versions" : "mad 11/9/2025 20:53",
+		"versionsParentLabel" : "mad 10/9/2026 00:32" } }

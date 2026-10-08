@@ -3,3 +3,4 @@ update: aSymbol
 	super update: aSymbol.
 	(#(isExcluded hasConflicts wasEdited) includes: aSymbol)
 		ifTrue: [self changed: #rootNodes].
+	aSymbol = #isExcluded ifTrue: [self changed: #buildChange:].
