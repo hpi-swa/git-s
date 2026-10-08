@@ -4,7 +4,6 @@
 	"instance" : {
 		"addRebaseCommandAfter:type:" : "mad 7/30/2026 22:48",
 		"addRebaseCommandAfter:type:supplyingAnswers:" : "mad 7/30/2026 22:48",
-		"assetAt:do:" : "mad 6/2/2026 13:12",
 		"changeRebaseCommand:to:" : "mad 7/30/2026 22:48",
 		"check:" : "mad 11/9/2025 20:08",
 		"checkAsset:" : "mad 11/9/2025 23:56",
@@ -94,5 +93,4 @@
 		"version2A" : "mad 11/9/2025 18:39",
 		"version3" : "mad 11/9/2025 19:27",
 		"version3A" : "mad 11/9/2025 19:11",
-		"versions" : "mad 11/9/2025 20:53",
-		"withAssetBrowser:" : "mad 11/9/2025 20:47" } }
+		"versions" : "mad 11/9/2025 20:53" } }

@@ -2,6 +2,7 @@
 	"class" : {
 		"resources" : "mad 4/16/2026 13:52" },
 	"instance" : {
+		"assetAt:do:" : "mad 6/2/2026 13:12",
 		"check:hasBalloon:" : "mad 4/25/2026 00:16",
 		"click:button:" : "mad 8/26/2025 21:23",
 		"closeWindowContaining:" : "mad 11/9/2025 23:55",
@@ -59,5 +60,6 @@
 		"toggleSubtree:" : "mad 3/10/2025 16:36",
 		"trackAssetOfType:at:" : "mad 6/2/2026 13:13",
 		"type:" : "mad 3/10/2025 16:45",
+		"withAssetBrowser:" : "mad 11/9/2025 20:47",
 		"world" : "mad 3/9/2025 00:47",
 		"world:" : "mad 3/9/2025 00:47" } }

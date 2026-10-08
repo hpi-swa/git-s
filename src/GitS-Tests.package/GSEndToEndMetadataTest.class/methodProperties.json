@@ -4,6 +4,8 @@
 	"instance" : {
 		"openDialogPath" : "mad 10/8/2026 19:42",
 		"preTest" : "mad 10/8/2026 19:34",
+		"removeAssetAt:" : "mad 10/9/2026 01:24",
 		"selectMapperChange:" : "mad 10/8/2026 19:34",
 		"testCommitMapperAddition" : "mad 10/8/2026 19:43",
+		"testCommitMapperRemoval" : "mad 10/8/2026 20:13",
 		"trackPlaintextAt:" : "mad 10/8/2026 19:34" } }
