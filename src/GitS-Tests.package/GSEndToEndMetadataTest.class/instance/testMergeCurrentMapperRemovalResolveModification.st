@@ -6,8 +6,6 @@ testMergeCurrentMapperRemovalResolveModification
 				leftClick: 'Resolve to incoming';
 				find: '( Plaintext at /assets/removed.txt (tracked) )']
 		checkMerged: [
-			self withAssetBrowser: [
-				self
-					toggleSubtree: 'assets';
-					find: 'kept.txt';
-					find: 'removed.txt']].
+			self
+				checkAsset: 'kept.txt' existsAt: #('assets');
+				checkPlaintext: 'changed' at: #('assets' 'removed.txt')].

@@ -13,8 +13,6 @@ testMergeIncomingMapperAddition
 				selectMapperChange: 'Plaintext at /assets/added.txt (tracked)';
 				find: 'Addition on the incoming side of the Plaintext at /assets/added.txt (tracked)']
 		checkMerged: [
-			self withAssetBrowser: [
-				self
-					toggleSubtree: 'assets';
-					find: 'kept.txt';
-					find: 'added.txt']].
+			self
+				checkPlaintext: 'current' at: #('assets' 'kept.txt');
+				checkPlaintext: 'hello' at: #('assets' 'added.txt')].

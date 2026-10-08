@@ -13,8 +13,6 @@ testMergeCurrentMapperRemovalIncomingUntouched
 				find: 'kept.txt';
 				findNo: 'Metadata']
 		checkMerged: [
-			self withAssetBrowser: [
-				self
-					toggleSubtree: 'assets';
-					find: 'kept.txt';
-					findNo: 'removed.txt']].
+			self
+				checkPlaintext: 'incoming' at: #('assets' 'kept.txt');
+				checkNoAsset: 'removed.txt' at: #('assets')].

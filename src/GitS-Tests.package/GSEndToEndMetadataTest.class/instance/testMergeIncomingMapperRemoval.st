@@ -13,8 +13,6 @@ testMergeIncomingMapperRemoval
 				selectMapperChange: 'Plaintext at /assets/removed.txt (tracked)';
 				find: 'Removal on the incoming side of the Plaintext at /assets/removed.txt (tracked)']
 		checkMerged: [
-			self withAssetBrowser: [
-				self
-					toggleSubtree: 'assets';
-					find: 'kept.txt';
-					findNo: 'removed.txt']].
+			self
+				checkPlaintext: 'current' at: #('assets' 'kept.txt');
+				checkNoAsset: 'removed.txt' at: #('assets')].

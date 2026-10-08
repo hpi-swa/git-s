@@ -13,8 +13,6 @@ testMergeCurrentMapperAddition
 				find: 'kept.txt';
 				findNo: 'Metadata']
 		checkMerged: [
-			self withAssetBrowser: [
-				self
-					toggleSubtree: 'assets';
-					find: 'kept.txt';
-					find: 'added.txt']].
+			self
+				checkPlaintext: 'incoming' at: #('assets' 'kept.txt');
+				checkPlaintext: 'hello' at: #('assets' 'added.txt')].
