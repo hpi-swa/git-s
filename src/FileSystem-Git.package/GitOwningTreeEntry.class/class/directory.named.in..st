@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 directory: aTree named: aString in: aRepository
 	^ self new
 		entryName: aString;

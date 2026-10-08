@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTemporaryAssignment
 	| previousValues tempStamp finalValues |
 	previousValues := Array

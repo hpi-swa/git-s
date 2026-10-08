@@ -1,3 +1,3 @@
-as yet unclassified
+public-testing
 isBinary
 	^ stream isBinary

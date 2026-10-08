@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 merge: leftTree with: rightTree base: baseTree into: resultTree at: aPath
 	| entries |
 	entries := Set new

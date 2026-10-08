@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addTarget: aNode
 	"paths stores one dictionary for each target node,
 	each of the dictionaries stores the paths to this node"

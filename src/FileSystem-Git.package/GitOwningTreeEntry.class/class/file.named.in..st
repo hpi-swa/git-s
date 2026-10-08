@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 file: aBlob named: aString in: aRepository
 	^ self new
 		entryName: aString;

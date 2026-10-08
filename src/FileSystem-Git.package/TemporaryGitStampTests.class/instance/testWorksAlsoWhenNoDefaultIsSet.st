@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWorksAlsoWhenNoDefaultIsSet
 	| previousValues |
 	previousValues := Array

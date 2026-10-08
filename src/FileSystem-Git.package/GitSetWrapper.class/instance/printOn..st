@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printOn: aStream
 	aStream << self class name.
 	aStream << '('.
