@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GSGitSClassesTest",
+	"pools" : [
+		 ],
+	"super" : "GSClassesTest",
+	"type" : "normal" }

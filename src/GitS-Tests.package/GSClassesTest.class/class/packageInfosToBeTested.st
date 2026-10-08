@@ -1,0 +1,3 @@
+building suites
+packageInfosToBeTested
+	self subclassResponsibility.
