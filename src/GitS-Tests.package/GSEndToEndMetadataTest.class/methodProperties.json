@@ -22,5 +22,8 @@
 		"testIncludeMapperRemovalWithExcludedContent" : "MCPServer 10/8/2026 20:59",
 		"testLoadParentOfMapperAddition" : "MCPServer 10/8/2026 21:35",
 		"testMarkAssetInferredAndTrackedAgain" : "MCPServer 10/8/2026 21:04",
+		"testMergeCurrentMapperRemovalResolve:checkMerged:" : "MCPServer 10/8/2026 22:11",
+		"testMergeCurrentMapperRemovalResolveDeletion" : "MCPServer 10/8/2026 22:08",
+		"testMergeCurrentMapperRemovalResolveModification" : "MCPServer 10/8/2026 22:11",
 		"trackPlaintextAt:" : "MCPServer 10/8/2026 19:34",
 		"writePlaintext:at:" : "MCPServer 10/8/2026 20:31" } }
