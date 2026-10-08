@@ -25,6 +25,7 @@
 		"testBrowserOpenLoadsCommitList" : "mad 4/25/2026 21:07",
 		"testCommit" : "mad 11/9/2025 18:56",
 		"testCommitExcludedAddition" : "MCPServer 10/8/2026 23:08",
+		"testCommitExcludedDeletion" : "MCPServer 10/8/2026 23:24",
 		"testCommitExcludedModification" : "MCPServer 10/8/2026 23:12",
 		"testCompareImageToCommit" : "mad 5/8/2026 13:36",
 		"testCompareToImage" : "mad 5/8/2026 13:35",
