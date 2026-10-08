@@ -23,4 +23,7 @@
 		"testIncludeMapperRemovalWithExcludedContent" : "mad 10/8/2026 20:59",
 		"testLoadParentOfMapperAddition" : "mad 10/10/2026 20:57",
 		"testMarkAssetInferredAndTrackedAgain" : "mad 10/8/2026 21:04",
+		"testMergeCurrentMapperRemovalResolve:checkMerged:" : "mad 10/8/2026 22:11",
+		"testMergeCurrentMapperRemovalResolveDeletion" : "mad 10/10/2026 20:57",
+		"testMergeCurrentMapperRemovalResolveModification" : "mad 10/10/2026 20:58",
 		"trackPlaintextAt:" : "mad 10/8/2026 19:34" } }
