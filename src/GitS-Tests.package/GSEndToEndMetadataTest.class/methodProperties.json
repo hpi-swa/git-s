@@ -16,6 +16,7 @@
 		"testCommitMapperRemoval" : "mad 10/8/2026 20:13",
 		"testCommitMarkAssetInferredThenTracked" : "mad 10/9/2026 01:25",
 		"testCommitProjectRename" : "mad 10/8/2026 21:22",
+		"testCompareMapperAdditionToParentCommit" : "mad 10/8/2026 21:35",
 		"testExcludeAllContentOfMapperAddition" : "mad 10/8/2026 20:59",
 		"testExcludeMapperAddition" : "mad 10/8/2026 20:59",
 		"testIncludeMapperRemovalWithExcludedContent" : "mad 10/8/2026 20:59",
