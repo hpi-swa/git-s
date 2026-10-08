@@ -29,6 +29,7 @@
 		"testCommitExcludedAddition" : "MCPServer 10/9/2026 00:05",
 		"testCommitExcludedDeletion" : "MCPServer 10/9/2026 00:05",
 		"testCommitExcludedModification" : "MCPServer 10/9/2026 00:05",
+		"testCommitRefreshKeepsExclusion" : "MCPServer 10/9/2026 00:12",
 		"testCompareImageToCommit" : "mad 5/8/2026 13:36",
 		"testCompareToImage" : "mad 5/8/2026 13:35",
 		"testCompareToParentCommit" : "mad 5/8/2026 13:36",
