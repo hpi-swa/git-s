@@ -23,7 +23,7 @@ changesToMergeFSCommits: aVersionMerge in: aWorkingCopy
 	metadataBuilder := GSMetadataBuilder newWithCurrentMetadata: metadataForCommits current mapperChanges: mapperChanges.
 	^ OrderedCollection streamContents: [:stream |
 		mapperChanges valuesDo: [:each | stream nextPutAll: each].
-		stream nextPutAll: (self changesToMergeNames: (metadataForCommits collect: #name)).
+		stream nextPutAll: (self changesToMergeNames: (metadataForCommits collect: #name) builder: metadataBuilder).
 		{
 			GSMetadataMappersIncomingRemovalChange.
 			changedMappersForMissing value: #(incoming).
