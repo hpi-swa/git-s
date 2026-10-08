@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkPlaintext:at:" : "MCPServer 10/8/2026 22:29",
 		"markAssetInferredAt:" : "MCPServer 10/8/2026 19:34",
 		"markAssetTrackedAt:" : "MCPServer 10/8/2026 19:34",
 		"openDialogPath" : "MCPServer 10/8/2026 19:42",
@@ -22,6 +23,9 @@
 		"testIncludeMapperRemovalWithExcludedContent" : "MCPServer 10/8/2026 20:59",
 		"testLoadParentOfMapperAddition" : "MCPServer 10/8/2026 21:35",
 		"testMarkAssetInferredAndTrackedAgain" : "MCPServer 10/8/2026 21:04",
+		"testMergeBothMapperAdditions" : "MCPServer 10/8/2026 22:29",
+		"testMergeCurrentMapperAddition" : "MCPServer 10/8/2026 22:28",
+		"testMergeCurrentMapperRemovalIncomingUntouched" : "MCPServer 10/8/2026 22:26",
 		"testMergeCurrentMapperRemovalResolve:checkMerged:" : "MCPServer 10/8/2026 22:11",
 		"testMergeCurrentMapperRemovalResolveDeletion" : "MCPServer 10/8/2026 22:08",
 		"testMergeCurrentMapperRemovalResolveModification" : "MCPServer 10/8/2026 22:11",
