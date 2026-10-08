@@ -4,5 +4,5 @@ renameProjectTo: aString
 		rightClick: self projectName;
 		moveTo: 'Organize it';
 		do: [self leftClick: 'Rename it']
-		supplyingAnswer: {'Rename project *'. aString};
+		supplyingAnswer: {'Rename project {1}. Beware that *. New name:' format: {self projectName printString}. aString};
 		projectName: aString.
