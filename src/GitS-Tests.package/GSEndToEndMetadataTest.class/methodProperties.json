@@ -16,6 +16,7 @@
 		"testCommitMarkAssetInferred" : "MCPServer 10/8/2026 21:04",
 		"testCommitMarkAssetInferredThenTracked" : "MCPServer 10/8/2026 21:09",
 		"testCommitProjectRename" : "MCPServer 10/8/2026 21:22",
+		"testCompareMapperAdditionToParentCommit" : "MCPServer 10/8/2026 21:35",
 		"testExcludeAllContentOfMapperAddition" : "MCPServer 10/8/2026 20:59",
 		"testExcludeMapperAddition" : "MCPServer 10/8/2026 20:59",
 		"testIncludeMapperRemovalWithExcludedContent" : "MCPServer 10/8/2026 20:59",
