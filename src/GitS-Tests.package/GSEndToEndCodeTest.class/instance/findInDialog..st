@@ -1,6 +1,6 @@
 data
 findInDialog: anEndToEndTestVersion
 	self
-		leftClick: anEndToEndTestVersion label;
+		leftClick: anEndToEndTestVersion;
 		find: anEndToEndTestVersion source;
 		find: anEndToEndTestVersion category.

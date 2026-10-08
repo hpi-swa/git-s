@@ -1,5 +1,5 @@
 data
 findVersionInDialog: aDictionaryOrAnEndToEndImageTest
 	self
-		leftClick: aDictionaryOrAnEndToEndImageTest label;
+		leftClick: aDictionaryOrAnEndToEndImageTest;
 		find: (self expressionToFindable: aDictionaryOrAnEndToEndImageTest expression).

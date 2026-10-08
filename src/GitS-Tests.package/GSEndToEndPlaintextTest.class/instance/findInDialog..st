@@ -1,5 +1,5 @@
 data
 findInDialog: anEndToEndAssetTestVersion	
 	self
-		leftClick: anEndToEndAssetTestVersion label;
+		leftClick: anEndToEndAssetTestVersion;
 		find: (Compiler evaluate: anEndToEndAssetTestVersion expression).

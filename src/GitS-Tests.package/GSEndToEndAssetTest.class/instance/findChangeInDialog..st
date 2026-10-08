@@ -1,7 +1,7 @@
 data
 findChangeInDialog: aDictionary
 	| expressions allVersions |
-	self leftClick: aDictionary values anyOne label.
+	self leftClick: aDictionary values anyOne.
 	expressions := (aDictionary values
 		collect: [:each | each expression] as: Set)
 		collect: [:each | each -> ((self findAll: (self expressionToFindable: each)) collect: #morph)] as: Dictionary. "Missing can be present multiple times"
