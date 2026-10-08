@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"projectName" ],
+	"name" : "GSEndToEndMetadataTest",
+	"pools" : [
+		 ],
+	"super" : "GSEndToEndTest",
+	"type" : "normal" }
