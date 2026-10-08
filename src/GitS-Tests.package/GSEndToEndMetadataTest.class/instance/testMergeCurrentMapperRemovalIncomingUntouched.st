@@ -1,0 +1,18 @@
+tests
+testMergeCurrentMapperRemovalIncomingUntouched
+	self
+		testMergeBase: [
+			self
+				trackPlaintextAt: #('assets' 'removed.txt');
+				installPlaintext: 'hello' at: #('assets' 'removed.txt')]
+		checkBase: []
+		incoming: [self installPlaintext: 'incoming' at: #('assets' 'kept.txt')]
+		current: [self removeAssetAt: #('assets' 'removed.txt')]
+		checkDialog: [
+			self
+				find: 'kept.txt';
+				findNo: 'Metadata']
+		checkMerged: [
+			self
+				checkPlaintext: 'incoming' at: #('assets' 'kept.txt');
+				checkNoAsset: 'removed.txt' at: #('assets')].

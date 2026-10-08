@@ -23,7 +23,12 @@
 		"testIncludeMapperRemovalWithExcludedContent" : "mad 10/8/2026 20:59",
 		"testLoadParentOfMapperAddition" : "mad 10/10/2026 20:57",
 		"testMarkAssetInferredAndTrackedAgain" : "mad 10/8/2026 21:04",
+		"testMergeBothMapperAdditions" : "mad 10/8/2026 22:29",
+		"testMergeCurrentMapperAddition" : "mad 10/9/2026 01:39",
+		"testMergeCurrentMapperRemovalIncomingUntouched" : "mad 10/9/2026 01:46",
 		"testMergeCurrentMapperRemovalResolve:checkMerged:" : "mad 10/8/2026 22:11",
 		"testMergeCurrentMapperRemovalResolveDeletion" : "mad 10/10/2026 20:57",
 		"testMergeCurrentMapperRemovalResolveModification" : "mad 10/10/2026 20:58",
+		"testMergeIncomingMapperAddition" : "mad 10/9/2026 01:50",
+		"testMergeIncomingMapperRemoval" : "mad 10/9/2026 01:51",
 		"trackPlaintextAt:" : "mad 10/8/2026 19:34" } }
