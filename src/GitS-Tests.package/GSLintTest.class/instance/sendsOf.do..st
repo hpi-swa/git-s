@@ -7,6 +7,8 @@ sendsOf: aCompiledMethod do: aBlock
 				in: aCompiledMethod
 				enumerator: enumerator];
 		doBlock: aBlock;
-		visit: (Parser new
+		visit: ([aCompiledMethod parserClass new
 				parse: aCompiledMethod getSource
-				class: aCompiledMethod methodClass).
+				class: aCompiledMethod methodClass]
+					on: ShadowedVariableNotification
+					do: #resume).
