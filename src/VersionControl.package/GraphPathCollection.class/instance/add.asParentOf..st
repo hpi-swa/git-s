@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 add: parentCommit asParentOf: aCommit
 	paths keysAndValuesDo: [:target :dictionary |
 		"dictionary stores the paths to target, each entry has the next child commit as value"

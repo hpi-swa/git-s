@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 hasPathFrom: startNode toAnyOf: targetNodes
 	^ targetNodes anySatisfy: [:any | self hasPathFrom: startNode to: any]

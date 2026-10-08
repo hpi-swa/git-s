@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 handleConflictAt: aPath left: leftEntry right: rightEntry base: baseEntry into: parentResultTree
 	(leftEntry notNil
 		and: [rightEntry notNil]

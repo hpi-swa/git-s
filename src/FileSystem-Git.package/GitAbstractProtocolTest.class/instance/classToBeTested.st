@@ -1,4 +1,4 @@
-as yet unclassified
+coverage
 classToBeTested
 	| className |
 	className := self class name asString copyFrom: 1 to: self class name size - 4.

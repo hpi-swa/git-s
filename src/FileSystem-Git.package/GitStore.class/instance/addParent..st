@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 addParent: commitHexHash
 	additionalParents add: commitHexHash.

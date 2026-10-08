@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anObject
 	^ self species = anObject species
 		and: [self commit = anObject commit]

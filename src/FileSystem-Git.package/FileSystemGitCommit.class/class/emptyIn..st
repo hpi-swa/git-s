@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 emptyIn: aFileSystemGitRepository
 	^ self
 		withCommit: (GitCommit emptyIn: aFileSystemGitRepository repository)

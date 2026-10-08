@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 asTreeEntryNamed: aName
 	^ GitOwningTreeEntry file: self named: aName in: repository

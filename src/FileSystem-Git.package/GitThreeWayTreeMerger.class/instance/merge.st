@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 merge
 	self
 		merge: self left
