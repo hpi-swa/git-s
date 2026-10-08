@@ -8,7 +8,7 @@ testCommitExcludedModification
 		commitWithMessage: 'test commit'
 		checking: [self
 					openDialogPath;
-					exclude: self version1B;
+					exclude: self version1;
 					find: ('( {1} )' format: {self version1B label})];
 		check: self version1B;
 		leftClick: 'Commit';

@@ -8,7 +8,7 @@ testMergeExcludedAddition
 		checkDialog: [
 			self
 				findInDialog: self version2A;
-				exclude: self version2A;
+				exclude: self version2;
 				find: ('( {1} )' format: {self version2A label})]
 		checkMerged: [
 			self

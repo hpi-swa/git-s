@@ -8,7 +8,7 @@ testCommitExcludedDeletion
 		commitWithMessage: 'test commit'
 		checking: [self
 					openDialogPath;
-					exclude: self version1A;
+					exclude: self version1;
 					find: ('( {1} )' format: {self version1A label})];
 		checkUninstalled: self version1;
 		leftClick: 'Commit';

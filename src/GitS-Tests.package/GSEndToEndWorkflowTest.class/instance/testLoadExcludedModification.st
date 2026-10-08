@@ -11,7 +11,7 @@ testLoadExcludedModification
 		find: 'Load commit * test commit';
 		openDialogPath;
 		findInDialog: self diff1BToA;
-		exclude: self version1B;
+		exclude: self version1;
 		find: ('( {1} )' format: {self version1B label});
 		leftClick: 'Load changes';
 		check: self version1B;

@@ -8,7 +8,7 @@ testMergeExcludedConflict
 		checkDialog: [
 			self
 				findInDialog: self conflict1ModifyBModifyC;
-				exclude: self version1B;
+				exclude: self version1;
 				find: ('( {1} )' format: {self version1B label})]
 		checkMerged: [
 			self
