@@ -18,6 +18,7 @@
 		"isExcludedMatchesEdgeCase" : "mad 8/25/2025 21:32",
 		"kind" : "mad 8/25/2025 21:54",
 		"listenToChangedMapperChangeEvents:" : "mad 8/13/2026 17:27",
+		"materializationOrder" : "mad 10/8/2026 21:50",
 		"materializeIn:" : "mad 9/28/2026 22:10",
 		"metadataBuilder" : "mad 9/28/2026 19:28",
 		"metadataBuilder:" : "mad 9/28/2026 19:28",

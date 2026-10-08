@@ -20,6 +20,7 @@
 		"testExcludeAllContentOfMapperAddition" : "MCPServer 10/8/2026 20:59",
 		"testExcludeMapperAddition" : "MCPServer 10/8/2026 20:59",
 		"testIncludeMapperRemovalWithExcludedContent" : "MCPServer 10/8/2026 20:59",
+		"testLoadParentOfMapperAddition" : "MCPServer 10/8/2026 21:35",
 		"testMarkAssetInferredAndTrackedAgain" : "MCPServer 10/8/2026 21:04",
 		"trackPlaintextAt:" : "MCPServer 10/8/2026 19:34",
 		"writePlaintext:at:" : "MCPServer 10/8/2026 20:31" } }

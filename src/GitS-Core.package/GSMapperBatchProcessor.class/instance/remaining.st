@@ -1,3 +1,3 @@
 accessing
 remaining
-	^ remaining
+	^ self remainingGroups first

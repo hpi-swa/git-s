@@ -5,6 +5,7 @@ basicMaterializeChanges: aCollection
 		batchSelector: #batchMaterialize:in:;
 		remainingSelector: #materializeIn:;
 		extraArguments: {self};
+		orderSelector: #materializationOrder;
 		mapperBlock: #mapper;
 		batchLabelBlock: [:batcher | 'from {1}' format: {batcher batchLabel}];
 		remainingLabelBlock: [:change | 'from {1}' format: {change mapper}];
