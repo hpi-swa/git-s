@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"addToSuite:fromMethods:" : "mad 10/8/2026 16:10",
+		"classesToBeTested" : "mad 10/8/2026 16:11",
+		"isAbstract" : "mad 10/8/2026 16:57",
+		"packageInfosToBeTested" : "mad 10/8/2026 16:56",
+		"selector:class:" : "mad 10/8/2026 16:12" },
+	"instance" : {
+		"classToBeTested" : "mad 10/8/2026 16:09",
+		"classToBeTested:" : "mad 10/8/2026 16:09",
+		"printOn:" : "mad 10/8/2026 16:35",
+		"testNew" : "mad 10/8/2026 16:58" } }
