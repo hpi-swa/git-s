@@ -6,8 +6,8 @@ generateCommits
 	self commitsChangedSaveScrollPositions: false.
 	workingCopy := self workingCopyOrNil ifNil: [^ self].
 	self
-		generator: (GSBackgroundGenerator on: [:generator |
-			workingCopy withUnitOfWork: [self generateWith: generator]]);
+		generator: (GSBackgroundGenerator on: [:backgroundGenerator |
+			workingCopy withUnitOfWork: [self generateWith: backgroundGenerator]]);
 		startAnimationFor: self generator;
 		synchronousUpdateFrom: self generator;
 		asynchronousUpdateFrom: self generator.

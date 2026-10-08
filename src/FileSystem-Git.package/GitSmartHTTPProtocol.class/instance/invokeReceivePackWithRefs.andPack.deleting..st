@@ -2,8 +2,8 @@ private
 invokeReceivePackWithRefs: updateAssociations andPack: aPackFile deleting: deleteRefs
 	| response contents responseReader report |
 	'Uploading' displaySequentialProgress:
-	[contents := ByteArray streamContents: [:stream |
-		writer := GitProtocolWriter on: stream.
+	[contents := ByteArray streamContents: [:contentsStream |
+		writer := GitProtocolWriter on: contentsStream.
 		writer updateRequest: updateAssociations
 			deleting: deleteRefs
 			previousReferences: refs

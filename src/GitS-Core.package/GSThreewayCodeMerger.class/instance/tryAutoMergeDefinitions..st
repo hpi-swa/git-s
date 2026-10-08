@@ -4,9 +4,9 @@ tryAutoMergeDefinitions: aVersionMerge
 	(aVersionMerge anySatisfy: #isNil) ifTrue: [^ false].
 	allSources := aVersionMerge collect: #gitSSources.
 	stamp := Utilities changeStamp.
-	mergedSources := (1 to: allSources someVersion size) collect: [:index |
-		(allSources collect: [:each | (each at: index) string]) stringMergeIfConflict: [:conflict |
-			(allSources someVersion at: index) isTimeStamp ifTrue: [stamp] ifFalse: [^ false]]].
+	mergedSources := (1 to: allSources someVersion size) collect: [:sourceIndex |
+		(allSources collect: [:each | (each at: sourceIndex) string]) stringMergeIfConflict: [:conflict |
+			(allSources someVersion at: sourceIndex) isTimeStamp ifTrue: [stamp] ifFalse: [^ false]]].
 	mergedDefinition := aVersionMerge current
 		gitSCopyWithSources: mergedSources
 		notifying: nil

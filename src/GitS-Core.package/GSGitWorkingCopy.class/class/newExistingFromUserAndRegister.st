@@ -1,6 +1,6 @@
 instance creation
 newExistingFromUserAndRegister
-	| name reference |
+	| reference instanceName |
 	reference := self requestFSReference.
-	name := self unregisteredNameFrom: (self withoutGitSuffix: reference basename).
-	^ self onFSReference: reference registerNamed: name
+	instanceName := self unregisteredNameFrom: (self withoutGitSuffix: reference basename).
+	^ self onFSReference: reference registerNamed: instanceName

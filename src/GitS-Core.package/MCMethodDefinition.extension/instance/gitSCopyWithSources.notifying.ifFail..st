@@ -1,14 +1,14 @@
 *GitS-Core-Code
 gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
-	| category source sourceRequestor timeStamp |
-	category := aCollection first.
-	source := aCollection second.
+	| newCategory newSource sourceRequestor newTimeStamp |
+	newCategory := aCollection first.
+	newSource := aCollection second.
 	sourceRequestor := requestors ifNotNil: #second.
-	timeStamp := aCollection third.
-	category ifEmpty: [^ aBlock value: 'please enter a non-empty method category'].
-	self selector = (Parser new parseSelector: source) ifFalse: [^ aBlock value: 'expected selector not to change'].
+	newTimeStamp := aCollection third.
+	newCategory ifEmpty: [^ aBlock value: 'please enter a non-empty method category'].
+	self selector = (Parser new parseSelector: newSource) ifFalse: [^ aBlock value: 'expected selector not to change'].
 	[Parser new "check syntax"
-		parse: source
+		parse: newSource
 		class: ProtoObject
 		noPattern: false
 		notifying: sourceRequestor
@@ -19,6 +19,6 @@ gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
 		className: self className
 		classIsMeta: self classIsMeta
 		selector: self selector
-		category: category
-		timeStamp: timeStamp
-		source: source
+		category: newCategory
+		timeStamp: newTimeStamp
+		source: newSource

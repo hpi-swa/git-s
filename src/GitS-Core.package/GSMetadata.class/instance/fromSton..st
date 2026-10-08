@@ -1,7 +1,7 @@
 parsing
 fromSton: aSTONReader
 	| versionAssoc instVarStream |
-	instVarStream := Generator on: [:gen | aSTONReader parseMapDo: [:name :value | gen yield: name -> value]].
+	instVarStream := Generator on: [:gen | aSTONReader parseMapDo: [:key :value | gen yield: key -> value]].
 	versionAssoc := instVarStream next.
 	self
 		assert: versionAssoc key = #version description: 'expected the first instVar to be version';

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"basicUnregister:" : "mad 12/21/2024 20:19",
+		"basicUnregister:" : "mad 10/8/2026 00:37",
 		"deriveName:" : "mad 10/6/2024 21:01",
 		"isNameRegistered:" : "mad 10/6/2024 21:02",
 		"isRegistered:" : "mad 10/6/2024 21:02",
@@ -8,13 +8,13 @@
 		"named:ifAbsent:" : "mad 10/6/2024 21:02",
 		"newWithName:" : "mad 5/7/2026 02:31",
 		"newWithNameAndRegister:" : "mad 5/7/2026 02:32",
-		"register:" : "mad 3/10/2025 22:25",
+		"register:" : "mad 10/8/2026 14:44",
 		"registeredNames" : "mad 10/6/2024 21:10",
 		"registry" : "mad 10/6/2024 22:20",
 		"registry:" : "mad 5/18/2025 15:47",
 		"requestUnregisteredName" : "mad 10/6/2024 21:06",
 		"requestUnregisteredNameFrom:" : "mad 10/6/2024 21:06",
-		"requestUnregisteredNameFrom:title:" : "mad 2/21/2025 15:05",
+		"requestUnregisteredNameFrom:title:" : "mad 10/8/2026 14:44",
 		"unregister:" : "mad 12/21/2024 20:20",
 		"unregisteredNameFrom:" : "mad 6/27/2025 12:27" },
 	"instance" : {

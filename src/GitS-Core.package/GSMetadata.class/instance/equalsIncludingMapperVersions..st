@@ -1,6 +1,6 @@
 comparing
 equalsIncludingMapperVersions: anObject
-	^ self equals: anObject withMappersConversion: [:mappers |
+	^ self equals: anObject withMappersConversion: [:collection |
 		(PluggableSet hashBlock: #hashIncludingVersion equalBlock: #equalsIncludingVersion:)
-			addAll: mappers;
+			addAll: collection;
 			yourself]

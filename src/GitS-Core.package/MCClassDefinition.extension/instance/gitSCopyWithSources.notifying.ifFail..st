@@ -1,16 +1,16 @@
 *GitS-Core-Code
 gitSCopyWithSources: aCollection notifying: requestors ifFail: aBlock
-	| classSide instanceSide comment stString definitions definition |
-	instanceSide := aCollection first.
-	classSide := aCollection second.
-	comment := aCollection third.
+	| newInstanceSide newClassSide newComment stString definitions definition |
+	newInstanceSide := aCollection first.
+	newClassSide := aCollection second.
+	newComment := aCollection third.
 	stString := (#(
 		'!{1}!'
 		'!{2}!'
 		'!{3} commentStamp: {4}!'
 		'{5}!'
 	 ) joinSeparatedBy: String cr)
-		format: {instanceSide. classSide. self className. self commentStamp printString. comment}.
+		format: {newInstanceSide. newClassSide. self className. self commentStamp printString. newComment}.
 	definitions := (MCStReader on: stString readStream) definitions.
 	definitions size = 1 ifFalse: [^ aBlock value: 'expected to parse exactly one class definition'].
 	definition := definitions first.
