@@ -25,5 +25,7 @@
 		"testMergeCurrentMapperRemovalResolve:checkMerged:" : "MCPServer 10/8/2026 22:11",
 		"testMergeCurrentMapperRemovalResolveDeletion" : "MCPServer 10/8/2026 22:08",
 		"testMergeCurrentMapperRemovalResolveModification" : "MCPServer 10/8/2026 22:11",
+		"testMergeIncomingMapperAddition" : "MCPServer 10/8/2026 22:07",
+		"testMergeIncomingMapperRemoval" : "MCPServer 10/8/2026 22:07",
 		"trackPlaintextAt:" : "MCPServer 10/8/2026 19:34",
 		"writePlaintext:at:" : "MCPServer 10/8/2026 20:31" } }
