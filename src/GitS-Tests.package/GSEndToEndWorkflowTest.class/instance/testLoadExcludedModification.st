@@ -12,7 +12,7 @@ testLoadExcludedModification
 		openDialogPath;
 		findInDialog: self diff1BToA;
 		exclude: self version1;
-		find: ('( {1} )' format: {self version1 label});
+		find: (self excludedLabel: self version1 label);
 		leftClick: 'Load changes';
 		check: self version1B;
 		check: self version2A.

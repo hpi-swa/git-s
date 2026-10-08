@@ -9,7 +9,7 @@ testCommitExcludedDeletion
 		checking: [self
 					openDialogPath;
 					exclude: self version1;
-					find: ('( {1} )' format: {self version1 label})];
+					find: (self excludedLabel: self version1 label)];
 		checkUninstalled: self version1;
 		leftClick: 'Commit';
 		openDialogPath;

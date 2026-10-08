@@ -9,7 +9,7 @@ testMergeExcludedConflict
 			self
 				findInDialog: self conflict1ModifyBModifyC;
 				exclude: self version1;
-				find: ('( {1} )' format: {self version1 label})]
+				find: (self excludedLabel: self version1 label)]
 		checkMerged: [
 			self
 				check: self version1B;

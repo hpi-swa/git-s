@@ -1,5 +1,5 @@
 dialog
 include: anEndToEndTestVersion
 	self
-		rightClick: ('( {1} )' format: {anEndToEndTestVersion label});
+		rightClick: (self excludedLabel: anEndToEndTestVersion label);
 		leftClick: 'include (x)'.

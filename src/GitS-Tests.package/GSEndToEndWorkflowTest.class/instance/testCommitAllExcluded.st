@@ -8,7 +8,7 @@ testCommitAllExcluded
 				checking: [self
 							openDialogPath;
 							exclude: self version1;
-							find: ('( {1} )' format: {self version1 label})]]
+							find: (self excludedLabel: self version1 label)]]
 		suppressingMessage: 'No changes to commit. Include at least one change.';
 		include: self version1;
 		leftClick: 'Commit changes';
