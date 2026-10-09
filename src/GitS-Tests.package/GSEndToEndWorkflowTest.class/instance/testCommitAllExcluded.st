@@ -3,12 +3,11 @@ testCommitAllExcluded
 	self
 		commitWithMessage: 'base commit';
 		install: self version1A;
-		do: [self
-				commitWithMessage: 'test commit'
-				checking: [self
-							openDialogPath;
-							exclude: self version1;
-							find: (self excludedLabel: self version1 label)]]
+		prepareCommitWithMessage: 'test commit';
+		openDialogPath;
+		exclude: self version1;
+		find: (self excludedLabel: self version1 label);
+		do: [self leftClick: 'Commit changes']
 		suppressingMessage: 'No changes to commit. Include at least one change.';
 		include: self version1;
 		leftClick: 'Commit changes';

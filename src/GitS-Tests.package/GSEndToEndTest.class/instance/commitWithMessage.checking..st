@@ -1,8 +1,6 @@
 operations
 commitWithMessage: aString checking: aBlock
 	self
-		leftClick: 'Commit';
+		prepareCommitWithMessage: aString;
 		do: aBlock;
-		leftClick: 'message';
-		type: aString;
 		leftClick: 'Commit changes'.
