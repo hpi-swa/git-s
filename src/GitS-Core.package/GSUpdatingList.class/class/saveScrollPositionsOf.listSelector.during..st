@@ -5,9 +5,8 @@ saveScrollPositionsOf: anObject listSelector: aSymbol during: aBlock
 	(self actualDependentsOf: anObject) do: [:each |
 		((each isKindOf: PluggableMultiColumnListMorph) and: [each getListSelector = aSymbol]) ifTrue: [
 			savedScrollPositions at: each put: each hScrollBar value @ each vScrollBar value]].
-	^ aBlock ensure: [ | listSize |
-		listSize := (anObject perform: aSymbol) first size.
+	^ aBlock ensure: [
 		savedScrollPositions keysAndValuesDo: [:list :offset |
 			list hScrollBar setValue: offset x.
 			list vScrollBar setValue: offset y.
-			self forceFullShrinkWrapLayoutingFor: list listSize: listSize]]
+			self forceFullShrinkWrapLayoutingFor: list]]
