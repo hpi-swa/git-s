@@ -1,7 +1,4 @@
 mappers
 addMapper: aMapper
-	self mappers add: aMapper.
-	aMapper
-		addDependent: self;
-		isTracked: true.
+	self mappers add: (self mapperToAdd: aMapper).
 	self mappersChanged.
