@@ -22,6 +22,7 @@
 		"testExcludeMapperAddition" : "mad 10/8/2026 20:59",
 		"testIncludeMapperRemovalWithExcludedContent" : "mad 10/8/2026 20:59",
 		"testLoadParentOfMapperAddition" : "mad 10/10/2026 20:57",
+		"testLoadParentOfNameAndMapperChange" : "mad 10/10/2026 20:57",
 		"testMarkAssetInferredAndTrackedAgain" : "mad 10/8/2026 21:04",
 		"testMergeBothMapperAdditions" : "mad 10/8/2026 22:29",
 		"testMergeBothProjectRenamesResolve:checkMerged:" : "mad 10/8/2026 22:30",

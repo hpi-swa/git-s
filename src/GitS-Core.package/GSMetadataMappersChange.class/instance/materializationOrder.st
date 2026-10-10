@@ -1,3 +1,3 @@
 accessing
 materializationOrder
-	^ -1
+	^ GSMetadataMapper materializationOrder

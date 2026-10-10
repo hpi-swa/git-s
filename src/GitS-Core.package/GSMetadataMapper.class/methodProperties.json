@@ -3,7 +3,8 @@
 		"batchLabel" : "mad 9/29/2026 20:28",
 		"batchMaterialize:in:" : "mad 9/28/2026 21:49",
 		"batchSerialize:into:" : "mad 9/28/2026 21:54",
-		"buildMetadataToWriteFrom:ifUnchanged:" : "mad 9/28/2026 21:49" },
+		"buildMetadataToWriteFrom:ifUnchanged:" : "mad 9/28/2026 21:49",
+		"materializationOrder" : "mad 10/10/2026 19:25" },
 	"instance" : {
 		"addToSar:" : "mad 1/8/2024 20:54",
 		"allHexHashesAt:equalInFSCommits:" : "mad 10/6/2025 22:48",
