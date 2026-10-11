@@ -1,4 +1,4 @@
-building suites
+accessing
 packageInfosToBeTested
 	^ PackageInfo allPackages select: [:package |
 		#('FileSystem-Git' 'FileSystemGit-' 'VersionControl') anySatisfy: [:prefix |

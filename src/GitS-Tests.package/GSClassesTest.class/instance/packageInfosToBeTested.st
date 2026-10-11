@@ -1,3 +1,3 @@
-building suites
+accessing
 packageInfosToBeTested
 	self subclassResponsibility.

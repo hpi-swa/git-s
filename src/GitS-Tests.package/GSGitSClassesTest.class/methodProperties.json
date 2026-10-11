@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"packageInfosToBeTested" : "mad 10/8/2026 17:36" },
+		 },
 	"instance" : {
 		"expectedFailures" : "mad 10/8/2026 17:09",
+		"packageInfosToBeTested" : "mad 10/8/2026 17:36",
 		"testNew" : "mad 10/8/2026 17:01" } }

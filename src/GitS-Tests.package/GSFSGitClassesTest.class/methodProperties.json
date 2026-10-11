@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"allTestSelectors" : "mad 10/8/2026 17:30",
-		"packageInfosToBeTested" : "mad 10/8/2026 17:35" },
+		"allTestSelectors" : "mad 10/8/2026 17:30" },
 	"instance" : {
-		 } }
+		"packageInfosToBeTested" : "mad 10/8/2026 17:35" } }
