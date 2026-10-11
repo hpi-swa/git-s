@@ -30,7 +30,11 @@ For example, if you noticed that you made a mistake in an earlier commit, but yo
 
 Starting a rebase
 
-First, ensure that you are on the branch whose commits you want to rebase onto a new base. Then, right-click the new base (a branch or commit) and select Advanced > Rebase branch ''<current branch>'' onto it. Once a rebase has started, a window pops up that shows you the commits that will be rebased. The rebase is not executed yet though, so you can apply changes to the commands before executing it (see below).
+There are two ways to start a rebase: by manually selecting a base or by pulling with rebase. In either case, first ensure that you are on the branch whose commits you want to rebase onto a new base.
+
+To manually select a base, right-click it (a branch or commit) and select Advanced > Rebase branch ''<current branch>'' onto it.
+
+To pull with rebase, click the dropdown button next to the Pull button and select Pull (rebase). This will fetch the upstream branch for your current branch and select it as the base. If your branch does not yet have an upstream branch, this will walk you through configuring one.
 
 Executing a rebase
 
@@ -80,7 +84,7 @@ exec executes arbitrary Smalltalk code. Enter an expression and it will be execu
 
 noop does nothing and proceeds to the next command.
 !
-]style[(60 4 122 5 5 4 283 6 59 6 109 13 942 13 417 14 130 5 76 5 26 7 280 17 156 8 3 40 209 18 33 3 374 21 81 5 158 18 287 24 145 11 257 4 13 6 43 3 149 4 84 6 85 4 195 8 123 5 31 6 128 6 80 6 258 4 497 5 107 5 1 6 66 5 139 5 138 8 10 10 281 4 218 8 32 4 48),i,,i,,i,,i,,i,,i,,lpushingAndPulling:force-pushing;,,i,,lcommitting:amending-commits;,,i,,i,,Hstarting-a-rebase;,,i,,i,,Hexecuting-a-rebase;,,i,,lchangesDialog:merge-conflicts;,,i,,Hreordering-commits;,,Hchanging-rebase-commands;,,i,,i,,i,,i,,i,,i,,i,,i,,i,,lcommitting:amending-commits;,,i,,i,,i,,i,,i,,lbranching:resetting-branches;,,i,,i,,i,,i,,i,,i,,i,!' readStream nextChunkText)
+]style[(60 4 122 5 5 4 283 6 59 6 109 13 942 13 417 14 130 5 76 5 26 7 280 17 75 19 183 8 3 40 62 4 19 13 187 18 33 3 374 21 81 5 158 18 287 24 145 11 257 4 13 6 43 3 149 4 84 6 85 4 195 8 123 5 31 6 128 6 80 6 258 4 497 5 107 5 1 6 66 5 139 5 138 8 10 10 281 4 218 8 32 4 48),i,,i,,i,,i,,i,,i,,lpushingAndPulling:force-pushing;,,i,,lcommitting:amending-commits;,,i,,i,,Hstarting-a-rebase;,,lpushingAndPulling:pulling-and-fetching;,,i,,i,,i,,i,,Hexecuting-a-rebase;,,i,,lchangesDialog:merge-conflicts;,,i,,Hreordering-commits;,,Hchanging-rebase-commands;,,i,,i,,i,,i,,i,,i,,i,,i,,i,,lcommitting:amending-commits;,,i,,i,,i,,i,,i,,lbranching:resetting-branches;,,i,,i,,i,,i,,i,,i,,i,!' readStream nextChunkText)
 			key: #rebasing;
 			shouldStyle: false;
 			yourself

@@ -1,0 +1,3 @@
+actions-network
+actionPullWithInteractiveRebase
+	^ self actionPullWithRebaseInteractive: true

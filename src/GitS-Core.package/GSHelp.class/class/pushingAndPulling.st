@@ -36,13 +36,15 @@ Pulling is almost the reverse of pushing, except that it is a two-step process:
 
 Fetching is the process of transferring new commits from the remote to the local repository and updating remote branches to match the state of the branches on the remote. Thus, when you fetch from origin, the remote branch origin/main will be updated. The second step is to merge origin/main into the local branch main. Since pulling involves merging, the same three scenarios apply to it, including the possibility of conflicts which you have to resolve.
 
-You can also manually fetch without pulling using the button Fetch all located below the refs tree. This button will fetch from all configured remotes. Manually fetching can be useful for using alternative strategies of integrating the fetched changes into your local branch. For example, you can rebase main onto origin/main instead of merging.
+You can also manually fetch without pulling using the button Fetch all located below the refs tree. This button will fetch from all configured remotes. Manually fetching can be useful for using alternative strategies of integrating the fetched changes into your local branch. For example, you can reset main to origin/main instead of merging.
+
+Another common option of integrating fetched changes into your local branch is rebasing. There is special support for this option: you can click the dropdown button next to the Pull button and select Pull (rebase) to fetch the remote and then rebase your local branch onto the remote one. If you use this option often, you can also configure the default pull method by selecting Configure default in the same menu. This allows you to configure rebasing to be the default for your current branch or all branches.
 
 Pushing and fetching using external git
 
 git/s only implements pushing and fetching (pulling) via HTTPS. However, there is a preference to automatically use the external git commandline tool to push and fetch (merging is still done by git/s). You can use this option to do networking via different protocols, such as SSH. git/s will offer to enable the preference when it detects that you are trying to use a protocol other than HTTPS. It will also offer to enable it when its own implementation fails repeatedly.
 !
-]style[(62 4 5 4 65 6 125 6 21 16 96 14 3 17 38 16 5 15 379 8 3 27 98 7 112 4 257 7 281 13 83 10 80 7 52 4 279 6 51 20 97 4 94 5 46 5 562 9 227 6 44 39 84 12 379),i,,i,,i,,i,,Hmanaging-remotes;,,i,,Hupstream-branches;,,i,,i,,i,,i,,Hpushing;,,i,,lmerging;,,Hforce-pushing;,,i,,i,,i,,lrebasing;,,Hpulling-and-fetching;,,i,,i,,lmerging;,,i,,lrebasing;,,Hpushing-and-fetching-using-external-git;,,Rcode://(Preferences pragmaPreferenceFor: GitFeatureFlags getter: #externalFetchAndPush) open;,!' readStream nextChunkText)
+]style[(62 4 5 4 65 6 125 6 21 16 96 14 3 17 38 16 5 15 379 8 3 27 98 7 112 4 257 7 281 13 83 10 80 7 52 4 279 6 51 20 97 4 94 5 46 5 562 9 227 5 121 8 90 4 19 13 166 17 117 39 84 12 379),i,,i,,i,,i,,Hmanaging-remotes;,,i,,Hupstream-branches;,,i,,i,,i,,i,,Hpushing;,,i,,lmerging;,,Hforce-pushing;,,i,,i,,i,,lrebasing;,,Hpulling-and-fetching;,,i,,i,,lmerging;,,i,,lbranching:resetting-branches;,,lrebasing;,,i,,i,,i,,Hpushing-and-fetching-using-external-git;,,Rcode://(Preferences pragmaPreferenceFor: GitFeatureFlags getter: #externalFetchAndPush) open;,!' readStream nextChunkText)
 			key: #pushingAndPulling;
 			shouldStyle: false;
 			yourself
