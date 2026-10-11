@@ -13,7 +13,8 @@
 		"labels",
 		"refsToUpdate",
 		"originalHeadCommit",
-		"operation" ],
+		"operation",
+		"hasOpened" ],
 	"name" : "GSRebase",
 	"pools" : [
 		 ],

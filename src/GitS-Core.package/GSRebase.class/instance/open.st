@@ -1,4 +1,7 @@
 toolbuilder
 open
+	| opened |
 	self assert: self hasStarted.
-	^ ToolBuilder open: self
+	opened := ToolBuilder open: self.
+	self hasOpened: true.
+	^ opened

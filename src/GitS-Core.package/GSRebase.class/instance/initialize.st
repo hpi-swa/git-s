@@ -5,4 +5,5 @@ initialize
 		commands: OrderedCollection new;
 		labels: Dictionary new;
 		refsToUpdate: Dictionary new;
-		originalHeadCommit: nil.
+		originalHeadCommit: nil;
+		hasOpened: false.
