@@ -9,7 +9,7 @@ testCommitExcludedModification
 		checking: [self
 					openDialogPath;
 					exclude: self version1;
-					find: (self excludedLabel: self version1)];
+					findExcluded: self version1];
 		check: self version1B;
 		leftClick: 'Commit';
 		openDialogPath;
