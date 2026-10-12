@@ -7,6 +7,6 @@ actionConfigurePull
 		chooseOptionFromLabeledBlocks: {
 			('The current branch {1} only' format: {(GitReference shortName: branch) printString})
 				-> [self unitOfWork pull: branch withRebase: self requestPullRebaseOption].
-			'All branches (unless specified otherwise)'
+			'All branches in this repository (unless specified otherwise)'
 				-> [self unitOfWork pullAllBranchesWithRebase: self requestPullRebaseOption]}
 		cancelLabel: 'Cancel'.
