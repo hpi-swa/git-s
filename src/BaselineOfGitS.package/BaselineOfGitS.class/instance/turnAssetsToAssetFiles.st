@@ -1,6 +1,6 @@
 migrations
 turnAssetsToAssetFiles
-	<postLoadMigration: 13>
+	<postLoadMigration: 20>
 	GSBaseWorkingCopy allSubInstancesDo: [:workingCopy |
 		(workingCopy mappersOfKind: GSAssetMapper) do: [:mapper | | asset assetFile |
 			asset := mapper loadAssetFileFromImage: workingCopy.
