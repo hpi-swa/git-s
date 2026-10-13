@@ -1,9 +1,13 @@
 credentials
 tokenPromptForGitLab: anUrl
-	^ 'Token for {1}. Create a {2} or a {3} with at least the ''read_repository'' scope (and ''write_repository'' if you want to push).' asText format:
-		{anUrl}, (#('fine-grained token' 'granular' 'legacy one' 'legacy') pairsCollect: [:label :segment |
+	^ 'Token for {1}. Create a {2} (highly customizable) or a {3} (easier to configure).' asText format:
+		{anUrl}, ({
+			'fine-grained token'. 'granular'. nil.
+			'legacy one'. 'legacy'. 'name={1}&scopes=read_repository,write_repository' format: {self name encodeForHTTP}} groupsCollect: [:label :segment :query |
 			GSTextUtilities
 				link: label
-				to: (anUrl copy
-						path: {'-'. 'user_settings'. 'personal_access_tokens'. segment. 'new'};
-						yourself)])
+				to: (anUrl class
+						schemeName: anUrl schemeName
+						authority: anUrl authority
+						path: {'-'. 'user_settings'. 'personal_access_tokens'. segment. 'new'}
+						query: query)])
