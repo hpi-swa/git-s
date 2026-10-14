@@ -1,3 +1,3 @@
 testing
 isNoop
-	^ self isMerge not and: [self changes isEmpty]
+	^ self allowsEmptyChanges not and: [self changes isEmpty]
