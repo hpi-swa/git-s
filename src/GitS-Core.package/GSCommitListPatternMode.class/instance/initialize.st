@@ -2,7 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	self
-		caseSensitive: true;
+		caseSensitive: false;
 		sources: ({
 			GSCommitListPatternMessageSource.
 			GSCommitListPatternHexHashSource.
