@@ -5,7 +5,8 @@ initialize
 		commits: OrderedCollection new;
 		activeCommitIndex: 0;
 		basicBlock: self defaultBlock;
-		basicExpression: '';
+		expression: '';
+		errors: OrderedCollection new;
 		patternMode: (self createMode: GSCommitListPatternMode);
 		codeMode: (self createMode: GSCommitListCodeMode);
 		activeMode: self patternMode;

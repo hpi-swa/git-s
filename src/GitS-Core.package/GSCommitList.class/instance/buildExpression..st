@@ -3,8 +3,7 @@ buildExpression: builder
 	^ builder pluggableCodePaneSpec new
 		model: self operationStarter;
 		getText: #expression;
-		editText: #basicExpression:;
-		setText: #expression:notifying:;
+		editText: #expression:;
 		help: 'Filter commits';
 		verticalResizing: #shrinkWrap;
 		softLineWrap: true;

@@ -4,4 +4,4 @@ activeCommit: aCommit
 	self
 		changed: #activeCommit;
 		changed: #activeCommitIndex;
-		triggerEvent: #activeCommitChanged.
+		changed: #statusText.

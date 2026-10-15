@@ -1,3 +1,7 @@
 accessing
 expression: aStringOrText
-	self expression: aStringOrText notifying: nil.
+	expression := aStringOrText asString.
+	self
+		changed: #expression;
+		errors: OrderedCollection new;
+		block: self compile.

@@ -12,6 +12,7 @@
 		"generator",
 		"expression",
 		"block",
+		"errors",
 		"patternMode",
 		"codeMode",
 		"activeMode",

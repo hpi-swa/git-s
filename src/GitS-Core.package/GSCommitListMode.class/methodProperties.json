@@ -3,11 +3,12 @@
 		"isAbstract" : "mad 11/6/2025 13:07" },
 	"instance" : {
 		"aboutToStyle:requestor:" : "mad 8/24/2025 13:38",
+		"addError:onClick:" : "mad 10/15/2026 14:32",
 		"addToMenu:" : "mad 8/24/2025 12:24",
 		"changed" : "mad 10/5/2025 16:28",
 		"commitList" : "mad 8/24/2025 11:52",
 		"commitList:" : "mad 8/24/2025 11:52",
-		"compileNotifying:" : "mad 8/24/2025 11:51",
+		"compile" : "mad 10/14/2026 22:28",
 		"createModel" : "mad 7/1/2026 13:39",
 		"defaultBlock" : "mad 4/23/2026 17:49",
 		"displayName" : "mad 8/24/2025 11:58",

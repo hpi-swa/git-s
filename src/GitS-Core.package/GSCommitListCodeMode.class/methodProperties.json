@@ -3,7 +3,10 @@
 		 },
 	"instance" : {
 		"aboutToStyle:requestor:" : "mad 8/24/2025 16:49",
-		"compileNotifying:" : "mad 4/23/2026 17:49",
+		"compile" : "mad 10/15/2026 15:10",
+		"compileExpressionNotifying:" : "mad 10/15/2026 15:16",
+		"compileExpressionWithRequestor" : "mad 10/15/2026 15:32",
 		"displayName" : "mad 8/24/2025 12:23",
+		"findExpressionMorph" : "mad 10/15/2026 15:28",
 		"receiverClass" : "mad 8/24/2025 22:09",
 		"wantsAutocompletion" : "mad 8/24/2025 13:37" } }

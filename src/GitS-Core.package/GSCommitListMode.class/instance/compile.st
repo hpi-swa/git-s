@@ -1,3 +1,3 @@
 compiling
-compileNotifying: requestor
+compile
 	self subclassResponsibility.
