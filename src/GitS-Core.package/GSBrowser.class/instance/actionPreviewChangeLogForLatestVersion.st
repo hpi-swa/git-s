@@ -1,0 +1,3 @@
+actions
+actionPreviewChangeLogForLatestVersion
+	GSSelfUpdater actionPreviewChangeLogForLatestVersion.

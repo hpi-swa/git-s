@@ -13,4 +13,8 @@ moreMenu: aMenuSpec
 		
 		add: 'Set self-update branch'
 		target: target
-		selector: #actionSetSelfUpdateBranch.
+		selector: #actionSetSelfUpdateBranch;
+		
+		add: 'Preview change log for latest version'
+		target: target
+		selector: #actionPreviewChangeLogForLatestVersion.
