@@ -1,5 +1,6 @@
 types
 typeSpecs
+	<linterIgnoreSends: #(unknown)>
 	^ #(
 		"type		label							show"
 		'feat'		'Features'						true

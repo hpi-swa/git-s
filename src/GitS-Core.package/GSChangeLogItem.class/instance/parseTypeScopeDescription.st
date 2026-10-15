@@ -1,5 +1,6 @@
 accessing
 parseTypeScopeDescription
+	<linterIgnoreSends: #(unknown)>
 	| firstLine matcher |
 	matcher := ('(', ((self class types copyWithout: #unknown) joinSeparatedBy: '|'), ')\(([- a-zA-Z]+)\)\: (.*)') asRegex.
 	firstLine := self message lines first.
