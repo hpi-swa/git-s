@@ -1,0 +1,15 @@
+{
+	"category" : "GitS-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"url" ],
+	"name" : "GSChangeLogItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

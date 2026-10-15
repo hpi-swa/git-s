@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"changeLogTextFor:" : "mad 10/15/2026 16:57",
+		"changeLogTypeSectionTextFor:" : "mad 10/15/2026 18:05",
+		"fromJson:" : "mad 10/15/2026 16:32",
+		"shownTypes" : "mad 10/15/2026 16:53",
+		"typeLabels" : "mad 10/15/2026 17:05",
+		"typeSpecs" : "mad 10/15/2026 16:43",
+		"types" : "mad 10/15/2026 17:04" },
+	"instance" : {
+		"description" : "mad 10/15/2026 16:38",
+		"descriptionText" : "mad 10/15/2026 18:04",
+		"message" : "mad 10/15/2026 16:14",
+		"message:" : "mad 10/15/2026 16:14",
+		"parseTypeScopeDescription" : "mad 10/15/2026 18:30",
+		"printOn:" : "mad 10/15/2026 16:32",
+		"scope" : "mad 10/15/2026 16:38",
+		"type" : "mad 10/15/2026 16:31",
+		"url" : "mad 10/15/2026 16:14",
+		"url:" : "mad 10/15/2026 16:14" } }
