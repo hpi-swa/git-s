@@ -1,4 +1,0 @@
-initialize-release
-initializeWithVersionChange
-	super initializeWithVersionChange.
-	self updateTexts.
