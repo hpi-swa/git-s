@@ -1,4 +1,4 @@
-*GitS-Tests-matching
+*GitS-Tests-EndToEnd-matching
 gitSPutMatchedTargetsOf: aBlock inRow: aNumber on: aStream
 	(aBlock value: (self getListItem: aNumber) asStringOrText) ifFalse: [^ self].
 	aStream nextPut: [GSEndToEndTarget

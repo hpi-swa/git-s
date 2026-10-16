@@ -1,4 +1,4 @@
-*GitS-Tests-matching
+*GitS-Tests-EndToEnd-matching
 gitSAsText
 	| string |
 	string := self contents.

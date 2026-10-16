@@ -1,3 +1,3 @@
-*GitS-Tests-matching
+*GitS-Tests-EndToEnd-matching
 gitSInteractionPosition
 	^ self center
