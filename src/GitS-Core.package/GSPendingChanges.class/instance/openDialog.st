@@ -9,6 +9,6 @@ openDialog
 		windowTitle: self windowTitle;
 		subtitle: self subtitle;
 		closeBlock: [self operationStarter dialogIsClosing];
-		message: self initialMessage;
-		open.
+		message: self initialMessage.
+	GSPendingChangesOpenDialog signalFor: self.
 	^ self promise

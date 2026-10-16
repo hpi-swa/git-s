@@ -1,0 +1,3 @@
+accessing
+pendingChanges
+	^ pendingChanges
