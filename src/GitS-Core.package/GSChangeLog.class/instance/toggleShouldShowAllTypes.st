@@ -1,0 +1,3 @@
+accessing
+toggleShouldShowAllTypes
+	self shouldShowAllTypes: self shouldShowAllTypes not.

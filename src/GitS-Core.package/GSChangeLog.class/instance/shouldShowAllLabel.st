@@ -1,0 +1,3 @@
+toolbuilder
+shouldShowAllLabel
+	^ 'Show all'

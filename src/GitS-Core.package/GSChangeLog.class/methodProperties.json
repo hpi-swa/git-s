@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"newWithItems:" : "mad 10/17/2026 00:13",
+		"openWithItems:" : "mad 10/17/2026 00:13" },
+	"instance" : {
+		"basicShouldShow:" : "mad 10/17/2026 00:23",
+		"buildLayoutWith:" : "mad 10/17/2026 00:08",
+		"buildShowAllCheckBoxWith:" : "mad 10/17/2026 00:17",
+		"buildTextWith:" : "mad 10/17/2026 00:06",
+		"buildWindowWith:" : "mad 10/17/2026 00:07",
+		"buildWith:" : "mad 10/17/2026 00:07",
+		"initialize" : "mad 10/17/2026 00:14",
+		"items" : "mad 10/17/2026 00:04",
+		"items:" : "mad 10/17/2026 00:15",
+		"open" : "mad 10/16/2026 23:48",
+		"sectionTextFor:" : "mad 10/16/2026 23:46",
+		"shouldHaveShowAllCheckBox" : "mad 10/17/2026 00:23",
+		"shouldShow:" : "mad 10/17/2026 00:23",
+		"shouldShowAllLabel" : "mad 10/17/2026 00:16",
+		"shouldShowAllTypes" : "mad 10/17/2026 00:04",
+		"shouldShowAllTypes:" : "mad 10/17/2026 00:10",
+		"text" : "mad 10/17/2026 00:18",
+		"toggleShouldShowAllTypes" : "mad 10/17/2026 00:17" } }

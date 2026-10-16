@@ -1,4 +1,8 @@
 change-log
 showChangeLogFrom: oldVersionString to: newVersionString
 	self wantsChangeLog ifFalse: [^ self].
-	self showChangeLogText: (self changeLogTextFrom: oldVersionString to: newVersionString).
+	GSChangeLog openWithItems:
+		(self
+			fetchChangeLogFrom: oldVersionString
+			to: newVersionString
+			ifFail: [^ self inform: 'Unable to fetch change log']).

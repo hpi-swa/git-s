@@ -6,10 +6,7 @@
 		"basicSelfUpdate" : "mad 5/18/2025 14:05",
 		"branchName" : "mad 11/4/2024 13:01",
 		"branchName:" : "mad 11/4/2024 13:02",
-		"buildChangeLogText:with:" : "mad 10/15/2026 17:37",
-		"buildChangeLogWindowForText:with:" : "mad 10/15/2026 18:23",
 		"cancelNextCheckForNewVersion" : "mad 8/20/2025 18:54",
-		"changeLogTextFrom:to:" : "mad 10/15/2026 18:07",
 		"checkForNewVersion" : "mad 8/19/2025 23:17",
 		"fetchChangeLogFrom:to:ifFail:" : "mad 10/15/2026 18:07",
 		"fetchChangeLogFrom:to:on:ifFail:" : "mad 10/15/2026 18:08",
@@ -40,8 +37,7 @@
 		"selfUpdate" : "mad 5/18/2025 14:05",
 		"showChangeLogDuring:" : "mad 5/18/2025 14:03",
 		"showChangeLogFrom:" : "mad 10/15/2026 17:24",
-		"showChangeLogFrom:to:" : "mad 10/15/2026 17:27",
-		"showChangeLogText:" : "mad 10/15/2026 17:32",
+		"showChangeLogFrom:to:" : "mad 10/17/2026 00:12",
 		"wantsChangeLog" : "mad 5/18/2025 14:02" },
 	"instance" : {
 		 } }
