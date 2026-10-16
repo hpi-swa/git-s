@@ -1,27 +1,14 @@
 actions-private
 openDialog
-	self dialog: (self dialogClass onChanges: self changes).
+	self
+		dialog: (self dialogClass onChanges: self changes);
+		addActionButton;
+		addRefreshButton;
+		addCloseButton.
 	self dialog
 		windowTitle: self windowTitle;
-		subtitle: self subtitle.
-	self actionBlock ifNotNil: [
-		self dialog
-			addButton: self actionLabel
-			action: [self operation activateDuring: [self checkedAction]]
-			color: self actionColor
-			location: #bottom].
-	self canRefresh ifTrue: [
-		self dialog
-			addButton: 'Refresh'
-			action: [self operation activateDuring: [self refresh]]
-			color: nil
-			location: #changesTree].
-	self dialog
-		closeBlock: [self operation activateDuring: [self dialogIsClosing]];
-		addButton: self closeLabel
-		action: [self operation activateDuring: [self closeDialog]]
-		color: self closeColor
-		location: #bottom;
+		subtitle: self subtitle;
+		closeBlock: [self operationStarter dialogIsClosing];
 		message: self initialMessage;
 		open.
 	^ self promise

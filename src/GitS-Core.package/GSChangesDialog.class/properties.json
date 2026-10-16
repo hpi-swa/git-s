@@ -11,7 +11,7 @@
 		"selectedChange",
 		"windowTitle",
 		"subtitle",
-		"buttons",
+		"buttonBuilders",
 		"canDiscardEdits",
 		"closeBlock" ],
 	"name" : "GSChangesDialog",

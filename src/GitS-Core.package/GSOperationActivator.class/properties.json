@@ -1,13 +1,13 @@
 {
-	"category" : "GitS-Core-Rebase",
+	"category" : "GitS-Core-Utilities",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GSRebaseOperationStarter",
+		"operation" ],
+	"name" : "GSOperationActivator",
 	"pools" : [
 		 ],
 	"super" : "GSOperationStarter",

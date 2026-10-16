@@ -2,7 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	self
-		buttons: OrderedCollection new;
+		buttonBuilders: Dictionary new;
 		windowTitle: 'Changes';
 		canDiscardEdits: false;
 		changesTree: GSChangesTree new.

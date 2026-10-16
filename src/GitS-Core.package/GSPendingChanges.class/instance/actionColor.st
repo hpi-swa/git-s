@@ -1,3 +1,3 @@
 accessing
 actionColor
-	^ self themeColor: #okColor
+	^ (self themeColor: #okColor) ifNil: [self defaultButtonColor]

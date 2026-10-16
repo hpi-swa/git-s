@@ -1,5 +1,4 @@
 accessing
 closeColor
-	^ self actionBlock
-		ifNotNil: [self themeColor: #cancelColor]
-		ifNil: [nil]
+	^ (self actionBlock ifNotNil: [self themeColor: #cancelColor])
+		ifNil: [self defaultButtonColor]
