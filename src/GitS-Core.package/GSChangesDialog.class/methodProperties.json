@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"onChanges:" : "mad 9/28/2026 23:15",
-		"themeProperties" : "mad 4/19/2026 15:05" },
+		"themeProperties" : "mad 10/11/2026 23:20" },
 	"instance" : {
 		"addButton:action:color:location:" : "mad 8/12/2025 22:44",
+		"applyUserInterfaceTheme" : "mad 10/16/2026 15:36",
 		"buildButton:action:color:with:" : "mad 7/11/2025 11:21",
 		"buildButtons:with:" : "mad 5/7/2026 13:58",
 		"buildChange:" : "mad 10/1/2023 18:44",

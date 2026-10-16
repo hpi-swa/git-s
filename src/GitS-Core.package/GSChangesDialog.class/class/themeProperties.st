@@ -1,4 +1,4 @@
 preferences
 themeProperties
 	"overridden to receive applyUserInterfaceTheme"
-	^ super themeProperties
+	^ super themeProperties, #((dummy 'dummy' 'dummy'))
