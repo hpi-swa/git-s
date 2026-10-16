@@ -1,4 +1,7 @@
 mappers
 addMapper: aMapper
-	self mappers add: (self mapperToAdd: aMapper).
+	| mapperToAdd |
+	mapperToAdd := self mapperToAdd: aMapper.
+	self mappers add: mapperToAdd.
 	self mappersChanged.
+	^ mapperToAdd
