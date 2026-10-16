@@ -1,3 +1,4 @@
 colors
 baseColor
-	^ Color fromString: '#777573'
+	^ ((self userInterfaceTheme get: #argument for: #SHTextStylerST80) ifNotNil: #first)
+		ifNil: [Color fromString: '#777573']
