@@ -1,7 +1,10 @@
 toolbuilder
 buildPushDropDown: builder
-	^ (GSGUIUtilities buildDropDownWith: builder)
-		model: self operationStarter;
-		action: #actionPushDropDown;
-		help: 'Actions related to pushing';
-		yourself
+	^ GSGUIUtilities
+		buildDropDown: [:spec |
+			spec
+				model: self operationStarter;
+				action: #actionPushDropDown;
+				help: 'Actions related to pushing';
+				yourself]
+		with: builder

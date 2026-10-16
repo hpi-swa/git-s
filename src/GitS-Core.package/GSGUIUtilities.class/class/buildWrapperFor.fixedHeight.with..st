@@ -4,6 +4,7 @@ buildWrapperFor: aPluggableWidgetSpec fixedHeight: aNumber with: builder
 		layout: #proportional;
 		children: {aPluggableWidgetSpec
 					frame: (self layoutFrameForFixedHeight: aNumber);
+					"for ProportionalLayout>>#minExtentOf:in: to work properly"
+					minimumHeight: aNumber;
 					yourself};
-		verticalResizing: #shrinkWrap;
 		yourself

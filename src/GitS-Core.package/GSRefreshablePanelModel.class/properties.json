@@ -1,0 +1,17 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"childBlock",
+		"model",
+		"refreshSymbol",
+		"builder" ],
+	"name" : "GSRefreshablePanelModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

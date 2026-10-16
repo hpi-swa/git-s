@@ -1,0 +1,3 @@
+toolbuilder
+buildChildren
+	^ {self buildChild}
