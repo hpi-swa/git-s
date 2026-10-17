@@ -6,5 +6,5 @@ selectorsWhoseReceiverAndArgumentsToIgnore
 		changed: changed:with:
 		triggerEvent: triggerEvent:with:
 		hResizing: horizontalResizing: vResizing: verticalResizing: columnResizings:
-		listDirection:
+		layout: listDirection:
 	)

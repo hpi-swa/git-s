@@ -10,7 +10,7 @@
 		"isAbstractMethod:" : "mad 10/13/2024 20:42",
 		"isSend:in:enumerator:" : "mad 7/1/2026 14:31",
 		"packageInfo" : "mad 10/13/2024 19:52",
-		"selectorsWhoseReceiverAndArgumentsToIgnore" : "mad 7/1/2026 14:19",
+		"selectorsWhoseReceiverAndArgumentsToIgnore" : "mad 10/17/2026 02:43",
 		"sendsOf:do:" : "mad 10/8/2026 15:47",
 		"testNoAbstractMethodsInConcreteClasses" : "mad 11/6/2025 19:17",
 		"testNoUnimplementedAndNoUnsentMethods" : "mad 4/19/2026 14:01" } }

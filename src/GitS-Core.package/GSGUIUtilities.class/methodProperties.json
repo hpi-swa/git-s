@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"allOf:changed:" : "mad 8/25/2025 20:37",
-		"buildButton:withDropDown:with:" : "mad 7/5/2026 22:20",
-		"buildButtons:with:" : "mad 10/13/2025 15:39",
+		"buildButton:withDropDown:with:" : "mad 10/16/2026 12:28",
+		"buildButtons:spacing:with:" : "mad 10/16/2026 12:46",
+		"buildButtons:with:" : "mad 10/16/2026 12:27",
 		"buildColumn:splits:with:" : "mad 9/29/2026 22:07",
 		"buildDropDownWith:" : "mad 7/5/2026 22:26",
 		"buildGrid:horizontalSplits:verticalSplits:with:" : "mad 9/29/2026 22:19",
@@ -16,6 +17,7 @@
 		"buildVerticalLayout:shrinkWrap:with:" : "mad 4/26/2026 20:15",
 		"buildVerticalLayout:with:" : "mad 9/14/2023 13:36",
 		"buildVerticalSplit:of:and:with:" : "mad 9/20/2023 16:51",
+		"buildWrapperFor:fixedHeight:with:" : "mad 10/16/2026 12:43",
 		"cancel" : "mad 4/8/2026 15:40",
 		"children:" : "mad 9/14/2023 14:11",
 		"chooseDirectory" : "mad 3/5/2025 21:04",
@@ -25,6 +27,7 @@
 		"displayStatus:during:" : "mad 10/2/2024 20:47",
 		"dropDownButtonIcon" : "mad 7/5/2026 22:07",
 		"informAndCancel:" : "mad 3/5/2025 20:53",
+		"layoutFrameForFixedHeight:" : "mad 10/16/2026 12:43",
 		"menuItem:enabled:" : "mad 8/24/2025 12:30",
 		"onUIProcess:" : "mad 10/5/2025 15:20",
 		"putSpecs:on:" : "mad 9/14/2023 14:33",
