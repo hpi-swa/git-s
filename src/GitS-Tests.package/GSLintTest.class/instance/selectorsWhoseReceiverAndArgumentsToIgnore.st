@@ -7,4 +7,5 @@ selectorsWhoseReceiverAndArgumentsToIgnore
 		triggerEvent: triggerEvent:with:
 		hResizing: horizontalResizing: vResizing: verticalResizing: columnResizings:
 		layout: listDirection:
+		get:for:
 	)
