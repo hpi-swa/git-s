@@ -1,3 +1,4 @@
 accessing
 materialized: aDictionary
-	materialized := aDictionary
+	materialized := aDictionary.
+	self materializedChanged.
