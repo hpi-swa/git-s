@@ -1,6 +1,6 @@
 icon
 lineIcon
-	^ self cachedIcon: [:canvas |
+	^ self createIcon: [:canvas |
 		canvas
 			line: canvas clipRect topCenter
 			to: canvas clipRect bottomCenter

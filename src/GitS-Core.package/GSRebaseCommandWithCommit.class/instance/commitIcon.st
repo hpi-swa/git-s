@@ -1,7 +1,7 @@
 icon
 commitIcon
 	| rect |
-	^ self cachedIcon: [:canvas |
+	^ self createIcon: [:canvas |
 		rect := canvas clipRect.
 		rect := rect insetBy: rect extent / 4.
 		canvas
