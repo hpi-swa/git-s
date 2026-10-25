@@ -1,6 +1,5 @@
 accessing
 defaultEmail
-	DefaultEmail isEmptyOrNil 
-		ifTrue: [ ^ GitStampEmailRequest signal ]
-		ifFalse: [ ^ DefaultEmail ].
-	^ self defaultEmail
+	DefaultEmail isEmptyOrNil ifFalse: [^ DefaultEmail].
+	GSExternalSettings at: #email ifPresent: [:email | ^ email].
+	^ GitStampEmailRequest signal
