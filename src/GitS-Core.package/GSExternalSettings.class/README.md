@@ -1,0 +1,1 @@
+I manage access to optional preferences loaded from the file prefs/gitSUser. See the users of this class and the comment in #credentials for currently supported values.
