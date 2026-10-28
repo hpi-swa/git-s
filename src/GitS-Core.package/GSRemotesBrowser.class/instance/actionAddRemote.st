@@ -1,3 +1,6 @@
 actions
 actionAddRemote
-	self addRemote: (GSRemoteDialog getRemoteWithTitle: 'Add remote').
+	| remote |
+	remote := GSRemoteDialog getRemoteWithTitle: 'Add remote'.
+	self addRemote: remote.
+	^ remote

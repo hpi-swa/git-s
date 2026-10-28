@@ -26,7 +26,7 @@
 		"requestFSReferenceForName:" : "mad 6/27/2025 13:16",
 		"withoutGitSuffix:" : "mad 11/13/2023 12:03" },
 	"instance" : {
-		"actionAddRemote" : "mad 10/9/2024 16:01",
+		"actionAddRemote" : "mad 10/28/2026 14:00",
 		"actionCherryPick:" : "mad 5/7/2026 14:07",
 		"actionChooseNewRepositoryLocation" : "mad 2/21/2025 15:31",
 		"actionCommit" : "mad 8/10/2025 23:22",
@@ -115,7 +115,7 @@
 		"checkSetUpstreamForCreatedBranch:to:" : "mad 4/26/2026 15:57",
 		"checkoutReflogMessageTo:" : "mad 11/30/2023 13:19",
 		"chooseCommitParent:" : "mad 9/29/2026 23:01",
-		"chooseRemoteName" : "mad 9/29/2026 23:03",
+		"chooseRemoteName" : "mad 10/28/2026 14:11",
 		"cloneFrom:" : "mad 5/29/2026 13:55",
 		"commitChanges:message:parents:author:" : "mad 9/28/2026 23:06",
 		"commitChanges:onCommit:message:" : "mad 9/28/2026 23:06",
