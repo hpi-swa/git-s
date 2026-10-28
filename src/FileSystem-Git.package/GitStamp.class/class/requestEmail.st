@@ -5,4 +5,4 @@ requestEmail
 		ifTrue: [ self error: 'Please set the default email using GitStamp defaultEmail:' ].
 	^ (GitUI 
 		request: 'Please provide a valid e-mail address for your Git commits so that you can be contacted if necessary.'
-		initialAnswer: 'user@domain.ext') withBlanksTrimmed
+		initialAnswer: (DefaultEmail isEmptyOrNil ifTrue: ['user@domain.ext'] ifFalse: [DefaultEmail])) withBlanksTrimmed

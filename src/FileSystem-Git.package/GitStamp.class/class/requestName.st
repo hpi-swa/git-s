@@ -5,4 +5,4 @@ requestName
 		ifTrue: [ self error: 'Please set the default name using GitStamp defaultName:' ].
 	^ (GitUI 
 		request: 'Please provide your full name for the authorship information of your Git commits.'
-		initialAnswer: 'Firstname Lastname') withBlanksTrimmed
+		initialAnswer: (DefaultName isEmptyOrNil ifTrue: ['Firstname Lastname'] ifFalse: [DefaultName])) withBlanksTrimmed
