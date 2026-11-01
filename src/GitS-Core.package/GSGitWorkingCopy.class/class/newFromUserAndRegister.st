@@ -3,4 +3,6 @@ newFromUserAndRegister
 	| instanceName reference |
 	instanceName := self requestUnregisteredName.
 	reference := self requestFSReferenceForName: instanceName.
-	^ self onFSReference: reference registerNamed: instanceName
+	^ (self onFSReference: reference registerNamed: instanceName)
+		initializeHead;
+		yourself

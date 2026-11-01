@@ -3,4 +3,6 @@ newExistingFromUserAndRegister
 	| reference instanceName |
 	reference := self requestFSReference.
 	instanceName := self unregisteredNameFrom: (self withoutGitSuffix: reference basename).
-	^ self onFSReference: reference registerNamed: instanceName
+	^ (self onFSReference: reference registerNamed: instanceName)
+		initializeHead;
+		yourself
