@@ -24,10 +24,10 @@ testTreeHash
 		1 + "null byte"
 		hash2 size.
 	stream := GitStream new.
-	entry1 storeOn: stream.
+	entry1 byteDataOn: stream.
 	self assert: stream contents size = dataSize1.
 	stream := GitStream new.
-	entry2 storeOn: stream.
+	entry2 byteDataOn: stream.
 	self assert: stream contents size = dataSize2.
 	treeDataSize :=
 		GitTree typeCode size +

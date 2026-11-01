@@ -5,10 +5,14 @@
 		"isAbstract" : "MaxLeske 9/8/2012 12:58" },
 	"instance" : {
 		"byteData" : "MaxLeske 9/8/2012 16:30",
-		"byteDataOn:" : "MaxLeske 9/8/2012 16:30",
+		"byteDataOn:" : "mad 10/31/2026 17:44",
 		"byteSignature" : "MaxLeske 9/8/2012 16:30",
-		"byteSignatureOn:" : "jr 7/28/2017 13:39",
+		"byteSignatureOn:" : "mad 10/31/2026 19:39",
+		"byteSignatureOn:withData:" : "mad 10/31/2026 19:58",
 		"compressedForPack" : "MaxLeske 9/8/2012 16:34",
 		"compressedForPackOn:" : "jr 3/18/2017 01:06",
-		"compressedOn:" : "jr 4/8/2017 22:18",
-		"ifNotPacked:" : "jr 4/8/2017 22:20" } }
+		"ifNotPacked:" : "jr 4/8/2017 22:20",
+		"storeByteData" : "mad 10/31/2026 19:58",
+		"storeByteDataOn:" : "mad 10/31/2026 19:38",
+		"storeByteSignatureOn:" : "mad 10/31/2026 19:39",
+		"storeCompressedOn:" : "mad 10/31/2026 19:59" } }

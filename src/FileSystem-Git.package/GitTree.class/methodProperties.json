@@ -11,6 +11,7 @@
 		"asTreeEntryNamed:" : "mad 10/4/2026 17:13",
 		"at:" : "MaxLeske 2/28/2012 18:09",
 		"basicPutEntry:" : "mad 10/4/2026 14:05",
+		"byteDataOn:" : "mad 10/31/2026 17:39",
 		"diffAgainst:with:" : "jr 3/21/2017 17:47",
 		"entries" : "MaxLeske 6/26/2010 22:28",
 		"entries:" : "MaxLeske 6/24/2012 11:00",
@@ -31,5 +32,5 @@
 		"removeEntryAt:" : "jr 11/22/2016 17:31",
 		"removeEntryAt:ifAbsent:" : "jr 11/22/2016 17:32",
 		"size" : "MaxLeske 6/8/2010 22:36",
-		"storeOn:" : "MaxLeske 6/24/2012 11:17",
+		"storeByteDataOn:" : "mad 10/31/2026 19:41",
 		"validate" : "MaxLeske 2/28/2012 20:02" } }

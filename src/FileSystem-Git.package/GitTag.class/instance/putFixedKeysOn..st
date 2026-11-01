@@ -1,5 +1,5 @@
 storing
-storeFixedKeysOn: aStream
+putFixedKeysOn: aStream
 	"From builtin-mktag.c:
 	A signature file has a very simple fixed format: four lines
 	of ""object <sha1>"" + ""type <typename>"" + ""tag <tagname>"" +

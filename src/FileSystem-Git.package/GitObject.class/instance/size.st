@@ -3,5 +3,5 @@ size
 	| stream |
 	loadedSize ifNotNil: [^ loadedSize].
 	stream := GitStream new.
-	self storeOn: stream.
+	self byteDataOn: stream.
 	^ stream size

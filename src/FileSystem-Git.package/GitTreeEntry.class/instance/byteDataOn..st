@@ -1,5 +1,5 @@
 storing
-storeOn: aStream.
+byteDataOn: aStream.
 	aStream 
 		nextPutAll: self printMode asByteArray;
 		nextPut: Character space asInteger;

@@ -18,6 +18,8 @@
 		"beInFileMode" : "jr 5/14/2017 17:19",
 		"beInSubmoduleMode" : "jr 5/14/2017 17:19",
 		"beInSymlinkMode" : "jr 5/14/2017 17:22",
+		"byteDataOn:" : "mad 10/31/2026 18:43",
+		"byteSignatureOn:withData:" : "mad 10/31/2026 19:40",
 		"convertToCurrentVersion:refStream:" : "jr 5/14/2017 17:26",
 		"entryHash" : "MaxLeske 2/26/2012 12:04",
 		"entryHash:" : "MaxLeske 2/26/2012 13:59",
@@ -38,5 +40,4 @@
 		"printMode" : "MaxLeske 6/23/2010 19:17",
 		"printOn:" : "CamilloBruni 7/11/2011 17:27",
 		"readModeFrom:" : "mad 10/7/2026 21:01",
-		"storeOn:" : "jr 11/16/2016 17:54",
 		"validate" : "mad 6/12/2023 22:23" } }

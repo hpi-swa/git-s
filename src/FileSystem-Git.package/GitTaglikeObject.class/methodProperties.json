@@ -2,6 +2,7 @@
 	"class" : {
 		"isAbstract" : "MaxLeske 9/4/2012 21:55" },
 	"instance" : {
+		"byteDataOn:" : "mad 10/31/2026 17:43",
 		"isKeyValid:" : "MaxLeske 2/26/2012 10:29",
 		"loadFrom:" : "jr 6/3/2017 12:01",
 		"loadKey:value:" : "MaxLeske 2/26/2012 10:28",
@@ -11,9 +12,8 @@
 		"message:" : "tonyg 2/25/2010 16:22",
 		"properties" : "jr 5/26/2017 19:18",
 		"properties:" : "tonyg 2/25/2010 16:23",
+		"putFixedKeysOn:" : "mad 10/31/2026 17:43",
 		"saveKey:value:to:" : "jr 5/26/2017 19:45",
-		"storeFixedKeysOn:" : "MaxLeske 6/24/2012 11:15",
-		"storeOn:" : "jr 7/28/2017 13:56",
 		"tryDecodeString:" : "jr 4/6/2020 20:25",
 		"tryEncodeString:" : "jr 4/6/2020 20:25",
 		"validKeys" : "MaxLeske 2/26/2012 10:30",

@@ -1,3 +1,3 @@
 storing
-storeFixedKeysOn: aStream
+putFixedKeysOn: aStream
 	self subclassResponsibility

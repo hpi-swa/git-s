@@ -1,5 +1,5 @@
 storing
-storeFixedKeysOn: aStream
+putFixedKeysOn: aStream
 	"Looking at builtin-commit-tree.c, the order of properties is fixed:
 	tree, parents, author, committer, everything else, message."
 	self saveKey: GitTree typeCode value: treeHash to: aStream.

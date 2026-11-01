@@ -1,3 +1,3 @@
 accessing
 byteDataOn: aStream
-	self storeOn: aStream
+	self subclassResponsibility.
