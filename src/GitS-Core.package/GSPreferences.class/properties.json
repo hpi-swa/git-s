@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"CheckForNewVersion",
+		"KeepRelativeTimeStampsUpToDate",
 		"NewVersionCheckInterval",
 		"PrepareCommitsInBackground",
 		"ShowBase" ],
