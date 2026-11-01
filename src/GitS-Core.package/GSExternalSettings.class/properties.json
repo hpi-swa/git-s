@@ -1,0 +1,14 @@
+{
+	"category" : "GitS-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Settings" ],
+	"commentStamp" : "ct 10/25/2026 22:25",
+	"instvars" : [
+		 ],
+	"name" : "GSExternalSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

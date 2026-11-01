@@ -10,7 +10,9 @@ formatReusableCredentials: credentials usedIn: workingCopies detailed: aBoolean
 			(workingCopies keys collect: [:workingCopy | | urls |
 				urls := workingCopies at: workingCopy.
 				'{1} ({2}: {3})' gitSFormat: {
-					workingCopy name printString.
+					workingCopy = #externalSettings
+						ifTrue: ['external settings']
+						ifFalse: [workingCopy name printString].
 					'url' asPluralBasedOn: urls.
 					(urls collect: #asString) asOrderedCollection sorted asCommaStringAnd}])
 				asCommaStringAnd}

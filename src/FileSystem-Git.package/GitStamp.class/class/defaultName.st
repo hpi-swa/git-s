@@ -1,6 +1,5 @@
 accessing
 defaultName
-	DefaultName isEmptyOrNil 
-		ifTrue: [ ^ GitStampNameRequest signal ]
-		ifFalse: [ ^ DefaultName ].
-	^ self defaultName
+	DefaultName isEmptyOrNil ifFalse: [^ DefaultName].
+	GSExternalSettings at: #name ifPresent: [:settingsName | ^ settingsName].
+	^ GitStampNameRequest signal

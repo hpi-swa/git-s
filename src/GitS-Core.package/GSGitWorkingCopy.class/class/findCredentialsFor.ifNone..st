@@ -2,6 +2,10 @@ credentials
 findCredentialsFor: aStringOrUrl ifNone: aBlock
 	| allCredentials |
 	allCredentials := Dictionary new.
+	GSExternalSettings credentials keysAndValuesDo: [:url :credentials |
+		((allCredentials at: credentials ifAbsentPut: [Dictionary new])
+			at: #externalSettings ifAbsentPut: [Set new])
+				add: url].
 	self registry values do: [:workingCopy |
 		workingCopy credentials keysAndValuesDo: [:url :credentials |
 			((allCredentials at: credentials ifAbsentPut: [Dictionary new])

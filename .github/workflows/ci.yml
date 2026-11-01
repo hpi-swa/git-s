@@ -26,3 +26,6 @@ jobs:
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
+        env:
+          # avoid rate limits from self-updater
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
