@@ -4,6 +4,7 @@ buildRemoteUrlInput: builder
 		model: self;
 		getText: #remoteUrl;
 		editText: #remoteUrl:;
-		setText: #remoteUrl:;
+		setText: #remoteUrlAndAccept:;
+		indicateUnacceptedChanges: false;
 		help: 'URL';
 		yourself

@@ -4,4 +4,5 @@ buildOkButton: builder
 		model: self;
 		action: #accept;
 		label: 'Ok';
+		color: #okColor;
 		yourself

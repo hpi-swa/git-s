@@ -1,3 +1,7 @@
 accessing
 remoteName: aStringOrText
-	remoteName := aStringOrText asString
+	(aStringOrText includes: Character tab) ifTrue: [
+		^ self
+			changed: #inputRequested with: #remoteUrl;
+			changed: #remoteName].
+	remoteName := aStringOrText asString.

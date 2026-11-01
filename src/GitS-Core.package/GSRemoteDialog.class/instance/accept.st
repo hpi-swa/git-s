@@ -1,6 +1,6 @@
 actions
 accept
-	self checkValidRemoteName ifFalse: [^ self].
+	self checkValidRemote ifFalse: [^ self].
 	self
 		accepted: true;
 		close.

@@ -4,6 +4,7 @@ buildRemoteNameInput: builder
 		model: self;
 		getText: #remoteName;
 		editText: #remoteName:;
-		setText: #remoteName:;
+		setText: #remoteNameAndAccept:;
+		indicateUnacceptedChanges: false;
 		help: 'name';
 		yourself
