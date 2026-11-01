@@ -42,6 +42,7 @@
 		"queueNextCheckForNewVersion" : "mad 5/18/2026 16:00",
 		"reformatPlaintextInstances" : "mad 5/18/2026 16:25",
 		"registerWorkingCopiesAsDependentsOfCodeMapperClass" : "mad 10/11/2026 00:42",
+		"removeOldLoadedAssetFileHexHashes" : "mad 11/1/2026 16:26",
 		"reopenWindowsPostLoadPhase" : "mad 8/1/2026 01:42",
 		"reopenWindowsPreLoadPhase" : "mad 8/12/2026 16:34",
 		"restructureAssetFilesPostLoadPhase" : "mad 6/1/2026 17:34",

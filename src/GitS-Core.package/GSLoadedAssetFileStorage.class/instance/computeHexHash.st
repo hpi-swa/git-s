@@ -1,3 +1,3 @@
 accessing
 computeHexHash
-	^ (GitHash from: self contents) hexHash
+	^ (GitBlob bytes: self contents in: nil) hexHash
