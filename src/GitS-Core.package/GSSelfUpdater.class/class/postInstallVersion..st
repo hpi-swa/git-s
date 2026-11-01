@@ -5,3 +5,4 @@ postInstallVersion: aString
 	self
 		installedVersion: (self getShaOfVersion: aString);
 		showChangeLogFrom: oldVersion.
+	Project current addDeferredUIMessage: [self postInstallOfferSetBranch: aString].
