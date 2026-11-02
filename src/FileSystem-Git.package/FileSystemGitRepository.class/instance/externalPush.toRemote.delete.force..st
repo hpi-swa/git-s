@@ -3,6 +3,9 @@ externalPush: aCollectionOfBranchNamesAndAssociations toRemote: remoteName delet
 	self externalGitDo: (String streamContents: [:stream |
 		stream nextPutAll: 'push'.
 		forceBoolean ifTrue: [stream nextPutAll: ' -f'].
+		stream
+			space;
+			nextPutAll: remoteName.
 		aCollectionOfBranchNamesAndAssociations do: [:branch |
 			stream
 				space;
